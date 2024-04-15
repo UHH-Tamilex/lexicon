@@ -22,10 +22,11 @@ var fulldb;
 const paths = [
     'Akananuru',
     'Purananuru',
+    'Kuruntokai',
     'Narrinai',
+    'Ainkurunuru',
     'Kalittokai',
-    'Ainkurunuru'
-].map(s => `../../${s}/wordindex/wordindex.db`);
+];
 
 const go = () => {
     fulldb = dbops.open('../wordindex.db');
@@ -55,11 +56,14 @@ const go = () => {
         ')').run();
 
     for(const path of paths) {
-        const db = dbops.open(path);
-        console.log(path);
+        const fullpath = `../../${path}/wordindex/wordindex.db`;
+        const db = dbops.open(fullpath);
+        console.log(fullpath);
         const dict = db.prepare('SELECT * FROM dictionary').all();
-        for(const d of dict) 
+        for(const d of dict)  {
+            d.filename = `../${path}/${d.filename}`;
             fulldb.prepare('INSERT INTO dictionary VALUES (@form, @formsort, @islemma, @fromlemma, @def, @type, @number, @gender, @nouncase, @person, @aspect, @mood, @rootnoun, @proclitic, @enclitic, @context, @citation, @filename)').run(d);
+        }
         const lemmata = db.prepare('SELECT * from lemmata').all();
         for(const l of lemmata)
             fulldb.prepare('INSERT OR IGNORE INTO lemmata VALUES (@lemma, @recognized, @form, @formsort)').run(l);
