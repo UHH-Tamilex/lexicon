@@ -56,7 +56,7 @@ const go = () => {
         ')').run();
 
     for(const path of paths) {
-        const fullpath = `../../${path}/wordindex/wordindex.db`;
+        const fullpath = `../../${path}/wordindex.db`;
         const db = dbops.open(fullpath);
         console.log(fullpath);
         const dict = db.prepare('SELECT * FROM dictionary').all();
