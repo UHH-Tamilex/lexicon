@@ -7,8 +7,6 @@ const dbops = {
     open: (f) => {
         const db = new sqlite3(f);
         db.pragma('journal_mode = WAL');
-        db.pragma('foreign_keys = ON');
-        db.pragma('page_size = 1024');
         return db;
     },
 
@@ -70,6 +68,10 @@ const go = () => {
         for(const l of lemmata)
             fulldb.prepare('INSERT OR IGNORE INTO lemmata VALUES (@lemma, @recognized, @form, @formsort)').run(l);
     }
+
+    fulldb.pragma('journal_mode = DELETE');
+    fulldb.pragma('page_size = 1024');
+    dbops.close(fulldb);
 };
 
 go();

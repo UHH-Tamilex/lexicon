@@ -3,13 +3,18 @@ import createSqlWorker from './sqlWorker.mjs';
 
 const init = () => {
     const loc = window.location.hash;
-    if(loc) {
-        const word = decodeURI(loc.replace(/^#/,''));
-        const details = document.querySelector(`details[data-entry='${word}']`);
-        details.scrollIntoView({behavior: 'smooth', block: 'center'});
-        details.open = true;
-        docClick({target: details});
+    if(!loc) return;
+
+    const word = decodeURI(loc.replace(/^#/,''));
+    const details = document.querySelector(`details[data-entry='${word}']`);
+    const pardetails = details.parentNode.closest('details');
+    if(pardetails) {
+        docClick({target: pardetails});
+        pardetails.open = true;
     }
+    docClick({target: details});
+    details.scrollIntoView({behavior: 'smooth', block: 'center'});
+    details.open = true;
 };
 
 const formatCitations = (citations) => {
@@ -57,7 +62,8 @@ const getEntry = async (targ) => {
     };
 
     for(const result of results) {
-        if(result.def || result.definition) entry.translations.add(result.def || result.definition);
+        if(result.def) entry.translations.add(result.def);
+        if(result.definition) entry.definition = result.definition;
         if(result.type) entry.grammar.add(result.type);
         if(result.number) entry.grammar.add(result.number);
         if(result.gender) entry.grammar.add(result.gender);
@@ -71,14 +77,16 @@ const getEntry = async (targ) => {
             context: result.context
         });
     }
+    const definition = entry.definition ? `<div>${entry.definition}</div>` : '';
     let frag =
 `<div lang="en">
-${[...entry.grammar].join(', ')}
+<div>${[...entry.grammar].join(', ')}</div>
+${definition}
 </div>`;
     if(entry.translations.size > 0) {
         frag = frag + 
 `<div>
-<h4 lang="en">translations</h4>
+<h4 lang="en">translations in context</h4>
 <div class="dict-definitions">${[...entry.translations].join(', ')}</div>`;
     }
     if(entry.citations.length > 0) {
