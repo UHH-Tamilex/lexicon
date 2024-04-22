@@ -8,6 +8,7 @@ const dbops = {
         const db = new sqlite3(f);
         db.pragma('journal_mode = WAL');
         db.pragma('foreign_keys = ON');
+        db.pragma('page_size = 1024');
         return db;
     },
 
@@ -30,10 +31,10 @@ const paths = [
 
 const go = () => {
     fulldb = dbops.open('../wordindex.db');
-    fulldb.prepare('DROP TABLE IF EXISTS [dictionary]').run();
+    fulldb.prepare('DROP TABLE IF EXISTS [citations]').run();
     fulldb.prepare('DROP TABLE IF EXISTS [lemmata]').run();
     fulldb.prepare('CREATE TABLE [lemmata] (lemma TEXT PRIMARY KEY, recognized INTEGER, form TEXT, formsort TEXT)').run();
-    fulldb.prepare('CREATE TABLE [dictionary] ('+
+    fulldb.prepare('CREATE TABLE [citations] ('+
         'form TEXT, '+
         'formsort TEXT, '+
         'islemma TEXT, '+
@@ -45,6 +46,7 @@ const go = () => {
         'nouncase TEXT, '+
         'person TEXT, '+
         'aspect TEXT, '+
+        'voice TEXT, '+
         'mood TEXT, '+
         //'misc TEXT, '+
         'rootnoun TEXT, '+
@@ -59,10 +61,10 @@ const go = () => {
         const fullpath = `../../${path}/wordindex.db`;
         const db = dbops.open(fullpath);
         console.log(fullpath);
-        const dict = db.prepare('SELECT * FROM dictionary').all();
+        const dict = db.prepare('SELECT * FROM citations').all();
         for(const d of dict)  {
             d.filename = `../${path}/${d.filename}`;
-            fulldb.prepare('INSERT INTO dictionary VALUES (@form, @formsort, @islemma, @fromlemma, @def, @type, @number, @gender, @nouncase, @person, @aspect, @mood, @rootnoun, @proclitic, @enclitic, @context, @citation, @filename)').run(d);
+            fulldb.prepare('INSERT INTO citations VALUES (@form, @formsort, @islemma, @fromlemma, @def, @type, @number, @gender, @nouncase, @person, @voice, @aspect, @mood, @rootnoun, @proclitic, @enclitic, @context, @citation, @filename)').run(d);
         }
         const lemmata = db.prepare('SELECT * from lemmata').all();
         for(const l of lemmata)
