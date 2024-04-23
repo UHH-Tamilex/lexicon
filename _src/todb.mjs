@@ -19,10 +19,10 @@ const dbops = {
 const dir = '../..';
 var fulldb;
 const paths = [
-    'Akananuru',
-    'Purananuru',
     'Kuruntokai',
     'Narrinai',
+    'Akananuru',
+    'Purananuru',
     'Ainkurunuru',
     'Kalittokai',
 ];
@@ -31,7 +31,7 @@ const go = () => {
     fulldb = dbops.open('../wordindex.db');
     fulldb.prepare('DROP TABLE IF EXISTS [citations]').run();
     fulldb.prepare('DROP TABLE IF EXISTS [lemmata]').run();
-    fulldb.prepare('CREATE TABLE [lemmata] (lemma TEXT PRIMARY KEY, recognized INTEGER, form TEXT, formsort TEXT)').run();
+    fulldb.prepare('CREATE TABLE [lemmata] (lemma TEXT PRIMARY KEY, recognized INTEGER, form TEXT, formsort TEXT, definition TEXT)').run();
     fulldb.prepare('CREATE TABLE [citations] ('+
         'form TEXT, '+
         'formsort TEXT, '+
@@ -46,6 +46,7 @@ const go = () => {
         'aspect TEXT, '+
         'voice TEXT, '+
         'mood TEXT, '+
+        'syntax TEXT, '+
         //'misc TEXT, '+
         'rootnoun TEXT, '+
         'proclitic TEXT, ' +
@@ -62,11 +63,11 @@ const go = () => {
         const dict = db.prepare('SELECT * FROM citations').all();
         for(const d of dict)  {
             d.filename = `../${path}/${d.filename}`;
-            fulldb.prepare('INSERT INTO citations VALUES (@form, @formsort, @islemma, @fromlemma, @def, @type, @number, @gender, @nouncase, @person, @voice, @aspect, @mood, @rootnoun, @proclitic, @enclitic, @context, @citation, @filename)').run(d);
+            fulldb.prepare('INSERT INTO citations VALUES (@form, @formsort, @islemma, @fromlemma, @def, @type, @number, @gender, @nouncase, @person, @voice, @aspect, @mood, @syntax, @rootnoun, @proclitic, @enclitic, @context, @citation, @filename)').run(d);
         }
         const lemmata = db.prepare('SELECT * from lemmata').all();
         for(const l of lemmata)
-            fulldb.prepare('INSERT OR IGNORE INTO lemmata VALUES (@lemma, @recognized, @form, @formsort)').run(l);
+            fulldb.prepare('INSERT OR IGNORE INTO lemmata VALUES (@lemma, @recognized, @form, @formsort, @definition)').run(l);
     }
 
     fulldb.pragma('journal_mode = DELETE');
