@@ -28,9 +28,29 @@ details.dict[open] > summary {
     width: 87.5%;
 }
 
+details.dict[open] {
+    /*border-left: 1px solid rgba(235,235,235,1);*/
+}
+
+details.dict > *:not(summary,hr) {
+    margin-left: 1rem;
+}
 details.dict details.dict {
+    margin-top: 1rem;
+}
+
+/*
+details.dict details.dict[open] {
     padding-left: 1rem;
     border-left: 1px solid rgba(160,160,160,1);
+}
+*/
+
+.lemma-head {
+    opacity: 0.5;
+}
+.lemma-head::after {
+    content: ' >';
 }
 
 .dict-entry {
