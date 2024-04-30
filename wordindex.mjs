@@ -1,7 +1,7 @@
 import { Transliterate } from './lib/js/transliterate.mjs';
 import createSqlWorker from './sqlWorker.mjs';
 
-const init = () => {
+const init = async () => {
     const loc = window.location.hash;
     if(!loc) return;
 
