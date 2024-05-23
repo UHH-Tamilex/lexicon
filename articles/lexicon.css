@@ -4,3 +4,13 @@
 div.lg div.l {
     line-height: revert;
 }
+blockquote {
+    margin-bottom: 0;
+}
+.blockcite {
+    text-align: right;
+}
+li {
+    width: fit-content;
+    margin-bottom: 1rem;
+}

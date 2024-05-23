@@ -180,7 +180,7 @@
     </xsl:if>
     <xsl:if test="x:cit[@type='nikantu']">
         <details>
-            <summary style="font-size: 1.2rem; font-weight: bold"><span lang="ta">Nikantu</span> attestations</summary>
+            <summary style="font-size: 1.2rem; font-weight: bold"><em lang="ta">Nikaṇṭu</em> attestations</summary>
             <ul>
                 <xsl:apply-templates select="x:cit[@type='nikantu']"/>
             </ul>
@@ -225,9 +225,20 @@
     <li>
         <xsl:apply-templates select="x:q[@xml:lang='ta']"/>
         <xsl:text> </xsl:text>
-        <span class="msid">
-            <xsl:apply-templates select="x:ref"/>
-        </span>
+        <xsl:choose>
+            <xsl:when test="x:q[@rend='block']">
+                <div class="blockcite">
+                    <span class="msid">
+                        <xsl:apply-templates select="x:ref"/>
+                    </span>
+                </div>
+            </xsl:when>
+            <xsl:otherwise>
+                <span class="msid">
+                    <xsl:apply-templates select="x:ref"/>
+                </span>
+            </xsl:otherwise>
+        </xsl:choose>
         <xsl:if test="x:q[@xml:lang='en']">
             <div>
                 <xsl:apply-templates select="x:q[@xml:lang='en']"/>
