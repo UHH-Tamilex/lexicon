@@ -17,3 +17,6 @@ li {
 .certlow {
     opacity: 60%;
 }
+#latestcommit {
+    font-size: 1.2rem;
+}
