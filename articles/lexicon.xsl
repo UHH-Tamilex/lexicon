@@ -170,19 +170,19 @@
         </details>
         <xsl:apply-templates select="x:entry"/>
     </details>
-    <xsl:if test="x:cit[@type='commentary']">
-        <details>
-            <summary style="font-size: 1.2rem; font-weight: bold">Commentarial glosses</summary>
-            <ul>
-                <xsl:apply-templates select="x:cit[@type='commentary']"/>
-            </ul>
-        </details>
-    </xsl:if>
     <xsl:if test="x:cit[@type='nikantu']">
         <details>
             <summary style="font-size: 1.2rem; font-weight: bold"><em lang="ta">Nikaṇṭu</em> attestations</summary>
             <ul>
                 <xsl:apply-templates select="x:cit[@type='nikantu']"/>
+            </ul>
+        </details>
+    </xsl:if>
+    <xsl:if test="x:cit[@type='commentary']">
+        <details>
+            <summary style="font-size: 1.2rem; font-weight: bold">Commentarial glosses</summary>
+            <ul>
+                <xsl:apply-templates select="x:cit[@type='commentary']"/>
             </ul>
         </details>
     </xsl:if>
@@ -211,6 +211,9 @@
 </xsl:template>
 <xsl:template match="x:sense">
     <li>
+        <xsl:if test="@cert='low'">
+            <xsl:attribute name="class">certlow</xsl:attribute>
+        </xsl:if>
         <xsl:apply-templates select="x:def"/>
         <xsl:apply-templates select="x:note"/>
         <xsl:if test="x:cit">

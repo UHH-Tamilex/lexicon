@@ -14,3 +14,6 @@ li {
     width: fit-content;
     margin-bottom: 1rem;
 }
+.certlow {
+    opacity: 60%;
+}
