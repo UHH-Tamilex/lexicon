@@ -109,6 +109,7 @@
                     </xsl:element>
                     <xsl:element name="article">
                         <xsl:apply-templates/>
+                        <p id="latestcommit"></p>
                     </xsl:element>
                 </xsl:element>
             </xsl:element>
