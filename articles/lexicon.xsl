@@ -2,7 +2,7 @@
                 xmlns:exsl="http://exslt.org/common"
                 xmlns:x="http://www.tei-c.org/ns/1.0"
                 xmlns:tst="https://github.com/tst-project"
-                exclude-result-prefixes="x tst">
+                exclude-result-prefixes="x tst exsl">
 
 <xsl:import href="../lib/xslt/edition.xsl"/>
 
@@ -184,6 +184,14 @@
             <ul>
                 <xsl:apply-templates select="x:cit[@type='nikantu']"/>
             </ul>
+        </details>
+    </xsl:if>
+    <xsl:if test="x:cit[@type='external']">
+        <details>
+            <summary style="font-size: 1.2rem; font-weight: bold">Other sources</summary>
+                <ul>
+                    <xsl:apply-templates select="x:cit[@type='external']"/>
+                </ul>
         </details>
     </xsl:if>
 </xsl:template>

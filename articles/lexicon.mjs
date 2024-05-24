@@ -38,7 +38,6 @@ const workers = {
 };
 
 const getEntry = async (targ) => {
-    console.log(targ);
     const spinner = targ.querySelector(':scope > .spinner');
     if(!spinner) return;
     
