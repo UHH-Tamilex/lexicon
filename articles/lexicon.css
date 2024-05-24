@@ -20,3 +20,6 @@ li {
 #latestcommit {
     font-size: 1.2rem;
 }
+details {
+    margin-bottom: 1rem;
+}
