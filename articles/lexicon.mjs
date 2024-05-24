@@ -48,14 +48,12 @@ const getEntry = async (targ) => {
         workers.full = await createSqlWorker('index.db');
     */
     let results = {};
-    let canonicaldef;
     if(targ.id) {
-        results = await workers.local.db.query('SELECT def, type, number, gender, nouncase, person, voice, aspect, mood, syntax, rootnoun, proclitic, enclitic, context, citation, filename FROM citations WHERE islemma = ?',[targ.id]);
+        results = await workers.local.db.query('SELECT type, number, gender, nouncase, person, voice, aspect, mood, syntax, rootnoun, proclitic, enclitic, context, citation, filename FROM citations WHERE islemma = ?',[targ.id]);
         /*
         if(results.length === 0)
             results = await workers.full.db.query('SELECT definition, type, number, gender, nouncase, voice, person, aspect, mood FROM dictionary WHERE islemma = ?',[targ.id]);
         */
-        canonicaldef = (await workers.local.db.query('SELECT definition FROM lemmata WHERE lemma = ? LIMIT 1',[targ.id]))[0].definition;
     }
     else {
         const lemma = targ.parentNode.querySelector('details[id]')?.id;
@@ -91,11 +89,9 @@ const getEntry = async (targ) => {
             syntax: result.syntax || result.rootnoun,
         });
     }
-    const definition = canonicaldef ? `<div>${canonicaldef}</div>` : '';
     let frag =
 `<div lang="en">
 <div>${[...entry.grammar].join(', ')}</div>
-${definition}
 </div>`;
     if(entry.translations.size > 0) {
         frag = frag + 
