@@ -7,7 +7,7 @@ const sqlWorker = async (url) => {
         from: 'inline',
         config: {
             serverMode: 'full',
-            requestChunkSize: 4096,
+            requestChunkSize: 1024,
             url: url
         }
     };
