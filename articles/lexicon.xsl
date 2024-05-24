@@ -63,7 +63,7 @@
         </xsl:element>
         <xsl:element name="link">
             <xsl:attribute name="rel">stylesheet</xsl:attribute>
-            <xsl:attribute name="href">css/wordindex.css</xsl:attribute>
+            <xsl:attribute name="href"><xsl:value-of select="$root"/>css/wordindex.css</xsl:attribute>
         </xsl:element>
         <xsl:element name="link">
             <xsl:attribute name="rel">stylesheet</xsl:attribute>
