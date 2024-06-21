@@ -12,5 +12,8 @@
   "scripts": {
     "todb": "node todb.mjs",
     "dbtohtml": "node dbtohtml.mjs"
+  },
+  "dependencies": {
+    "ws": "^8.17.1"
   }
 }
