@@ -166,7 +166,7 @@
         <details style="margin-left: 1rem" class="dict">
             <xsl:attribute name="id"><xsl:value-of select="@corresp"/></xsl:attribute>
             <xsl:attribute name="data-entry"><xsl:value-of select="x:form"/></xsl:attribute>
-            <summary class="dict-heading"><xsl:value-of select="x:form"/></summary>
+            <summary class="dict-heading" lang="ta"><xsl:value-of select="x:form"/></summary>
             <div class="spinner"></div>
         </details>
         <xsl:apply-templates select="x:entry"/>
@@ -305,7 +305,7 @@
 <xsl:template match="x:entry/x:entry">
     <details style="margin-left: 1rem" class="dict">
         <xsl:attribute name="data-entry"><xsl:value-of select="x:form"/></xsl:attribute>
-        <summary class="dict-heading"><xsl:value-of select="x:form"/></summary>
+        <summary class="dict-heading" lang="ta"><xsl:value-of select="x:form"/></summary>
         <div class="spinner"></div>
     </details>
 </xsl:template>

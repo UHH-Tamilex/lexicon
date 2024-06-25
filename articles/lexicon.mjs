@@ -109,7 +109,11 @@ ${formatCitations(entry.citations)}
     const range = document.createRange();
     range.selectNode(targ);
     const docfrag = range.createContextualFragment(frag);
+    const par = spinner.parentNode;
     spinner.replaceWith(docfrag);
+    Transliterate.refreshCache(par);
+    if(document.getElementById('transbutton').lang === 'en')
+        Transliterate.activate(par);
 };
 
 document.addEventListener('click',docClick);
