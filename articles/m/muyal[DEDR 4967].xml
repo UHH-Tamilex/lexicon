@@ -1,0 +1,48 @@
+<?xml-stylesheet type="text/xsl" href="../../lexicon.xsl" ?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <title xml:lang="ta">muyal</title>
+                    </title>
+                </titleStmt>
+                <sourceDesc>
+                    <p>Tamilex project.</p>
+                </sourceDesc>
+            </fileDesc>
+            <revisionDesc/>
+        </teiHeader>
+        <text xml:lang="en">
+            
+            <body>
+                <entry corresp="muyal[DEDR 4967]">
+                    <form xml:lang="ta">muyal</form>
+                    <gramGrp></gramGrp>
+                    <sense>
+                        <def xml:lang="en">to make an effort </def>
+                    </sense>
+                    <cit type="lexicon">
+                        <title xml:lang="en">University of Madras Tamil Lexicon</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?qs=முயல்&amp;searchhws=yes&amp;matchtype=exact">p. ??</ref>
+                    </cit>
+                    <cit type="lexicon">
+                        <title xml:lang="en">Dravidian Etymological Dictionary</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/burrow_query.py?qs=muyal&amp;searchhws=yes">p. ??</ref>
+                    </cit>
+                    <entry corresp="muyaṉṟu">
+                        <form xml:lang="ta">muyaṉṟu</form>
+                    </entry>
+                    <entry corresp="muyaṟal">
+                        <form xml:lang="ta">muyaṟal</form>
+                    </entry>
+                    <entry corresp="muyala">
+                        <form xml:lang="ta">muyala</form>
+                    </entry>
+                    <entry corresp="muyalum">
+                        <form xml:lang="ta">muyalum</form>
+                    </entry>
+                </entry>
+            </body>
+        </text>
+    </TEI>

@@ -1,0 +1,83 @@
+<?xml-stylesheet type="text/xsl" href="../../lexicon.xsl" ?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <title xml:lang="ta">varuttam</title>
+                    </title>
+                </titleStmt>
+                <sourceDesc>
+                    <p>Tamilex project.</p>
+                </sourceDesc>
+            </fileDesc>
+            <revisionDesc/>
+        </teiHeader>
+        <text xml:lang="en">
+            
+            <body>
+                <entry corresp="varuttam[DEDR 5372]">
+                    <form xml:lang="ta">varuttam</form>
+                    <gramGrp>
+                        <gram>noun</gram>
+                    </gramGrp>
+                    <sense>
+                        <def xml:lang="en">suffering</def>
+                    </sense>
+                    <cit type="lexicon">
+                        <title xml:lang="en">University of Madras Tamil Lexicon</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?qs=வருத்தம்&amp;searchhws=yes&amp;matchtype=exact">p. ??</ref>
+                    </cit>
+                    <cit type="lexicon">
+                        <title xml:lang="en">Dravidian Etymological Dictionary</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/burrow_query.py?qs=varuttam&amp;searchhws=yes">p. ??</ref>
+                    </cit>
+                    <entry corresp="varuttamoṭu">
+                        <form xml:lang="ta">varuttamoṭu</form>
+                    </entry>
+                    <entry corresp="varutti">
+                        <form xml:lang="ta">varutti</form>
+                    </entry>
+                    <entry corresp="varuttu">
+                        <form xml:lang="ta">varuttu</form>
+                    </entry>
+                    <entry corresp="varunta">
+                        <form xml:lang="ta">varunta</form>
+                    </entry>
+                    <entry corresp="varuntal">
+                        <form xml:lang="ta">varuntal</form>
+                    </entry>
+                    <entry corresp="varuntā">
+                        <form xml:lang="ta">varuntā</form>
+                    </entry>
+                    <entry corresp="varunti">
+                        <form xml:lang="ta">varunti</form>
+                    </entry>
+                    <entry corresp="varuntiṉeṉ">
+                        <form xml:lang="ta">varuntiṉeṉ</form>
+                    </entry>
+                    <entry corresp="varuntiṉai">
+                        <form xml:lang="ta">varuntiṉai</form>
+                    </entry>
+                    <entry corresp="varuntiya">
+                        <form xml:lang="ta">varuntiya</form>
+                    </entry>
+                    <entry corresp="varuntu">
+                        <form xml:lang="ta">varuntu</form>
+                    </entry>
+                    <entry corresp="varuntutum">
+                        <form xml:lang="ta">varuntutum</form>
+                    </entry>
+                    <entry corresp="varuntum">
+                        <form xml:lang="ta">varuntum</form>
+                    </entry>
+                    <entry corresp="varuntuvar">
+                        <form xml:lang="ta">varuntuvar</form>
+                    </entry>
+                    <entry corresp="varuntuvaḷ">
+                        <form xml:lang="ta">varuntuvaḷ</form>
+                    </entry>
+                </entry>
+            </body>
+        </text>
+    </TEI>

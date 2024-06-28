@@ -1,0 +1,39 @@
+<?xml-stylesheet type="text/xsl" href="../../lexicon.xsl" ?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <title xml:lang="ta">vetir</title>
+                    </title>
+                </titleStmt>
+                <sourceDesc>
+                    <p>Tamilex project.</p>
+                </sourceDesc>
+            </fileDesc>
+            <revisionDesc/>
+        </teiHeader>
+        <text xml:lang="en">
+            
+            <body>
+                <entry corresp="vetir[DEDR 5399]">
+                    <form xml:lang="ta">vetir</form>
+                    <gramGrp></gramGrp>
+                    <sense>
+                        <def xml:lang="en">to tremble</def>
+                    </sense>
+                    <cit type="lexicon">
+                        <title xml:lang="en">University of Madras Tamil Lexicon</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?qs=வெதிர்&amp;searchhws=yes&amp;matchtype=exact">p. ??</ref>
+                    </cit>
+                    <cit type="lexicon">
+                        <title xml:lang="en">Dravidian Etymological Dictionary</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/burrow_query.py?qs=vetir&amp;searchhws=yes">p. ??</ref>
+                    </cit>
+                    <entry corresp="vetirttu">
+                        <form xml:lang="ta">vetirttu</form>
+                    </entry>
+                </entry>
+            </body>
+        </text>
+    </TEI>

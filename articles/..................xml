@@ -1,0 +1,23 @@
+<?xml-stylesheet type="text/xsl" href="../../lexicon.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><title xml:lang="ta">.................</title></title>
+      </titleStmt>
+      <sourceDesc><p>Tamilex project.</p></sourceDesc>
+    </fileDesc>
+    <revisionDesc/>
+  </teiHeader>
+  <text xml:lang="en">
+    <body>
+      <entry corresp=".................">
+        <form xml:lang="ta">.................</form>
+        <gramGrp>
+        </gramGrp>
+        <sense>
+            <def xml:lang="en"/>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

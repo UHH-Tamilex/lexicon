@@ -1,0 +1,77 @@
+<?xml-stylesheet type="text/xsl" href="../../lexicon.xsl" ?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <title xml:lang="ta">tōṟṟam</title>
+                    </title>
+                </titleStmt>
+                <sourceDesc>
+                    <p>Tamilex project.</p>
+                </sourceDesc>
+            </fileDesc>
+            <revisionDesc/>
+        </teiHeader>
+        <text xml:lang="en">
+            
+            <body>
+                <entry corresp="tōṟṟam[DEDR 3566]">
+                    <form xml:lang="ta">tōṟṟam</form>
+                    <gramGrp>
+                        <gram>noun</gram>
+                    </gramGrp>
+                    <sense>
+                        <def xml:lang="en">appearance</def>
+                    </sense>
+                    <cit type="lexicon">
+                        <title xml:lang="en">University of Madras Tamil Lexicon</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?qs=தோற்றம்&amp;searchhws=yes&amp;matchtype=exact">p. ??</ref>
+                    </cit>
+                    <cit type="lexicon">
+                        <title xml:lang="en">Dravidian Etymological Dictionary</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/burrow_query.py?qs=tōṟṟam&amp;searchhws=yes">p. ??</ref>
+                    </cit>
+                    <entry corresp="tōṉṟa">
+                        <form xml:lang="ta">tōṉṟa</form>
+                    </entry>
+                    <entry corresp="tōṉṟala">
+                        <form xml:lang="ta">tōṉṟala</form>
+                    </entry>
+                    <entry corresp="tōṉṟal">
+                        <form xml:lang="ta">tōṉṟal</form>
+                    </entry>
+                    <entry corresp="tōṉṟā">
+                        <form xml:lang="ta">tōṉṟā</form>
+                    </entry>
+                    <entry corresp="tōṉṟātu">
+                        <form xml:lang="ta">tōṉṟātu</form>
+                    </entry>
+                    <entry corresp="tōṉṟi">
+                        <form xml:lang="ta">tōṉṟi</form>
+                    </entry>
+                    <entry corresp="tōṉṟiṉum">
+                        <form xml:lang="ta">tōṉṟiṉum</form>
+                    </entry>
+                    <entry corresp="tōṉṟiṉ">
+                        <form xml:lang="ta">tōṉṟiṉ</form>
+                    </entry>
+                    <entry corresp="tōṉṟiya">
+                        <form xml:lang="ta">tōṉṟiya</form>
+                    </entry>
+                    <entry corresp="tōṉṟu">
+                        <form xml:lang="ta">tōṉṟu</form>
+                    </entry>
+                    <entry corresp="tōṉṟupu">
+                        <form xml:lang="ta">tōṉṟupu</form>
+                    </entry>
+                    <entry corresp="tōṉṟum">
+                        <form xml:lang="ta">tōṉṟum</form>
+                    </entry>
+                    <entry corresp="tōṟṟi">
+                        <form xml:lang="ta">tōṟṟi</form>
+                    </entry>
+                </entry>
+            </body>
+        </text>
+    </TEI>

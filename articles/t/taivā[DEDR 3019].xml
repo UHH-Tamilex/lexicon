@@ -1,0 +1,51 @@
+<?xml-stylesheet type="text/xsl" href="../../lexicon.xsl" ?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <title xml:lang="ta">taivā</title>
+                    </title>
+                </titleStmt>
+                <sourceDesc>
+                    <p>Tamilex project.</p>
+                </sourceDesc>
+            </fileDesc>
+            <revisionDesc/>
+        </teiHeader>
+        <text xml:lang="en">
+            
+            <body>
+                <entry corresp="taivā[DEDR 3019]">
+                    <form xml:lang="ta">taivā</form>
+                    <gramGrp></gramGrp>
+                    <sense>
+                        <def xml:lang="en">v. 1 to rub</def>
+                    </sense>
+                    <cit type="lexicon">
+                        <title xml:lang="en">University of Madras Tamil Lexicon</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?qs=தைவா&amp;searchhws=yes&amp;matchtype=exact">p. ??</ref>
+                    </cit>
+                    <cit type="lexicon">
+                        <title xml:lang="en">Dravidian Etymological Dictionary</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/burrow_query.py?qs=taivā&amp;searchhws=yes">p. ??</ref>
+                    </cit>
+                    <entry corresp="taivantāṅku">
+                        <form xml:lang="ta">taivantāṅku</form>
+                    </entry>
+                    <entry corresp="taivara">
+                        <form xml:lang="ta">taivara</form>
+                    </entry>
+                    <entry corresp="taivaral">
+                        <form xml:lang="ta">taivaral</form>
+                    </entry>
+                    <entry corresp="taivarum">
+                        <form xml:lang="ta">taivarum</form>
+                    </entry>
+                    <entry corresp="taivaruvēṉ">
+                        <form xml:lang="ta">taivaruvēṉ</form>
+                    </entry>
+                </entry>
+            </body>
+        </text>
+    </TEI>

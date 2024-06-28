@@ -1,0 +1,66 @@
+<?xml-stylesheet type="text/xsl" href="../../lexicon.xsl" ?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <title xml:lang="ta">uva</title>
+                    </title>
+                </titleStmt>
+                <sourceDesc>
+                    <p>Tamilex project.</p>
+                </sourceDesc>
+            </fileDesc>
+            <revisionDesc/>
+        </teiHeader>
+        <text xml:lang="en">
+            
+            <body>
+                <entry corresp="uva[DEDR 558]">
+                    <form xml:lang="ta">uva</form>
+                    <gramGrp></gramGrp>
+                    <sense>
+                        <def xml:lang="en">to rejoice –</def>
+                    </sense>
+                    <cit type="lexicon">
+                        <title xml:lang="en">University of Madras Tamil Lexicon</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?qs=உவ&amp;searchhws=yes&amp;matchtype=exact">p. ??</ref>
+                    </cit>
+                    <cit type="lexicon">
+                        <title xml:lang="en">Dravidian Etymological Dictionary</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/burrow_query.py?qs=uva&amp;searchhws=yes">p. ??</ref>
+                    </cit>
+                    <entry corresp="uva">
+                        <form xml:lang="ta">uva</form>
+                    </entry>
+                    <entry corresp="uvakai">
+                        <form xml:lang="ta">uvakai</form>
+                    </entry>
+                    <entry corresp="uvakaiyaṉ">
+                        <form xml:lang="ta">uvakaiyaṉ</form>
+                    </entry>
+                    <entry corresp="uvakaiyiṉ">
+                        <form xml:lang="ta">uvakaiyiṉ</form>
+                    </entry>
+                    <entry corresp="uvakkum">
+                        <form xml:lang="ta">uvakkum</form>
+                    </entry>
+                    <entry corresp="uvakkuvam">
+                        <form xml:lang="ta">uvakkuvam</form>
+                    </entry>
+                    <entry corresp="uvakkuvaḷ">
+                        <form xml:lang="ta">uvakkuvaḷ</form>
+                    </entry>
+                    <entry corresp="uvanticiṉ">
+                        <form xml:lang="ta">uvanticiṉ</form>
+                    </entry>
+                    <entry corresp="uvantu">
+                        <form xml:lang="ta">uvantu</form>
+                    </entry>
+                    <entry corresp="uvappa">
+                        <form xml:lang="ta">uvappa</form>
+                    </entry>
+                </entry>
+            </body>
+        </text>
+    </TEI>

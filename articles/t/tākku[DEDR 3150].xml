@@ -1,0 +1,53 @@
+<?xml-stylesheet type="text/xsl" href="../../lexicon.xsl" ?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <title xml:lang="ta">tākku</title>
+                    </title>
+                </titleStmt>
+                <sourceDesc>
+                    <p>Tamilex project.</p>
+                </sourceDesc>
+            </fileDesc>
+            <revisionDesc/>
+        </teiHeader>
+        <text xml:lang="en">
+            
+            <body>
+                <entry corresp="tākku[DEDR 3150]">
+                    <form xml:lang="ta">tākku</form>
+                    <gramGrp>
+                        <gram>verbal root</gram>
+                    </gramGrp>
+                    <sense>
+                        <def xml:lang="en">to attack –</def>
+                    </sense>
+                    <cit type="lexicon">
+                        <title xml:lang="en">University of Madras Tamil Lexicon</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?qs=தாக்கு&amp;searchhws=yes&amp;matchtype=exact">p. ??</ref>
+                    </cit>
+                    <cit type="lexicon">
+                        <title xml:lang="en">Dravidian Etymological Dictionary</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/burrow_query.py?qs=tākku&amp;searchhws=yes">p. ??</ref>
+                    </cit>
+                    <entry corresp="tākkaliṉ">
+                        <form xml:lang="ta">tākkaliṉ</form>
+                    </entry>
+                    <entry corresp="tākki">
+                        <form xml:lang="ta">tākki</form>
+                    </entry>
+                    <entry corresp="tākkiya">
+                        <form xml:lang="ta">tākkiya</form>
+                    </entry>
+                    <entry corresp="tākkum">
+                        <form xml:lang="ta">tākkum</form>
+                    </entry>
+                    <entry corresp="tākkuvēṉ">
+                        <form xml:lang="ta">tākkuvēṉ</form>
+                    </entry>
+                </entry>
+            </body>
+        </text>
+    </TEI>

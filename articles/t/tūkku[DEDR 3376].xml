@@ -1,0 +1,77 @@
+<?xml-stylesheet type="text/xsl" href="../../lexicon.xsl" ?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <title xml:lang="ta">tūkku</title>
+                    </title>
+                </titleStmt>
+                <sourceDesc>
+                    <p>Tamilex project.</p>
+                </sourceDesc>
+            </fileDesc>
+            <revisionDesc/>
+        </teiHeader>
+        <text xml:lang="en">
+            
+            <body>
+                <entry corresp="tūkku[DEDR 3376]">
+                    <form xml:lang="ta">tūkku</form>
+                    <gramGrp>
+                        <gram>verbal root</gram>
+                    </gramGrp>
+                    <sense>
+                        <def xml:lang="en">(a): to lift, to weigh –</def>
+                    </sense>
+                    <cit type="lexicon">
+                        <title xml:lang="en">University of Madras Tamil Lexicon</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?qs=தூக்கு&amp;searchhws=yes&amp;matchtype=exact">p. ??</ref>
+                    </cit>
+                    <cit type="lexicon">
+                        <title xml:lang="en">Dravidian Etymological Dictionary</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/burrow_query.py?qs=tūkku&amp;searchhws=yes">p. ??</ref>
+                    </cit>
+                    <entry corresp="tūkka">
+                        <form xml:lang="ta">tūkka</form>
+                    </entry>
+                    <entry corresp="tūkkaliṉ">
+                        <form xml:lang="ta">tūkkaliṉ</form>
+                    </entry>
+                    <entry corresp="tūkki">
+                        <form xml:lang="ta">tūkki</form>
+                    </entry>
+                    <entry corresp="tūkkiṉ">
+                        <form xml:lang="ta">tūkkiṉ</form>
+                    </entry>
+                    <entry corresp="tūkkiyaṉṉa">
+                        <form xml:lang="ta">tūkkiyaṉṉa</form>
+                    </entry>
+                    <entry corresp="tūkkum">
+                        <form xml:lang="ta">tūkkum</form>
+                    </entry>
+                    <entry corresp="tūṅka">
+                        <form xml:lang="ta">tūṅka</form>
+                    </entry>
+                    <entry corresp="tūṅkal">
+                        <form xml:lang="ta">tūṅkal</form>
+                    </entry>
+                    <entry corresp="tūṅki">
+                        <form xml:lang="ta">tūṅki</form>
+                    </entry>
+                    <entry corresp="tūṅkiya">
+                        <form xml:lang="ta">tūṅkiya</form>
+                    </entry>
+                    <entry corresp="tūṅku">
+                        <form xml:lang="ta">tūṅku</form>
+                    </entry>
+                    <entry corresp="tūṅkupu">
+                        <form xml:lang="ta">tūṅkupu</form>
+                    </entry>
+                    <entry corresp="tūṅkum">
+                        <form xml:lang="ta">tūṅkum</form>
+                    </entry>
+                </entry>
+            </body>
+        </text>
+    </TEI>

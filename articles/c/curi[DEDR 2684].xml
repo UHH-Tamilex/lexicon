@@ -1,0 +1,47 @@
+<?xml-stylesheet type="text/xsl" href="../../lexicon.xsl" ?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <title xml:lang="ta">curi</title>
+                    </title>
+                </titleStmt>
+                <sourceDesc>
+                    <p>Tamilex project.</p>
+                </sourceDesc>
+            </fileDesc>
+            <revisionDesc/>
+        </teiHeader>
+        <text xml:lang="en">
+            
+            <body>
+                <entry corresp="curi[DEDR 2684]">
+                    <form xml:lang="ta">curi</form>
+                    <gramGrp>
+                        <gram>root noun</gram>
+                    </gramGrp>
+                    <sense>
+                        <def xml:lang="en">curl</def>
+                    </sense>
+                    <cit type="lexicon">
+                        <title xml:lang="en">University of Madras Tamil Lexicon</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?qs=சுரி&amp;searchhws=yes&amp;matchtype=exact">p. ??</ref>
+                    </cit>
+                    <cit type="lexicon">
+                        <title xml:lang="en">Dravidian Etymological Dictionary</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/burrow_query.py?qs=curi&amp;searchhws=yes">p. ??</ref>
+                    </cit>
+                    <entry corresp="curi">
+                        <form xml:lang="ta">curi</form>
+                    </entry>
+                    <entry corresp="curintu">
+                        <form xml:lang="ta">curintu</form>
+                    </entry>
+                    <entry corresp="curiyal">
+                        <form xml:lang="ta">curiyal</form>
+                    </entry>
+                </entry>
+            </body>
+        </text>
+    </TEI>

@@ -1,0 +1,51 @@
+<?xml-stylesheet type="text/xsl" href="../../lexicon.xsl" ?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <title xml:lang="ta">mā</title>
+                    </title>
+                </titleStmt>
+                <sourceDesc>
+                    <p>Tamilex project.</p>
+                </sourceDesc>
+            </fileDesc>
+            <revisionDesc/>
+        </teiHeader>
+        <text xml:lang="en">
+            
+            <body>
+                <entry corresp="mā[DEDR 4780]">
+                    <form xml:lang="ta">mā</form>
+                    <gramGrp></gramGrp>
+                    <sense>
+                        <def xml:lang="en">animal</def>
+                    </sense>
+                    <cit type="lexicon">
+                        <title xml:lang="en">University of Madras Tamil Lexicon</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?qs=மா&amp;searchhws=yes&amp;matchtype=exact">p. ??</ref>
+                    </cit>
+                    <cit type="lexicon">
+                        <title xml:lang="en">Dravidian Etymological Dictionary</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/burrow_query.py?qs=mā&amp;searchhws=yes">p. ??</ref>
+                    </cit>
+                    <entry corresp="mā">
+                        <form xml:lang="ta">mā</form>
+                    </entry>
+                    <entry corresp="māṉai">
+                        <form xml:lang="ta">māṉai</form>
+                    </entry>
+                    <entry corresp="māṉ">
+                        <form xml:lang="ta">māṉ</form>
+                    </entry>
+                    <entry corresp="māṟku">
+                        <form xml:lang="ta">māṟku</form>
+                    </entry>
+                    <entry corresp="māviṉ">
+                        <form xml:lang="ta">māviṉ</form>
+                    </entry>
+                </entry>
+            </body>
+        </text>
+    </TEI>

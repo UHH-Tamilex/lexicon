@@ -1,0 +1,56 @@
+<?xml-stylesheet type="text/xsl" href="../../lexicon.xsl" ?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <title xml:lang="ta">kaḻaṟu</title>
+                    </title>
+                </titleStmt>
+                <sourceDesc>
+                    <p>Tamilex project.</p>
+                </sourceDesc>
+            </fileDesc>
+            <revisionDesc/>
+        </teiHeader>
+        <text xml:lang="en">
+            
+            <body>
+                <entry corresp="kaḻaṟu[DEDR 1354]">
+                    <form xml:lang="ta">kaḻaṟu</form>
+                    <gramGrp>
+                        <gram>verbal root</gram>
+                    </gramGrp>
+                    <sense>
+                        <def xml:lang="en">?: to rumble, to grumble </def>
+                    </sense>
+                    <cit type="lexicon">
+                        <title xml:lang="en">University of Madras Tamil Lexicon</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?qs=கழறு&amp;searchhws=yes&amp;matchtype=exact">p. ??</ref>
+                    </cit>
+                    <cit type="lexicon">
+                        <title xml:lang="en">Dravidian Etymological Dictionary</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/burrow_query.py?qs=kaḻaṟu&amp;searchhws=yes">p. ??</ref>
+                    </cit>
+                    <entry corresp="kaḻaṟa">
+                        <form xml:lang="ta">kaḻaṟa</form>
+                    </entry>
+                    <entry corresp="kaḻaṟaliṉ">
+                        <form xml:lang="ta">kaḻaṟaliṉ</form>
+                    </entry>
+                    <entry corresp="kaḻaṟalir">
+                        <form xml:lang="ta">kaḻaṟalir</form>
+                    </entry>
+                    <entry corresp="kaḻaṟal">
+                        <form xml:lang="ta">kaḻaṟal</form>
+                    </entry>
+                    <entry corresp="kaḻaṟātu">
+                        <form xml:lang="ta">kaḻaṟātu</form>
+                    </entry>
+                    <entry corresp="kaḻaṟuvōr">
+                        <form xml:lang="ta">kaḻaṟuvōr</form>
+                    </entry>
+                </entry>
+            </body>
+        </text>
+    </TEI>

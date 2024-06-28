@@ -1,0 +1,62 @@
+<?xml-stylesheet type="text/xsl" href="../../lexicon.xsl" ?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <title xml:lang="ta">toṭu</title>
+                    </title>
+                </titleStmt>
+                <sourceDesc>
+                    <p>Tamilex project.</p>
+                </sourceDesc>
+            </fileDesc>
+            <revisionDesc/>
+        </teiHeader>
+        <text xml:lang="en">
+            
+            <body>
+                <entry corresp="toṭu[DEDR 3480]">
+                    <form xml:lang="ta">toṭu</form>
+                    <gramGrp>
+                        <gram>verbal root</gram>
+                    </gramGrp>
+                    <sense>
+                        <def xml:lang="en">to touch </def>
+                    </sense>
+                    <cit type="lexicon">
+                        <title xml:lang="en">University of Madras Tamil Lexicon</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?qs=தொடு&amp;searchhws=yes&amp;matchtype=exact">p. ??</ref>
+                    </cit>
+                    <cit type="lexicon">
+                        <title xml:lang="en">Dravidian Etymological Dictionary</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/burrow_query.py?qs=toṭu&amp;searchhws=yes">p. ??</ref>
+                    </cit>
+                    <entry corresp="toṭa">
+                        <form xml:lang="ta">toṭa</form>
+                    </entry>
+                    <entry corresp="toṭāal">
+                        <form xml:lang="ta">toṭāal</form>
+                    </entry>
+                    <entry corresp="toṭīiya">
+                        <form xml:lang="ta">toṭīiya</form>
+                    </entry>
+                    <entry corresp="toṭutta">
+                        <form xml:lang="ta">toṭutta</form>
+                    </entry>
+                    <entry corresp="toṭuttu">
+                        <form xml:lang="ta">toṭuttu</form>
+                    </entry>
+                    <entry corresp="toṭūu">
+                        <form xml:lang="ta">toṭūu</form>
+                    </entry>
+                    <entry corresp="toṭūum">
+                        <form xml:lang="ta">toṭūum</form>
+                    </entry>
+                    <entry corresp="toṭṭa">
+                        <form xml:lang="ta">toṭṭa</form>
+                    </entry>
+                </entry>
+            </body>
+        </text>
+    </TEI>

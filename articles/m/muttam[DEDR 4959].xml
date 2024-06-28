@@ -1,0 +1,50 @@
+<?xml-stylesheet type="text/xsl" href="../../lexicon.xsl" ?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <title xml:lang="ta">muttam</title>
+                    </title>
+                </titleStmt>
+                <sourceDesc>
+                    <p>Tamilex project.</p>
+                </sourceDesc>
+            </fileDesc>
+            <revisionDesc/>
+        </teiHeader>
+        <text xml:lang="en">
+            
+            <body>
+                <entry corresp="muttam[DEDR 4959]">
+                    <form xml:lang="ta">muttam</form>
+                    <gramGrp>
+                        <gram>noun</gram>
+                    </gramGrp>
+                    <sense>
+                        <def xml:lang="en">pearl</def>
+                    </sense>
+                    <cit type="lexicon">
+                        <title xml:lang="en">University of Madras Tamil Lexicon</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?qs=முத்தம்&amp;searchhws=yes&amp;matchtype=exact">p. ??</ref>
+                    </cit>
+                    <cit type="lexicon">
+                        <title xml:lang="en">Dravidian Etymological Dictionary</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/burrow_query.py?qs=muttam&amp;searchhws=yes">p. ??</ref>
+                    </cit>
+                    <entry corresp="muttaṉ">
+                        <form xml:lang="ta">muttaṉ</form>
+                    </entry>
+                    <entry corresp="muttamoṭu">
+                        <form xml:lang="ta">muttamoṭu</form>
+                    </entry>
+                    <entry corresp="muttiṉ">
+                        <form xml:lang="ta">muttiṉ</form>
+                    </entry>
+                    <entry corresp="muttu">
+                        <form xml:lang="ta">muttu</form>
+                    </entry>
+                </entry>
+            </body>
+        </text>
+    </TEI>

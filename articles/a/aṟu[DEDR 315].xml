@@ -1,0 +1,65 @@
+<?xml-stylesheet type="text/xsl" href="../../lexicon.xsl" ?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <title xml:lang="ta">aṟu</title>
+                    </title>
+                </titleStmt>
+                <sourceDesc>
+                    <p>Tamilex project.</p>
+                </sourceDesc>
+            </fileDesc>
+            <revisionDesc/>
+        </teiHeader>
+        <text xml:lang="en">
+            
+            <body>
+                <entry corresp="aṟu[DEDR 315]">
+                    <form xml:lang="ta">aṟu</form>
+                    <gramGrp>
+                        <gram>verbal root</gram>
+                    </gramGrp>
+                    <sense>
+                        <def xml:lang="en">to subside, to be severed </def>
+                    </sense>
+                    <cit type="lexicon">
+                        <title xml:lang="en">University of Madras Tamil Lexicon</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?qs=அறு&amp;searchhws=yes&amp;matchtype=exact">p. ??</ref>
+                    </cit>
+                    <cit type="lexicon">
+                        <title xml:lang="en">Dravidian Etymological Dictionary</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/burrow_query.py?qs=aṟu&amp;searchhws=yes">p. ??</ref>
+                    </cit>
+                    <entry corresp="aṟa">
+                        <form xml:lang="ta">aṟa</form>
+                    </entry>
+                    <entry corresp="aṟavu">
+                        <form xml:lang="ta">aṟavu</form>
+                    </entry>
+                    <entry corresp="aṟukkum">
+                        <form xml:lang="ta">aṟukkum</form>
+                    </entry>
+                    <entry corresp="aṟutta">
+                        <form xml:lang="ta">aṟutta</form>
+                    </entry>
+                    <entry corresp="aṟuttu">
+                        <form xml:lang="ta">aṟuttu</form>
+                    </entry>
+                    <entry corresp="aṟuppa">
+                        <form xml:lang="ta">aṟuppa</form>
+                    </entry>
+                    <entry corresp="aṟṟa">
+                        <form xml:lang="ta">aṟṟa</form>
+                    </entry>
+                    <entry corresp="aṟṟāṅku">
+                        <form xml:lang="ta">aṟṟāṅku</form>
+                    </entry>
+                    <entry corresp="aṟṟu">
+                        <form xml:lang="ta">aṟṟu</form>
+                    </entry>
+                </entry>
+            </body>
+        </text>
+    </TEI>

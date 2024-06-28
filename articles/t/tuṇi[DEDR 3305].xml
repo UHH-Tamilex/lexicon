@@ -1,0 +1,60 @@
+<?xml-stylesheet type="text/xsl" href="../../lexicon.xsl" ?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <title xml:lang="ta">tuṇi</title>
+                    </title>
+                </titleStmt>
+                <sourceDesc>
+                    <p>Tamilex project.</p>
+                </sourceDesc>
+            </fileDesc>
+            <revisionDesc/>
+        </teiHeader>
+        <text xml:lang="en">
+            
+            <body>
+                <entry corresp="tuṇi[DEDR 3305]">
+                    <form xml:lang="ta">tuṇi</form>
+                    <gramGrp></gramGrp>
+                    <sense>
+                        <def xml:lang="en">fragment, bit</def>
+                    </sense>
+                    <cit type="lexicon">
+                        <title xml:lang="en">University of Madras Tamil Lexicon</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?qs=துணி&amp;searchhws=yes&amp;matchtype=exact">p. ??</ref>
+                    </cit>
+                    <cit type="lexicon">
+                        <title xml:lang="en">Dravidian Etymological Dictionary</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/burrow_query.py?qs=tuṇi&amp;searchhws=yes">p. ??</ref>
+                    </cit>
+                    <entry corresp="tuṇikuvaṉ">
+                        <form xml:lang="ta">tuṇikuvaṉ</form>
+                    </entry>
+                    <entry corresp="tuṇital">
+                        <form xml:lang="ta">tuṇital</form>
+                    </entry>
+                    <entry corresp="tuṇintatu">
+                        <form xml:lang="ta">tuṇintatu</form>
+                    </entry>
+                    <entry corresp="tuṇintaṉṉa">
+                        <form xml:lang="ta">tuṇintaṉṉa</form>
+                    </entry>
+                    <entry corresp="tuṇintu">
+                        <form xml:lang="ta">tuṇintu</form>
+                    </entry>
+                    <entry corresp="tuṇiya">
+                        <form xml:lang="ta">tuṇiya</form>
+                    </entry>
+                    <entry corresp="tuṇiyil">
+                        <form xml:lang="ta">tuṇiyil</form>
+                    </entry>
+                    <entry corresp="tuṇivu">
+                        <form xml:lang="ta">tuṇivu</form>
+                    </entry>
+                </entry>
+            </body>
+        </text>
+    </TEI>

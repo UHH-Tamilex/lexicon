@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../lexicon.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><title xml:lang="ta"></title></title>
+      </titleStmt>
+      <sourceDesc><p>Tamilex project.</p></sourceDesc>
+    </fileDesc>
+    <revisionDesc/>
+  </teiHeader>
+  <text xml:lang="en">
+    <body>
+      <entry corresp="">
+        <form xml:lang="ta"></form>
+        <gramGrp>
+        </gramGrp>
+      </entry>
+    </body>
+  </text>
+</TEI>

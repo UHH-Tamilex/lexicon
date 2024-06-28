@@ -1,0 +1,42 @@
+<?xml-stylesheet type="text/xsl" href="../../lexicon.xsl" ?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <title xml:lang="ta">maṟu</title>
+                    </title>
+                </titleStmt>
+                <sourceDesc>
+                    <p>Tamilex project.</p>
+                </sourceDesc>
+            </fileDesc>
+            <revisionDesc/>
+        </teiHeader>
+        <text xml:lang="en">
+            
+            <body>
+                <entry corresp="maṟu[DEDR 4766]">
+                    <form xml:lang="ta">maṟu</form>
+                    <gramGrp></gramGrp>
+                    <sense>
+                        <def xml:lang="en">another</def>
+                    </sense>
+                    <cit type="lexicon">
+                        <title xml:lang="en">University of Madras Tamil Lexicon</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?qs=மறு&amp;searchhws=yes&amp;matchtype=exact">p. ??</ref>
+                    </cit>
+                    <cit type="lexicon">
+                        <title xml:lang="en">Dravidian Etymological Dictionary</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/burrow_query.py?qs=maṟu&amp;searchhws=yes">p. ??</ref>
+                    </cit>
+                    <entry corresp="maṟukāl">
+                        <form xml:lang="ta">maṟukāl</form>
+                    </entry>
+                    <entry corresp="maṟumai">
+                        <form xml:lang="ta">maṟumai</form>
+                    </entry>
+                </entry>
+            </body>
+        </text>
+    </TEI>

@@ -1,0 +1,47 @@
+<?xml-stylesheet type="text/xsl" href="../../lexicon.xsl" ?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <title xml:lang="ta">amar</title>
+                    </title>
+                </titleStmt>
+                <sourceDesc>
+                    <p>Tamilex project.</p>
+                </sourceDesc>
+            </fileDesc>
+            <revisionDesc/>
+        </teiHeader>
+        <text xml:lang="en">
+            
+            <body>
+                <entry corresp="amar[DEDR 161]">
+                    <form xml:lang="ta">amar</form>
+                    <gramGrp>
+                        <gram>verbal root</gram>
+                    </gramGrp>
+                    <cit type="lexicon">
+                        <title xml:lang="en">University of Madras Tamil Lexicon</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?qs=அமர்&amp;searchhws=yes&amp;matchtype=exact">p. ??</ref>
+                    </cit>
+                    <cit type="lexicon">
+                        <title xml:lang="en">Dravidian Etymological Dictionary</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/burrow_query.py?qs=amar&amp;searchhws=yes">p. ??</ref>
+                    </cit>
+                    <entry corresp="amarnta">
+                        <form xml:lang="ta">amarnta</form>
+                    </entry>
+                    <entry corresp="amarntaṉai">
+                        <form xml:lang="ta">amarntaṉai</form>
+                    </entry>
+                    <entry corresp="amarntu">
+                        <form xml:lang="ta">amarntu</form>
+                    </entry>
+                    <entry corresp="amarvōy">
+                        <form xml:lang="ta">amarvōy</form>
+                    </entry>
+                </entry>
+            </body>
+        </text>
+    </TEI>

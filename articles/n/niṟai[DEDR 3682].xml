@@ -1,0 +1,47 @@
+<?xml-stylesheet type="text/xsl" href="../../lexicon.xsl" ?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <title xml:lang="ta">niṟai</title>
+                    </title>
+                </titleStmt>
+                <sourceDesc>
+                    <p>Tamilex project.</p>
+                </sourceDesc>
+            </fileDesc>
+            <revisionDesc/>
+        </teiHeader>
+        <text xml:lang="en">
+            
+            <body>
+                <entry corresp="niṟai[DEDR 3682]">
+                    <form xml:lang="ta">niṟai</form>
+                    <gramGrp>
+                        <gram>noun</gram>
+                    </gramGrp>
+                    <cit type="lexicon">
+                        <title xml:lang="en">University of Madras Tamil Lexicon</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?qs=நிறை&amp;searchhws=yes&amp;matchtype=exact">p. ??</ref>
+                    </cit>
+                    <cit type="lexicon">
+                        <title xml:lang="en">Dravidian Etymological Dictionary</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/burrow_query.py?qs=niṟai&amp;searchhws=yes">p. ??</ref>
+                    </cit>
+                    <entry corresp="niṟainta">
+                        <form xml:lang="ta">niṟainta</form>
+                    </entry>
+                    <entry corresp="niṟaintu">
+                        <form xml:lang="ta">niṟaintu</form>
+                    </entry>
+                    <entry corresp="niṟaiya">
+                        <form xml:lang="ta">niṟaiya</form>
+                    </entry>
+                    <entry corresp="niṟaivu">
+                        <form xml:lang="ta">niṟaivu</form>
+                    </entry>
+                </entry>
+            </body>
+        </text>
+    </TEI>

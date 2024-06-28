@@ -1,0 +1,47 @@
+<?xml-stylesheet type="text/xsl" href="../../lexicon.xsl" ?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <title xml:lang="ta">nāṭu</title>
+                    </title>
+                </titleStmt>
+                <sourceDesc>
+                    <p>Tamilex project.</p>
+                </sourceDesc>
+            </fileDesc>
+            <revisionDesc/>
+        </teiHeader>
+        <text xml:lang="en">
+            
+            <body>
+                <entry corresp="nāṭu[DEDR 3637]">
+                    <form xml:lang="ta">nāṭu</form>
+                    <gramGrp>
+                        <gram>verbal root</gram>
+                    </gramGrp>
+                    <cit type="lexicon">
+                        <title xml:lang="en">University of Madras Tamil Lexicon</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?qs=நாடு&amp;searchhws=yes&amp;matchtype=exact">p. ??</ref>
+                    </cit>
+                    <cit type="lexicon">
+                        <title xml:lang="en">Dravidian Etymological Dictionary</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/burrow_query.py?qs=nāṭu&amp;searchhws=yes">p. ??</ref>
+                    </cit>
+                    <entry corresp="nāṭal">
+                        <form xml:lang="ta">nāṭal</form>
+                    </entry>
+                    <entry corresp="nāṭār">
+                        <form xml:lang="ta">nāṭār</form>
+                    </entry>
+                    <entry corresp="nāṭi">
+                        <form xml:lang="ta">nāṭi</form>
+                    </entry>
+                    <entry corresp="nāṭiṉar">
+                        <form xml:lang="ta">nāṭiṉar</form>
+                    </entry>
+                </entry>
+            </body>
+        </text>
+    </TEI>

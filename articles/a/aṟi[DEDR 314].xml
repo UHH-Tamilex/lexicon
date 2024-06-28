@@ -1,0 +1,146 @@
+<?xml-stylesheet type="text/xsl" href="../../lexicon.xsl" ?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <title xml:lang="ta">aṟi</title>
+                    </title>
+                </titleStmt>
+                <sourceDesc>
+                    <p>Tamilex project.</p>
+                </sourceDesc>
+            </fileDesc>
+            <revisionDesc/>
+        </teiHeader>
+        <text xml:lang="en">
+            
+            <body>
+                <entry corresp="aṟi[DEDR 314]">
+                    <form xml:lang="ta">aṟi</form>
+                    <gramGrp>
+                        <gram>verbal root</gram>
+                    </gramGrp>
+                    <sense>
+                        <def xml:lang="en">to know </def>
+                    </sense>
+                    <cit type="lexicon">
+                        <title xml:lang="en">University of Madras Tamil Lexicon</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?qs=அறி&amp;searchhws=yes&amp;matchtype=exact">p. ??</ref>
+                    </cit>
+                    <cit type="lexicon">
+                        <title xml:lang="en">Dravidian Etymological Dictionary</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/burrow_query.py?qs=aṟi&amp;searchhws=yes">p. ??</ref>
+                    </cit>
+                    <entry corresp="aṟika">
+                        <form xml:lang="ta">aṟika</form>
+                    </entry>
+                    <entry corresp="aṟikuveṉ">
+                        <form xml:lang="ta">aṟikuveṉ</form>
+                    </entry>
+                    <entry corresp="aṟitaṟku">
+                        <form xml:lang="ta">aṟitaṟku</form>
+                    </entry>
+                    <entry corresp="aṟital">
+                        <form xml:lang="ta">aṟital</form>
+                    </entry>
+                    <entry corresp="aṟiti">
+                        <form xml:lang="ta">aṟiti</form>
+                    </entry>
+                    <entry corresp="aṟitir">
+                        <form xml:lang="ta">aṟitir</form>
+                    </entry>
+                    <entry corresp="aṟintatu">
+                        <form xml:lang="ta">aṟintatu</form>
+                    </entry>
+                    <entry corresp="aṟintaṉam">
+                        <form xml:lang="ta">aṟintaṉam</form>
+                    </entry>
+                    <entry corresp="aṟintaṉaḷ">
+                        <form xml:lang="ta">aṟintaṉaḷ</form>
+                    </entry>
+                    <entry corresp="aṟintaṉir">
+                        <form xml:lang="ta">aṟintaṉir</form>
+                    </entry>
+                    <entry corresp="aṟintaṉeṉ">
+                        <form xml:lang="ta">aṟintaṉeṉ</form>
+                    </entry>
+                    <entry corresp="aṟintaṉai">
+                        <form xml:lang="ta">aṟintaṉai</form>
+                    </entry>
+                    <entry corresp="aṟinticiṉ">
+                        <form xml:lang="ta">aṟinticiṉ</form>
+                    </entry>
+                    <entry corresp="aṟintu">
+                        <form xml:lang="ta">aṟintu</form>
+                    </entry>
+                    <entry corresp="aṟintēṉ">
+                        <form xml:lang="ta">aṟintēṉ</form>
+                    </entry>
+                    <entry corresp="aṟintōr">
+                        <form xml:lang="ta">aṟintōr</form>
+                    </entry>
+                    <entry corresp="aṟipu">
+                        <form xml:lang="ta">aṟipu</form>
+                    </entry>
+                    <entry corresp="aṟiya">
+                        <form xml:lang="ta">aṟiya</form>
+                    </entry>
+                    <entry corresp="aṟiyalaṉ">
+                        <form xml:lang="ta">aṟiyalaṉ</form>
+                    </entry>
+                    <entry corresp="aṟiyal">
+                        <form xml:lang="ta">aṟiyal</form>
+                    </entry>
+                    <entry corresp="aṟiyā">
+                        <form xml:lang="ta">aṟiyā</form>
+                    </entry>
+                    <entry corresp="aṟiyātu">
+                        <form xml:lang="ta">aṟiyātu</form>
+                    </entry>
+                    <entry corresp="aṟiyāmai">
+                        <form xml:lang="ta">aṟiyāmai</form>
+                    </entry>
+                    <entry corresp="aṟiyāy">
+                        <form xml:lang="ta">aṟiyāy</form>
+                    </entry>
+                    <entry corresp="aṟiyāḷ">
+                        <form xml:lang="ta">aṟiyāḷ</form>
+                    </entry>
+                    <entry corresp="aṟiyiṉum">
+                        <form xml:lang="ta">aṟiyiṉum</form>
+                    </entry>
+                    <entry corresp="aṟiyiṉ">
+                        <form xml:lang="ta">aṟiyiṉ</form>
+                    </entry>
+                    <entry corresp="aṟiyunar">
+                        <form xml:lang="ta">aṟiyunar</form>
+                    </entry>
+                    <entry corresp="aṟiyunaḷ">
+                        <form xml:lang="ta">aṟiyunaḷ</form>
+                    </entry>
+                    <entry corresp="aṟiyum">
+                        <form xml:lang="ta">aṟiyum</form>
+                    </entry>
+                    <entry corresp="aṟiyēṉ">
+                        <form xml:lang="ta">aṟiyēṉ</form>
+                    </entry>
+                    <entry corresp="aṟivar">
+                        <form xml:lang="ta">aṟivar</form>
+                    </entry>
+                    <entry corresp="aṟival">
+                        <form xml:lang="ta">aṟival</form>
+                    </entry>
+                    <entry corresp="aṟivu">
+                        <form xml:lang="ta">aṟivu</form>
+                    </entry>
+                    <entry corresp="aṟivēṉ">
+                        <form xml:lang="ta">aṟivēṉ</form>
+                    </entry>
+                    <entry corresp="aṟivai">
+                        <form xml:lang="ta">aṟivai</form>
+                    </entry>
+                </entry>
+            </body>
+        </text>
+    </TEI>

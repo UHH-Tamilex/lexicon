@@ -1,0 +1,173 @@
+<?xml-stylesheet type="text/xsl" href="../../lexicon.xsl" ?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <title xml:lang="ta">varavu</title>
+                    </title>
+                </titleStmt>
+                <sourceDesc>
+                    <p>Tamilex project.</p>
+                </sourceDesc>
+            </fileDesc>
+            <revisionDesc/>
+        </teiHeader>
+        <text xml:lang="en">
+            
+            <body>
+                <entry corresp="varavu[DEDR 5270]">
+                    <form xml:lang="ta">varavu</form>
+                    <gramGrp>
+                        <gram>noun</gram>
+                    </gramGrp>
+                    <sense>
+                        <def xml:lang="en">coming</def>
+                    </sense>
+                    <cit type="lexicon">
+                        <title xml:lang="en">University of Madras Tamil Lexicon</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?qs=வரவு&amp;searchhws=yes&amp;matchtype=exact">p. ??</ref>
+                    </cit>
+                    <cit type="lexicon">
+                        <title xml:lang="en">Dravidian Etymological Dictionary</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/burrow_query.py?qs=varavu&amp;searchhws=yes">p. ??</ref>
+                    </cit>
+                    <entry corresp="vanta">
+                        <form xml:lang="ta">vanta</form>
+                    </entry>
+                    <entry corresp="vantaṉaṉ">
+                        <form xml:lang="ta">vantaṉaṉ</form>
+                    </entry>
+                    <entry corresp="vantaṉar">
+                        <form xml:lang="ta">vantaṉar</form>
+                    </entry>
+                    <entry corresp="vantaṉai">
+                        <form xml:lang="ta">vantaṉai</form>
+                    </entry>
+                    <entry corresp="vantaṉṟu">
+                        <form xml:lang="ta">vantaṉṟu</form>
+                    </entry>
+                    <entry corresp="vantamai">
+                        <form xml:lang="ta">vantamai</form>
+                    </entry>
+                    <entry corresp="vantāṅku">
+                        <form xml:lang="ta">vantāṅku</form>
+                    </entry>
+                    <entry corresp="vantīka">
+                        <form xml:lang="ta">vantīka</form>
+                    </entry>
+                    <entry corresp="vantīmō">
+                        <form xml:lang="ta">vantīmō</form>
+                    </entry>
+                    <entry corresp="vantu">
+                        <form xml:lang="ta">vantu</form>
+                    </entry>
+                    <entry corresp="vammō">
+                        <form xml:lang="ta">vammō</form>
+                    </entry>
+                    <entry corresp="vara">
+                        <form xml:lang="ta">vara</form>
+                    </entry>
+                    <entry corresp="varal">
+                        <form xml:lang="ta">varal</form>
+                    </entry>
+                    <entry corresp="varaviṉai">
+                        <form xml:lang="ta">varaviṉai</form>
+                    </entry>
+                    <entry corresp="variṉum">
+                        <form xml:lang="ta">variṉum</form>
+                    </entry>
+                    <entry corresp="variṉ">
+                        <form xml:lang="ta">variṉ</form>
+                    </entry>
+                    <entry corresp="varukam">
+                        <form xml:lang="ta">varukam</form>
+                    </entry>
+                    <entry corresp="varuku">
+                        <form xml:lang="ta">varuku</form>
+                    </entry>
+                    <entry corresp="varukuvaṉ">
+                        <form xml:lang="ta">varukuvaṉ</form>
+                    </entry>
+                    <entry corresp="varukuvar">
+                        <form xml:lang="ta">varukuvar</form>
+                    </entry>
+                    <entry corresp="varukuvaḷ">
+                        <form xml:lang="ta">varukuvaḷ</form>
+                    </entry>
+                    <entry corresp="varukuvai">
+                        <form xml:lang="ta">varukuvai</form>
+                    </entry>
+                    <entry corresp="varutaliṉ">
+                        <form xml:lang="ta">varutaliṉ</form>
+                    </entry>
+                    <entry corresp="varutal">
+                        <form xml:lang="ta">varutal</form>
+                    </entry>
+                    <entry corresp="varuti">
+                        <form xml:lang="ta">varuti</form>
+                    </entry>
+                    <entry corresp="varutum">
+                        <form xml:lang="ta">varutum</form>
+                    </entry>
+                    <entry corresp="varunar">
+                        <form xml:lang="ta">varunar</form>
+                    </entry>
+                    <entry corresp="varupa">
+                        <form xml:lang="ta">varupa</form>
+                    </entry>
+                    <entry corresp="varum">
+                        <form xml:lang="ta">varum</form>
+                    </entry>
+                    <entry corresp="varuvatu">
+                        <form xml:lang="ta">varuvatu</form>
+                    </entry>
+                    <entry corresp="varuvam">
+                        <form xml:lang="ta">varuvam</form>
+                    </entry>
+                    <entry corresp="varuvar">
+                        <form xml:lang="ta">varuvar</form>
+                    </entry>
+                    <entry corresp="varuval">
+                        <form xml:lang="ta">varuval</form>
+                    </entry>
+                    <entry corresp="varuvir">
+                        <form xml:lang="ta">varuvir</form>
+                    </entry>
+                    <entry corresp="varuvēm">
+                        <form xml:lang="ta">varuvēm</form>
+                    </entry>
+                    <entry corresp="varuvai">
+                        <form xml:lang="ta">varuvai</form>
+                    </entry>
+                    <entry corresp="varūum">
+                        <form xml:lang="ta">varūum</form>
+                    </entry>
+                    <entry corresp="vā">
+                        <form xml:lang="ta">vā</form>
+                    </entry>
+                    <entry corresp="vāralar">
+                        <form xml:lang="ta">vāralar</form>
+                    </entry>
+                    <entry corresp="vāral">
+                        <form xml:lang="ta">vāral</form>
+                    </entry>
+                    <entry corresp="vārā">
+                        <form xml:lang="ta">vārā</form>
+                    </entry>
+                    <entry corresp="vārātu">
+                        <form xml:lang="ta">vārātu</form>
+                    </entry>
+                    <entry corresp="vārāy">
+                        <form xml:lang="ta">vārāy</form>
+                    </entry>
+                    <entry corresp="vārār">
+                        <form xml:lang="ta">vārār</form>
+                    </entry>
+                    <entry corresp="vārēṉ">
+                        <form xml:lang="ta">vārēṉ</form>
+                    </entry>
+                </entry>
+            </body>
+        </text>
+    </TEI>

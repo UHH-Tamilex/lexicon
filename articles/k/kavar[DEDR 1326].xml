@@ -1,0 +1,50 @@
+<?xml-stylesheet type="text/xsl" href="../../lexicon.xsl" ?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <title xml:lang="ta">kavar</title>
+                    </title>
+                </titleStmt>
+                <sourceDesc>
+                    <p>Tamilex project.</p>
+                </sourceDesc>
+            </fileDesc>
+            <revisionDesc/>
+        </teiHeader>
+        <text xml:lang="en">
+            
+            <body>
+                <entry corresp="kavar[DEDR 1326]">
+                    <form xml:lang="ta">kavar</form>
+                    <gramGrp>
+                        <gram>verbal root</gram>
+                    </gramGrp>
+                    <sense>
+                        <def xml:lang="en">to seize </def>
+                    </sense>
+                    <cit type="lexicon">
+                        <title xml:lang="en">University of Madras Tamil Lexicon</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?qs=கவர்&amp;searchhws=yes&amp;matchtype=exact">p. ??</ref>
+                    </cit>
+                    <cit type="lexicon">
+                        <title xml:lang="en">Dravidian Etymological Dictionary</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/burrow_query.py?qs=kavar&amp;searchhws=yes">p. ??</ref>
+                    </cit>
+                    <entry corresp="kavara">
+                        <form xml:lang="ta">kavara</form>
+                    </entry>
+                    <entry corresp="kavarum">
+                        <form xml:lang="ta">kavarum</form>
+                    </entry>
+                    <entry corresp="kavarntu">
+                        <form xml:lang="ta">kavarntu</form>
+                    </entry>
+                    <entry corresp="kavarpu">
+                        <form xml:lang="ta">kavarpu</form>
+                    </entry>
+                </entry>
+            </body>
+        </text>
+    </TEI>

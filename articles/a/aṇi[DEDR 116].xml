@@ -1,0 +1,53 @@
+<?xml-stylesheet type="text/xsl" href="../../lexicon.xsl" ?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <title xml:lang="ta">aṇi</title>
+                    </title>
+                </titleStmt>
+                <sourceDesc>
+                    <p>Tamilex project.</p>
+                </sourceDesc>
+            </fileDesc>
+            <revisionDesc/>
+        </teiHeader>
+        <text xml:lang="en">
+            
+            <body>
+                <entry corresp="aṇi[DEDR 116]">
+                    <form xml:lang="ta">aṇi</form>
+                    <gramGrp>
+                        <gram>root noun</gram>
+                    </gramGrp>
+                    <cit type="lexicon">
+                        <title xml:lang="en">University of Madras Tamil Lexicon</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?qs=அணி&amp;searchhws=yes&amp;matchtype=exact">p. ??</ref>
+                    </cit>
+                    <cit type="lexicon">
+                        <title xml:lang="en">Dravidian Etymological Dictionary</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/burrow_query.py?qs=aṇi&amp;searchhws=yes">p. ??</ref>
+                    </cit>
+                    <entry corresp="aṇi">
+                        <form xml:lang="ta">aṇi</form>
+                    </entry>
+                    <entry corresp="aṇinta">
+                        <form xml:lang="ta">aṇinta</form>
+                    </entry>
+                    <entry corresp="aṇintu">
+                        <form xml:lang="ta">aṇintu</form>
+                    </entry>
+                    <entry corresp="aṇipa">
+                        <form xml:lang="ta">aṇipa</form>
+                    </entry>
+                    <entry corresp="aṇiya">
+                        <form xml:lang="ta">aṇiya</form>
+                    </entry>
+                    <entry corresp="aṇiyum">
+                        <form xml:lang="ta">aṇiyum</form>
+                    </entry>
+                </entry>
+            </body>
+        </text>
+    </TEI>

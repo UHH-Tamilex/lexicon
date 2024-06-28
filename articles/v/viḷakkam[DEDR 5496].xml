@@ -1,0 +1,57 @@
+<?xml-stylesheet type="text/xsl" href="../../lexicon.xsl" ?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <title xml:lang="ta">viḷakkam</title>
+                    </title>
+                </titleStmt>
+                <sourceDesc>
+                    <p>Tamilex project.</p>
+                </sourceDesc>
+            </fileDesc>
+            <revisionDesc/>
+        </teiHeader>
+        <text xml:lang="en">
+            
+            <body>
+                <entry corresp="viḷakkam[DEDR 5496]">
+                    <form xml:lang="ta">viḷakkam</form>
+                    <gramGrp></gramGrp>
+                    <sense>
+                        <def xml:lang="en">(a): lamp, light</def>
+                    </sense>
+                    <cit type="lexicon">
+                        <title xml:lang="en">University of Madras Tamil Lexicon</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?qs=விளக்கம்&amp;searchhws=yes&amp;matchtype=exact">p. ??</ref>
+                    </cit>
+                    <cit type="lexicon">
+                        <title xml:lang="en">Dravidian Etymological Dictionary</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/burrow_query.py?qs=viḷakkam&amp;searchhws=yes">p. ??</ref>
+                    </cit>
+                    <entry corresp="viḷakkattu">
+                        <form xml:lang="ta">viḷakkattu</form>
+                    </entry>
+                    <entry corresp="viḷakkiṉ">
+                        <form xml:lang="ta">viḷakkiṉ</form>
+                    </entry>
+                    <entry corresp="viḷakku">
+                        <form xml:lang="ta">viḷakku</form>
+                    </entry>
+                    <entry corresp="viḷaṅka">
+                        <form xml:lang="ta">viḷaṅka</form>
+                    </entry>
+                    <entry corresp="viḷaṅkiya">
+                        <form xml:lang="ta">viḷaṅkiya</form>
+                    </entry>
+                    <entry corresp="viḷaṅku">
+                        <form xml:lang="ta">viḷaṅku</form>
+                    </entry>
+                    <entry corresp="viḷaṅkum">
+                        <form xml:lang="ta">viḷaṅkum</form>
+                    </entry>
+                </entry>
+            </body>
+        </text>
+    </TEI>

@@ -1,0 +1,66 @@
+<?xml-stylesheet type="text/xsl" href="../../lexicon.xsl" ?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <title xml:lang="ta">ciṟa</title>
+                    </title>
+                </titleStmt>
+                <sourceDesc>
+                    <p>Tamilex project.</p>
+                </sourceDesc>
+            </fileDesc>
+            <revisionDesc/>
+        </teiHeader>
+        <text xml:lang="en">
+            
+            <body>
+                <entry corresp="ciṟa[DEDR 2589]">
+                    <form xml:lang="ta">ciṟa</form>
+                    <gramGrp></gramGrp>
+                    <sense>
+                        <def xml:lang="en">to be superior, to be exulted</def>
+                    </sense>
+                    <cit type="lexicon">
+                        <title xml:lang="en">University of Madras Tamil Lexicon</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?qs=சிற&amp;searchhws=yes&amp;matchtype=exact">p. ??</ref>
+                    </cit>
+                    <cit type="lexicon">
+                        <title xml:lang="en">Dravidian Etymological Dictionary</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/burrow_query.py?qs=ciṟa&amp;searchhws=yes">p. ??</ref>
+                    </cit>
+                    <entry corresp="ciṟakka">
+                        <form xml:lang="ta">ciṟakka</form>
+                    </entry>
+                    <entry corresp="ciṟakkum">
+                        <form xml:lang="ta">ciṟakkum</form>
+                    </entry>
+                    <entry corresp="ciṟattal">
+                        <form xml:lang="ta">ciṟattal</form>
+                    </entry>
+                    <entry corresp="ciṟanta">
+                        <form xml:lang="ta">ciṟanta</form>
+                    </entry>
+                    <entry corresp="ciṟantatu">
+                        <form xml:lang="ta">ciṟantatu</form>
+                    </entry>
+                    <entry corresp="ciṟantaṉṟu">
+                        <form xml:lang="ta">ciṟantaṉṟu</form>
+                    </entry>
+                    <entry corresp="ciṟantu">
+                        <form xml:lang="ta">ciṟantu</form>
+                    </entry>
+                    <entry corresp="ciṟappa">
+                        <form xml:lang="ta">ciṟappa</form>
+                    </entry>
+                    <entry corresp="ciṟappiṉ">
+                        <form xml:lang="ta">ciṟappiṉ</form>
+                    </entry>
+                    <entry corresp="ciṟappu">
+                        <form xml:lang="ta">ciṟappu</form>
+                    </entry>
+                </entry>
+            </body>
+        </text>
+    </TEI>

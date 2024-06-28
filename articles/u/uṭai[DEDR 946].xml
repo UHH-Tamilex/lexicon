@@ -1,0 +1,59 @@
+<?xml-stylesheet type="text/xsl" href="../../lexicon.xsl" ?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <title xml:lang="ta">uṭai</title>
+                    </title>
+                </titleStmt>
+                <sourceDesc>
+                    <p>Tamilex project.</p>
+                </sourceDesc>
+            </fileDesc>
+            <revisionDesc/>
+        </teiHeader>
+        <text xml:lang="en">
+            
+            <body>
+                <entry corresp="uṭai[DEDR 946]">
+                    <form xml:lang="ta">uṭai</form>
+                    <gramGrp>
+                        <gram>verbal root</gram>
+                    </gramGrp>
+                    <cit type="lexicon">
+                        <title xml:lang="en">University of Madras Tamil Lexicon</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?qs=உடை&amp;searchhws=yes&amp;matchtype=exact">p. ??</ref>
+                    </cit>
+                    <cit type="lexicon">
+                        <title xml:lang="en">Dravidian Etymological Dictionary</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/burrow_query.py?qs=uṭai&amp;searchhws=yes">p. ??</ref>
+                    </cit>
+                    <entry corresp="uṭaii">
+                        <form xml:lang="ta">uṭaii</form>
+                    </entry>
+                    <entry corresp="uṭaittu">
+                        <form xml:lang="ta">uṭaittu</form>
+                    </entry>
+                    <entry corresp="uṭainta">
+                        <form xml:lang="ta">uṭainta</form>
+                    </entry>
+                    <entry corresp="uṭaintu">
+                        <form xml:lang="ta">uṭaintu</form>
+                    </entry>
+                    <entry corresp="uṭaippiṉ">
+                        <form xml:lang="ta">uṭaippiṉ</form>
+                    </entry>
+                    <entry corresp="uṭaiya">
+                        <form xml:lang="ta">uṭaiya</form>
+                    </entry>
+                    <entry corresp="uṭaiyum">
+                        <form xml:lang="ta">uṭaiyum</form>
+                    </entry>
+                    <entry corresp="uṭaivataṉ">
+                        <form xml:lang="ta">uṭaivataṉ</form>
+                    </entry>
+                </entry>
+            </body>
+        </text>
+    </TEI>

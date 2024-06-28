@@ -1,0 +1,50 @@
+<?xml-stylesheet type="text/xsl" href="../../lexicon.xsl" ?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <title xml:lang="ta">uyar</title>
+                    </title>
+                </titleStmt>
+                <sourceDesc>
+                    <p>Tamilex project.</p>
+                </sourceDesc>
+            </fileDesc>
+            <revisionDesc/>
+        </teiHeader>
+        <text xml:lang="en">
+            
+            <body>
+                <entry corresp="uyar[DEDR 646]">
+                    <form xml:lang="ta">uyar</form>
+                    <gramGrp>
+                        <gram>verbal root</gram>
+                    </gramGrp>
+                    <cit type="lexicon">
+                        <title xml:lang="en">University of Madras Tamil Lexicon</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?qs=உயர்&amp;searchhws=yes&amp;matchtype=exact">p. ??</ref>
+                    </cit>
+                    <cit type="lexicon">
+                        <title xml:lang="en">Dravidian Etymological Dictionary</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/burrow_query.py?qs=uyar&amp;searchhws=yes">p. ??</ref>
+                    </cit>
+                    <entry corresp="uyariya">
+                        <form xml:lang="ta">uyariya</form>
+                    </entry>
+                    <entry corresp="uyartta">
+                        <form xml:lang="ta">uyartta</form>
+                    </entry>
+                    <entry corresp="uyarnta">
+                        <form xml:lang="ta">uyarnta</form>
+                    </entry>
+                    <entry corresp="uyarntu">
+                        <form xml:lang="ta">uyarntu</form>
+                    </entry>
+                    <entry corresp="uyarpu">
+                        <form xml:lang="ta">uyarpu</form>
+                    </entry>
+                </entry>
+            </body>
+        </text>
+    </TEI>

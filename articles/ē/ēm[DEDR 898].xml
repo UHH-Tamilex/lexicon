@@ -1,0 +1,53 @@
+<?xml-stylesheet type="text/xsl" href="../../lexicon.xsl" ?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <title xml:lang="ta">ēm</title>
+                    </title>
+                </titleStmt>
+                <sourceDesc>
+                    <p>Tamilex project.</p>
+                </sourceDesc>
+            </fileDesc>
+            <revisionDesc/>
+        </teiHeader>
+        <text xml:lang="en">
+            
+            <body>
+                <entry corresp="ēm[DEDR 898]">
+                    <form xml:lang="ta">ēm</form>
+                    <gramGrp>
+                        <gram>noun</gram>
+                    </gramGrp>
+                    <sense>
+                        <def xml:lang="en">confusion  TL (not DEDR): n. delight</def>
+                    </sense>
+                    <cit type="lexicon">
+                        <title xml:lang="en">University of Madras Tamil Lexicon</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?qs=ஏம்&amp;searchhws=yes&amp;matchtype=exact">p. ??</ref>
+                    </cit>
+                    <cit type="lexicon">
+                        <title xml:lang="en">Dravidian Etymological Dictionary</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/burrow_query.py?qs=ēm&amp;searchhws=yes">p. ??</ref>
+                    </cit>
+                    <entry corresp="ēmattu">
+                        <form xml:lang="ta">ēmattu</form>
+                    </entry>
+                    <entry corresp="ēmam">
+                        <form xml:lang="ta">ēmam</form>
+                    </entry>
+                    <entry corresp="ēmuṟu">
+                        <form xml:lang="ta">ēmuṟu</form>
+                    </entry>
+                    <entry corresp="ēmuṟuval">
+                        <form xml:lang="ta">ēmuṟuval</form>
+                    </entry>
+                    <entry corresp="ēmuṟṟu">
+                        <form xml:lang="ta">ēmuṟṟu</form>
+                    </entry>
+                </entry>
+            </body>
+        </text>
+    </TEI>

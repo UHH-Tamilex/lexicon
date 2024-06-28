@@ -1,0 +1,47 @@
+<?xml-stylesheet type="text/xsl" href="../../lexicon.xsl" ?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <title xml:lang="ta">iṭai</title>
+                    </title>
+                </titleStmt>
+                <sourceDesc>
+                    <p>Tamilex project.</p>
+                </sourceDesc>
+            </fileDesc>
+            <revisionDesc/>
+        </teiHeader>
+        <text xml:lang="en">
+            
+            <body>
+                <entry corresp="iṭai[DEDR 448]">
+                    <form xml:lang="ta">iṭai</form>
+                    <gramGrp>
+                        <gram>noun</gram>
+                    </gramGrp>
+                    <cit type="lexicon">
+                        <title xml:lang="en">University of Madras Tamil Lexicon</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?qs=இடை&amp;searchhws=yes&amp;matchtype=exact">p. ??</ref>
+                    </cit>
+                    <cit type="lexicon">
+                        <title xml:lang="en">Dravidian Etymological Dictionary</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/burrow_query.py?qs=iṭai&amp;searchhws=yes">p. ??</ref>
+                    </cit>
+                    <entry corresp="iṭaippaṭa">
+                        <form xml:lang="ta">iṭaippaṭa</form>
+                    </entry>
+                    <entry corresp="iṭaippaṭiṉum">
+                        <form xml:lang="ta">iṭaippaṭiṉum</form>
+                    </entry>
+                    <entry corresp="iṭaiyiṭṭa">
+                        <form xml:lang="ta">iṭaiyiṭṭa</form>
+                    </entry>
+                    <entry corresp="iṭaiyiṉ">
+                        <form xml:lang="ta">iṭaiyiṉ</form>
+                    </entry>
+                </entry>
+            </body>
+        </text>
+    </TEI>

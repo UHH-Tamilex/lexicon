@@ -1,0 +1,56 @@
+<?xml-stylesheet type="text/xsl" href="../../lexicon.xsl" ?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <title xml:lang="ta">īkai</title>
+                    </title>
+                </titleStmt>
+                <sourceDesc>
+                    <p>Tamilex project.</p>
+                </sourceDesc>
+            </fileDesc>
+            <revisionDesc/>
+        </teiHeader>
+        <text xml:lang="en">
+            
+            <body>
+                <entry corresp="īkai[DEDR 2598]">
+                    <form xml:lang="ta">īkai</form>
+                    <gramGrp>
+                        <gram>noun</gram>
+                    </gramGrp>
+                    <sense>
+                        <def xml:lang="en">gift</def>
+                    </sense>
+                    <cit type="lexicon">
+                        <title xml:lang="en">University of Madras Tamil Lexicon</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?qs=ஈகை&amp;searchhws=yes&amp;matchtype=exact">p. ??</ref>
+                    </cit>
+                    <cit type="lexicon">
+                        <title xml:lang="en">Dravidian Etymological Dictionary</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/burrow_query.py?qs=īkai&amp;searchhws=yes">p. ??</ref>
+                    </cit>
+                    <entry corresp="ītal">
+                        <form xml:lang="ta">ītal</form>
+                    </entry>
+                    <entry corresp="ītta">
+                        <form xml:lang="ta">ītta</form>
+                    </entry>
+                    <entry corresp="īnta">
+                        <form xml:lang="ta">īnta</form>
+                    </entry>
+                    <entry corresp="īyātu">
+                        <form xml:lang="ta">īyātu</form>
+                    </entry>
+                    <entry corresp="īyum">
+                        <form xml:lang="ta">īyum</form>
+                    </entry>
+                    <entry corresp="īvāḷ">
+                        <form xml:lang="ta">īvāḷ</form>
+                    </entry>
+                </entry>
+            </body>
+        </text>
+    </TEI>

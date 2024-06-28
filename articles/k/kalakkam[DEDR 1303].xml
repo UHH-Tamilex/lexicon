@@ -1,0 +1,66 @@
+<?xml-stylesheet type="text/xsl" href="../../lexicon.xsl" ?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <title xml:lang="ta">kalakkam</title>
+                    </title>
+                </titleStmt>
+                <sourceDesc>
+                    <p>Tamilex project.</p>
+                </sourceDesc>
+            </fileDesc>
+            <revisionDesc/>
+        </teiHeader>
+        <text xml:lang="en">
+            
+            <body>
+                <entry corresp="kalakkam[DEDR 1303]">
+                    <form xml:lang="ta">kalakkam</form>
+                    <gramGrp></gramGrp>
+                    <sense>
+                        <def xml:lang="en">perplexity</def>
+                    </sense>
+                    <cit type="lexicon">
+                        <title xml:lang="en">University of Madras Tamil Lexicon</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?qs=கலக்கம்&amp;searchhws=yes&amp;matchtype=exact">p. ??</ref>
+                    </cit>
+                    <cit type="lexicon">
+                        <title xml:lang="en">Dravidian Etymological Dictionary</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/burrow_query.py?qs=kalakkam&amp;searchhws=yes">p. ??</ref>
+                    </cit>
+                    <entry corresp="kalakkiṉṟu">
+                        <form xml:lang="ta">kalakkiṉṟu</form>
+                    </entry>
+                    <entry corresp="kalakkiya">
+                        <form xml:lang="ta">kalakkiya</form>
+                    </entry>
+                    <entry corresp="kalakku">
+                        <form xml:lang="ta">kalakku</form>
+                    </entry>
+                    <entry corresp="kalaṅka">
+                        <form xml:lang="ta">kalaṅka</form>
+                    </entry>
+                    <entry corresp="kalaṅkal">
+                        <form xml:lang="ta">kalaṅkal</form>
+                    </entry>
+                    <entry corresp="kalaṅki">
+                        <form xml:lang="ta">kalaṅki</form>
+                    </entry>
+                    <entry corresp="kalaṅkiṉṟu">
+                        <form xml:lang="ta">kalaṅkiṉṟu</form>
+                    </entry>
+                    <entry corresp="kalaṅkiya">
+                        <form xml:lang="ta">kalaṅkiya</form>
+                    </entry>
+                    <entry corresp="kalaṅku">
+                        <form xml:lang="ta">kalaṅku</form>
+                    </entry>
+                    <entry corresp="kalaṅkum">
+                        <form xml:lang="ta">kalaṅkum</form>
+                    </entry>
+                </entry>
+            </body>
+        </text>
+    </TEI>

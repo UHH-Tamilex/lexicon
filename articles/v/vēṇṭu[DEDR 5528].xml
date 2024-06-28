@@ -1,0 +1,71 @@
+<?xml-stylesheet type="text/xsl" href="../../lexicon.xsl" ?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <title xml:lang="ta">vēṇṭu</title>
+                    </title>
+                </titleStmt>
+                <sourceDesc>
+                    <p>Tamilex project.</p>
+                </sourceDesc>
+            </fileDesc>
+            <revisionDesc/>
+        </teiHeader>
+        <text xml:lang="en">
+            
+            <body>
+                <entry corresp="vēṇṭu[DEDR 5528]">
+                    <form xml:lang="ta">vēṇṭu</form>
+                    <gramGrp>
+                        <gram>verbal root</gram>
+                    </gramGrp>
+                    <cit type="lexicon">
+                        <title xml:lang="en">University of Madras Tamil Lexicon</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?qs=வேண்டு&amp;searchhws=yes&amp;matchtype=exact">p. ??</ref>
+                    </cit>
+                    <cit type="lexicon">
+                        <title xml:lang="en">Dravidian Etymological Dictionary</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/burrow_query.py?qs=vēṇṭu&amp;searchhws=yes">p. ??</ref>
+                    </cit>
+                    <entry corresp="vēṇṭa">
+                        <form xml:lang="ta">vēṇṭa</form>
+                    </entry>
+                    <entry corresp="vēṇṭā">
+                        <form xml:lang="ta">vēṇṭā</form>
+                    </entry>
+                    <entry corresp="vēṇṭātu">
+                        <form xml:lang="ta">vēṇṭātu</form>
+                    </entry>
+                    <entry corresp="vēṇṭātōr">
+                        <form xml:lang="ta">vēṇṭātōr</form>
+                    </entry>
+                    <entry corresp="vēṇṭātōḷ">
+                        <form xml:lang="ta">vēṇṭātōḷ</form>
+                    </entry>
+                    <entry corresp="vēṇṭi">
+                        <form xml:lang="ta">vēṇṭi</form>
+                    </entry>
+                    <entry corresp="vēṇṭiṉum">
+                        <form xml:lang="ta">vēṇṭiṉum</form>
+                    </entry>
+                    <entry corresp="vēṇṭiṉ">
+                        <form xml:lang="ta">vēṇṭiṉ</form>
+                    </entry>
+                    <entry corresp="vēṇṭu">
+                        <form xml:lang="ta">vēṇṭu</form>
+                    </entry>
+                    <entry corresp="vēṇṭutum">
+                        <form xml:lang="ta">vēṇṭutum</form>
+                    </entry>
+                    <entry corresp="vēṇṭum">
+                        <form xml:lang="ta">vēṇṭum</form>
+                    </entry>
+                    <entry corresp="vēṇṭuvōr">
+                        <form xml:lang="ta">vēṇṭuvōr</form>
+                    </entry>
+                </entry>
+            </body>
+        </text>
+    </TEI>

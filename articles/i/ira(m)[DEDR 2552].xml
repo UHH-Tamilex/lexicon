@@ -1,0 +1,51 @@
+<?xml-stylesheet type="text/xsl" href="../../lexicon.xsl" ?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <title xml:lang="ta">ira(m)</title>
+                    </title>
+                </titleStmt>
+                <sourceDesc>
+                    <p>Tamilex project.</p>
+                </sourceDesc>
+            </fileDesc>
+            <revisionDesc/>
+        </teiHeader>
+        <text xml:lang="en">
+            
+            <body>
+                <entry corresp="ira(m)[DEDR 2552]">
+                    <form xml:lang="ta">ira(m)</form>
+                    <gramGrp></gramGrp>
+                    <sense>
+                        <def xml:lang="en">night</def>
+                    </sense>
+                    <cit type="lexicon">
+                        <title xml:lang="en">University of Madras Tamil Lexicon</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?qs=இர(ம்)&amp;searchhws=yes&amp;matchtype=exact">p. ??</ref>
+                    </cit>
+                    <cit type="lexicon">
+                        <title xml:lang="en">Dravidian Etymological Dictionary</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/burrow_query.py?qs=ira(m)&amp;searchhws=yes">p. ??</ref>
+                    </cit>
+                    <entry corresp="ira">
+                        <form xml:lang="ta">ira</form>
+                    </entry>
+                    <entry corresp="iraviṉāṉ">
+                        <form xml:lang="ta">iraviṉāṉ</form>
+                    </entry>
+                    <entry corresp="iraviṉ">
+                        <form xml:lang="ta">iraviṉ</form>
+                    </entry>
+                    <entry corresp="iravu">
+                        <form xml:lang="ta">iravu</form>
+                    </entry>
+                    <entry corresp="irā">
+                        <form xml:lang="ta">irā</form>
+                    </entry>
+                </entry>
+            </body>
+        </text>
+    </TEI>

@@ -1,0 +1,39 @@
+<?xml-stylesheet type="text/xsl" href="../../lexicon.xsl" ?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <title xml:lang="ta">kataḻ</title>
+                    </title>
+                </titleStmt>
+                <sourceDesc>
+                    <p>Tamilex project.</p>
+                </sourceDesc>
+            </fileDesc>
+            <revisionDesc/>
+        </teiHeader>
+        <text xml:lang="en">
+            
+            <body>
+                <entry corresp="kataḻ[DEDR 1188]">
+                    <form xml:lang="ta">kataḻ</form>
+                    <gramGrp></gramGrp>
+                    <sense>
+                        <def xml:lang="en">to hasten </def>
+                    </sense>
+                    <cit type="lexicon">
+                        <title xml:lang="en">University of Madras Tamil Lexicon</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?qs=கதழ்&amp;searchhws=yes&amp;matchtype=exact">p. ??</ref>
+                    </cit>
+                    <cit type="lexicon">
+                        <title xml:lang="en">Dravidian Etymological Dictionary</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/burrow_query.py?qs=kataḻ&amp;searchhws=yes">p. ??</ref>
+                    </cit>
+                    <entry corresp="kataḻum">
+                        <form xml:lang="ta">kataḻum</form>
+                    </entry>
+                </entry>
+            </body>
+        </text>
+    </TEI>

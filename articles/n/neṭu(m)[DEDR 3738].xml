@@ -1,0 +1,56 @@
+<?xml-stylesheet type="text/xsl" href="../../lexicon.xsl" ?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <title xml:lang="ta">neṭu(m)</title>
+                    </title>
+                </titleStmt>
+                <sourceDesc>
+                    <p>Tamilex project.</p>
+                </sourceDesc>
+            </fileDesc>
+            <revisionDesc/>
+        </teiHeader>
+        <text xml:lang="en">
+            
+            <body>
+                <entry corresp="neṭu(m)[DEDR 3738]">
+                    <form xml:lang="ta">neṭu(m)</form>
+                    <gramGrp>
+                        <gram>adjective</gram>
+                    </gramGrp>
+                    <sense>
+                        <def xml:lang="en">long, tall</def>
+                    </sense>
+                    <cit type="lexicon">
+                        <title xml:lang="en">University of Madras Tamil Lexicon</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?qs=நெடு(ம்)&amp;searchhws=yes&amp;matchtype=exact">p. ??</ref>
+                    </cit>
+                    <cit type="lexicon">
+                        <title xml:lang="en">Dravidian Etymological Dictionary</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/burrow_query.py?qs=neṭu(m)&amp;searchhws=yes">p. ??</ref>
+                    </cit>
+                    <entry corresp="neṭitu">
+                        <form xml:lang="ta">neṭitu</form>
+                    </entry>
+                    <entry corresp="neṭiya">
+                        <form xml:lang="ta">neṭiya</form>
+                    </entry>
+                    <entry corresp="neṭiyōṉ">
+                        <form xml:lang="ta">neṭiyōṉ</form>
+                    </entry>
+                    <entry corresp="neṭu">
+                        <form xml:lang="ta">neṭu</form>
+                    </entry>
+                    <entry corresp="neṭum">
+                        <form xml:lang="ta">neṭum</form>
+                    </entry>
+                    <entry corresp="neṭṭu">
+                        <form xml:lang="ta">neṭṭu</form>
+                    </entry>
+                </entry>
+            </body>
+        </text>
+    </TEI>

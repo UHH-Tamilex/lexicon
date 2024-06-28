@@ -1,0 +1,55 @@
+<?xml-stylesheet type="text/xsl" href="../../lexicon.xsl" ?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <title xml:lang="ta">piṟa</title>
+                    </title>
+                </titleStmt>
+                <sourceDesc>
+                    <p>Tamilex project.</p>
+                </sourceDesc>
+            </fileDesc>
+            <revisionDesc/>
+        </teiHeader>
+        <text xml:lang="en">
+            
+            <body>
+                <entry corresp="piṟa[DEDR 4333]">
+                    <form xml:lang="ta">piṟa</form>
+                    <gramGrp>
+                        <gram>plural</gram>
+                        <gram>neuter</gram>
+                        <gram>pronoun</gram>
+                    </gramGrp>
+                    <sense>
+                        <def xml:lang="en">other</def>
+                    </sense>
+                    <cit type="lexicon">
+                        <title xml:lang="en">University of Madras Tamil Lexicon</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?qs=பிற&amp;searchhws=yes&amp;matchtype=exact">p. ??</ref>
+                    </cit>
+                    <cit type="lexicon">
+                        <title xml:lang="en">Dravidian Etymological Dictionary</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/burrow_query.py?qs=piṟa&amp;searchhws=yes">p. ??</ref>
+                    </cit>
+                    <entry corresp="piṟaṉ">
+                        <form xml:lang="ta">piṟaṉ</form>
+                    </entry>
+                    <entry corresp="piṟar">
+                        <form xml:lang="ta">piṟar</form>
+                    </entry>
+                    <entry corresp="piṟarkku">
+                        <form xml:lang="ta">piṟarkku</form>
+                    </entry>
+                    <entry corresp="piṟaḷ">
+                        <form xml:lang="ta">piṟaḷ</form>
+                    </entry>
+                    <entry corresp="piṟitu">
+                        <form xml:lang="ta">piṟitu</form>
+                    </entry>
+                </entry>
+            </body>
+        </text>
+    </TEI>

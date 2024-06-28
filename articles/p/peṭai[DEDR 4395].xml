@@ -1,0 +1,41 @@
+<?xml-stylesheet type="text/xsl" href="../../lexicon.xsl" ?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <title xml:lang="ta">peṭai</title>
+                    </title>
+                </titleStmt>
+                <sourceDesc>
+                    <p>Tamilex project.</p>
+                </sourceDesc>
+            </fileDesc>
+            <revisionDesc/>
+        </teiHeader>
+        <text xml:lang="en">
+            
+            <body>
+                <entry corresp="peṭai[DEDR 4395]">
+                    <form xml:lang="ta">peṭai</form>
+                    <gramGrp>
+                        <gram>noun</gram>
+                    </gramGrp>
+                    <cit type="lexicon">
+                        <title xml:lang="en">University of Madras Tamil Lexicon</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?qs=பெடை&amp;searchhws=yes&amp;matchtype=exact">p. ??</ref>
+                    </cit>
+                    <cit type="lexicon">
+                        <title xml:lang="en">Dravidian Etymological Dictionary</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/burrow_query.py?qs=peṭai&amp;searchhws=yes">p. ??</ref>
+                    </cit>
+                    <entry corresp="peṭaikku">
+                        <form xml:lang="ta">peṭaikku</form>
+                    </entry>
+                    <entry corresp="peṭaiyoṭu">
+                        <form xml:lang="ta">peṭaiyoṭu</form>
+                    </entry>
+                </entry>
+            </body>
+        </text>
+    </TEI>

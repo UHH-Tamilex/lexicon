@@ -1,0 +1,62 @@
+<?xml-stylesheet type="text/xsl" href="../../lexicon.xsl" ?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <title xml:lang="ta">pōl</title>
+                    </title>
+                </titleStmt>
+                <sourceDesc>
+                    <p>Tamilex project.</p>
+                </sourceDesc>
+            </fileDesc>
+            <revisionDesc/>
+        </teiHeader>
+        <text xml:lang="en">
+            
+            <body>
+                <entry corresp="pōl[DEDR 4597]">
+                    <form xml:lang="ta">pōl</form>
+                    <gramGrp>
+                        <gram>verbal root</gram>
+                    </gramGrp>
+                    <sense>
+                        <def xml:lang="en">to be similar </def>
+                    </sense>
+                    <cit type="lexicon">
+                        <title xml:lang="en">University of Madras Tamil Lexicon</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?qs=போல்&amp;searchhws=yes&amp;matchtype=exact">p. ??</ref>
+                    </cit>
+                    <cit type="lexicon">
+                        <title xml:lang="en">Dravidian Etymological Dictionary</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/burrow_query.py?qs=pōl&amp;searchhws=yes">p. ??</ref>
+                    </cit>
+                    <entry corresp="pōṉṟu">
+                        <form xml:lang="ta">pōṉṟu</form>
+                    </entry>
+                    <entry corresp="pōṟi">
+                        <form xml:lang="ta">pōṟi</form>
+                    </entry>
+                    <entry corresp="pōṟir">
+                        <form xml:lang="ta">pōṟir</form>
+                    </entry>
+                    <entry corresp="pōla">
+                        <form xml:lang="ta">pōla</form>
+                    </entry>
+                    <entry corresp="pōlāṉ">
+                        <form xml:lang="ta">pōlāṉ</form>
+                    </entry>
+                    <entry corresp="pōlum">
+                        <form xml:lang="ta">pōlum</form>
+                    </entry>
+                    <entry corresp="pōlvar">
+                        <form xml:lang="ta">pōlvar</form>
+                    </entry>
+                    <entry corresp="pōlval">
+                        <form xml:lang="ta">pōlval</form>
+                    </entry>
+                </entry>
+            </body>
+        </text>
+    </TEI>

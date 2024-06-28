@@ -1,0 +1,48 @@
+<?xml-stylesheet type="text/xsl" href="../../lexicon.xsl" ?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <title xml:lang="ta">keḻu</title>
+                    </title>
+                </titleStmt>
+                <sourceDesc>
+                    <p>Tamilex project.</p>
+                </sourceDesc>
+            </fileDesc>
+            <revisionDesc/>
+        </teiHeader>
+        <text xml:lang="en">
+            
+            <body>
+                <entry corresp="keḻu[DEDR 1979]">
+                    <form xml:lang="ta">keḻu</form>
+                    <gramGrp></gramGrp>
+                    <cit type="lexicon">
+                        <title xml:lang="en">University of Madras Tamil Lexicon</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?qs=கெழு&amp;searchhws=yes&amp;matchtype=exact">p. ??</ref>
+                    </cit>
+                    <cit type="lexicon">
+                        <title xml:lang="en">Dravidian Etymological Dictionary</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/burrow_query.py?qs=keḻu&amp;searchhws=yes">p. ??</ref>
+                    </cit>
+                    <entry corresp="keḻa">
+                        <form xml:lang="ta">keḻa</form>
+                    </entry>
+                    <entry corresp="keḻīi">
+                        <form xml:lang="ta">keḻīi</form>
+                    </entry>
+                    <entry corresp="keḻīiya">
+                        <form xml:lang="ta">keḻīiya</form>
+                    </entry>
+                    <entry corresp="keḻutakaimaiyiṉ">
+                        <form xml:lang="ta">keḻutakaimaiyiṉ</form>
+                    </entry>
+                    <entry corresp="keḻumi">
+                        <form xml:lang="ta">keḻumi</form>
+                    </entry>
+                </entry>
+            </body>
+        </text>
+    </TEI>

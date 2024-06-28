@@ -1,0 +1,54 @@
+<?xml-stylesheet type="text/xsl" href="../../lexicon.xsl" ?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <title xml:lang="ta">vai</title>
+                    </title>
+                </titleStmt>
+                <sourceDesc>
+                    <p>Tamilex project.</p>
+                </sourceDesc>
+            </fileDesc>
+            <revisionDesc/>
+        </teiHeader>
+        <text xml:lang="en">
+            
+            <body>
+                <entry corresp="vai[DEDR 5549]">
+                    <form xml:lang="ta">vai</form>
+                    <gramGrp></gramGrp>
+                    <sense>
+                        <def xml:lang="en">to place –</def>
+                    </sense>
+                    <cit type="lexicon">
+                        <title xml:lang="en">University of Madras Tamil Lexicon</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?qs=வை&amp;searchhws=yes&amp;matchtype=exact">p. ??</ref>
+                    </cit>
+                    <cit type="lexicon">
+                        <title xml:lang="en">Dravidian Etymological Dictionary</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/burrow_query.py?qs=vai&amp;searchhws=yes">p. ??</ref>
+                    </cit>
+                    <entry corresp="vaiiya">
+                        <form xml:lang="ta">vaiiya</form>
+                    </entry>
+                    <entry corresp="vaittu">
+                        <form xml:lang="ta">vaittu</form>
+                    </entry>
+                    <entry corresp="vaippa">
+                        <form xml:lang="ta">vaippa</form>
+                    </entry>
+                    <entry corresp="vaippiṉ">
+                        <form xml:lang="ta">vaippiṉ</form>
+                    </entry>
+                    <entry corresp="vaippu">
+                        <form xml:lang="ta">vaippu</form>
+                    </entry>
+                    <entry corresp="vaiyakam">
+                        <form xml:lang="ta">vaiyakam</form>
+                    </entry>
+                </entry>
+            </body>
+        </text>
+    </TEI>

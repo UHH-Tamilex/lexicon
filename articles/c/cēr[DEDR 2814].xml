@@ -1,0 +1,69 @@
+<?xml-stylesheet type="text/xsl" href="../../lexicon.xsl" ?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <title xml:lang="ta">cēr</title>
+                    </title>
+                </titleStmt>
+                <sourceDesc>
+                    <p>Tamilex project.</p>
+                </sourceDesc>
+            </fileDesc>
+            <revisionDesc/>
+        </teiHeader>
+        <text xml:lang="en">
+            
+            <body>
+                <entry corresp="cēr[DEDR 2814]">
+                    <form xml:lang="ta">cēr</form>
+                    <gramGrp></gramGrp>
+                    <sense>
+                        <def xml:lang="en">tr. to join –</def>
+                    </sense>
+                    <cit type="lexicon">
+                        <title xml:lang="en">University of Madras Tamil Lexicon</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?qs=சேர்&amp;searchhws=yes&amp;matchtype=exact">p. ??</ref>
+                    </cit>
+                    <cit type="lexicon">
+                        <title xml:lang="en">Dravidian Etymological Dictionary</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/burrow_query.py?qs=cēr&amp;searchhws=yes">p. ??</ref>
+                    </cit>
+                    <entry corresp="cēra">
+                        <form xml:lang="ta">cēra</form>
+                    </entry>
+                    <entry corresp="cērā">
+                        <form xml:lang="ta">cērā</form>
+                    </entry>
+                    <entry corresp="cēriṉ">
+                        <form xml:lang="ta">cēriṉ</form>
+                    </entry>
+                    <entry corresp="cērum">
+                        <form xml:lang="ta">cērum</form>
+                    </entry>
+                    <entry corresp="cēr">
+                        <form xml:lang="ta">cēr</form>
+                    </entry>
+                    <entry corresp="cērtti">
+                        <form xml:lang="ta">cērtti</form>
+                    </entry>
+                    <entry corresp="cērnta">
+                        <form xml:lang="ta">cērnta</form>
+                    </entry>
+                    <entry corresp="cērntaṉṉa">
+                        <form xml:lang="ta">cērntaṉṉa</form>
+                    </entry>
+                    <entry corresp="cērntu">
+                        <form xml:lang="ta">cērntu</form>
+                    </entry>
+                    <entry corresp="cērpu">
+                        <form xml:lang="ta">cērpu</form>
+                    </entry>
+                    <entry corresp="cērvu">
+                        <form xml:lang="ta">cērvu</form>
+                    </entry>
+                </entry>
+            </body>
+        </text>
+    </TEI>

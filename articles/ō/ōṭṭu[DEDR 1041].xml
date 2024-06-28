@@ -1,0 +1,60 @@
+<?xml-stylesheet type="text/xsl" href="../../lexicon.xsl" ?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <title xml:lang="ta">ōṭṭu</title>
+                    </title>
+                </titleStmt>
+                <sourceDesc>
+                    <p>Tamilex project.</p>
+                </sourceDesc>
+            </fileDesc>
+            <revisionDesc/>
+        </teiHeader>
+        <text xml:lang="en">
+            
+            <body>
+                <entry corresp="ōṭṭu[DEDR 1041]">
+                    <form xml:lang="ta">ōṭṭu</form>
+                    <gramGrp></gramGrp>
+                    <sense>
+                        <def xml:lang="en">to cause to run –</def>
+                    </sense>
+                    <cit type="lexicon">
+                        <title xml:lang="en">University of Madras Tamil Lexicon</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?qs=ஓட்டு&amp;searchhws=yes&amp;matchtype=exact">p. ??</ref>
+                    </cit>
+                    <cit type="lexicon">
+                        <title xml:lang="en">Dravidian Etymological Dictionary</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/burrow_query.py?qs=ōṭṭu&amp;searchhws=yes">p. ??</ref>
+                    </cit>
+                    <entry corresp="ōṭa">
+                        <form xml:lang="ta">ōṭa</form>
+                    </entry>
+                    <entry corresp="ōṭā">
+                        <form xml:lang="ta">ōṭā</form>
+                    </entry>
+                    <entry corresp="ōṭātu">
+                        <form xml:lang="ta">ōṭātu</form>
+                    </entry>
+                    <entry corresp="ōṭi">
+                        <form xml:lang="ta">ōṭi</form>
+                    </entry>
+                    <entry corresp="ōṭiyāṅku">
+                        <form xml:lang="ta">ōṭiyāṅku</form>
+                    </entry>
+                    <entry corresp="ōṭu">
+                        <form xml:lang="ta">ōṭu</form>
+                    </entry>
+                    <entry corresp="ōṭum">
+                        <form xml:lang="ta">ōṭum</form>
+                    </entry>
+                    <entry corresp="ōṭṭi">
+                        <form xml:lang="ta">ōṭṭi</form>
+                    </entry>
+                </entry>
+            </body>
+        </text>
+    </TEI>

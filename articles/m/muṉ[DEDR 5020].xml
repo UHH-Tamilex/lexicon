@@ -1,0 +1,66 @@
+<?xml-stylesheet type="text/xsl" href="../../lexicon.xsl" ?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <title xml:lang="ta">muṉ</title>
+                    </title>
+                </titleStmt>
+                <sourceDesc>
+                    <p>Tamilex project.</p>
+                </sourceDesc>
+            </fileDesc>
+            <revisionDesc/>
+        </teiHeader>
+        <text xml:lang="en">
+            
+            <body>
+                <entry corresp="muṉ[DEDR 5020]">
+                    <form xml:lang="ta">muṉ</form>
+                    <gramGrp></gramGrp>
+                    <sense>
+                        <def xml:lang="en">(a): in front, before</def>
+                    </sense>
+                    <cit type="lexicon">
+                        <title xml:lang="en">University of Madras Tamil Lexicon</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?qs=முன்&amp;searchhws=yes&amp;matchtype=exact">p. ??</ref>
+                    </cit>
+                    <cit type="lexicon">
+                        <title xml:lang="en">Dravidian Etymological Dictionary</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/burrow_query.py?qs=muṉ&amp;searchhws=yes">p. ??</ref>
+                    </cit>
+                    <entry corresp="muṉāatu">
+                        <form xml:lang="ta">muṉāatu</form>
+                    </entry>
+                    <entry corresp="muṉai">
+                        <form xml:lang="ta">muṉai</form>
+                    </entry>
+                    <entry corresp="muṉaiyāṉ">
+                        <form xml:lang="ta">muṉaiyāṉ</form>
+                    </entry>
+                    <entry corresp="muṉkai">
+                        <form xml:lang="ta">muṉkai</form>
+                    </entry>
+                    <entry corresp="muṉṉar">
+                        <form xml:lang="ta">muṉṉar</form>
+                    </entry>
+                    <entry corresp="muṉṉōr">
+                        <form xml:lang="ta">muṉṉōr</form>
+                    </entry>
+                    <entry corresp="muṉpiṉ">
+                        <form xml:lang="ta">muṉpiṉ</form>
+                    </entry>
+                    <entry corresp="muṉpu">
+                        <form xml:lang="ta">muṉpu</form>
+                    </entry>
+                    <entry corresp="muṉpoṭu">
+                        <form xml:lang="ta">muṉpoṭu</form>
+                    </entry>
+                    <entry corresp="muṉṟil">
+                        <form xml:lang="ta">muṉṟil</form>
+                    </entry>
+                </entry>
+            </body>
+        </text>
+    </TEI>

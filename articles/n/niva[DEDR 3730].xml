@@ -1,0 +1,54 @@
+<?xml-stylesheet type="text/xsl" href="../../lexicon.xsl" ?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <title xml:lang="ta">niva</title>
+                    </title>
+                </titleStmt>
+                <sourceDesc>
+                    <p>Tamilex project.</p>
+                </sourceDesc>
+            </fileDesc>
+            <revisionDesc/>
+        </teiHeader>
+        <text xml:lang="en">
+            
+            <body>
+                <entry corresp="niva[DEDR 3730]">
+                    <form xml:lang="ta">niva</form>
+                    <gramGrp></gramGrp>
+                    <sense>
+                        <def xml:lang="en">to come up</def>
+                    </sense>
+                    <cit type="lexicon">
+                        <title xml:lang="en">University of Madras Tamil Lexicon</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?qs=நிவ&amp;searchhws=yes&amp;matchtype=exact">p. ??</ref>
+                    </cit>
+                    <cit type="lexicon">
+                        <title xml:lang="en">Dravidian Etymological Dictionary</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/burrow_query.py?qs=niva&amp;searchhws=yes">p. ??</ref>
+                    </cit>
+                    <entry corresp="nivakkum">
+                        <form xml:lang="ta">nivakkum</form>
+                    </entry>
+                    <entry corresp="nivanta">
+                        <form xml:lang="ta">nivanta</form>
+                    </entry>
+                    <entry corresp="nivantaṉṉa">
+                        <form xml:lang="ta">nivantaṉṉa</form>
+                    </entry>
+                    <entry corresp="nivantu">
+                        <form xml:lang="ta">nivantu</form>
+                    </entry>
+                    <entry corresp="nivappa">
+                        <form xml:lang="ta">nivappa</form>
+                    </entry>
+                    <entry corresp="nivappiṉ">
+                        <form xml:lang="ta">nivappiṉ</form>
+                    </entry>
+                </entry>
+            </body>
+        </text>
+    </TEI>

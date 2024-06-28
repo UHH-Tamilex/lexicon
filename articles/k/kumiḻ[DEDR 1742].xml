@@ -1,0 +1,42 @@
+<?xml-stylesheet type="text/xsl" href="../../lexicon.xsl" ?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <title xml:lang="ta">kumiḻ</title>
+                    </title>
+                </titleStmt>
+                <sourceDesc>
+                    <p>Tamilex project.</p>
+                </sourceDesc>
+            </fileDesc>
+            <revisionDesc/>
+        </teiHeader>
+        <text xml:lang="en">
+            
+            <body>
+                <entry corresp="kumiḻ[DEDR 1742]">
+                    <form xml:lang="ta">kumiḻ</form>
+                    <gramGrp></gramGrp>
+                    <sense>
+                        <def xml:lang="en">small Cashmere tree (Gmelina asiatica)</def>
+                    </sense>
+                    <sense>
+                        <def xml:lang="en">coomb teak (Gmelina arborea)</def>
+                    </sense>
+                    <cit type="lexicon">
+                        <title xml:lang="en">University of Madras Tamil Lexicon</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?qs=குமிழ்&amp;searchhws=yes&amp;matchtype=exact">p. ??</ref>
+                    </cit>
+                    <cit type="lexicon">
+                        <title xml:lang="en">Dravidian Etymological Dictionary</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/burrow_query.py?qs=kumiḻ&amp;searchhws=yes">p. ??</ref>
+                    </cit>
+                    <entry corresp="kumiḻiṉ">
+                        <form xml:lang="ta">kumiḻiṉ</form>
+                    </entry>
+                </entry>
+            </body>
+        </text>
+    </TEI>

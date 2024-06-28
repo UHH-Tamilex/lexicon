@@ -1,0 +1,68 @@
+<?xml-stylesheet type="text/xsl" href="../../lexicon.xsl" ?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <title xml:lang="ta">muyakkam</title>
+                    </title>
+                </titleStmt>
+                <sourceDesc>
+                    <p>Tamilex project.</p>
+                </sourceDesc>
+            </fileDesc>
+            <revisionDesc/>
+        </teiHeader>
+        <text xml:lang="en">
+            
+            <body>
+                <entry corresp="muyakkam[DEDR 4915]">
+                    <form xml:lang="ta">muyakkam</form>
+                    <gramGrp>
+                        <gram>noun</gram>
+                    </gramGrp>
+                    <sense>
+                        <def xml:lang="en">embrace</def>
+                    </sense>
+                    <cit type="lexicon">
+                        <title xml:lang="en">University of Madras Tamil Lexicon</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?qs=முயக்கம்&amp;searchhws=yes&amp;matchtype=exact">p. ??</ref>
+                    </cit>
+                    <cit type="lexicon">
+                        <title xml:lang="en">Dravidian Etymological Dictionary</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/burrow_query.py?qs=muyakkam&amp;searchhws=yes">p. ??</ref>
+                    </cit>
+                    <entry corresp="muyakkiṉ">
+                        <form xml:lang="ta">muyakkiṉ</form>
+                    </entry>
+                    <entry corresp="muyakku">
+                        <form xml:lang="ta">muyakku</form>
+                    </entry>
+                    <entry corresp="muyaṅka">
+                        <form xml:lang="ta">muyaṅka</form>
+                    </entry>
+                    <entry corresp="muyaṅkaṟku">
+                        <form xml:lang="ta">muyaṅkaṟku</form>
+                    </entry>
+                    <entry corresp="muyaṅkal">
+                        <form xml:lang="ta">muyaṅkal</form>
+                    </entry>
+                    <entry corresp="muyaṅki">
+                        <form xml:lang="ta">muyaṅki</form>
+                    </entry>
+                    <entry corresp="muyaṅkiṉaḷ">
+                        <form xml:lang="ta">muyaṅkiṉaḷ</form>
+                    </entry>
+                    <entry corresp="muyaṅkiya">
+                        <form xml:lang="ta">muyaṅkiya</form>
+                    </entry>
+                    <entry corresp="muyaṅkukam">
+                        <form xml:lang="ta">muyaṅkukam</form>
+                    </entry>
+                    <entry corresp="muyaṅkum">
+                        <form xml:lang="ta">muyaṅkum</form>
+                    </entry>
+                </entry>
+            </body>
+        </text>
+    </TEI>

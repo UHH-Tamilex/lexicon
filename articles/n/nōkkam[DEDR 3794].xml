@@ -1,0 +1,62 @@
+<?xml-stylesheet type="text/xsl" href="../../lexicon.xsl" ?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <title xml:lang="ta">nōkkam</title>
+                    </title>
+                </titleStmt>
+                <sourceDesc>
+                    <p>Tamilex project.</p>
+                </sourceDesc>
+            </fileDesc>
+            <revisionDesc/>
+        </teiHeader>
+        <text xml:lang="en">
+            
+            <body>
+                <entry corresp="nōkkam[DEDR 3794]">
+                    <form xml:lang="ta">nōkkam</form>
+                    <gramGrp>
+                        <gram>noun</gram>
+                    </gramGrp>
+                    <sense>
+                        <def xml:lang="en">look</def>
+                    </sense>
+                    <cit type="lexicon">
+                        <title xml:lang="en">University of Madras Tamil Lexicon</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?qs=நோக்கம்&amp;searchhws=yes&amp;matchtype=exact">p. ??</ref>
+                    </cit>
+                    <cit type="lexicon">
+                        <title xml:lang="en">Dravidian Etymological Dictionary</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/burrow_query.py?qs=nōkkam&amp;searchhws=yes">p. ??</ref>
+                    </cit>
+                    <entry corresp="nōkkamoṭu">
+                        <form xml:lang="ta">nōkkamoṭu</form>
+                    </entry>
+                    <entry corresp="nōkkal">
+                        <form xml:lang="ta">nōkkal</form>
+                    </entry>
+                    <entry corresp="nōkki">
+                        <form xml:lang="ta">nōkki</form>
+                    </entry>
+                    <entry corresp="nōkkiṉar">
+                        <form xml:lang="ta">nōkkiṉar</form>
+                    </entry>
+                    <entry corresp="nōkkiṉ">
+                        <form xml:lang="ta">nōkkiṉ</form>
+                    </entry>
+                    <entry corresp="nōkku">
+                        <form xml:lang="ta">nōkku</form>
+                    </entry>
+                    <entry corresp="nōkkupu">
+                        <form xml:lang="ta">nōkkupu</form>
+                    </entry>
+                    <entry corresp="nōkkum">
+                        <form xml:lang="ta">nōkkum</form>
+                    </entry>
+                </entry>
+            </body>
+        </text>
+    </TEI>

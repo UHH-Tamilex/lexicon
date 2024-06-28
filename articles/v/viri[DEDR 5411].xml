@@ -1,0 +1,59 @@
+<?xml-stylesheet type="text/xsl" href="../../lexicon.xsl" ?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <title xml:lang="ta">viri</title>
+                    </title>
+                </titleStmt>
+                <sourceDesc>
+                    <p>Tamilex project.</p>
+                </sourceDesc>
+            </fileDesc>
+            <revisionDesc/>
+        </teiHeader>
+        <text xml:lang="en">
+            
+            <body>
+                <entry corresp="viri[DEDR 5411]">
+                    <form xml:lang="ta">viri</form>
+                    <gramGrp>
+                        <gram>verbal root</gram>
+                    </gramGrp>
+                    <cit type="lexicon">
+                        <title xml:lang="en">University of Madras Tamil Lexicon</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?qs=விரி&amp;searchhws=yes&amp;matchtype=exact">p. ??</ref>
+                    </cit>
+                    <cit type="lexicon">
+                        <title xml:lang="en">Dravidian Etymological Dictionary</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/burrow_query.py?qs=viri&amp;searchhws=yes">p. ??</ref>
+                    </cit>
+                    <entry corresp="virittaṉṉa">
+                        <form xml:lang="ta">virittaṉṉa</form>
+                    </entry>
+                    <entry corresp="virittu">
+                        <form xml:lang="ta">virittu</form>
+                    </entry>
+                    <entry corresp="virinta">
+                        <form xml:lang="ta">virinta</form>
+                    </entry>
+                    <entry corresp="virintu">
+                        <form xml:lang="ta">virintu</form>
+                    </entry>
+                    <entry corresp="viripu">
+                        <form xml:lang="ta">viripu</form>
+                    </entry>
+                    <entry corresp="viriyum">
+                        <form xml:lang="ta">viriyum</form>
+                    </entry>
+                    <entry corresp="virivu">
+                        <form xml:lang="ta">virivu</form>
+                    </entry>
+                    <entry corresp="virīi">
+                        <form xml:lang="ta">virīi</form>
+                    </entry>
+                </entry>
+            </body>
+        </text>
+    </TEI>

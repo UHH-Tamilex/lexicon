@@ -1,0 +1,78 @@
+<?xml-stylesheet type="text/xsl" href="../../lexicon.xsl" ?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <title xml:lang="ta">niṉai</title>
+                    </title>
+                </titleStmt>
+                <sourceDesc>
+                    <p>Tamilex project.</p>
+                </sourceDesc>
+            </fileDesc>
+            <revisionDesc/>
+        </teiHeader>
+        <text xml:lang="en">
+            
+            <body>
+                <entry corresp="niṉai[DEDR 3683]">
+                    <form xml:lang="ta">niṉai</form>
+                    <gramGrp></gramGrp>
+                    <sense>
+                        <def xml:lang="en">to think</def>
+                    </sense>
+                    <cit type="lexicon">
+                        <title xml:lang="en">University of Madras Tamil Lexicon</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?qs=நினை&amp;searchhws=yes&amp;matchtype=exact">p. ??</ref>
+                    </cit>
+                    <cit type="lexicon">
+                        <title xml:lang="en">Dravidian Etymological Dictionary</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/burrow_query.py?qs=niṉai&amp;searchhws=yes">p. ??</ref>
+                    </cit>
+                    <entry corresp="niṉai">
+                        <form xml:lang="ta">niṉai</form>
+                    </entry>
+                    <entry corresp="niṉaii">
+                        <form xml:lang="ta">niṉaii</form>
+                    </entry>
+                    <entry corresp="niṉaittu">
+                        <form xml:lang="ta">niṉaittu</form>
+                    </entry>
+                    <entry corresp="niṉainta">
+                        <form xml:lang="ta">niṉainta</form>
+                    </entry>
+                    <entry corresp="niṉaintu">
+                        <form xml:lang="ta">niṉaintu</form>
+                    </entry>
+                    <entry corresp="niṉaippiṉ">
+                        <form xml:lang="ta">niṉaippiṉ</form>
+                    </entry>
+                    <entry corresp="niṉaippu">
+                        <form xml:lang="ta">niṉaippu</form>
+                    </entry>
+                    <entry corresp="niṉaiya">
+                        <form xml:lang="ta">niṉaiya</form>
+                    </entry>
+                    <entry corresp="niṉaiyāy">
+                        <form xml:lang="ta">niṉaiyāy</form>
+                    </entry>
+                    <entry corresp="niṉaiyiṉ">
+                        <form xml:lang="ta">niṉaiyiṉ</form>
+                    </entry>
+                    <entry corresp="niṉaiyumōr">
+                        <form xml:lang="ta">niṉaiyumōr</form>
+                    </entry>
+                    <entry corresp="niṉaiyum">
+                        <form xml:lang="ta">niṉaiyum</form>
+                    </entry>
+                    <entry corresp="niṉaival">
+                        <form xml:lang="ta">niṉaival</form>
+                    </entry>
+                    <entry corresp="niṉaivu">
+                        <form xml:lang="ta">niṉaivu</form>
+                    </entry>
+                </entry>
+            </body>
+        </text>
+    </TEI>

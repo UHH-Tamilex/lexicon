@@ -1,0 +1,51 @@
+<?xml-stylesheet type="text/xsl" href="../../lexicon.xsl" ?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <title xml:lang="ta">pukal</title>
+                    </title>
+                </titleStmt>
+                <sourceDesc>
+                    <p>Tamilex project.</p>
+                </sourceDesc>
+            </fileDesc>
+            <revisionDesc/>
+        </teiHeader>
+        <text xml:lang="en">
+            
+            <body>
+                <entry corresp="pukal">
+                    <form xml:lang="ta">pukal</form>
+                    <gramGrp></gramGrp>
+                    <sense>
+                        <def xml:lang="en">TL: rejoicing</def>
+                    </sense>
+                    <cit type="lexicon">
+                        <title xml:lang="en">University of Madras Tamil Lexicon</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?qs=புகல்&amp;searchhws=yes&amp;matchtype=exact">p. ??</ref>
+                    </cit>
+                    <cit type="lexicon">
+                        <title xml:lang="en">Dravidian Etymological Dictionary</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/burrow_query.py?qs=pukal&amp;searchhws=yes">p. ??</ref>
+                    </cit>
+                    <entry corresp="pukaṉṟu">
+                        <form xml:lang="ta">pukaṉṟu</form>
+                    </entry>
+                    <entry corresp="pukaṉṟucey">
+                        <form xml:lang="ta">pukaṉṟucey</form>
+                    </entry>
+                    <entry corresp="pukaṟciyiṉ">
+                        <form xml:lang="ta">pukaṟciyiṉ</form>
+                    </entry>
+                    <entry corresp="pukal">
+                        <form xml:lang="ta">pukal</form>
+                    </entry>
+                    <entry corresp="pukalvēṉ">
+                        <form xml:lang="ta">pukalvēṉ</form>
+                    </entry>
+                </entry>
+            </body>
+        </text>
+    </TEI>

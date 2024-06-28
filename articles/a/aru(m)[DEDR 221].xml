@@ -1,0 +1,54 @@
+<?xml-stylesheet type="text/xsl" href="../../lexicon.xsl" ?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <title xml:lang="ta">aru(m)</title>
+                    </title>
+                </titleStmt>
+                <sourceDesc>
+                    <p>Tamilex project.</p>
+                </sourceDesc>
+            </fileDesc>
+            <revisionDesc/>
+        </teiHeader>
+        <text xml:lang="en">
+            
+            <body>
+                <entry corresp="aru(m)[DEDR 221]">
+                    <form xml:lang="ta">aru(m)</form>
+                    <gramGrp></gramGrp>
+                    <sense>
+                        <def xml:lang="en">rare, difficult, precious</def>
+                    </sense>
+                    <cit type="lexicon">
+                        <title xml:lang="en">University of Madras Tamil Lexicon</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?qs=அரு(ம்)&amp;searchhws=yes&amp;matchtype=exact">p. ??</ref>
+                    </cit>
+                    <cit type="lexicon">
+                        <title xml:lang="en">Dravidian Etymological Dictionary</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/burrow_query.py?qs=aru(m)&amp;searchhws=yes">p. ??</ref>
+                    </cit>
+                    <entry corresp="aritu">
+                        <form xml:lang="ta">aritu</form>
+                    </entry>
+                    <entry corresp="ariya">
+                        <form xml:lang="ta">ariya</form>
+                    </entry>
+                    <entry corresp="ariyōḷ">
+                        <form xml:lang="ta">ariyōḷ</form>
+                    </entry>
+                    <entry corresp="aru">
+                        <form xml:lang="ta">aru</form>
+                    </entry>
+                    <entry corresp="arumai">
+                        <form xml:lang="ta">arumai</form>
+                    </entry>
+                    <entry corresp="arum">
+                        <form xml:lang="ta">arum</form>
+                    </entry>
+                </entry>
+            </body>
+        </text>
+    </TEI>

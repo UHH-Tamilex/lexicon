@@ -1,0 +1,144 @@
+<?xml-stylesheet type="text/xsl" href="../../lexicon.xsl" ?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <title xml:lang="ta">i-</title>
+                    </title>
+                </titleStmt>
+                <sourceDesc>
+                    <p>Tamilex project.</p>
+                </sourceDesc>
+            </fileDesc>
+            <revisionDesc/>
+        </teiHeader>
+        <text xml:lang="en">
+            
+            <body>
+                <entry corresp="i-[DEDR 410]">
+                    <form xml:lang="ta">i-</form>
+                    <gramGrp></gramGrp>
+                    <sense>
+                        <def xml:lang="en">this- (proc.)</def>
+                    </sense>
+                    <cit type="lexicon">
+                        <title xml:lang="en">University of Madras Tamil Lexicon</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?qs=இ-&amp;searchhws=yes&amp;matchtype=exact">p. ??</ref>
+                    </cit>
+                    <cit type="lexicon">
+                        <title xml:lang="en">Dravidian Etymological Dictionary</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/burrow_query.py?qs=i-&amp;searchhws=yes">p. ??</ref>
+                    </cit>
+                    <entry corresp="iṅku">
+                        <form xml:lang="ta">iṅku</form>
+                    </entry>
+                    <entry corresp="itaṉ">
+                        <form xml:lang="ta">itaṉ</form>
+                    </entry>
+                    <entry corresp="itaṟku">
+                        <form xml:lang="ta">itaṟku</form>
+                    </entry>
+                    <entry corresp="itu">
+                        <form xml:lang="ta">itu</form>
+                    </entry>
+                    <entry corresp="iṉi">
+                        <form xml:lang="ta">iṉi</form>
+                    </entry>
+                    <entry corresp="iṉai">
+                        <form xml:lang="ta">iṉai</form>
+                    </entry>
+                    <entry corresp="iṉaiya">
+                        <form xml:lang="ta">iṉaiya</form>
+                    </entry>
+                    <entry corresp="iṉaiyar">
+                        <form xml:lang="ta">iṉaiyar</form>
+                    </entry>
+                    <entry corresp="iṉaiyaḷ">
+                        <form xml:lang="ta">iṉaiyaḷ</form>
+                    </entry>
+                    <entry corresp="iṉaiyai">
+                        <form xml:lang="ta">iṉaiyai</form>
+                    </entry>
+                    <entry corresp="iṉṉa">
+                        <form xml:lang="ta">iṉṉa</form>
+                    </entry>
+                    <entry corresp="iṉṉatu">
+                        <form xml:lang="ta">iṉṉatu</form>
+                    </entry>
+                    <entry corresp="iṉṉatai">
+                        <form xml:lang="ta">iṉṉatai</form>
+                    </entry>
+                    <entry corresp="iṉṉam">
+                        <form xml:lang="ta">iṉṉam</form>
+                    </entry>
+                    <entry corresp="iṉṉar">
+                        <form xml:lang="ta">iṉṉar</form>
+                    </entry>
+                    <entry corresp="iṉṉaḷ">
+                        <form xml:lang="ta">iṉṉaḷ</form>
+                    </entry>
+                    <entry corresp="iṉṉum">
+                        <form xml:lang="ta">iṉṉum</form>
+                    </entry>
+                    <entry corresp="iṉṉē">
+                        <form xml:lang="ta">iṉṉē</form>
+                    </entry>
+                    <entry corresp="iṉṉai">
+                        <form xml:lang="ta">iṉṉai</form>
+                    </entry>
+                    <entry corresp="iṉṟu">
+                        <form xml:lang="ta">iṉṟu</form>
+                    </entry>
+                    <entry corresp="iṉṟai">
+                        <form xml:lang="ta">iṉṟai</form>
+                    </entry>
+                    <entry corresp="iṟṟu">
+                        <form xml:lang="ta">iṟṟu</form>
+                    </entry>
+                    <entry corresp="ivaṭku">
+                        <form xml:lang="ta">ivaṭku</form>
+                    </entry>
+                    <entry corresp="ivaṇar">
+                        <form xml:lang="ta">ivaṇar</form>
+                    </entry>
+                    <entry corresp="ivaṇ">
+                        <form xml:lang="ta">ivaṇ</form>
+                    </entry>
+                    <entry corresp="ivaṉ">
+                        <form xml:lang="ta">ivaṉ</form>
+                    </entry>
+                    <entry corresp="ivar">
+                        <form xml:lang="ta">ivar</form>
+                    </entry>
+                    <entry corresp="ivaṟku">
+                        <form xml:lang="ta">ivaṟku</form>
+                    </entry>
+                    <entry corresp="ivaḷiṉum">
+                        <form xml:lang="ta">ivaḷiṉum</form>
+                    </entry>
+                    <entry corresp="ivaḷiṉ">
+                        <form xml:lang="ta">ivaḷiṉ</form>
+                    </entry>
+                    <entry corresp="ivaḷoṭu">
+                        <form xml:lang="ta">ivaḷoṭu</form>
+                    </entry>
+                    <entry corresp="ivaḷ">
+                        <form xml:lang="ta">ivaḷ</form>
+                    </entry>
+                    <entry corresp="ivai">
+                        <form xml:lang="ta">ivai</form>
+                    </entry>
+                    <entry corresp="īṅkaṇ">
+                        <form xml:lang="ta">īṅkaṇ</form>
+                    </entry>
+                    <entry corresp="īṅku">
+                        <form xml:lang="ta">īṅku</form>
+                    </entry>
+                    <entry corresp="īṇṭu">
+                        <form xml:lang="ta">īṇṭu</form>
+                    </entry>
+                </entry>
+            </body>
+        </text>
+    </TEI>

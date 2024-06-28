@@ -1,0 +1,65 @@
+<?xml-stylesheet type="text/xsl" href="../../lexicon.xsl" ?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <title xml:lang="ta">aviḻ</title>
+                    </title>
+                </titleStmt>
+                <sourceDesc>
+                    <p>Tamilex project.</p>
+                </sourceDesc>
+            </fileDesc>
+            <revisionDesc/>
+        </teiHeader>
+        <text xml:lang="en">
+            
+            <body>
+                <entry corresp="aviḻ[DEDR 12]">
+                    <form xml:lang="ta">aviḻ</form>
+                    <gramGrp>
+                        <gram>verbal root</gram>
+                    </gramGrp>
+                    <sense>
+                        <def xml:lang="en">TL: to open (refl./tr.) (~ to become loose?) </def>
+                    </sense>
+                    <cit type="lexicon">
+                        <title xml:lang="en">University of Madras Tamil Lexicon</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?qs=அவிழ்&amp;searchhws=yes&amp;matchtype=exact">p. ??</ref>
+                    </cit>
+                    <cit type="lexicon">
+                        <title xml:lang="en">Dravidian Etymological Dictionary</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/burrow_query.py?qs=aviḻ&amp;searchhws=yes">p. ??</ref>
+                    </cit>
+                    <entry corresp="aviḻa">
+                        <form xml:lang="ta">aviḻa</form>
+                    </entry>
+                    <entry corresp="aviḻā">
+                        <form xml:lang="ta">aviḻā</form>
+                    </entry>
+                    <entry corresp="aviḻum">
+                        <form xml:lang="ta">aviḻum</form>
+                    </entry>
+                    <entry corresp="aviḻtta">
+                        <form xml:lang="ta">aviḻtta</form>
+                    </entry>
+                    <entry corresp="aviḻttaṉar">
+                        <form xml:lang="ta">aviḻttaṉar</form>
+                    </entry>
+                    <entry corresp="aviḻttaṟku">
+                        <form xml:lang="ta">aviḻttaṟku</form>
+                    </entry>
+                    <entry corresp="aviḻnta">
+                        <form xml:lang="ta">aviḻnta</form>
+                    </entry>
+                    <entry corresp="aviḻntaṉar">
+                        <form xml:lang="ta">aviḻntaṉar</form>
+                    </entry>
+                    <entry corresp="aviḻntu">
+                        <form xml:lang="ta">aviḻntu</form>
+                    </entry>
+                </entry>
+            </body>
+        </text>
+    </TEI>

@@ -1,0 +1,50 @@
+<?xml-stylesheet type="text/xsl" href="../../lexicon.xsl" ?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <title xml:lang="ta">vēṭṭam</title>
+                    </title>
+                </titleStmt>
+                <sourceDesc>
+                    <p>Tamilex project.</p>
+                </sourceDesc>
+            </fileDesc>
+            <revisionDesc/>
+        </teiHeader>
+        <text xml:lang="en">
+            
+            <body>
+                <entry corresp="vēṭṭam[DEDR 5527]">
+                    <form xml:lang="ta">vēṭṭam</form>
+                    <gramGrp>
+                        <gram>noun</gram>
+                    </gramGrp>
+                    <sense>
+                        <def xml:lang="en">hunt</def>
+                    </sense>
+                    <cit type="lexicon">
+                        <title xml:lang="en">University of Madras Tamil Lexicon</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?qs=வேட்டம்&amp;searchhws=yes&amp;matchtype=exact">p. ??</ref>
+                    </cit>
+                    <cit type="lexicon">
+                        <title xml:lang="en">Dravidian Etymological Dictionary</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/burrow_query.py?qs=vēṭṭam&amp;searchhws=yes">p. ??</ref>
+                    </cit>
+                    <entry corresp="vēṭṭattu">
+                        <form xml:lang="ta">vēṭṭattu</form>
+                    </entry>
+                    <entry corresp="vēṭṭu">
+                        <form xml:lang="ta">vēṭṭu</form>
+                    </entry>
+                    <entry corresp="vēṭṭuvaṉ">
+                        <form xml:lang="ta">vēṭṭuvaṉ</form>
+                    </entry>
+                    <entry corresp="vēṭṭai">
+                        <form xml:lang="ta">vēṭṭai</form>
+                    </entry>
+                </entry>
+            </body>
+        </text>
+    </TEI>

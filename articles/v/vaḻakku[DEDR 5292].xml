@@ -1,0 +1,56 @@
+<?xml-stylesheet type="text/xsl" href="../../lexicon.xsl" ?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <title xml:lang="ta">vaḻakku</title>
+                    </title>
+                </titleStmt>
+                <sourceDesc>
+                    <p>Tamilex project.</p>
+                </sourceDesc>
+            </fileDesc>
+            <revisionDesc/>
+        </teiHeader>
+        <text xml:lang="en">
+            
+            <body>
+                <entry corresp="vaḻakku[DEDR 5292]">
+                    <form xml:lang="ta">vaḻakku</form>
+                    <gramGrp>
+                        <gram>noun</gram>
+                    </gramGrp>
+                    <sense>
+                        <def xml:lang="en">wandering</def>
+                    </sense>
+                    <cit type="lexicon">
+                        <title xml:lang="en">University of Madras Tamil Lexicon</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?qs=வழக்கு&amp;searchhws=yes&amp;matchtype=exact">p. ??</ref>
+                    </cit>
+                    <cit type="lexicon">
+                        <title xml:lang="en">Dravidian Etymological Dictionary</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/burrow_query.py?qs=vaḻakku&amp;searchhws=yes">p. ??</ref>
+                    </cit>
+                    <entry corresp="vaḻaṅkal">
+                        <form xml:lang="ta">vaḻaṅkal</form>
+                    </entry>
+                    <entry corresp="vaḻaṅkā">
+                        <form xml:lang="ta">vaḻaṅkā</form>
+                    </entry>
+                    <entry corresp="vaḻaṅkātu">
+                        <form xml:lang="ta">vaḻaṅkātu</form>
+                    </entry>
+                    <entry corresp="vaḻaṅku">
+                        <form xml:lang="ta">vaḻaṅku</form>
+                    </entry>
+                    <entry corresp="vaḻaṅkunar">
+                        <form xml:lang="ta">vaḻaṅkunar</form>
+                    </entry>
+                    <entry corresp="vaḻaṅkum">
+                        <form xml:lang="ta">vaḻaṅkum</form>
+                    </entry>
+                </entry>
+            </body>
+        </text>
+    </TEI>

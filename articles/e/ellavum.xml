@@ -1,0 +1,45 @@
+<?xml-stylesheet type="text/xsl" href="../../lexicon.xsl" ?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <title xml:lang="ta">ellavum</title>
+                    </title>
+                </titleStmt>
+                <sourceDesc>
+                    <p>Tamilex project.</p>
+                </sourceDesc>
+            </fileDesc>
+            <revisionDesc/>
+        </teiHeader>
+        <text xml:lang="en">
+            
+            <body>
+                <entry corresp="ellavum">
+                    <form xml:lang="ta">ellavum</form>
+                    <gramGrp></gramGrp>
+                    <sense>
+                        <def xml:lang="en">~ ellām</def>
+                    </sense>
+                    <cit type="lexicon">
+                        <title xml:lang="en">University of Madras Tamil Lexicon</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?qs=எல்லவும்&amp;searchhws=yes&amp;matchtype=exact">p. ??</ref>
+                    </cit>
+                    <cit type="lexicon">
+                        <title xml:lang="en">Dravidian Etymological Dictionary</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/burrow_query.py?qs=ellavum&amp;searchhws=yes">p. ??</ref>
+                    </cit>
+                    <entry corresp="ellā">
+                        <form xml:lang="ta">ellā</form>
+                    </entry>
+                    <entry corresp="ellām">
+                        <form xml:lang="ta">ellām</form>
+                    </entry>
+                    <entry corresp="ellār">
+                        <form xml:lang="ta">ellār</form>
+                    </entry>
+                </entry>
+            </body>
+        </text>
+    </TEI>

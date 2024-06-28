@@ -1,0 +1,53 @@
+<?xml-stylesheet type="text/xsl" href="../../lexicon.xsl" ?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <title xml:lang="ta">īṟṟu</title>
+                    </title>
+                </titleStmt>
+                <sourceDesc>
+                    <p>Tamilex project.</p>
+                </sourceDesc>
+            </fileDesc>
+            <revisionDesc/>
+        </teiHeader>
+        <text xml:lang="en">
+            
+            <body>
+                <entry corresp="īṟṟu[DEDR 555]">
+                    <form xml:lang="ta">īṟṟu</form>
+                    <gramGrp>
+                        <gram>noun</gram>
+                    </gramGrp>
+                    <sense>
+                        <def xml:lang="en">bringing forth</def>
+                    </sense>
+                    <cit type="lexicon">
+                        <title xml:lang="en">University of Madras Tamil Lexicon</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?qs=ஈற்று&amp;searchhws=yes&amp;matchtype=exact">p. ??</ref>
+                    </cit>
+                    <cit type="lexicon">
+                        <title xml:lang="en">Dravidian Etymological Dictionary</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/burrow_query.py?qs=īṟṟu&amp;searchhws=yes">p. ??</ref>
+                    </cit>
+                    <entry corresp="īṉa">
+                        <form xml:lang="ta">īṉa</form>
+                    </entry>
+                    <entry corresp="īṉum">
+                        <form xml:lang="ta">īṉum</form>
+                    </entry>
+                    <entry corresp="īṉ">
+                        <form xml:lang="ta">īṉ</form>
+                    </entry>
+                    <entry corresp="īṉṟa">
+                        <form xml:lang="ta">īṉṟa</form>
+                    </entry>
+                    <entry corresp="īṉṟu">
+                        <form xml:lang="ta">īṉṟu</form>
+                    </entry>
+                </entry>
+            </body>
+        </text>
+    </TEI>

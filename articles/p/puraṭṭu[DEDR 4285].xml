@@ -1,0 +1,39 @@
+<?xml-stylesheet type="text/xsl" href="../../lexicon.xsl" ?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <title xml:lang="ta">puraṭṭu</title>
+                    </title>
+                </titleStmt>
+                <sourceDesc>
+                    <p>Tamilex project.</p>
+                </sourceDesc>
+            </fileDesc>
+            <revisionDesc/>
+        </teiHeader>
+        <text xml:lang="en">
+            
+            <body>
+                <entry corresp="puraṭṭu[DEDR 4285]">
+                    <form xml:lang="ta">puraṭṭu</form>
+                    <gramGrp></gramGrp>
+                    <sense>
+                        <def xml:lang="en">to turn</def>
+                    </sense>
+                    <cit type="lexicon">
+                        <title xml:lang="en">University of Madras Tamil Lexicon</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?qs=புரட்டு&amp;searchhws=yes&amp;matchtype=exact">p. ??</ref>
+                    </cit>
+                    <cit type="lexicon">
+                        <title xml:lang="en">Dravidian Etymological Dictionary</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/burrow_query.py?qs=puraṭṭu&amp;searchhws=yes">p. ??</ref>
+                    </cit>
+                    <entry corresp="puraṭṭum">
+                        <form xml:lang="ta">puraṭṭum</form>
+                    </entry>
+                </entry>
+            </body>
+        </text>
+    </TEI>

@@ -1,0 +1,171 @@
+<?xml-stylesheet type="text/xsl" href="../../lexicon.xsl" ?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <title xml:lang="ta">a-</title>
+                    </title>
+                </titleStmt>
+                <sourceDesc>
+                    <p>Tamilex project.</p>
+                </sourceDesc>
+            </fileDesc>
+            <revisionDesc/>
+        </teiHeader>
+        <text xml:lang="en">
+            
+            <body>
+                <entry corresp="a-[DEDR 1]">
+                    <form xml:lang="ta">a-</form>
+                    <gramGrp></gramGrp>
+                    <sense>
+                        <def xml:lang="en">that- (proc.)</def>
+                    </sense>
+                    <cit type="lexicon">
+                        <title xml:lang="en">University of Madras Tamil Lexicon</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?qs=அ-&amp;searchhws=yes&amp;matchtype=exact">p. ??</ref>
+                    </cit>
+                    <cit type="lexicon">
+                        <title xml:lang="en">Dravidian Etymological Dictionary</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/burrow_query.py?qs=a-&amp;searchhws=yes">p. ??</ref>
+                    </cit>
+                    <entry corresp="aṅkaṇ">
+                        <form xml:lang="ta">aṅkaṇ</form>
+                    </entry>
+                    <entry corresp="aṅku">
+                        <form xml:lang="ta">aṅku</form>
+                    </entry>
+                    <entry corresp="ataṉāl">
+                        <form xml:lang="ta">ataṉāl</form>
+                    </entry>
+                    <entry corresp="ataṉiṉum">
+                        <form xml:lang="ta">ataṉiṉum</form>
+                    </entry>
+                    <entry corresp="ataṉ">
+                        <form xml:lang="ta">ataṉ</form>
+                    </entry>
+                    <entry corresp="ataṉṟalai">
+                        <form xml:lang="ta">ataṉṟalai</form>
+                    </entry>
+                    <entry corresp="ataṟku">
+                        <form xml:lang="ta">ataṟku</form>
+                    </entry>
+                    <entry corresp="atu">
+                        <form xml:lang="ta">atu</form>
+                    </entry>
+                    <entry corresp="antil">
+                        <form xml:lang="ta">antil</form>
+                    </entry>
+                    <entry corresp="antu">
+                        <form xml:lang="ta">antu</form>
+                    </entry>
+                    <entry corresp="antō">
+                        <form xml:lang="ta">antō</form>
+                    </entry>
+                    <entry corresp="aṉai">
+                        <form xml:lang="ta">aṉai</form>
+                    </entry>
+                    <entry corresp="aṉaittiṟku">
+                        <form xml:lang="ta">aṉaittiṟku</form>
+                    </entry>
+                    <entry corresp="aṉaittu">
+                        <form xml:lang="ta">aṉaittu</form>
+                    </entry>
+                    <entry corresp="aṉaiya">
+                        <form xml:lang="ta">aṉaiya</form>
+                    </entry>
+                    <entry corresp="aṉaiyatu">
+                        <form xml:lang="ta">aṉaiyatu</form>
+                    </entry>
+                    <entry corresp="aṉaiyaṉ">
+                        <form xml:lang="ta">aṉaiyaṉ</form>
+                    </entry>
+                    <entry corresp="aṉaiyaḷ">
+                        <form xml:lang="ta">aṉaiyaḷ</form>
+                    </entry>
+                    <entry corresp="aṉaiyēṉ">
+                        <form xml:lang="ta">aṉaiyēṉ</form>
+                    </entry>
+                    <entry corresp="aṉaiyēm">
+                        <form xml:lang="ta">aṉaiyēm</form>
+                    </entry>
+                    <entry corresp="aṉaiyai">
+                        <form xml:lang="ta">aṉaiyai</form>
+                    </entry>
+                    <entry corresp="aṉṉa">
+                        <form xml:lang="ta">aṉṉa</form>
+                    </entry>
+                    <entry corresp="aṉṉatu">
+                        <form xml:lang="ta">aṉṉatu</form>
+                    </entry>
+                    <entry corresp="aṉṉar">
+                        <form xml:lang="ta">aṉṉar</form>
+                    </entry>
+                    <entry corresp="aṉṉaḷ">
+                        <form xml:lang="ta">aṉṉaḷ</form>
+                    </entry>
+                    <entry corresp="aṉṉōḷ">
+                        <form xml:lang="ta">aṉṉōḷ</form>
+                    </entry>
+                    <entry corresp="aṉṟai">
+                        <form xml:lang="ta">aṉṟai</form>
+                    </entry>
+                    <entry corresp="aṟṟum">
+                        <form xml:lang="ta">aṟṟum</form>
+                    </entry>
+                    <entry corresp="avaṭku">
+                        <form xml:lang="ta">avaṭku</form>
+                    </entry>
+                    <entry corresp="avaṇ">
+                        <form xml:lang="ta">avaṇ</form>
+                    </entry>
+                    <entry corresp="avaṉiṉum">
+                        <form xml:lang="ta">avaṉiṉum</form>
+                    </entry>
+                    <entry corresp="avaṉoṭu">
+                        <form xml:lang="ta">avaṉoṭu</form>
+                    </entry>
+                    <entry corresp="avaṉ">
+                        <form xml:lang="ta">avaṉ</form>
+                    </entry>
+                    <entry corresp="avaroṭu">
+                        <form xml:lang="ta">avaroṭu</form>
+                    </entry>
+                    <entry corresp="avar">
+                        <form xml:lang="ta">avar</form>
+                    </entry>
+                    <entry corresp="avaḷ">
+                        <form xml:lang="ta">avaḷ</form>
+                    </entry>
+                    <entry corresp="avai">
+                        <form xml:lang="ta">avai</form>
+                    </entry>
+                    <entry corresp="āaṅku">
+                        <form xml:lang="ta">āaṅku</form>
+                    </entry>
+                    <entry corresp="āṅkaṇ">
+                        <form xml:lang="ta">āṅkaṇ</form>
+                    </entry>
+                    <entry corresp="āṅkaṉam">
+                        <form xml:lang="ta">āṅkaṉam</form>
+                    </entry>
+                    <entry corresp="āṅku">
+                        <form xml:lang="ta">āṅku</form>
+                    </entry>
+                    <entry corresp="āṇṭu">
+                        <form xml:lang="ta">āṇṭu</form>
+                    </entry>
+                    <entry corresp="āṇṭai">
+                        <form xml:lang="ta">āṇṭai</form>
+                    </entry>
+                    <entry corresp="āṉum">
+                        <form xml:lang="ta">āṉum</form>
+                    </entry>
+                    <entry corresp="āyiṭai">
+                        <form xml:lang="ta">āyiṭai</form>
+                    </entry>
+                </entry>
+            </body>
+        </text>
+    </TEI>

@@ -1,0 +1,45 @@
+<?xml-stylesheet type="text/xsl" href="../../lexicon.xsl" ?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <title xml:lang="ta">oṭi</title>
+                    </title>
+                </titleStmt>
+                <sourceDesc>
+                    <p>Tamilex project.</p>
+                </sourceDesc>
+            </fileDesc>
+            <revisionDesc/>
+        </teiHeader>
+        <text xml:lang="en">
+            
+            <body>
+                <entry corresp="oṭi[DEDR 946]">
+                    <form xml:lang="ta">oṭi</form>
+                    <gramGrp></gramGrp>
+                    <sense>
+                        <def xml:lang="en">tr. to snap</def>
+                    </sense>
+                    <cit type="lexicon">
+                        <title xml:lang="en">University of Madras Tamil Lexicon</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?qs=ஒடி&amp;searchhws=yes&amp;matchtype=exact">p. ??</ref>
+                    </cit>
+                    <cit type="lexicon">
+                        <title xml:lang="en">Dravidian Etymological Dictionary</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/burrow_query.py?qs=oṭi&amp;searchhws=yes">p. ??</ref>
+                    </cit>
+                    <entry corresp="oṭittu">
+                        <form xml:lang="ta">oṭittu</form>
+                    </entry>
+                    <entry corresp="oṭiya">
+                        <form xml:lang="ta">oṭiya</form>
+                    </entry>
+                    <entry corresp="oṭiyā">
+                        <form xml:lang="ta">oṭiyā</form>
+                    </entry>
+                </entry>
+            </body>
+        </text>
+    </TEI>

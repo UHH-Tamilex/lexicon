@@ -1,0 +1,45 @@
+<?xml-stylesheet type="text/xsl" href="../../lexicon.xsl" ?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <title xml:lang="ta">kaimmiku</title>
+                    </title>
+                </titleStmt>
+                <sourceDesc>
+                    <p>Tamilex project.</p>
+                </sourceDesc>
+            </fileDesc>
+            <revisionDesc/>
+        </teiHeader>
+        <text xml:lang="en">
+            
+            <body>
+                <entry corresp="kaimmiku">
+                    <form xml:lang="ta">kaimmiku</form>
+                    <gramGrp></gramGrp>
+                    <sense>
+                        <def xml:lang="en">TL: to exceed the limit</def>
+                    </sense>
+                    <cit type="lexicon">
+                        <title xml:lang="en">University of Madras Tamil Lexicon</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?qs=கைம்மிகு&amp;searchhws=yes&amp;matchtype=exact">p. ??</ref>
+                    </cit>
+                    <cit type="lexicon">
+                        <title xml:lang="en">Dravidian Etymological Dictionary</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/burrow_query.py?qs=kaimmiku&amp;searchhws=yes">p. ??</ref>
+                    </cit>
+                    <entry corresp="kaimmika">
+                        <form xml:lang="ta">kaimmika</form>
+                    </entry>
+                    <entry corresp="kaimmikiṉ">
+                        <form xml:lang="ta">kaimmikiṉ</form>
+                    </entry>
+                    <entry corresp="kaimmikku">
+                        <form xml:lang="ta">kaimmikku</form>
+                    </entry>
+                </entry>
+            </body>
+        </text>
+    </TEI>

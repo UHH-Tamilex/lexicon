@@ -1,0 +1,64 @@
+<?xml-stylesheet type="text/xsl" href="../../lexicon.xsl" ?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <title xml:lang="ta">tāṉ</title>
+                    </title>
+                </titleStmt>
+                <sourceDesc>
+                    <p>Tamilex project.</p>
+                </sourceDesc>
+            </fileDesc>
+            <revisionDesc/>
+        </teiHeader>
+        <text xml:lang="en">
+            
+            <body>
+                <entry corresp="tāṉ[DEDR 3196]">
+                    <form xml:lang="ta">tāṉ</form>
+                    <gramGrp>
+                        <gram>singular</gram>
+                        <gram>third person</gram>
+                        <gram>pronoun</gram>
+                    </gramGrp>
+                    <sense>
+                        <def xml:lang="en">/refl.</def>
+                    </sense>
+                    <cit type="lexicon">
+                        <title xml:lang="en">University of Madras Tamil Lexicon</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?qs=தான்&amp;searchhws=yes&amp;matchtype=exact">p. ??</ref>
+                    </cit>
+                    <cit type="lexicon">
+                        <title xml:lang="en">Dravidian Etymological Dictionary</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/burrow_query.py?qs=tāṉ&amp;searchhws=yes">p. ??</ref>
+                    </cit>
+                    <entry corresp="taṉakku">
+                        <form xml:lang="ta">taṉakku</form>
+                    </entry>
+                    <entry corresp="taṉātu">
+                        <form xml:lang="ta">taṉātu</form>
+                    </entry>
+                    <entry corresp="taṉi">
+                        <form xml:lang="ta">taṉi</form>
+                    </entry>
+                    <entry corresp="taṉittu">
+                        <form xml:lang="ta">taṉittu</form>
+                    </entry>
+                    <entry corresp="taṉiyōr">
+                        <form xml:lang="ta">taṉiyōr</form>
+                    </entry>
+                    <entry corresp="taṉ">
+                        <form xml:lang="ta">taṉ</form>
+                    </entry>
+                    <entry corresp="taṉṉaiyar">
+                        <form xml:lang="ta">taṉṉaiyar</form>
+                    </entry>
+                    <entry corresp="taṉṉoṭu">
+                        <form xml:lang="ta">taṉṉoṭu</form>
+                    </entry>
+                </entry>
+            </body>
+        </text>
+    </TEI>

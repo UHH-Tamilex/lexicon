@@ -1,0 +1,57 @@
+<?xml-stylesheet type="text/xsl" href="../../lexicon.xsl" ?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <title xml:lang="ta">pū(m)</title>
+                    </title>
+                </titleStmt>
+                <sourceDesc>
+                    <p>Tamilex project.</p>
+                </sourceDesc>
+            </fileDesc>
+            <revisionDesc/>
+        </teiHeader>
+        <text xml:lang="en">
+            
+            <body>
+                <entry corresp="pū(m)[DEDR 4345]">
+                    <form xml:lang="ta">pū(m)</form>
+                    <gramGrp></gramGrp>
+                    <sense>
+                        <def xml:lang="en">flower</def>
+                    </sense>
+                    <cit type="lexicon">
+                        <title xml:lang="en">University of Madras Tamil Lexicon</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?qs=பூ(ம்)&amp;searchhws=yes&amp;matchtype=exact">p. ??</ref>
+                    </cit>
+                    <cit type="lexicon">
+                        <title xml:lang="en">Dravidian Etymological Dictionary</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/burrow_query.py?qs=pū(m)&amp;searchhws=yes">p. ??</ref>
+                    </cit>
+                    <entry corresp="pū">
+                        <form xml:lang="ta">pū</form>
+                    </entry>
+                    <entry corresp="pūkkum">
+                        <form xml:lang="ta">pūkkum</form>
+                    </entry>
+                    <entry corresp="pūtta">
+                        <form xml:lang="ta">pūtta</form>
+                    </entry>
+                    <entry corresp="pūppa">
+                        <form xml:lang="ta">pūppa</form>
+                    </entry>
+                    <entry corresp="pūm">
+                        <form xml:lang="ta">pūm</form>
+                    </entry>
+                    <entry corresp="pūviṉ">
+                        <form xml:lang="ta">pūviṉ</form>
+                    </entry>
+                    <entry corresp="pūvoṭu">
+                        <form xml:lang="ta">pūvoṭu</form>
+                    </entry>
+                </entry>
+            </body>
+        </text>
+    </TEI>

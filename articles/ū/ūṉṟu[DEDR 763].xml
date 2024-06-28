@@ -1,0 +1,48 @@
+<?xml-stylesheet type="text/xsl" href="../../lexicon.xsl" ?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <title xml:lang="ta">ūṉṟu</title>
+                    </title>
+                </titleStmt>
+                <sourceDesc>
+                    <p>Tamilex project.</p>
+                </sourceDesc>
+            </fileDesc>
+            <revisionDesc/>
+        </teiHeader>
+        <text xml:lang="en">
+            
+            <body>
+                <entry corresp="ūṉṟu[DEDR 763]">
+                    <form xml:lang="ta">ūṉṟu</form>
+                    <gramGrp></gramGrp>
+                    <sense>
+                        <def xml:lang="en">to be fixed</def>
+                    </sense>
+                    <sense>
+                        <def xml:lang="en">to lean upon –</def>
+                    </sense>
+                    <cit type="lexicon">
+                        <title xml:lang="en">University of Madras Tamil Lexicon</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?qs=ஊன்று&amp;searchhws=yes&amp;matchtype=exact">p. ??</ref>
+                    </cit>
+                    <cit type="lexicon">
+                        <title xml:lang="en">Dravidian Etymological Dictionary</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/burrow_query.py?qs=ūṉṟu&amp;searchhws=yes">p. ??</ref>
+                    </cit>
+                    <entry corresp="ūṉṟal">
+                        <form xml:lang="ta">ūṉṟal</form>
+                    </entry>
+                    <entry corresp="ūṉṟi">
+                        <form xml:lang="ta">ūṉṟi</form>
+                    </entry>
+                    <entry corresp="ūṉṟupu">
+                        <form xml:lang="ta">ūṉṟupu</form>
+                    </entry>
+                </entry>
+            </body>
+        </text>
+    </TEI>

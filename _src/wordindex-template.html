@@ -12,8 +12,20 @@
         <link rel="stylesheet" href="lib/css/apparatus.css">
         <link rel="stylesheet" href="lib/css/edition.css">
         <link rel="stylesheet" href="lib/css/wordindex.css">
+        <style>
+a[href^="http://"]::after,
+a[href^="https://"]::after,
+a[href^="http://"]:hover::after,
+a[href^="https://"]:hover::after {
+    background: rgba(0,0,0,0) !important;
+    padding-right: 0.1rem;
+}
+li {
+    list-style: none;
+}
+        </style>
         <script type="module" src="edition.mjs" id="editionscript" data-debugging="false"></script>
-        <script type="module" src="wordindex.mjs"></script>
+        <script type="module" src="lib/js/pageindex.mjs"></script>
     </head>
     <body lang="en">
         <div id="recordcontainer">
@@ -23,10 +35,12 @@
                 </div>
                 <article>
                     <section class="teitext" lang="ta">
-                        <h1>All the words</h1>
+                        <h1 lang="en">All the words</h1>
                         <div class="line-view-icon"></div>
                         <div>
+                            <ul>
                             <!-- insert list here -->
+                            </ul>
                         </div>
                     </section>
                 </article>

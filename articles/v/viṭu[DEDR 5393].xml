@@ -1,0 +1,101 @@
+<?xml-stylesheet type="text/xsl" href="../../lexicon.xsl" ?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <title xml:lang="ta">viṭu</title>
+                    </title>
+                </titleStmt>
+                <sourceDesc>
+                    <p>Tamilex project.</p>
+                </sourceDesc>
+            </fileDesc>
+            <revisionDesc/>
+        </teiHeader>
+        <text xml:lang="en">
+            
+            <body>
+                <entry corresp="viṭu[DEDR 5393]">
+                    <form xml:lang="ta">viṭu</form>
+                    <gramGrp>
+                        <gram>verbal root</gram>
+                    </gramGrp>
+                    <cit type="lexicon">
+                        <title xml:lang="en">University of Madras Tamil Lexicon</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?qs=விடு&amp;searchhws=yes&amp;matchtype=exact">p. ??</ref>
+                    </cit>
+                    <cit type="lexicon">
+                        <title xml:lang="en">Dravidian Etymological Dictionary</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/burrow_query.py?qs=viṭu&amp;searchhws=yes">p. ??</ref>
+                    </cit>
+                    <entry corresp="viṭa">
+                        <form xml:lang="ta">viṭa</form>
+                    </entry>
+                    <entry corresp="viṭaṟku">
+                        <form xml:lang="ta">viṭaṟku</form>
+                    </entry>
+                    <entry corresp="viṭal">
+                        <form xml:lang="ta">viṭal</form>
+                    </entry>
+                    <entry corresp="viṭāa">
+                        <form xml:lang="ta">viṭāa</form>
+                    </entry>
+                    <entry corresp="viṭiṉum">
+                        <form xml:lang="ta">viṭiṉum</form>
+                    </entry>
+                    <entry corresp="viṭiṉ">
+                        <form xml:lang="ta">viṭiṉ</form>
+                    </entry>
+                    <entry corresp="viṭukam">
+                        <form xml:lang="ta">viṭukam</form>
+                    </entry>
+                    <entry corresp="viṭukkum">
+                        <form xml:lang="ta">viṭukkum</form>
+                    </entry>
+                    <entry corresp="viṭutal">
+                        <form xml:lang="ta">viṭutal</form>
+                    </entry>
+                    <entry corresp="viṭutta">
+                        <form xml:lang="ta">viṭutta</form>
+                    </entry>
+                    <entry corresp="viṭuttatu">
+                        <form xml:lang="ta">viṭuttatu</form>
+                    </entry>
+                    <entry corresp="viṭuttaṟku">
+                        <form xml:lang="ta">viṭuttaṟku</form>
+                    </entry>
+                    <entry corresp="viṭuttu">
+                        <form xml:lang="ta">viṭuttu</form>
+                    </entry>
+                    <entry corresp="viṭunaḷ">
+                        <form xml:lang="ta">viṭunaḷ</form>
+                    </entry>
+                    <entry corresp="viṭupu">
+                        <form xml:lang="ta">viṭupu</form>
+                    </entry>
+                    <entry corresp="viṭum">
+                        <form xml:lang="ta">viṭum</form>
+                    </entry>
+                    <entry corresp="viṭṭa">
+                        <form xml:lang="ta">viṭṭa</form>
+                    </entry>
+                    <entry corresp="viṭṭatu">
+                        <form xml:lang="ta">viṭṭatu</form>
+                    </entry>
+                    <entry corresp="viṭṭaṉṉa">
+                        <form xml:lang="ta">viṭṭaṉṉa</form>
+                    </entry>
+                    <entry corresp="viṭṭāṅku">
+                        <form xml:lang="ta">viṭṭāṅku</form>
+                    </entry>
+                    <entry corresp="viṭṭu">
+                        <form xml:lang="ta">viṭṭu</form>
+                    </entry>
+                    <entry corresp="vīṭu">
+                        <form xml:lang="ta">vīṭu</form>
+                    </entry>
+                </entry>
+            </body>
+        </text>
+    </TEI>

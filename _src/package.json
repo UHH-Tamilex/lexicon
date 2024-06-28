@@ -11,9 +11,13 @@
   },
   "scripts": {
     "todb": "node todb.mjs",
-    "dbtohtml": "node dbtohtml.mjs"
+    "dbtohtml": "node dbtohtml.mjs",
+    "dbtoxmlindex": "node dbtoxmlindex.mjs",
+    "dbtoxml": "node dbtoxml.mjs"
   },
   "dependencies": {
+    "beautify": "^0.0.8",
+    "sanitize-filename": "^1.6.3",
     "ws": "^8.17.1"
   }
 }

@@ -1,0 +1,69 @@
+<?xml-stylesheet type="text/xsl" href="../../lexicon.xsl" ?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <title xml:lang="ta">naku</title>
+                    </title>
+                </titleStmt>
+                <sourceDesc>
+                    <p>Tamilex project.</p>
+                </sourceDesc>
+            </fileDesc>
+            <revisionDesc/>
+        </teiHeader>
+        <text xml:lang="en">
+            
+            <body>
+                <entry corresp="naku[DEDR 3569]">
+                    <form xml:lang="ta">naku</form>
+                    <gramGrp></gramGrp>
+                    <sense>
+                        <def xml:lang="en">to smile, laugh –</def>
+                    </sense>
+                    <cit type="lexicon">
+                        <title xml:lang="en">University of Madras Tamil Lexicon</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?qs=நகு&amp;searchhws=yes&amp;matchtype=exact">p. ??</ref>
+                    </cit>
+                    <cit type="lexicon">
+                        <title xml:lang="en">Dravidian Etymological Dictionary</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/burrow_query.py?qs=naku&amp;searchhws=yes">p. ??</ref>
+                    </cit>
+                    <entry corresp="naka">
+                        <form xml:lang="ta">naka</form>
+                    </entry>
+                    <entry corresp="nakā">
+                        <form xml:lang="ta">nakā</form>
+                    </entry>
+                    <entry corresp="nakāa">
+                        <form xml:lang="ta">nakāa</form>
+                    </entry>
+                    <entry corresp="nakutal">
+                        <form xml:lang="ta">nakutal</form>
+                    </entry>
+                    <entry corresp="nakum">
+                        <form xml:lang="ta">nakum</form>
+                    </entry>
+                    <entry corresp="nakuvēṉ">
+                        <form xml:lang="ta">nakuvēṉ</form>
+                    </entry>
+                    <entry corresp="nakuvai">
+                        <form xml:lang="ta">nakuvai</form>
+                    </entry>
+                    <entry corresp="nakai">
+                        <form xml:lang="ta">nakai</form>
+                    </entry>
+                    <entry corresp="nakaikku">
+                        <form xml:lang="ta">nakaikku</form>
+                    </entry>
+                    <entry corresp="nakkatu">
+                        <form xml:lang="ta">nakkatu</form>
+                    </entry>
+                    <entry corresp="nakku">
+                        <form xml:lang="ta">nakku</form>
+                    </entry>
+                </entry>
+            </body>
+        </text>
+    </TEI>

@@ -1,0 +1,48 @@
+<?xml-stylesheet type="text/xsl" href="../../lexicon.xsl" ?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <title xml:lang="ta">ara(m)</title>
+                    </title>
+                </titleStmt>
+                <sourceDesc>
+                    <p>Tamilex project.</p>
+                </sourceDesc>
+            </fileDesc>
+            <revisionDesc/>
+        </teiHeader>
+        <text xml:lang="en">
+            
+            <body>
+                <entry corresp="ara(m)[DEDR 2359]">
+                    <form xml:lang="ta">ara(m)</form>
+                    <gramGrp></gramGrp>
+                    <sense>
+                        <def xml:lang="en">snake</def>
+                    </sense>
+                    <cit type="lexicon">
+                        <title xml:lang="en">University of Madras Tamil Lexicon</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?qs=அர(ம்)&amp;searchhws=yes&amp;matchtype=exact">p. ??</ref>
+                    </cit>
+                    <cit type="lexicon">
+                        <title xml:lang="en">Dravidian Etymological Dictionary</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/burrow_query.py?qs=ara(m)&amp;searchhws=yes">p. ??</ref>
+                    </cit>
+                    <entry corresp="aravattu">
+                        <form xml:lang="ta">aravattu</form>
+                    </entry>
+                    <entry corresp="araviṉ">
+                        <form xml:lang="ta">araviṉ</form>
+                    </entry>
+                    <entry corresp="aravu">
+                        <form xml:lang="ta">aravu</form>
+                    </entry>
+                    <entry corresp="arā">
+                        <form xml:lang="ta">arā</form>
+                    </entry>
+                </entry>
+            </body>
+        </text>
+    </TEI>

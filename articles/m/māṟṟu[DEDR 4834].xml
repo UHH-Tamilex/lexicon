@@ -1,0 +1,68 @@
+<?xml-stylesheet type="text/xsl" href="../../lexicon.xsl" ?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <title xml:lang="ta">māṟṟu</title>
+                    </title>
+                </titleStmt>
+                <sourceDesc>
+                    <p>Tamilex project.</p>
+                </sourceDesc>
+            </fileDesc>
+            <revisionDesc/>
+        </teiHeader>
+        <text xml:lang="en">
+            
+            <body>
+                <entry corresp="māṟṟu[DEDR 4834]">
+                    <form xml:lang="ta">māṟṟu</form>
+                    <gramGrp>
+                        <gram>root noun</gram>
+                    </gramGrp>
+                    <sense>
+                        <def xml:lang="en">change</def>
+                    </sense>
+                    <cit type="lexicon">
+                        <title xml:lang="en">University of Madras Tamil Lexicon</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?qs=மாற்று&amp;searchhws=yes&amp;matchtype=exact">p. ??</ref>
+                    </cit>
+                    <cit type="lexicon">
+                        <title xml:lang="en">Dravidian Etymological Dictionary</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/burrow_query.py?qs=māṟṟu&amp;searchhws=yes">p. ??</ref>
+                    </cit>
+                    <entry corresp="māṟal">
+                        <form xml:lang="ta">māṟal</form>
+                    </entry>
+                    <entry corresp="māṟā">
+                        <form xml:lang="ta">māṟā</form>
+                    </entry>
+                    <entry corresp="māṟāḷ">
+                        <form xml:lang="ta">māṟāḷ</form>
+                    </entry>
+                    <entry corresp="māṟi">
+                        <form xml:lang="ta">māṟi</form>
+                    </entry>
+                    <entry corresp="māṟiya">
+                        <form xml:lang="ta">māṟiya</form>
+                    </entry>
+                    <entry corresp="māṟu">
+                        <form xml:lang="ta">māṟu</form>
+                    </entry>
+                    <entry corresp="māṟuka">
+                        <form xml:lang="ta">māṟuka</form>
+                    </entry>
+                    <entry corresp="māṟṟal">
+                        <form xml:lang="ta">māṟṟal</form>
+                    </entry>
+                    <entry corresp="māṟṟi">
+                        <form xml:lang="ta">māṟṟi</form>
+                    </entry>
+                    <entry corresp="māṟṟōr">
+                        <form xml:lang="ta">māṟṟōr</form>
+                    </entry>
+                </entry>
+            </body>
+        </text>
+    </TEI>

@@ -1,0 +1,54 @@
+<?xml-stylesheet type="text/xsl" href="../../lexicon.xsl" ?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <title xml:lang="ta">aḷa</title>
+                    </title>
+                </titleStmt>
+                <sourceDesc>
+                    <p>Tamilex project.</p>
+                </sourceDesc>
+            </fileDesc>
+            <revisionDesc/>
+        </teiHeader>
+        <text xml:lang="en">
+            
+            <body>
+                <entry corresp="aḷa[DEDR 295]">
+                    <form xml:lang="ta">aḷa</form>
+                    <gramGrp></gramGrp>
+                    <sense>
+                        <def xml:lang="en">to measure</def>
+                    </sense>
+                    <cit type="lexicon">
+                        <title xml:lang="en">University of Madras Tamil Lexicon</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?qs=அள&amp;searchhws=yes&amp;matchtype=exact">p. ??</ref>
+                    </cit>
+                    <cit type="lexicon">
+                        <title xml:lang="en">Dravidian Etymological Dictionary</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/burrow_query.py?qs=aḷa&amp;searchhws=yes">p. ??</ref>
+                    </cit>
+                    <entry corresp="aḷakkum">
+                        <form xml:lang="ta">aḷakkum</form>
+                    </entry>
+                    <entry corresp="aḷantu">
+                        <form xml:lang="ta">aḷantu</form>
+                    </entry>
+                    <entry corresp="aḷappu">
+                        <form xml:lang="ta">aḷappu</form>
+                    </entry>
+                    <entry corresp="aḷaval">
+                        <form xml:lang="ta">aḷaval</form>
+                    </entry>
+                    <entry corresp="aḷavu">
+                        <form xml:lang="ta">aḷavu</form>
+                    </entry>
+                    <entry corresp="aḷavai">
+                        <form xml:lang="ta">aḷavai</form>
+                    </entry>
+                </entry>
+            </body>
+        </text>
+    </TEI>

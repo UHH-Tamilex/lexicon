@@ -1,0 +1,42 @@
+<?xml-stylesheet type="text/xsl" href="../../lexicon.xsl" ?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <title xml:lang="ta">cura</title>
+                    </title>
+                </titleStmt>
+                <sourceDesc>
+                    <p>Tamilex project.</p>
+                </sourceDesc>
+            </fileDesc>
+            <revisionDesc/>
+        </teiHeader>
+        <text xml:lang="en">
+            
+            <body>
+                <entry corresp="cura[DEDR 2883]">
+                    <form xml:lang="ta">cura</form>
+                    <gramGrp></gramGrp>
+                    <sense>
+                        <def xml:lang="en">to give abundantly</def>
+                    </sense>
+                    <cit type="lexicon">
+                        <title xml:lang="en">University of Madras Tamil Lexicon</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?qs=சுர&amp;searchhws=yes&amp;matchtype=exact">p. ??</ref>
+                    </cit>
+                    <cit type="lexicon">
+                        <title xml:lang="en">Dravidian Etymological Dictionary</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/burrow_query.py?qs=cura&amp;searchhws=yes">p. ??</ref>
+                    </cit>
+                    <entry corresp="curakkum">
+                        <form xml:lang="ta">curakkum</form>
+                    </entry>
+                    <entry corresp="curanta">
+                        <form xml:lang="ta">curanta</form>
+                    </entry>
+                </entry>
+            </body>
+        </text>
+    </TEI>

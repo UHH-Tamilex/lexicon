@@ -1,0 +1,92 @@
+<?xml-stylesheet type="text/xsl" href="../../lexicon.xsl" ?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <title xml:lang="ta">piri</title>
+                    </title>
+                </titleStmt>
+                <sourceDesc>
+                    <p>Tamilex project.</p>
+                </sourceDesc>
+            </fileDesc>
+            <revisionDesc/>
+        </teiHeader>
+        <text xml:lang="en">
+            
+            <body>
+                <entry corresp="piri[DEDR 4176]">
+                    <form xml:lang="ta">piri</form>
+                    <gramGrp>
+                        <gram>verbal root</gram>
+                    </gramGrp>
+                    <sense>
+                        <def xml:lang="en">intr. to separate, to part </def>
+                    </sense>
+                    <cit type="lexicon">
+                        <title xml:lang="en">University of Madras Tamil Lexicon</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?qs=பிரி&amp;searchhws=yes&amp;matchtype=exact">p. ??</ref>
+                    </cit>
+                    <cit type="lexicon">
+                        <title xml:lang="en">Dravidian Etymological Dictionary</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/burrow_query.py?qs=piri&amp;searchhws=yes">p. ??</ref>
+                    </cit>
+                    <entry corresp="pirikka">
+                        <form xml:lang="ta">pirikka</form>
+                    </entry>
+                    <entry corresp="pirikkum">
+                        <form xml:lang="ta">pirikkum</form>
+                    </entry>
+                    <entry corresp="pirital">
+                        <form xml:lang="ta">pirital</form>
+                    </entry>
+                    <entry corresp="piritum">
+                        <form xml:lang="ta">piritum</form>
+                    </entry>
+                    <entry corresp="pirittu">
+                        <form xml:lang="ta">pirittu</form>
+                    </entry>
+                    <entry corresp="pirinta">
+                        <form xml:lang="ta">pirinta</form>
+                    </entry>
+                    <entry corresp="pirintu">
+                        <form xml:lang="ta">pirintu</form>
+                    </entry>
+                    <entry corresp="pirintōr">
+                        <form xml:lang="ta">pirintōr</form>
+                    </entry>
+                    <entry corresp="piripu">
+                        <form xml:lang="ta">piripu</form>
+                    </entry>
+                    <entry corresp="piriya">
+                        <form xml:lang="ta">piriya</form>
+                    </entry>
+                    <entry corresp="piriyaṉmiṉ">
+                        <form xml:lang="ta">piriyaṉmiṉ</form>
+                    </entry>
+                    <entry corresp="piriyalar">
+                        <form xml:lang="ta">piriyalar</form>
+                    </entry>
+                    <entry corresp="piriyā">
+                        <form xml:lang="ta">piriyā</form>
+                    </entry>
+                    <entry corresp="piriyiṉ">
+                        <form xml:lang="ta">piriyiṉ</form>
+                    </entry>
+                    <entry corresp="piriyum">
+                        <form xml:lang="ta">piriyum</form>
+                    </entry>
+                    <entry corresp="pirivār">
+                        <form xml:lang="ta">pirivār</form>
+                    </entry>
+                    <entry corresp="pirivu">
+                        <form xml:lang="ta">pirivu</form>
+                    </entry>
+                    <entry corresp="pirivōr">
+                        <form xml:lang="ta">pirivōr</form>
+                    </entry>
+                </entry>
+            </body>
+        </text>
+    </TEI>

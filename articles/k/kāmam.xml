@@ -1,0 +1,53 @@
+<?xml-stylesheet type="text/xsl" href="../../lexicon.xsl" ?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <title xml:lang="ta">kāmam</title>
+                    </title>
+                </titleStmt>
+                <sourceDesc>
+                    <p>Tamilex project.</p>
+                </sourceDesc>
+            </fileDesc>
+            <revisionDesc/>
+        </teiHeader>
+        <text xml:lang="en">
+            
+            <body>
+                <entry corresp="kāmam">
+                    <form xml:lang="ta">kāmam</form>
+                    <gramGrp>
+                        <gram>noun</gram>
+                    </gramGrp>
+                    <sense>
+                        <def xml:lang="en">&lt; Skt. kāma- desire, passion</def>
+                    </sense>
+                    <cit type="lexicon">
+                        <title xml:lang="en">University of Madras Tamil Lexicon</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?qs=காமம்&amp;searchhws=yes&amp;matchtype=exact">p. ??</ref>
+                    </cit>
+                    <cit type="lexicon">
+                        <title xml:lang="en">Dravidian Etymological Dictionary</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/burrow_query.py?qs=kāmam&amp;searchhws=yes">p. ??</ref>
+                    </cit>
+                    <entry corresp="kāmattu">
+                        <form xml:lang="ta">kāmattu</form>
+                    </entry>
+                    <entry corresp="kāmaru">
+                        <form xml:lang="ta">kāmaru</form>
+                    </entry>
+                    <entry corresp="kāmar">
+                        <form xml:lang="ta">kāmar</form>
+                    </entry>
+                    <entry corresp="kāmuṟu">
+                        <form xml:lang="ta">kāmuṟu</form>
+                    </entry>
+                    <entry corresp="kāmuṟṟāaṅku">
+                        <form xml:lang="ta">kāmuṟṟāaṅku</form>
+                    </entry>
+                </entry>
+            </body>
+        </text>
+    </TEI>

@@ -1,0 +1,44 @@
+<?xml-stylesheet type="text/xsl" href="../../lexicon.xsl" ?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <title xml:lang="ta">kaṟaṅku</title>
+                    </title>
+                </titleStmt>
+                <sourceDesc>
+                    <p>Tamilex project.</p>
+                </sourceDesc>
+            </fileDesc>
+            <revisionDesc/>
+        </teiHeader>
+        <text xml:lang="en">
+            
+            <body>
+                <entry corresp="kaṟaṅku[DEDR 1386]">
+                    <form xml:lang="ta">kaṟaṅku</form>
+                    <gramGrp>
+                        <gram>verbal root</gram>
+                    </gramGrp>
+                    <sense>
+                        <def xml:lang="en">to sound –</def>
+                    </sense>
+                    <cit type="lexicon">
+                        <title xml:lang="en">University of Madras Tamil Lexicon</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?qs=கறங்கு&amp;searchhws=yes&amp;matchtype=exact">p. ??</ref>
+                    </cit>
+                    <cit type="lexicon">
+                        <title xml:lang="en">Dravidian Etymological Dictionary</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/burrow_query.py?qs=kaṟaṅku&amp;searchhws=yes">p. ??</ref>
+                    </cit>
+                    <entry corresp="kaṟaṅka">
+                        <form xml:lang="ta">kaṟaṅka</form>
+                    </entry>
+                    <entry corresp="kaṟaṅkum">
+                        <form xml:lang="ta">kaṟaṅkum</form>
+                    </entry>
+                </entry>
+            </body>
+        </text>
+    </TEI>

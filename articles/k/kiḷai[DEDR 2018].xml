@@ -1,0 +1,47 @@
+<?xml-stylesheet type="text/xsl" href="../../lexicon.xsl" ?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <title xml:lang="ta">kiḷai</title>
+                    </title>
+                </titleStmt>
+                <sourceDesc>
+                    <p>Tamilex project.</p>
+                </sourceDesc>
+            </fileDesc>
+            <revisionDesc/>
+        </teiHeader>
+        <text xml:lang="en">
+            
+            <body>
+                <entry corresp="kiḷai[DEDR 2018]">
+                    <form xml:lang="ta">kiḷai</form>
+                    <gramGrp>
+                        <gram>root noun</gram>
+                    </gramGrp>
+                    <cit type="lexicon">
+                        <title xml:lang="en">University of Madras Tamil Lexicon</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?qs=கிளை&amp;searchhws=yes&amp;matchtype=exact">p. ??</ref>
+                    </cit>
+                    <cit type="lexicon">
+                        <title xml:lang="en">Dravidian Etymological Dictionary</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/burrow_query.py?qs=kiḷai&amp;searchhws=yes">p. ??</ref>
+                    </cit>
+                    <entry corresp="kiḷai">
+                        <form xml:lang="ta">kiḷai</form>
+                    </entry>
+                    <entry corresp="kiḷaiiya">
+                        <form xml:lang="ta">kiḷaiiya</form>
+                    </entry>
+                    <entry corresp="kiḷaikkum">
+                        <form xml:lang="ta">kiḷaikkum</form>
+                    </entry>
+                    <entry corresp="kiḷaiyoṭu">
+                        <form xml:lang="ta">kiḷaiyoṭu</form>
+                    </entry>
+                </entry>
+            </body>
+        </text>
+    </TEI>

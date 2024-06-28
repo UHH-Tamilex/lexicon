@@ -1,0 +1,44 @@
+<?xml-stylesheet type="text/xsl" href="../../lexicon.xsl" ?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <title xml:lang="ta">cūḻ</title>
+                    </title>
+                </titleStmt>
+                <sourceDesc>
+                    <p>Tamilex project.</p>
+                </sourceDesc>
+            </fileDesc>
+            <revisionDesc/>
+        </teiHeader>
+        <text xml:lang="en">
+            
+            <body>
+                <entry corresp="cūḻ[DEDR 2698]">
+                    <form xml:lang="ta">cūḻ</form>
+                    <gramGrp>
+                        <gram>verbal root</gram>
+                    </gramGrp>
+                    <cit type="lexicon">
+                        <title xml:lang="en">University of Madras Tamil Lexicon</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?qs=சூழ்&amp;searchhws=yes&amp;matchtype=exact">p. ??</ref>
+                    </cit>
+                    <cit type="lexicon">
+                        <title xml:lang="en">Dravidian Etymological Dictionary</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/burrow_query.py?qs=cūḻ&amp;searchhws=yes">p. ??</ref>
+                    </cit>
+                    <entry corresp="cūḻa">
+                        <form xml:lang="ta">cūḻa</form>
+                    </entry>
+                    <entry corresp="cūḻnta">
+                        <form xml:lang="ta">cūḻnta</form>
+                    </entry>
+                    <entry corresp="cūḻpu">
+                        <form xml:lang="ta">cūḻpu</form>
+                    </entry>
+                </entry>
+            </body>
+        </text>
+    </TEI>

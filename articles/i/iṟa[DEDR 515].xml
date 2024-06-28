@@ -1,0 +1,66 @@
+<?xml-stylesheet type="text/xsl" href="../../lexicon.xsl" ?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <title xml:lang="ta">iṟa</title>
+                    </title>
+                </titleStmt>
+                <sourceDesc>
+                    <p>Tamilex project.</p>
+                </sourceDesc>
+            </fileDesc>
+            <revisionDesc/>
+        </teiHeader>
+        <text xml:lang="en">
+            
+            <body>
+                <entry corresp="iṟa[DEDR 515]">
+                    <form xml:lang="ta">iṟa</form>
+                    <gramGrp></gramGrp>
+                    <sense>
+                        <def xml:lang="en">/514?: to traverse </def>
+                    </sense>
+                    <cit type="lexicon">
+                        <title xml:lang="en">University of Madras Tamil Lexicon</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?qs=இற&amp;searchhws=yes&amp;matchtype=exact">p. ??</ref>
+                    </cit>
+                    <cit type="lexicon">
+                        <title xml:lang="en">Dravidian Etymological Dictionary</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/burrow_query.py?qs=iṟa&amp;searchhws=yes">p. ??</ref>
+                    </cit>
+                    <entry corresp="iṟattal">
+                        <form xml:lang="ta">iṟattal</form>
+                    </entry>
+                    <entry corresp="iṟanta">
+                        <form xml:lang="ta">iṟanta</form>
+                    </entry>
+                    <entry corresp="iṟantaṉar">
+                        <form xml:lang="ta">iṟantaṉar</form>
+                    </entry>
+                    <entry corresp="iṟantaṉaḷ">
+                        <form xml:lang="ta">iṟantaṉaḷ</form>
+                    </entry>
+                    <entry corresp="iṟantu">
+                        <form xml:lang="ta">iṟantu</form>
+                    </entry>
+                    <entry corresp="iṟantōr">
+                        <form xml:lang="ta">iṟantōr</form>
+                    </entry>
+                    <entry corresp="iṟappa">
+                        <form xml:lang="ta">iṟappa</form>
+                    </entry>
+                    <entry corresp="iṟappar">
+                        <form xml:lang="ta">iṟappar</form>
+                    </entry>
+                    <entry corresp="iṟappiṉ">
+                        <form xml:lang="ta">iṟappiṉ</form>
+                    </entry>
+                    <entry corresp="iṟappu">
+                        <form xml:lang="ta">iṟappu</form>
+                    </entry>
+                </entry>
+            </body>
+        </text>
+    </TEI>

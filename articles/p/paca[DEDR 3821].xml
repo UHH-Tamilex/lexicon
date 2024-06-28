@@ -1,0 +1,66 @@
+<?xml-stylesheet type="text/xsl" href="../../lexicon.xsl" ?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>
+                        <title xml:lang="ta">paca</title>
+                    </title>
+                </titleStmt>
+                <sourceDesc>
+                    <p>Tamilex project.</p>
+                </sourceDesc>
+            </fileDesc>
+            <revisionDesc/>
+        </teiHeader>
+        <text xml:lang="en">
+            
+            <body>
+                <entry corresp="paca[DEDR 3821]">
+                    <form xml:lang="ta">paca</form>
+                    <gramGrp></gramGrp>
+                    <sense>
+                        <def xml:lang="en">to fade</def>
+                    </sense>
+                    <cit type="lexicon">
+                        <title xml:lang="en">University of Madras Tamil Lexicon</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?qs=பச&amp;searchhws=yes&amp;matchtype=exact">p. ??</ref>
+                    </cit>
+                    <cit type="lexicon">
+                        <title xml:lang="en">Dravidian Etymological Dictionary</title>
+                        <ref target="https://dsal.uchicago.edu/cgi-bin/app/burrow_query.py?qs=paca&amp;searchhws=yes">p. ??</ref>
+                    </cit>
+                    <entry corresp="pacakkum">
+                        <form xml:lang="ta">pacakkum</form>
+                    </entry>
+                    <entry corresp="pacattal">
+                        <form xml:lang="ta">pacattal</form>
+                    </entry>
+                    <entry corresp="pacanta">
+                        <form xml:lang="ta">pacanta</form>
+                    </entry>
+                    <entry corresp="pacantaṉṟu">
+                        <form xml:lang="ta">pacantaṉṟu</form>
+                    </entry>
+                    <entry corresp="pacantu">
+                        <form xml:lang="ta">pacantu</form>
+                    </entry>
+                    <entry corresp="pacappa">
+                        <form xml:lang="ta">pacappa</form>
+                    </entry>
+                    <entry corresp="pacappiṉum">
+                        <form xml:lang="ta">pacappiṉum</form>
+                    </entry>
+                    <entry corresp="pacappu">
+                        <form xml:lang="ta">pacappu</form>
+                    </entry>
+                    <entry corresp="pacalai">
+                        <form xml:lang="ta">pacalai</form>
+                    </entry>
+                    <entry corresp="pacalaikku">
+                        <form xml:lang="ta">pacalaikku</form>
+                    </entry>
+                </entry>
+            </body>
+        </text>
+    </TEI>
