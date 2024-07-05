@@ -37,6 +37,8 @@
                 if(par) {
                     const holder = par.closest('.holder');
                     holder.remove();
+                    const num = [...document.querySelectorAll('.holder')].length;
+                    document.getElementById('overlay').style.opacity = num * 0.2;
                 }
                 else {
                     const theZone = document.getElementById('thezone').getBoundingClientRect();
@@ -54,6 +56,8 @@
                         newcandle.style.left = e.clientX - 75 + 'px'; 
                         newcandle.querySelector('.flame').style.animation = `moveFlame ${Math.random(6) + 3}s linear infinite, enlargeFlame ${Math.random(6) + 3}s linear infinite`;
                         document.body.appendChild(newcandle);
+                        const num = [...document.querySelectorAll('.holder')].length;
+                        document.getElementById('overlay').style.opacity = num * 0.2;
                     }
                 }
             }
@@ -62,7 +66,7 @@
         <style>
 body
 {
-  background-color:black;
+    background-color: black;
     background-image: url('./candle.png');
     background-size: 285px;
     background-position: bottom;
@@ -71,8 +75,6 @@ body
     width: 100vw;
     overflow: hidden;
 }
-
-
 
 .holder {
   margin: 12rem auto 0;
@@ -287,10 +289,28 @@ body
     animation: blinkIt .1s infinite;
     overflow: hidden;
 }
+#overlay {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    top: 0;
+    text-align: center;
+    background: radial-gradient(ellipse at 50% -1000px, rgba(255,221,153,0.3), rgba(253,181,106,0.2), transparent);
+    opacity: 0;
+    animation: overlay 2s infinite alternate;
+}
+
+@keyframes overlay {
+  50% {
+    filter: opacity(80%);
+  }
+}
 
         </style>
     </head>
     <body>
+    <div id="overlay"><img src="logo.png"/></div>
     <div id="thezone"></div>
     </body>
 </html>
