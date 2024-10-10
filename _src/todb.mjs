@@ -22,6 +22,7 @@ const paths = [
     'Purananuru',
     'Ainkurunuru',
     'Kalittokai',
+    'NalayiratTivviyapPirapantam',
 ];
 
 const go = () => {
@@ -60,7 +61,7 @@ const go = () => {
         const dict = db.prepare('SELECT * FROM citations').all();
         for(const d of dict)  {
             d.filename = `../${path}/${d.filename}`;
-            fulldb.prepare('INSERT INTO citations VALUES (@form, @formsort, @islemma, @fromlemma, @def, @type, @number, @gender, @nouncase, @person, @voice, @aspect, @syntax, @particlefunctions, @rootnoun, @proclitic, @enclitic, @context, @citation, @filename)').run(d);
+            fulldb.prepare('INSERT INTO citations VALUES (@form, @formsort, @islemma, @fromlemma, @def, @type, @number, @gender, @nouncase, @person, @aspect, @voice, @syntax, @particlefunctions, @rootnoun, @proclitic, @enclitic, @context, @citation, @filename)').run(d);
         }
         const lemmata = db.prepare('SELECT * from lemmata').all();
         for(const l of lemmata)
@@ -68,7 +69,7 @@ const go = () => {
     }
 
     fulldb.pragma('journal_mode = DELETE');
-    fulldb.pragma('page_size = 1024');
+    fulldb.pragma('page_size = 4096');
     dbops.close(fulldb);
 };
 
