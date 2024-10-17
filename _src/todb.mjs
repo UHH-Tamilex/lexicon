@@ -52,6 +52,7 @@ const go = () => {
         'enclitic TEXT, ' +
         'context TEXT, ' +
         'citation TEXT, ' +
+        'line INTEGER, ' +
         'filename TEXT' +
         ')').run();
 
@@ -62,7 +63,7 @@ const go = () => {
         const dict = db.prepare('SELECT * FROM citations').all();
         for(const d of dict)  {
             d.filename = `../${path}/${d.filename}`;
-            fulldb.prepare('INSERT INTO citations VALUES (@form, @formsort, @islemma, @fromlemma, @def, @type, @number, @gender, @nouncase, @person, @aspect, @voice, @syntax, @particlefunctions, @rootnoun, @proclitic, @enclitic, @context, @citation, @filename)').run(d);
+            fulldb.prepare('INSERT INTO citations VALUES (@form, @formsort, @islemma, @fromlemma, @def, @type, @number, @gender, @nouncase, @person, @aspect, @voice, @syntax, @particlefunctions, @rootnoun, @proclitic, @enclitic, @context, @citation, @line, @filename)').run(d);
         }
         const lemmata = db.prepare('SELECT * from lemmata').all();
         for(const l of lemmata)
