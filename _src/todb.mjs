@@ -37,7 +37,7 @@ const go = () => {
         'islemma TEXT, '+
         'fromlemma TEXT, '+
         'def TEXT, '+
-        'type TEXT, '+
+        'pos TEXT, '+
         'number TEXT, '+
         'gender TEXT, '+
         'nouncase TEXT, '+
@@ -45,9 +45,10 @@ const go = () => {
         'aspect TEXT, '+
         'voice TEXT, '+
         'syntax TEXT, '+
-        'particlefunctions TEXT, '+
-        //'misc TEXT, '+
+        'verbfunction TEXT, '+
+        'particlefunction TEXT, '+
         'rootnoun TEXT, '+
+        'misc TEXT, '+
         'proclitic TEXT, ' +
         'enclitic TEXT, ' +
         'context TEXT, ' +
@@ -63,7 +64,7 @@ const go = () => {
         const dict = db.prepare('SELECT * FROM citations').all();
         for(const d of dict)  {
             d.filename = `../${path}/${d.filename}`;
-            fulldb.prepare('INSERT INTO citations VALUES (@form, @formsort, @islemma, @fromlemma, @def, @type, @number, @gender, @nouncase, @person, @aspect, @voice, @syntax, @particlefunctions, @rootnoun, @proclitic, @enclitic, @context, @citation, @line, @filename)').run(d);
+            fulldb.prepare('INSERT INTO citations VALUES (@form, @formsort, @islemma, @fromlemma, @def, @pos, @number, @gender, @nouncase, @person, @aspect, @voice, @syntax, @verbfunction, @particlefunction, @rootnoun, @misc, @proclitic, @enclitic, @context, @citation, @line, @filename)').run(d);
         }
         const lemmata = db.prepare('SELECT * from lemmata').all();
         for(const l of lemmata)
