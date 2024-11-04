@@ -49,7 +49,7 @@ const getEntry = async (targ) => {
     */
     let results = {};
     if(targ.id) {
-        results = await workers.local.db.query('SELECT def, type, number, gender, nouncase, person, voice, aspect, syntax, particlefunctions, rootnoun, proclitic, enclitic, context, citation, filename FROM citations WHERE islemma = ?',[targ.id]);
+        results = await workers.local.db.query('SELECT def, pos, number, gender, nouncase, person, voice, aspect, syntax, particlefunction, rootnoun, proclitic, enclitic, context, citation, filename FROM citations WHERE islemma = ?',[targ.id]);
         /*
         if(results.length === 0)
             results = await workers.full.db.query('SELECT definition, type, number, gender, nouncase, voice, person, aspect, mood FROM dictionary WHERE islemma = ?',[targ.id]);
@@ -62,16 +62,16 @@ const getEntry = async (targ) => {
         console.log(islemma);
         if(islemma) {
             if(lemma)
-                results = await workers.local.db.query('SELECT def, type, number, gender, nouncase, person, voice, aspect, particlefunctions, syntax, rootnoun, proclitic, enclitic, context, citation, filename FROM citations WHERE islemma = ?',[islemma]);
+                results = await workers.local.db.query('SELECT def, pos, number, gender, nouncase, person, voice, aspect, particlefunction, syntax, rootnoun, proclitic, enclitic, context, citation, filename FROM citations WHERE islemma = ?',[islemma]);
             else
-                results = await workers.local.db.query('SELECT def, type, number, gender, nouncase, person, voice, aspect, particlefunctions, syntax, rootnoun, proclitic, enclitic, context, citation, filename FROM citations WHERE form = ?',[islemma]);
+                results = await workers.local.db.query('SELECT def, pos, number, gender, nouncase, person, voice, aspect, particlefunction, syntax, rootnoun, proclitic, enclitic, context, citation, filename FROM citations WHERE form = ?',[islemma]);
         }
         else if(lemma)
-            results = await workers.local.db.query('SELECT def, type, number, gender, nouncase, person, voice, aspect, particlefunctions, syntax, rootnoun, proclitic, enclitic, context, citation, filename FROM citations WHERE form = ? AND fromlemma = ?',[form,lemma]);
+            results = await workers.local.db.query('SELECT def, pos, number, gender, nouncase, person, voice, aspect, particlefunction, syntax, rootnoun, proclitic, enclitic, context, citation, filename FROM citations WHERE form = ? AND fromlemma = ?',[form,lemma]);
         else
-            results = await workers.local.db.query('SELECT def, type, number, gender, nouncase, person, voice, aspect, particlefunctions, syntax, rootnoun, proclitic, enclitic, context, citation, filename FROM citations WHERE form = ? AND fromlemma IS NULL',[form]);
+            results = await workers.local.db.query('SELECT def, pos, number, gender, nouncase, person, voice, aspect, particlefunction, syntax, rootnoun, proclitic, enclitic, context, citation, filename FROM citations WHERE form = ? AND fromlemma IS NULL',[form]);
         if(results.length === 0) // this is a hack
-            results = await workers.local.db.query('SELECT def, type, number, gender, nouncase, person, voice, aspect, particlefunctions, syntax, rootnoun, proclitic, enclitic, context, citation, filename FROM citations WHERE form = ? AND fromlemma IS NULL',[form]);
+            results = await workers.local.db.query('SELECT def, pos, number, gender, nouncase, person, voice, aspect, particlefunction, syntax, rootnoun, proclitic, enclitic, context, citation, filename FROM citations WHERE form = ? AND fromlemma IS NULL',[form]);
     }
     
     const entry = {
@@ -82,7 +82,7 @@ const getEntry = async (targ) => {
 
     for(const result of results) {
         if(result.def) entry.translations.add(result.def);
-        if(result.type) entry.grammar.add(result.type);
+        if(result.pos) entry.grammar.add(result.pos);
         if(result.number) entry.grammar.add(result.number);
         if(result.gender) entry.grammar.add(result.gender);
         if(result.nouncase) entry.grammar.add(result.nouncase);
@@ -93,7 +93,7 @@ const getEntry = async (targ) => {
             filename: result.filename,
             context: result.context,
             translation: result.def,
-            syntax: result.syntax || result.rootnoun || results.particlefunctions,
+            syntax: result.syntax || result.rootnoun || results.particlefunction,
         });
     }
     let frag =
