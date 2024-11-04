@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./lexicon.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><title xml:lang="ta">kāṉal</title></title>
+      </titleStmt>
+      <sourceDesc><p>Tamilex project.</p></sourceDesc>
+    </fileDesc>
+    <revisionDesc/>
+  </teiHeader>
+  <text xml:lang="en">
+    <body>
+      <entry corresp="kāṉal[DEDR 1418]">
+        <form xml:lang="ta">kāṉal</form>
+        <gramGrp>
+            <gram>noun</gram>
+        </gramGrp>
+        <sense>
+            <def xml:lang="en">seashore grove</def>
+            <def xml:lang="ta">kaṭaṟkaraiccōlai</def>
+            <cit>
+                <ref target="https://uhh-tamilex.github.io/Kuruntokai/KT294.xml"><title xml:lang="ta">Kuṟuntokai</title> 294.1</ref>
+                <q xml:lang="ta">kaṭal uṭaṉ āṭiyum kāṉal alkiyum</q>
+                <q xml:lang="en">bathing together in the sea and resting in the seashore grove</q>
+            </cit>
+            <cit>
+                <ref target="https://archive.org/details/cilappatikaram/page/182/mode/1up"><title xml:lang="ta">Cilappatikāram</title> 6.150</ref>
+                <q xml:lang="ta">kaitai vēli neytalam kāṉal</q>
+                <q xml:lang="en">a neytal [region] seashore grove fenced by fragrant screw pine</q>
+            </cit>
+        </sense>
+        <sense>
+            <def xml:lang="en">sea shore</def>
+            <def xml:lang="ta">kaṭaṟkarai</def>
+            <cit>
+                <ref target="https://archive.org/details/Tamil-Purananuru-U-Ve-Sa-3rd-Edition-1935/page/n166/mode/1up"><title xml:lang="ta">Puṟanānūṟu</title> 17.11</ref>
+                <q xml:lang="ta">nilavu maṇal viyaṉ kāṉal</q>
+                <q xml:lang="en">the wide shore with sand [white like] moonlight</q>
+            </cit>
+            <cit>
+                <ref target="https://archive.org/details/gc-sh5-0112/page/n447/mode/1up"><title xml:lang="ta">Kalittokai</title> 127.11</ref>
+                <q xml:lang="ta">eṟi tirai imiḻ kāṉal</q>
+                <q xml:lang="en">the shore that reverberates with dashing waves</q>
+            </cit>
+        </sense>
+        <sense cert="low">
+            <def xml:lang="en">fragrance</def>
+            <def xml:lang="ta">maṇam</def>
+            <note xml:lang="en">possible, rare; see <persName xml:lang="ta">Parimēlaḻakar</persName> on <title xml:lang="ta">Paripātal</title> 16.17</note>
+        </sense>
+        <sense type="nikantu">
+            <title xml:lang="ta">Tivākaram</title>
+            <def xml:lang="ta">kaḻi</def>
+            <def xml:lang="ta">pēyttēr</def>
+            <def xml:lang="ta">katir oḷi</def>
+            <def xml:lang="ta">kaṭal cārpiṉ cōlai</def>
+            <def xml:lang="ta">malaic cārpiṉ cōlai</def>
+        </sense>
+        <sense type="nikantu">
+            <title xml:lang="ta">Piṅkalam</title>
+            <def xml:lang="ta">uppaḷam</def>
+            <def xml:lang="ta">oḷi</def>
+            <def xml:lang="ta">kaḻikkarai cōlai</def>
+            <def xml:lang="ta">malaippuṟac cōlai</def>
+            <def xml:lang="ta">katiravaṉ oḷi</def>
+            <def xml:lang="ta">kaḻi</def>
+            <def xml:lang="ta">pēyttēr</def>
+        </sense>
+        <sense type="nikantu">
+            <title xml:lang="ta">Cūṭāmaṇi</title>
+            <def xml:lang="ta">kāṭu</def>
+        </sense>
+        <cit type="lexicon">
+            <title xml:lang="en">University of Madras Tamil Lexicon</title>
+            <ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?page=912">p. 912</ref>
+        </cit>
+        <cit type="lexicon">
+            <title xml:lang="en">Dravidian Etymological Dictionary</title>
+            <ref target="https://dsal.uchicago.edu/cgi-bin/app/burrow_query.py?page=139">p. 139</ref>
+        </cit>
+        <cit type="lexicon">
+            <title xml:lang="en">Vocabulario Tamulico com Asignificaçam Portugueza</title>
+            <ref target="https://digi.vatlib.it/view/MSS_Borg.ind.12/309">f. 152r</ref>
+            <q xml:lang="pt">Reuerbaraçaõ do sol, que parece na agoa ao longe.<note xml:lang="en" place="foot">This entry preshadows the development towards the modern language. The Portuguese means something like <q>reflection of the sun that appears from far away like water</q>, which corresponds to <q xml:lang="ta">pēyttēr</q> found both in the <title xml:lang="ta">Tivākaram</title> and the <title xml:lang="ta">Piṅkalam</title> – a <q>mirage</q>, as in the modern entry in the Cre-A dictionary.</note></q>
+        </cit>
+        <cit type="commentary">
+            <ref target="https://archive.org/details/Tamil-Purananuru-U-Ve-Sa-3rd-Edition-1935/page/n166/mode/1up">anonymous commentary on <title xml:lang="ta">Puṟanānūṟu</title> 17.11</ref>
+            <q xml:lang="ta">nilāppōṉṟa maṇalaiyuṭaiya akaṉṟa kaṭaṟkaraiyum</q>
+        </cit>
+        <cit type="commentary">
+            <ref target="https://archive.org/details/cilappatikaram/page/182/mode/1up"><persName xml:lang="ta">Aṭiyārkkunallār</persName> <title xml:lang="ta">Cilappatikāram</title> 6.150</ref>
+            <q xml:lang="ta">vēliyāka uṭaiya neytal nilattil kaḻikkāṉal</q>
+        </cit>
+        <cit type="commentary">
+            <ref target="https://archive.org/details/gc-sh5-0231/page/123/mode/1up"><persName xml:lang="ta">Parimēlaḻakar</persName> on <title xml:lang="ta">Paripātal</title> 16.17</ref>
+            <q xml:lang="ta">maṇattaiyuṭaiya kāviṉum<note xml:lang="en" place="foot">not convincing in context; as yet unconfirmed by other quotations or <term xml:lang="ta">nikaṇṭu</term>-s</note></q>
+        </cit>
+        <cit type="nikantu">
+            <ref target="https://archive.org/details/dli.jZY9lup2kZl6TuXGlZQdjZp7kZUy.TVA_BOK_0002448/page/40/mode/1up"><title xml:lang="ta">Tivākaram</title> 5.50 <term xml:lang="ta">kaḻiyiṉ peyar</term></ref>
+            <q rend="block" xml:lang="ta">
+                <lg>
+                    <l>kāṉal, murampu, kāyal, mukam, kaḻi.</l>
+                </lg>
+            </q>
+        </cit>
+        <cit type="nikantu">
+            <ref target="https://archive.org/details/dli.jZY9lup2kZl6TuXGlZQdjZp7kZUy.TVA_BOK_0002448/page/52/mode/1up"><title xml:lang="ta">Tivākaram</title> 6.125 <term xml:lang="ta">pēyttēriṉ peyar</term></ref>
+            <q rend="block" xml:lang="ta">
+                <lg>
+                    <l>veṇṭēr, kāṉal, pēyttēr (ākum).</l>
+                </lg>
+            </q>
+        </cit>
+        <cit type="nikantu">
+            <ref target="https://archive.org/details/dli.jZY9lup2kZl6TuXGlZQdjZp7kZUy.TVA_BOK_0002448/page/96/mode/1up"><title xml:lang="ta">Tivākaram</title> 11.90 <term xml:lang="ta">kāṉal</term></ref>
+            <q rend="block" xml:lang="ta">
+                <lg>
+                    <l>kāṉal, katir oḷiyum, kaṭal cārpiṉ, malaic cārpiṉ,</l>
+                    <l>(tāṉ eḻu) nal marac cōlaiyum (taḻuvum).</l>
+                </lg>
+            </q>
+        </cit>
+        <cit type="nikantu">
+            <ref target="https://archive.org/details/in.ernet.dli.2015.293325/page/n90/mode/1up"><title xml:lang="ta">Piṅkalam</title> 4.145 <term xml:lang="ta">uppaḷam</term></ref>
+            <q rend="block" xml:lang="ta">
+                <lg>
+                    <l>aḷamē, kāṉal, aḷakkar, uvaḷakam,</l>
+                    <l>kaḻinilam, uppaḷam, marakkāl (karutupa).</l>
+                </lg>
+            </q>
+        </cit>
+        <cit type="nikantu">
+            <ref target="https://archive.org/details/in.ernet.dli.2015.293325/page/n229/mode/1up"><title xml:lang="ta">Piṅkalam</title> 7.179 <term xml:lang="ta">oḷi</term></ref>
+            <q rend="block" xml:lang="ta">
+                <lg>
+                    <l>veyilum, nilavum, villum, vāḷum,</l>
+                    <l>niḻalum, ellum, nīmamum, nakaiyum,</l>
+                    <l>kāṉalum, kiraṇamum, katirum, ceṭiyum,</l>
+                    <l>cōtiyum, miṉṉum, tuṇiyum, ariyum,</l>
+                    <l>kēḻum, karamum, tēcum, kiḷar, oḷi.</l>
+                </lg>
+            </q>
+        </cit>
+        <cit type="nikantu">
+            <ref target="https://archive.org/details/in.ernet.dli.2015.293325/page/n358/mode/1up"><title xml:lang="ta">Piṅkalam</title> 10.333 <term xml:lang="ta">kāṉal</term></ref>
+            <q rend="block" xml:lang="ta">
+                <lg>
+                    <l>kaḻikkarai cōlaiyum, malaippuṟac cōlaiyum,</l>
+                    <l>katiravaṉ oḷiyum, kaḻiyum, pēyttērum,</l>
+                    <l>uvarum, murampum, uppaḷamum kāṉal.</l>
+                </lg>
+            </q>
+        </cit>
+        <cit type="nikantu">
+            <ref target="https://archive.org/details/gc-sh10-0106/page/n107/mode/1up"><title xml:lang="ta">Cūṭāmaṇi</title> 4.55 <term xml:lang="ta">kāṭu</term></ref>
+            <q rend="block" xml:lang="ta">
+                <lg>
+                    <l>aṭavi, kāṉ, puṟavam, poccai,</l>
+                    <l rend="indent">āraṇiyam, kāntāram,</l>
+                    <l>kaṭam, vaṉam, muḷari, tillam,</l>
+                    <l rend="indent">kakaṉam, kaṇṭakamē, tāvam,</l>
+                    <l>viṭar, curam, paḻuvam, kāṉal</l>
+                    <l rend="indent">vipiṉamē, kaṭci, kāṉam,</l>
+                    <l>kaṭaṟu, kāṉaṉamē, attam,</l>
+                    <l rend="indent">kaḷari, kāṭu (irupāṉāl pēr).</l>
+                </lg>
+            </q>
+        </cit>
+        <cit type="external">
+            <ref target="https://www.ifpindia.org/digitaldb/site/digital_tevaram/U_TEV/CT-KAA03.HTM#:~:text=kal%20pa%E1%B9%ADu%20nila%E1%B9%89um-,k%C4%81%E1%B9%89al,-%3A%2041">Digital <term xml:lang="ta">Tēvāram</term> 67.274</ref>
+        </cit>
+        <entry corresp="kāṉalam">
+            <form xml:lang="ta">kāṉalam</form>
+        </entry>
+        <entry corresp="kāṉalāṉ">
+            <form xml:lang="ta">kāṉalāṉ</form>
+        </entry>
+        <entry corresp="kāṉalaḵtu">
+            <form xml:lang="ta">kāṉalaḵtu</form>
+        </entry>
+      </entry>
+    </body>
+  </text>
+</TEI>
