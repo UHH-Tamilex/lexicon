@@ -8,7 +8,7 @@
 
 <xsl:output method="html" encoding="UTF-8" omit-xml-declaration="yes" indent="no"/>
 
-<xsl:param name="root">../../lib/</xsl:param>
+<xsl:param name="root">./lib/</xsl:param>
 <xsl:param name="debugging">false</xsl:param>
 
 <xsl:template name="htmlheader">
@@ -67,7 +67,7 @@
         </xsl:element>
         <xsl:element name="link">
             <xsl:attribute name="rel">stylesheet</xsl:attribute>
-            <xsl:attribute name="href">../../lexicon.css</xsl:attribute>
+            <xsl:attribute name="href">./lexicon.css</xsl:attribute>
         </xsl:element>
         <xsl:element name="script">
             <xsl:attribute name="type">module</xsl:attribute>
@@ -79,7 +79,7 @@
         </xsl:element>
         <xsl:element name="script">
             <xsl:attribute name="type">module</xsl:attribute>
-            <xsl:attribute name="src">../../lexicon.mjs</xsl:attribute>
+            <xsl:attribute name="src">./lexicon.mjs</xsl:attribute>
         </xsl:element>
     </xsl:element>
 </xsl:template>
@@ -162,9 +162,10 @@
         <xsl:apply-templates select="x:cit[@type='lexicon']"/>
     </ul>
     <details>
+        <xsl:attribute name="id"><xsl:value-of select="@corresp"/></xsl:attribute>
         <summary style="font-size: 1.2rem; font-weight: bold">Tamilex citations</summary>
         <details style="margin-left: 1rem" class="dict">
-            <xsl:attribute name="id"><xsl:value-of select="@corresp"/></xsl:attribute>
+            <xsl:attribute name="data-lemma"><xsl:value-of select="@corresp"/></xsl:attribute>
             <xsl:attribute name="data-entry"><xsl:value-of select="x:form"/></xsl:attribute>
             <summary class="dict-heading" lang="ta"><xsl:value-of select="x:form"/></summary>
             <div class="spinner"></div>
