@@ -34,6 +34,7 @@ const go = () => {
     fulldb.prepare('CREATE TABLE [citations] ('+
         'form TEXT, '+
         'formsort TEXT, '+
+        'sandhi TEXT, '+
         'islemma TEXT, '+
         'fromlemma TEXT, '+
         'def TEXT, '+
@@ -65,7 +66,7 @@ const go = () => {
         const dict = db.prepare('SELECT * FROM citations').all();
         for(const d of dict)  {
             d.filename = `../${path}/${d.filename}`;
-            fulldb.prepare('INSERT INTO citations VALUES (@form, @formsort, @islemma, @fromlemma, @def, @pos, @number, @gender, @nouncase, @person, @aspect, @voice, @geminateswith, @syntax, @verbfunction, @particlefunction, @rootnoun, @misc, @proclitic, @enclitic, @context, @citation, @line, @filename)').run(d);
+            fulldb.prepare('INSERT INTO citations VALUES (@form, @formsort, @sandhi, @islemma, @fromlemma, @def, @pos, @number, @gender, @nouncase, @person, @aspect, @voice, @geminateswith, @syntax, @verbfunction, @particlefunction, @rootnoun, @misc, @proclitic, @enclitic, @context, @citation, @line, @filename)').run(d);
         }
         const lemmata = db.prepare('SELECT * from lemmata').all();
         for(const l of lemmata)
