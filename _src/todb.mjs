@@ -24,6 +24,7 @@ const paths = [
     'Kalittokai',
     'TamilneriVilakkam',
     'Tirukkural',
+    'Cilappatikaram',
     'Manimekalai',
     'NalayiratTivviyapPirapantam',
 ];
