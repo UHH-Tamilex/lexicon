@@ -27,6 +27,7 @@ const paths = [
     'Cilappatikaram',
     'Manimekalai',
     'NalayiratTivviyapPirapantam',
+    'Tolkappiyam',
 ];
 
 const go = () => {
