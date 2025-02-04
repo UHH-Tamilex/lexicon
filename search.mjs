@@ -90,6 +90,7 @@ const go = async str => {
 
         ],
     });
+    newPage(str);
 };
 
 const init = async () => {
@@ -104,11 +105,11 @@ const init = async () => {
     inputbox.addEventListener('keyup', e => {
         if(e.keyCode !== 13) return;
         const val = inputbox.value.trim();
-        if(val !== '') newPage(val);
+        if(val !== '') go(val);
     });
     document.getElementById('ftsbutton').addEventListener('click', e => {
         const val = inputbox.value.trim();
-        if(val !== '') newPage(val);
+        if(val !== '') go(val);
     });
     ftsdiv.style.visibility = 'visible';
 };
@@ -117,7 +118,6 @@ const newPage = val => {
     const url = new URL(window.location.href);
     url.searchParams.set('q',val);
     window.history.pushState(null,'',url.toString());
-    go(val);
 };
 
 window.addEventListener('DOMContentLoaded',init);
