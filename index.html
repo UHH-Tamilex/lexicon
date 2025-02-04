@@ -1,0 +1,79 @@
+<html><head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta charset="utf-8">
+      
+      <title>Tamilex: Corpus Search</title>
+      
+      <link rel="icon" type="image/png" href="lib/img/favicon-32.png">
+      <script src="datatables.min.js"></script>
+      <script src="customsort.mjs"></script>
+      <script type="module" src="search.mjs"></script>
+      <link rel="stylesheet" href="lib/css/tufte.css">
+      <link rel="stylesheet" href="lib/css/fonts.css">
+      <link rel="stylesheet" href="lib/css/edition.css">
+      <link rel="stylesheet" href="datatables.min.css">
+      <style>
+body {
+    padding: 0;
+}
+
+td, th {
+    font-size: 1.2rem;
+}
+
+#ftsinput {
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    border-radius: 3px;
+    width: 50ch;
+    max-width: 98vw;
+    margin: 1rem;
+}
+#ftsbutton, #ftsselect {
+    font-size: 1.2rem;
+    padding: 0.5rem;
+}
+#ftsdiv {
+    padding-top: 2rem; 
+    display: block; 
+    visibility: hidden;
+    text-align: center;
+}
+#spinnerdiv {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+    </style>
+   </head>
+   <body lang="en">
+    <article>
+        <div class="wide">
+            <h1 style="text-align: center">Tamilex corpus search</h1>
+            <div id="ftsdiv">
+                <select id="ftsselect">
+                    <option value="contains" selected>contains</option>
+                    <option value="exactly">is exactly</option>
+                    <option value="starts">starts with</option>
+                    <option value="ends">ends with</option>
+                </select>
+                <input type="text" id="ftsinput" placeholder="search in தமிழ் script or Madras lexicon transliteration">
+                <button id="ftsbutton">Search</button>
+            </div>
+            <div id="spinnerdiv"><div class="spinner"></div></div>
+            <p id="noresult" style="visibility: hidden;width: auto">No results found for <em id="noresulttext"></em>.</p>
+        </div>
+        <table id="index"></table>
+    </article>
+   
+
+
+
+
+
+
+
+</body></html>
