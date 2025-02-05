@@ -8,8 +8,7 @@ const _state = {
     hyphenator: new Hypher(hyphenation_ta)
 };
 
-const getCits = async word => {
-    const select = document.getElementById('ftsselect').selectedIndex;
+const getCits = async (word,select) => {
     switch (select) { 
         case 0:
             return await _state.sqlWorker.db.query('SELECT form, def, enclitic, context, citation, line, filename FROM citations WHERE form LIKE ?',[`%${word}%`]);
@@ -22,11 +21,11 @@ const getCits = async word => {
     }
 };
 
-const query = async word => {
+const query = async (word,select) => {
     if(!_state.sqlWorker)
         _state.sqlWorker = await createSqlWorker('../../wordindex.db');
     
-    const cits = await getCits(word);
+    const cits = await getCits(word,select);
     if(!cits || cits.length === 0) return;
     return cits;
 
@@ -45,7 +44,8 @@ const go = async str => {
     const detected = str.match(TamlRange);
     const word = detected ? Sanscript.t(str,'tamil','iast') : str;
     const Trans = s => Sanscript.t(s,'iast','tamil');
-    const res = await query(word);
+    const select = document.getElementById('ftsselect').selectedIndex;
+    const res = await query(word,select);
     spinner.style.display = 'none';
     if(!res) {
         document.getElementById('noresulttext').textContent = word;
@@ -90,13 +90,17 @@ const go = async str => {
 
         ],
     });
-    newPage(str);
+    newPage(str,select);
 };
 
 const init = async () => {
     const container = document.getElementById('ftsdiv');
     const inputbox = document.getElementById('ftsinput');
     const urlParams = new URLSearchParams(window.location.search);
+    const select = urlParams.get('s');
+    if(select) {
+        document.getElementById('ftsselect').selectedIndex = select;
+    }
     const query = urlParams.get('q');
     if(query) {
         inputbox.value = query;
@@ -114,9 +118,10 @@ const init = async () => {
     ftsdiv.style.visibility = 'visible';
 };
 
-const newPage = val => {
+const newPage = (val,select) => {
     const url = new URL(window.location.href);
     url.searchParams.set('q',val);
+    url.searchParams.set('s',select);
     window.history.pushState(null,'',url.toString());
 };
 
