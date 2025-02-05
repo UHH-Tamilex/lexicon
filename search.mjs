@@ -76,12 +76,12 @@ const go = async str => {
         language: {search: 'Filter: '},
         paging: true,
         pageLength: 100,
+        fixedHeader: true,
         lengthMenu: [
             [25, 50, 100, -1],
             [25, 50, 100, 'All']
         ],
         sortable: true,
-        scrollX: true,
         data: data,
         columns: [
             { title: 'word', type: !detected ? 'tamil' : '' },
@@ -91,6 +91,11 @@ const go = async str => {
             { title: 'gloss', type: !detected ? 'tamil': '' },
 
         ],
+        responsive: {
+            details: {
+                type: 'inline'
+            }
+        }
     });
     newPage(str,select);
 };
