@@ -1,4 +1,5 @@
 import createSqlWorker from './lib/js/sqlWorker.mjs';
+import SqlString from './SqlString.js';
 import { Sanscript } from './lib/js/sanscript.mjs';
 import Hypher from './lib/js/hypher.mjs';
 import { hyphenation_ta } from './lib/js/ta.mjs';
@@ -8,24 +9,26 @@ const _state = {
     hyphenator: new Hypher(hyphenation_ta)
 };
 
-const getCits = async (word,select) => {
+const getCits = async (word,select,taml) => {
+    const pre = 'SELECT form, def, enclitic, context, citation, line, filename FROM citations WHERE ';
+    const query = pre + (taml ? 'formsort ' : 'form ');
     switch (select) { 
         case 0:
-            return await _state.sqlWorker.db.query('SELECT form, def, enclitic, context, citation, line, filename FROM citations WHERE form LIKE ?',[`%${word}%`]);
+            return await _state.sqlWorker.db.query(query + 'LIKE ' + SqlString.escape(`%${word}%`));
         case 1:
-            return await _state.sqlWorker.db.query('SELECT form, def, enclitic, context, citation, line, filename FROM citations WHERE form = ?',[word]);
+            return await _state.sqlWorker.db.query(query + '= ' + SqlString.escape(word));
         case 2:
-            return await _state.sqlWorker.db.query('SELECT form, def, enclitic, context, citation, line, filename FROM citations WHERE form LIKE ?',[`${word}%`]);
+            return await _state.sqlWorker.db.query(query + 'LIKE ' + SqlString.escape(`${word}%`));
         case 3:
-            return await _state.sqlWorker.db.query('SELECT form, def, enclitic, context, citation, line, filename FROM citations WHERE form LIKE ?',[`%${word}`]);
+            return await _state.sqlWorker.db.query(query + 'LIKE ' + SqlString.escape(`%${word}`));
     }
 };
 
-const query = async (word,select) => {
+const queryDb = async (word,select,taml) => {
     if(!_state.sqlWorker)
         _state.sqlWorker = await createSqlWorker('../../wordindex.db');
     
-    const cits = await getCits(word,select);
+    const cits = await getCits(word,select,taml);
     if(!cits || cits.length === 0) return;
     return cits;
 
@@ -42,13 +45,12 @@ const go = async str => {
     spinner.style.display = 'flex';
     const TamlRange = /[\u0b80-\u0bff]/u;
     const detected = str.match(TamlRange);
-    const word = detected ? Sanscript.t(str,'tamil','iast') : str;
     const Trans = s => Sanscript.t(s,'iast','tamil');
     const select = document.getElementById('ftsselect').selectedIndex;
-    const res = await query(word,select);
+    const res = await queryDb(str,select,detected);
     spinner.style.display = 'none';
     if(!res) {
-        document.getElementById('noresulttext').textContent = word;
+        document.getElementById('noresulttext').textContent = str;
         noresult.style.visibility = 'visible';
         return;
     }
