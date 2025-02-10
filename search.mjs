@@ -60,8 +60,9 @@ const go = async str => {
         const word = detected ? Trans(obj.form) : obj.form;
         const enclitic = !obj.enclitic ? null :
             detected ? Trans(obj.enclitic) : obj.enclitic;
+        const scriptline = detected ? 'script=Taml&' : '';
         const citation = obj.line ? 
-            `<a href="${obj.filename}?highlight=` +
+            `<a href="${obj.filename}?${scriptline}highlight=` +
                 encodeURIComponent(`[id="${obj.citation}"] .l:nth-of-type(${obj.line})`) +
                 `">${obj.citation}, line ${obj.line}</a>` :
             `<a href="${obj.filename}">${obj.citation}</a>`;
