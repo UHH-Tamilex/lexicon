@@ -1,6 +1,8 @@
 name: wordindex build
 on: 
   workflow_dispatch:
+  schedule:
+    - cron: 0 0 * * 6
 jobs:
   wordindex:
     runs-on: ubuntu-latest
