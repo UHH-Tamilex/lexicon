@@ -1,0 +1,36 @@
+name: wordindex build
+on: 
+  workflow_dispatch:
+jobs:
+  wordindex:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: cancel previous run
+        uses: styfle/cancel-workflow-action@0.11.0
+        with:
+          all_but_latest: true
+          access_token: ${{ github.token }}
+
+      - uses: actions/checkout@v3
+        with: 
+          ref: ${{ github.head_ref }}
+          submodules: 'true'
+
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+
+      - name: build word index
+        run: |
+          cd _src
+          yarn install
+          ./getdbs.sh
+          yarn todb
+          cd ../
+
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: automatic wordindex update
+          file_pattern: wordindex.db
+          commit_user_name: Tamilex Bot

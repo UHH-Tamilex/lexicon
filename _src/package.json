@@ -7,7 +7,8 @@
     "better-sqlite3": "^9.4.0",
     "fs": "^0.0.1-security",
     "jsdom": "^23.2.0",
-    "process": "^0.11.10"
+    "process": "^0.11.10",
+    "w3c-xmlserializer": "^5.0.0"
   },
   "scripts": {
     "todb": "node todb.mjs",

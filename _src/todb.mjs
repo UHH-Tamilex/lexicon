@@ -13,8 +13,8 @@ const dbops = {
     }
 };
 
-const dir = '../..';
 var fulldb;
+var dir = 'indices';
 const paths = [
     'Kuruntokai',
     'Narrinai',
@@ -30,7 +30,7 @@ const paths = [
     'Tolkappiyam',
 ];
 
-const go = () => {
+const go = async () => {
     fulldb = dbops.open('../wordindex.db');
     fulldb.prepare('DROP TABLE IF EXISTS [citations]').run();
     fulldb.prepare('DROP TABLE IF EXISTS [lemmata]').run();
@@ -67,9 +67,9 @@ const go = () => {
         ')').run();
 
     for(const path of paths) {
-        const fullpath = `../../${path}/wordindex.db`;
-        const db = dbops.open(fullpath);
+        const fullpath = `./${dir}/${path}/wordindex.db`;
         console.log(fullpath);
+        const db = dbops.open(fullpath);
         const dict = db.prepare('SELECT * FROM citations').all();
         for(const d of dict)  {
             d.filename = `../${path}/${d.filename}`;
