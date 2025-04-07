@@ -1,33 +1,31 @@
-import createSqlWorker from './lib/js/sqlWorker.mjs';
+import openDb from './lib/js/sqlite.mjs';
 import SqlString from './SqlString.js';
 import { Sanscript } from './lib/js/sanscript.mjs';
 import Hypher from './lib/js/hypher.mjs';
 import { hyphenation_ta } from './lib/js/ta.mjs';
 
 const _state = {
-    sqlWorker: null,
+    db: null,
     hyphenator: new Hypher(hyphenation_ta)
 };
 
 const getCits = async (word,select,taml) => {
     const pre = 'SELECT form, def, enclitic, context, citation, line, filename FROM citations WHERE ';
     const query = pre + (taml ? 'formsort ' : 'form ');
+    let res;
     switch (select) { 
         case 0:
-            return await _state.sqlWorker.db.query(query + 'LIKE ' + SqlString.escape(`%${word}%`));
+            return (await _state.db('exec', {sql: query + 'LIKE ' + SqlString.escape(`%${word}%`), rowMode: 'object'})).result.resultRows;
         case 1:
-            return await _state.sqlWorker.db.query(query + '= ' + SqlString.escape(word));
+            return (await _state.db('exec',{sql: query + '= ' + SqlString.escape(word), rowMode: 'object'})).result.resultRows;
         case 2:
-            return await _state.sqlWorker.db.query(query + 'LIKE ' + SqlString.escape(`${word}%`));
+            return (await _state.db('exec',{sql: query + 'LIKE ' + SqlString.escape(`${word}%`), rowMode: 'object'})).result.resultRows;
         case 3:
-            return await _state.sqlWorker.db.query(query + 'LIKE ' + SqlString.escape(`%${word}`));
+            return (await _state.db('exec',{sql: query + 'LIKE ' + SqlString.escape(`%${word}`), rowMode: 'object'})).result.resultRows;
     }
 };
 
 const queryDb = async (word,select,taml) => {
-    if(!_state.sqlWorker)
-        _state.sqlWorker = await createSqlWorker('../../wordindex.db');
-    
     const cits = await getCits(word,select,taml);
     if(!cits || cits.length === 0) return;
     return cits;
@@ -102,6 +100,9 @@ const go = async str => {
 };
 
 const init = async () => {
+    const spinner = document.getElementById('spinnerdiv');
+    spinner.style.display = 'flex';
+    _state.db = await openDb('https://uhh-tamilex.github.io/lexicon/wordindex.db');
     const container = document.getElementById('ftsdiv');
     const inputbox = document.getElementById('ftsinput');
     const urlParams = new URLSearchParams(window.location.search);
@@ -123,6 +124,7 @@ const init = async () => {
         const val = inputbox.value.trim();
         if(val !== '') go(val);
     });
+    spinner.style.display = 'none';
     ftsdiv.style.visibility = 'visible';
 };
 
