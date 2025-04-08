@@ -80,6 +80,8 @@ const go = async () => {
             fulldb.prepare('INSERT OR IGNORE INTO lemmata VALUES (@lemma, @recognized, @form, @formsort, @definition)').run(l);
     }
 
+    fulldb.prepare('CREATE INDEX form ON citations(form)').run();
+    fulldb.prepare('CREATE INDEX formsort ON citations(formsort)').run();
     fulldb.pragma('journal_mode = DELETE');
     fulldb.pragma('page_size = 4096');
     dbops.close(fulldb);
