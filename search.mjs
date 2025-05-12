@@ -1,4 +1,4 @@
-import openDb from './lib/js/sqlite.mjs';
+import openDb from './lib/js/sqlite-http.mjs';
 import SqlString from './SqlString.js';
 import { Sanscript } from './lib/js/sanscript.mjs';
 import Hypher from './lib/js/hypher.mjs';
