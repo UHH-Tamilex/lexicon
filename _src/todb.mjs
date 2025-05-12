@@ -13,7 +13,7 @@ const dbops = {
     }
 };
 
-var fulldb;
+var fulldb, minidb;
 var dir = 'indices';
 const paths = [
     'Kuruntokai',
@@ -34,6 +34,8 @@ const go = async () => {
     fulldb = dbops.open('../wordindex.db');
     fulldb.prepare('DROP TABLE IF EXISTS [citations]').run();
     fulldb.prepare('DROP TABLE IF EXISTS [lemmata]').run();
+    fulldb.prepare('DROP INDEX IF EXISTS idx_form').run();
+    fulldb.prepare('DROP INDEX IF EXISTS idx_formsort').run();
     fulldb.prepare('CREATE TABLE [lemmata] (lemma TEXT PRIMARY KEY, recognized INTEGER, form TEXT, formsort TEXT, definition TEXT)').run();
     fulldb.prepare('CREATE TABLE [citations] ('+
         'form TEXT, '+
@@ -66,6 +68,21 @@ const go = async () => {
         'filename TEXT' +
         ')').run();
 
+    minidb = dbops.open('../lookupindex.db');
+    minidb.prepare('DROP TABLE IF EXISTS [citations]').run();
+    minidb.prepare('DROP INDEX IF EXISTS idx_form').run();
+    minidb.prepare('CREATE TABLE [citations] ('+
+        'form TEXT, '+
+        'def TEXT, '+
+        'pos TEXT, '+
+        'number TEXT, '+
+        'gender TEXT, '+
+        'nouncase TEXT, '+
+        'person TEXT, '+
+        'aspect TEXT, '+
+        'voice TEXT'+
+        ')').run();
+
     for(const path of paths) {
         const fullpath = `./${dir}/${path}/wordindex.db`;
         console.log(fullpath);
@@ -74,17 +91,23 @@ const go = async () => {
         for(const d of dict)  {
             d.filename = `../${path}/${d.filename}`;
             fulldb.prepare('INSERT INTO citations VALUES (@form, @formsort, @sandhi, @islemma, @fromlemma, @def, @pos, @number, @gender, @nouncase, @person, @aspect, @voice, @precededby, @pregeminate, @postgeminate, @followedby, @syntax, @verbfunction, @particlefunction, @rootnoun, @misc, @proclitic, @enclitic, @context, @citation, @line, @filename)').run(d);
+            minidb.prepare('INSERT INTO citations VALUES (@form, @def, @pos, @number, @gender, @nouncase, @person, @aspect, @voice)').run(d);
         }
         const lemmata = db.prepare('SELECT * from lemmata').all();
         for(const l of lemmata)
             fulldb.prepare('INSERT OR IGNORE INTO lemmata VALUES (@lemma, @recognized, @form, @formsort, @definition)').run(l);
     }
 
-    fulldb.prepare('CREATE INDEX form ON citations(form)').run();
-    fulldb.prepare('CREATE INDEX formsort ON citations(formsort)').run();
+    fulldb.prepare('CREATE INDEX idx_form ON citations(form)').run();
+    fulldb.prepare('CREATE INDEX idx_formsort ON citations(formsort)').run();
     fulldb.pragma('journal_mode = DELETE');
-    fulldb.pragma('page_size = 4096');
+    fulldb.pragma('page_size = 1024');
     dbops.close(fulldb);
+
+    minidb.prepare('CREATE INDEX idx_form ON citations(form)').run();
+    minidb.pragma('journal_mode = DELETE');
+    minidb.pragma('page_size = 1024');
+    dbops.close(minidb);
 };
 
 go();
