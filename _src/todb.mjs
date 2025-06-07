@@ -21,7 +21,7 @@ const paths = [
     'Akananuru',
     'Purananuru',
     'Ainkurunuru',
-    'Patirruppatu',
+    'Patirruppattu',
     'Kalittokai',
     'TamilneriVilakkam',
     'Tirukkural',

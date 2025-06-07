@@ -2,9 +2,10 @@
 
 allPaths=("Kuruntokai" "Narrinai" "Akananuru" "Purananuru" "Ainkurunuru" "Patirruppattu" "Kalittokai" "TamilneriVilakkam" "Tirukkural" "Cilappatikaram" "Manimekalai" "NalayiratTivviyapPirapantam" "Tolkappiyam")
 
+mkdir indices
+
 for p in ${allPaths[@]};
 do
-    mkdir indices
     mkdir indices/$p
     wget https://uhh-tamilex.github.io/$p/wordindex.db -P indices/$p;
 done
