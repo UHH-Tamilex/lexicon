@@ -1,6 +1,6 @@
 #!/bin/bash
 
-allPaths=("Kuruntokai" "Narrinai" "Akananuru" "Purananuru" "Ainkurunuru" "Kalittokai" "TamilneriVilakkam" "Tirukkural" "Cilappatikaram" "Manimekalai" "NalayiratTivviyapPirapantam" "Tolkappiyam")
+allPaths=("Kuruntokai" "Narrinai" "Akananuru" "Purananuru" "Ainkurunuru" "Patirruppattu" "Kalittokai" "TamilneriVilakkam" "Tirukkural" "Cilappatikaram" "Manimekalai" "NalayiratTivviyapPirapantam" "Tolkappiyam")
 
 for p in ${allPaths[@]};
 do
