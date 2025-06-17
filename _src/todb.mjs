@@ -13,7 +13,7 @@ const dbops = {
     }
 };
 
-var fulldb, minidb;
+var fulldb, minidb, webdb;
 var dir = 'indices';
 const paths = [
     'Kuruntokai',
@@ -84,6 +84,21 @@ const go = async () => {
         'voice TEXT'+
         ')').run();
 
+    webdb = dbops.open('../webindex.db');
+    webdb.prepare('DROP TABLE IF EXISTS [citations]').run();
+    webdb.prepare('DROP INDEX IF EXISTS idx_form').run();
+    webdb.prepare('DROP INDEX IF EXISTS idx_formsort').run();
+    webdb.prepare('CREATE TABLE [citations] ('+
+        'form TEXT, '+
+        'formsort TEXT, '+
+        'def TEXT, '+
+        'enclitic TEXT, '+
+        'context TEXT, '+
+        'citation TEXT, '+
+        'line INTEGER, '+
+        'filename TEXT'+
+        ')').run();
+
     for(const path of paths) {
         const fullpath = `./${dir}/${path}/wordindex.db`;
         console.log(fullpath);
@@ -93,6 +108,7 @@ const go = async () => {
             d.filename = `../${path}/${d.filename}`;
             fulldb.prepare('INSERT INTO citations VALUES (@form, @formsort, @sandhi, @islemma, @fromlemma, @def, @pos, @number, @gender, @nouncase, @person, @aspect, @voice, @precededby, @pregeminate, @postgeminate, @followedby, @syntax, @verbfunction, @particlefunction, @rootnoun, @misc, @proclitic, @enclitic, @context, @citation, @line, @filename)').run(d);
             minidb.prepare('INSERT INTO citations VALUES (@form, @def, @pos, @number, @gender, @nouncase, @person, @aspect, @voice)').run(d);
+            webdb.prepare('INSERT INTO citations VALUES (@form, @formsort, @def, @enclitic, @context, @citation, @line, @filename)').run(d);
         }
         const lemmata = db.prepare('SELECT * from lemmata').all();
         for(const l of lemmata)
@@ -109,6 +125,12 @@ const go = async () => {
     minidb.pragma('journal_mode = DELETE');
     minidb.pragma('page_size = 1024');
     dbops.close(minidb);
+
+    webdb.prepare('CREATE INDEX idx_form ON citations(form)').run();
+    webdb.prepare('CREATE INDEX idx_formsort ON citations(formsort)').run();
+    webdb.pragma('journal_mode = DELETE');
+    webdb.pragma('page_size = 1024');
+    dbops.close(webdb);
 };
 
 go();

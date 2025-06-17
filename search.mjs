@@ -1,4 +1,5 @@
-import openDb from './lib/js/sqlite-http.mjs';
+//import openDb from './lib/js/sqlite-http.mjs';
+import openDb from './lib/js/sqlite.mjs';
 import SqlString from './SqlString.js';
 import { Sanscript } from './lib/js/sanscript.mjs';
 import Hypher from './lib/js/hypher.mjs';
@@ -15,13 +16,13 @@ const getCits = async (word,select,taml) => {
     let res;
     switch (select) { 
         case 0:
-            return (await _state.db('exec', {sql: query + 'LIKE ' + SqlString.escape(`%${word}%`), rowMode: 'object'})).result.resultRows;
+            return _state.db.exec(query + 'LIKE ' + SqlString.escape(`%${word}%`));
         case 1:
-            return (await _state.db('exec',{sql: query + '= ' + SqlString.escape(word), rowMode: 'object'})).result.resultRows;
+            return _state.db.exec(query + '= ' + SqlString.escape(word));
         case 2:
-            return (await _state.db('exec',{sql: query + 'LIKE ' + SqlString.escape(`${word}%`), rowMode: 'object'})).result.resultRows;
+            return _state.db.exec(query + 'LIKE ' + SqlString.escape(`${word}%`));
         case 3:
-            return (await _state.db('exec',{sql: query + 'LIKE ' + SqlString.escape(`%${word}`), rowMode: 'object'})).result.resultRows;
+            return _state.db.exec(query + 'LIKE ' + SqlString.escape(`%${word}`));
     }
 };
 
@@ -53,20 +54,20 @@ const go = async str => {
         return;
     }
     index.style.visibility = 'visible';
-    const data = res.map(obj => {
+    const data = res[0].values.map(obj => {
         
-        const word = detected ? Trans(obj.form) : obj.form;
-        const enclitic = !obj.enclitic ? null :
-            detected ? Trans(obj.enclitic) : obj.enclitic;
+        const word = detected ? Trans(obj[0]) : obj[0];
+        const enclitic = !obj[2] ? null :
+            detected ? Trans(obj[2]) : obj[2];
         const scriptline = detected ? 'script=Taml&' : '';
-        const citation = obj.line ? 
-            `<a href="${obj.filename}?${scriptline}highlight=` +
-                encodeURIComponent(`[id="${obj.citation}"] .l:nth-of-type(${obj.line})`) +
-                `">${obj.citation}, line ${obj.line}</a>` :
-            `<a href="${obj.filename}">${obj.citation}</a>`;
-        const hyphenated = _state.hyphenator.hyphenateText(obj.context);
+        const citation = obj[5] ? 
+            `<a href="${obj[6]}?${scriptline}highlight=` +
+                encodeURIComponent(`[id="${obj[4]}"] .l:nth-of-type(${obj[5]})`) +
+                `">${obj[4]}, line ${obj[5]}</a>` :
+            `<a href="${obj[6]}">${obj[4]}</a>`;
+        const hyphenated = _state.hyphenator.hyphenateText(obj[3]);
         const context = detected ? Trans(hyphenated) : hyphenated;
-        const gloss = obj.def;
+        const gloss = obj[1];
      
         return [word, enclitic, citation, context, gloss];
     });
@@ -102,7 +103,7 @@ const go = async str => {
 const init = async () => {
     const spinner = document.getElementById('spinnerdiv');
     spinner.style.display = 'flex';
-    _state.db = await openDb('https://uhh-tamilex.github.io/lexicon/wordindex.db');
+    _state.db = await openDb('webindex.db');
     const container = document.getElementById('ftsdiv');
     const inputbox = document.getElementById('ftsinput');
     const urlParams = new URLSearchParams(window.location.search);
