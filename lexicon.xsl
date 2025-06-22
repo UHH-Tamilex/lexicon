@@ -111,6 +111,7 @@
                     </xsl:element>
                     <xsl:element name="article">
                         <xsl:apply-templates/>
+                        <h3>Revision history</h3>
                         <p id="latestcommit"></p>
                     </xsl:element>
                 </xsl:element>
