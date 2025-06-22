@@ -62,7 +62,7 @@
             </cit>
             <cit source="../Tirukkural/TK1251.xml?id=TK1251&amp;w=6,8">
                 <q xml:lang="ta"><w>tāḻ</w> <w>vīḻtta</w> <w>katavu</w></q>
-                <q xml:lang="en">The door whose locking pin has been lowered [into place]</q>
+                <q xml:lang="en">the door whose locking pin has been lowered [into place]</q>
                 <ref target="../Tirukkural/TK1251.xml"><title xml:lang="ta">Tirukkuṟaḷ</title> 1251, line 2</ref>
             </cit>
             <note xml:lang="en">
@@ -75,7 +75,7 @@ Although the <title>Dravidian Etymological Dictionary</title> places the verb <f
                 <gram>root noun</gram>
                 <gram>metonym</gram>
             </gramGrp>
-            <def xml:lang="en"><unclear>lock</unclear></def>
+            <def xml:lang="en">lock</def>
             <def xml:lang="ta"></def>
             <cit source="../Narrinai/NA120.xml?id=NA120&amp;w=18,23">
                 <q xml:lang="ta"><w>pēḻai</w> <w>ciṟu</w> <w>tāḻ</w> <w>ceṟitta</w> <w>mel</w> <w>viral</w></q>
@@ -93,9 +93,10 @@ Especially when employed with the verb <foreign xml:lang="ta">ceṟittal</foreig
         </sense>
         <sense>
             <gramGrp>
-                <gram>root noun</gram>
+                <gram>noun</gram>
+                <gram>erroneous</gram>
             </gramGrp>
-            <def xml:lang="en"><sic>finger ring</sic></def>
+            <def xml:lang="en"><sic>finger-ring</sic></def>
             <cit>
                 <q xml:lang="ta">ciṟiya mōtirañ ceṟitta melliya viral</q>
                 <ref target="https://archive.org/details/naiai00unse/page/n271/mode/1up"><persName xml:lang="ta">A. Nārāyaṇacāmi Aiyar</persName> on <title xml:lang="ta">Naṟṟiṇai</title> 120 (1915, 162)</ref>
@@ -200,11 +201,11 @@ This definition of <foreign xml:lang="ta">tāḻ</foreign>, as a <q>finger-ring<
             <ref target="https://dsal.uchicago.edu/cgi-bin/app/winslow_query.py?page=575">p. 575</ref>
         </cit>
         <cit type="lexicon">
-            <title xml:lang="en">University of Madras Tamil Lexicon</title>
+            <title xml:lang="en">Tamil Lexicon (University of Madras)</title>
             <ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?page=912">p. 912</ref>
         </cit>
         <cit type="lexicon">
-            <title xml:lang="en">Tamil Moli Akarathi (Kadirvelu Pillai)</title>
+            <title xml:lang="ta">Tamiḻmoḻiyakarāti (Katiraivēṟ Piḷḷai)</title>
             <ref target="https://dsal.uchicago.edu/cgi-bin/app/kadirvelu_query.py?page=764">p. 764</ref>
             <ref target="https://dsal.uchicago.edu/cgi-bin/app/kadirvelu_query.py?page=1446">p. 1446</ref>
             <ref target="https://dsal.uchicago.edu/cgi-bin/app/kadirvelu_query.py?page=1699">p. 1699</ref>

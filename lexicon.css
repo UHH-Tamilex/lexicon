@@ -62,3 +62,7 @@ span.word.split:hover {
 .teitext p.bibliography {
     max-width: 100ch;
 }
+
+.citation-nikantu {
+    max-width: 80ch;
+}

@@ -303,7 +303,7 @@
     </em>
 </xsl:template>
 <xsl:template match="x:sense[@type='nikantu']">
-    <li>
+    <li><div class="citation-nikantu">
         <span class="msid"><xsl:apply-templates select="x:title"/></span>
         <xsl:text> </xsl:text>
         <span lang="ta">
@@ -314,7 +314,7 @@
                 </xsl:if>
             </xsl:for-each>
         </span>
-    </li>
+    </div></li>
 </xsl:template>
 
 <xsl:template match="x:title">
@@ -327,7 +327,10 @@
     <li>
         <span class="msid"><xsl:apply-templates select="x:title"/></span>
         <xsl:text> </xsl:text>
-        <xsl:apply-templates select="x:ref"/>
+        <xsl:for-each select="x:ref">
+            <xsl:apply-templates select="."/>
+            <xsl:if test="position() != last()">, </xsl:if>
+        </xsl:for-each>
         <xsl:if test="x:q">
             <div>
                 <xsl:apply-templates select="x:q"/>
