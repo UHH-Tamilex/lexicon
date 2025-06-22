@@ -9,11 +9,26 @@ blockquote {
 }
 .blockcite {
     text-align: right;
+    width: 55%;
 }
 li {
-    width: fit-content;
+    /*width: fit-content;*/
     margin-bottom: 1rem;
 }
+.sense {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.sense > div:first-child {
+    max-width: 55%;
+}
+.sense > div:last-child {
+    margin-top: 2rem;
+}
+
 .certlow {
     opacity: 60%;
 }
@@ -22,4 +37,28 @@ li {
 }
 details {
     margin-bottom: 1rem;
+}
+details[open] > summary .nested-grammar {
+    display: none;
+}
+
+small.note {
+    display: block;
+    width: 500px;
+    max-width: 80vw;
+}
+
+.nested-grammar {
+    font-style: italic;
+    font-size: smaller;
+}
+span.word.split {
+    margin-right: 0;
+}
+span.word.split:hover {
+    background: none;
+}
+
+.teitext p.bibliography {
+    max-width: 100ch;
 }

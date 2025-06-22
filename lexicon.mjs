@@ -1,7 +1,13 @@
 import { Transliterate } from './lib/js/transliterate.mjs';
-import createSqlWorker from './lib/js/sqlWorker.mjs';
+//import createSqlWorker from './lib/js/sqlWorker.mjs';
+import openDb from './lib/js/sqlite.mjs';
+import { loadDoc } from './lib/debugging/fileops.mjs';
+import Citer from './lib/debugging/cite.mjs';
 
 const init = () => {
+    
+    checkCitations();
+
     const loc = window.location.hash;
     if(!loc) return;
 
@@ -15,6 +21,50 @@ const init = () => {
     docClick({target: details});
     details.scrollIntoView({behavior: 'smooth', block: 'center'});
     details.open = true;
+};
+
+let citationProcessor = null;
+
+const checkCitation = async (thisxml,el) => {
+    const url = URL.parse(el.dataset.source,window.location);
+    const xml = await loadDoc(url.href);
+    if(!xml) {
+        markDifferent(el);
+        return;
+    }
+    
+    const id = url.searchParams.get('id');
+    const indices = url.searchParams.get('w').split(',').map(n => parseInt(n));
+    const cit = Citer.makeCitation(xml, id, indices);
+    const q = thisxml.querySelector(`cit[source="${el.dataset.source}"] q[*|lang^="ta"]`);
+    let w1 = q.firstElementChild;
+    let w2 = cit.documentElement.firstElementChild;
+    while(w1 && w2) {
+        if(w1.innerHTML.replaceAll(/ xmlns="http:\/\/www.tei-c.org\/ns\/1.0"/g,'') !== w2.innerHTML) {
+            console.log(w1.innerHTML);
+            console.log(w2.innerHTML);
+            markDifferent(el);
+            break;
+        }
+        w1 = w1.nextElementSibling;
+        w2 = w2.nextElementSibling;
+    }
+};
+
+const markDifferent = el => {
+    const span = document.createElement('span');
+    span.style.color = 'red';
+    span.append('! ');
+    span.dataset.anno = 'Citation differs from the edition cited.';
+    el.prepend(span);
+};
+
+const checkCitations = async () => {
+    const thisdoc = await loadDoc(window.location);
+    const cits = document.querySelectorAll('li[data-source]');
+    for(const cit of cits) {
+        checkCitation(thisdoc, cit);
+    }
 };
 
 const formatCitations = (citations) => {
@@ -40,40 +90,33 @@ const workers = {
     /*full: null*/
 };
 
-const getEntry = async (targ) => {
+const getEntry = async targ => {
     const spinner = targ.querySelector(':scope > .spinner');
     if(!spinner) return;
     
     if(!workers.local) 
-        workers.local = await createSqlWorker('../../wordindex.db');
-    /*
-    if(!workers.full) 
-        workers.full = await createSqlWorker('index.db');
-    */
+        workers.local = await openDb('./wordindex.db');
+
     let results = {};
     if(targ.id) {
-        results = await workers.local.db.query('SELECT def, pos, number, gender, nouncase, person, voice, aspect, syntax, particlefunction, rootnoun, enclitic, context, citation, line, filename FROM citations WHERE islemma = ?',[targ.id]);
-        /*
-        if(results.length === 0)
-            results = await workers.full.db.query('SELECT definition, type, number, gender, nouncase, voice, person, aspect, mood FROM dictionary WHERE islemma = ?',[targ.id]);
-        */
+        results = await workers.local.exec(`SELECT def, pos, number, gender, nouncase, person, voice, aspect, syntax, particlefunction, rootnoun, enclitic, context, citation, line, filename FROM citations WHERE islemma = ${targ.id}`);
     }
     else {
-        const lemma = targ.closest('details[id]')?.id;
+        const lemma = targ.closest('details[id]')?.id || targ.dataset.select;
         const form = targ.closest('details').dataset.entry;
         const islemma = targ.closest('details').dataset.lemma;
         if(islemma) {
             if(lemma)
-                results = await workers.local.db.query('SELECT def, pos, number, gender, nouncase, person, voice, aspect, particlefunction, syntax, rootnoun, enclitic, context, citation, line, filename FROM citations WHERE islemma = ?',[islemma]);
+                results = await workers.local.exec(`SELECT def, pos, number, gender, nouncase, person, voice, aspect, particlefunction, syntax, rootnoun, enclitic, context, citation, line, filename FROM citations WHERE islemma = "${islemma}"`);
             else
-                results = await workers.local.db.query('SELECT def, pos, number, gender, nouncase, person, voice, aspect, particlefunction, syntax, rootnoun, enclitic, context, citation, filename, line FROM citations WHERE form = ?',[islemma]);
+                results = await workers.local.exec(`SELECT def, pos, number, gender, nouncase, person, voice, aspect, particlefunction, syntax, rootnoun, enclitic, context, citation, filename, line FROM citations WHERE form = "${islemma}"`);
         }
         else if(lemma)
-            results = await workers.local.db.query('SELECT def, pos, number, gender, nouncase, person, voice, aspect, particlefunction, syntax, rootnoun, enclitic, context, citation, line, filename FROM citations WHERE form = ? AND fromlemma = ?',[form,lemma]);
+            results = await workers.local.exec(`SELECT def, pos, number, gender, nouncase, person, voice, aspect, particlefunction, syntax, rootnoun, enclitic, context, citation, line, filename FROM citations WHERE form = "${form}" AND fromlemma = "${lemma}"`);
         else
-            results = await workers.local.db.query('SELECT def, pos, number, gender, nouncase, person, voice, aspect, particlefunction, syntax, rootnoun, enclitic, context, citation, line, filename FROM citations WHERE form = ? AND fromlemma IS NULL',[form]);
-        if(results.length === 0) // this is a hack
-            results = await workers.local.db.query('SELECT def, pos, number, gender, nouncase, person, voice, aspect, particlefunction, syntax, rootnoun, enclitic, context, citation, line, filename FROM citations WHERE form = ? AND fromlemma IS NULL',[form]);
+            results = await workers.local.exec(`SELECT def, pos, number, gender, nouncase, person, voice, aspect, particlefunction, syntax, rootnoun, enclitic, context, citation, line, filename FROM citations WHERE form = "${form}" AND fromlemma IS NULL`);
+        if(results.length === 0) // this is a hack; will get rid of this when words a properly lemmatized
+            results = await workers.local.exec(`SELECT def, pos, number, gender, nouncase, person, voice, aspect, particlefunction, syntax, rootnoun, enclitic, context, citation, line, filename FROM citations WHERE form = "${form}" AND fromlemma IS NULL`);
     }
     
     const entry = {
@@ -81,22 +124,23 @@ const getEntry = async (targ) => {
         grammar: new Set(),
         citations: []
     };
-
-    for(const result of results) {
-        if(result.def) entry.translations.add(result.def);
-        if(result.pos) entry.grammar.add(result.pos);
-        if(result.number) entry.grammar.add(result.number);
-        if(result.gender) entry.grammar.add(result.gender);
-        if(result.nouncase) entry.grammar.add(result.nouncase);
-        if(result.person) entry.grammar.add(result.person);
-        if(result.aspect) entry.grammar.add(result.aspect);
-        if(result.citation) entry.citations.push({
-            siglum: result.citation,
-            filename: result.filename,
-            context: result.context,
-            line: result.line,
-            translation: result.def,
-            syntax: result.syntax || result.rootnoun || results.particlefunction,
+    
+    const cols = new Map(results[0].columns.map((e,i) => [e,i]));
+    for(const result of results[0].values) {
+        if(result[cols.get('def')]) entry.translations.add(result[cols.get('def')]);
+        if(result[cols.get('pos')]) entry.grammar.add(result[cols.get('pos')]);
+        if(result[cols.get('number')]) entry.grammar.add(result[cols.get('number')]);
+        if(result[cols.get('gender')]) entry.grammar.add(result[cols.get('gender')]);
+        if(result[cols.get('nouncase')]) entry.grammar.add(result[cols.get('nouncase')]);
+        if(result[cols.get('person')]) entry.grammar.add(result[cols.get('person')]);
+        if(result[cols.get('aspect')]) entry.grammar.add(result[cols.get('aspect')]);
+        if(result[cols.get('citation')]) entry.citations.push({
+            siglum: result[cols.get('citation')],
+            filename: result[cols.get('filename')],
+            context: result[cols.get('context')],
+            line: result[cols.get('line')],
+            translation: result[cols.get('def')],
+            syntax: result[cols.get('syntax')] || result[cols.get('rootnoun')] || results.particlefunction,
         });
     }
     let frag =

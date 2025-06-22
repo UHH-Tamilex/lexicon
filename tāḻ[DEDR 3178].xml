@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./lexicon.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><title xml:lang="ta">tāḻ</title></title>
+        <editor>Charles Li</editor>
+      </titleStmt>
+      <sourceDesc><p>Tamilex project.</p></sourceDesc>
+    </fileDesc>
+    <revisionDesc/>
+  </teiHeader>
+  <text xml:lang="en">
+    <body>
+      <entry corresp="tāḻ[DEDR3178]">
+        <form xml:lang="ta">tāḻ</form>
+        <gramGrp>
+            <gram>verb</gram>
+        </gramGrp>
+        <sense>
+            <gramGrp>
+                <gram>class 4</gram>
+            </gramGrp>
+            <def xml:lang="en">to hang down, to hang back, to be low</def>
+            <def xml:lang="ta"></def>
+            <cit source="../Akananuru/AN175.1.xml?id=AN175.1&amp;w=95,99">
+                <q xml:lang="ta"><w>taṇ</w> <w>peyal</w> <w>eḻili</w> <w>tāḻnta</w> <w>pōḻt<c type="elided">u</c>-ē</w></q>
+                <q xml:lang="en">when the clouds hung low with cool rain</q>
+                <ref target="../Akananuru/AN175.1.xml?highlight=[id%3D%22AN175.1%22]%20.l%3Anth-of-type(18)"><title xml:lang="ta">Akanaṉūṟu</title> 175.1, line 18</ref>
+            </cit>
+            <cit source="../TamilneriVilakkam/TNV23ed.xml?id=TNV23poem4&amp;w=17,20">
+                <q xml:lang="ta"><w>piṉ</w> <w>piṉ</w> <w>tāḻntaṉaḷ</w> <w>otuṅka</w></q>
+                <q xml:lang="en">while she hid, hanging back just behind [me]</q>
+                <ref target="../TamilneriVilakkam/TNV23ed.xml"><title xml:lang="ta">Tamiḻneṟi Viḷakkam</title> 23, poem 4, lines 3–4</ref>.
+            </cit>
+        </sense>
+        <sense>
+            <gramGrp>
+                <gram>class 11</gram>
+            </gramGrp>
+            <def xml:lang="en">to lower, to delay, to bow or prostrate</def>
+            <def xml:lang="ta"></def>
+            <cit source="../NalayiratTivviyapPirapantam/NMT11.xml?id=NMT11&amp;w=6,8">
+                <q xml:lang="ta"><w>makuṭam</w> <w>tāḻttu</w> <w>vaṇaṅkumiṉkaḷ</w></q>
+                <q xml:lang="en">do bow down, lowering the crown [of your heads]</q>
+                <ref target="../NalayiratTivviyapPirapantam/NMT11.xml?highlight=[id%3D%22NMT11%22]%20.l%3Anth-of-type(2)"><title xml:lang="ta">Nāṉmukaṉ Tiruvantāti</title> 11, lines 1–2</ref>
+            </cit>
+            <note xml:lang="en">These strong forms appear significantly later in the corpus than the weak forms. In earlier poems, it is possible that these meanings are conveyed by the weak forms or ambiguous forms, such as the verbal root (for example, see <title xml:lang="ta">Puṟanāṉūṟu</title> 360, <ref target="../Purananuru/PN360.xml?highlight=%5Bid%3D%22PN360%22%5D%20.l%3Anth-of-type(6)">line 6</ref>).</note>
+        </sense>
+        <sense>
+            <gramGrp>
+                <gram>root noun</gram>
+            </gramGrp>
+            <form type="variant">tāḷ</form>
+            <def xml:lang="en">locking bolt or pin</def>
+            <def xml:lang="ta"></def>
+            <cit>
+                <q xml:lang="ta">tāḷ uṭai<c type="geminated">k</c> kaṭikai… kuṟumpu</q>
+                <q xml:lang="en">the stronghold… [its] door bars with locking bolts</q>
+                <ref target="https://archive.org/details/196OldCommentaryNotesByRajagopalarya/page/57/mode/1up"><title xml:lang="ta">Akanāṉūṟu</title> 35, lines 3–4 (ed. Rajagopalan 1926, 57)<note place="foot">ed. Wilden 2018, 224. This is <q>strand 2</q> in the Wilden edition, which reads <foreign xml:lang="ta">tāḻ</foreign> in place of <foreign xml:lang="ta">tāḷ</foreign>.</note></ref>
+            </cit>
+            <cit source="../Tirukkural/TK1251.xml?id=TK1251&amp;w=6,8">
+                <q xml:lang="ta"><w>tāḻ</w> <w>vīḻtta</w> <w>katavu</w></q>
+                <q xml:lang="en">The door whose locking pin has been lowered [into place]</q>
+                <ref target="../Tirukkural/TK1251.xml"><title xml:lang="ta">Tirukkuṟaḷ</title> 1251, line 2</ref>
+            </cit>
+            <note xml:lang="en">
+Although the <title>Dravidian Etymological Dictionary</title> places the verb <foreign xml:lang="ta">tāḻ</foreign> and the noun <foreign xml:lang="ta">tāḻ</foreign> in two separate entries, it rather seems that the noun is derived from the verbal root. As seen in the <title xml:lang="ta">Tirukkuṟaḷ</title>, the noun refers to a pin or bolt in that is lowered (<foreign xml:lang="ta">vīḻttal</foreign>) into a hole in a door bar in order to lock it in place. The commentator on the <title xml:lang="ta">Akanāṉūṟu</title> glosses it as a pin (<foreign xml:lang="ta">āṇi</foreign>) that is used to secure a joint (<foreign xml:lang="ta">mūṭṭuvāy</foreign>); perhaps the commentator is imagining a system in which two intersecting bars are used to block a gate, with a locking pin going through both in order to secure them in place ― see, for example, the Lion Gate at Mycenae (Connolly 1977, 49). Simpler mechanisms, with a single bar and a hole for a locking pin, can be also be found in other cultures (Ghirshman 1966, 75). The semantic association of the locking pin as something that is <q>lowered</q> into place can also be found in other languages (Scurlock 1988, 424–428; see also Gundert on Malayalam <foreign xml:lang="ml-Latn-t-ml-Mlym">tāḻ</foreign>, below).</note>
+<note>As a root noun, <foreign xml:lang="ta">tāḻ</foreign> is also written as <foreign xml:lang="ta">tāḷ</foreign> (see <title xml:lang="ta">Akanāṉūṟu</title> 35 and its commentary, as well as <title xml:lang="ta">Puṟapporuḷveṇpāmālai</title> 9.24 &amp; 10.5 (ed. U. Vē. Cāminātaiyar 1924, <ref target="https://archive.org/details/gc-sh8-0001/page/109/mode/1up">99</ref>; <ref target="https://archive.org/details/gc-sh8-0001/page/123/mode/1up">113</ref>). It seems to be the source of the Pali <foreign xml:lang="pli">tāḷa</foreign> (Cone 2010, 305–306), and the Buddhist Hybrid Sanskrit <foreign xml:lang="sa">tāḍa(ka)</foreign> (Edgerton 1953, 251). It appears later in <persName xml:lang="sa">Hemacandra</persName>'s <title xml:lang="sa">Abhidhānacintāmaṇi</title> 1005 as <foreign xml:lang="sa-Latn-t-sa-Deva">tālaka</foreign> (ed. <persName xml:lang="sa">Vedāntavāgīśa</persName> &amp; <persName xml:lang="sa">Sena</persName> 1877, <ref target="https://archive.org/details/abhidhana.cintamanih-hemacandrah-ed-kalivara-sarmma-vedantavagisa-and-ramdas-sen/page/n151/mode/1up">150</ref>.)
+            </note>
+        </sense>
+        <sense>
+            <gramGrp>
+                <gram>root noun</gram>
+                <gram>metonym</gram>
+            </gramGrp>
+            <def xml:lang="en"><unclear>lock</unclear></def>
+            <def xml:lang="ta"></def>
+            <cit source="../Narrinai/NA120.xml?id=NA120&amp;w=18,23">
+                <q xml:lang="ta"><w>pēḻai</w> <w>ciṟu</w> <w>tāḻ</w> <w>ceṟitta</w> <w>mel</w> <w>viral</w></q>
+                <q xml:lang="en">[her] soft fingers, that had fastened the small lock on the box</q>
+                <ref target="../Narrinai/NA120.xml?highlight=[id%3D%22NA120%22]%20.l%3Anth-of-type(4)"><title xml:lang="ta">Naṟṟiṇai</title> 120, lines 3–4</ref>
+            </cit>
+            <cit source="../Kalittokai/Kali048.xml?id=Kali48&amp;w=65,69">
+                <q xml:lang="ta"><w>tāḻ</w> <w>ceṟi</w> <w>kaṭum</w> <w>kāppiṉ</w> <w>tāy</w></q>
+                <q xml:lang="en">[her] mother, fiercely protective [like] the closing of a lock</q>
+                <ref target="../Kalittokai/Kali048.xml?highlight=%5Bid%3D%22Kali48%22%5D%20.l%3Anth-of-type(10)"><title xml:lang="ta">Kalittokai</title> 48, line 10</ref>
+            </cit>
+            <note xml:lang="en">
+Especially when employed with the verb <foreign xml:lang="ta">ceṟittal</foreign>, the noun <foreign xml:lang="ta">tāḻ</foreign>, originally a <q>locking pin</q>, seems to be used as a metonym referring to the entire door locking mechanism (see also Fabricius on <foreign xml:lang="ta">tāḻceṟitta</foreign>: <q>to bolt or bar a door</q>, 1972, <ref target="https://dsal.uchicago.edu/cgi-bin/app/fabricius_query.py?page=512">512</ref>). This usage can also be found in its cognates in other languages: Telugu <foreign xml:lang="te-Latn-t-te-Telu">tāḷamu</foreign> can mean both <q>a lock</q> or <q>a key</q> (Brown 1903, <ref target="https://dsal.uchicago.edu/cgi-bin/app/brown_query.py?page=526">526</ref>), likewise with Malayalam <foreign xml:lang="ml-Latn-t-ml-Mlym">tāḻ</foreign> (Gundert 1872, <ref target="https://dsal.uchicago.edu/cgi-bin/app/gundert_query.py?page=448">448</ref>), and the Sanskrit <foreign xml:lang="sa-Latn-t-sa-Deva">tālaka</foreign>, in the <title xml:lang="sa">Mahāvyutpatti</title>, is glossed as <foreign xml:lang="bo-Latn-t-bo-Tibt">sgo lcags</foreign>, <q>lock</q> (ed. Sakaki 1916, <ref target="https://archive.org/details/kanwashiyakutaik01mahauoft/page/383/mode/1up">383</ref>).
+           </note>
+        </sense>
+        <sense>
+            <gramGrp>
+                <gram>root noun</gram>
+            </gramGrp>
+            <def xml:lang="en"><sic>finger ring</sic></def>
+            <cit>
+                <q xml:lang="ta">ciṟiya mōtirañ ceṟitta melliya viral</q>
+                <ref target="https://archive.org/details/naiai00unse/page/n271/mode/1up"><persName xml:lang="ta">A. Nārāyaṇacāmi Aiyar</persName> on <title xml:lang="ta">Naṟṟiṇai</title> 120 (1915, 162)</ref>
+            </cit>
+            <cit>
+                <q xml:lang="ta">viralaṇi vakai. <hi rend="italic">ciṟutāḻ ceṟitta melviral</hi> (<hi rend="italic">naṟ.</hi> <num xml:lang="en">120</num>). <num xml:lang="en">5</num>.</q>
+                <ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?page=1852"><title xml:lang="en">University of Madras Tamil Lexicon</title> on <foreign xml:lang="ta">tāḻ</foreign> (1924–1936, vol. 3, pt. 4, 1852)</ref>
+            </cit>
+            <note>
+This definition of <foreign xml:lang="ta">tāḻ</foreign>, as a <q>finger-ring</q>, seems to be a misinterpretation based on a single passage in the <title xml:lang="ta">Naṟṟiṇai</title> (see above), due to its collocation with <foreign xml:lang="ta">viral</foreign>, <q>finger</q>. It first appears in the editor's commentary in the 1915 editio princeps of the <title xml:lang="ta">Naṟṟiṇai</title>, and consequently it becomes lexicalized in the <title>Madras Tamil Lexicon</title> entry for <foreign xml:lang="ta">tāḻ</foreign>.
+            </note>
+        </sense>
+        <sense type="nikantu">
+            <title xml:lang="ta">Tivākaram (tāḻtal)</title>
+            <def xml:lang="ta">iṟaiñcal</def>
+            <def xml:lang="ta">kuraṅkal</def>
+        </sense>
+        <sense type="nikantu">
+            <title xml:lang="ta">Piṅkalam (tāḻtal)</title>
+            <def xml:lang="ta">iṟaiñcal</def>
+            <def xml:lang="ta">kuraṅkal</def>
+        </sense>
+        <sense type="nikantu">
+            <title xml:lang="ta">Cūṭāmaṇi (tāḻtal)</title>
+            <def xml:lang="ta">alkal</def>
+            <def xml:lang="ta">ivaṟal</def>
+            <def xml:lang="ta">irati</def>
+            <def xml:lang="ta">iṟuttal</def>
+            <def xml:lang="ta">iṟaiñcal</def>
+            <def xml:lang="ta">kavartal</def>
+            <def xml:lang="ta">kāṇal</def>
+            <def xml:lang="ta">kuraṅkutal</def>
+            <def xml:lang="ta">kuṉivu</def>
+            <def xml:lang="ta">cārpuṭaṉ</def>
+            <def xml:lang="ta">cōmpu</def>
+            <def xml:lang="ta">taṅkal</def>
+            <def xml:lang="ta">taṇṭaṉ</def>
+            <def xml:lang="ta">tarācu</def>
+            <def xml:lang="ta">tuyil</def>
+            <def xml:lang="ta">tūṅkal</def>
+            <def xml:lang="ta">nampal</def>
+            <def xml:lang="ta">niruttam</def>
+            <def xml:lang="ta">paṇital</def>
+            <def xml:lang="ta">paṇivu</def>
+            <def xml:lang="ta">pārttal</def>
+            <def xml:lang="ta">peṭṭal</def>
+            <def xml:lang="ta">mōkam</def>
+            <def xml:lang="ta">yāṉai</def>
+            <def xml:lang="ta">vaṇaṅkal</def>
+            <def xml:lang="ta">vatital</def>
+            <def xml:lang="ta">vantaṉam</def>
+            <def xml:lang="ta">vaḻipaṭal</def>
+            <def xml:lang="ta">viṭuttal</def>
+            <def xml:lang="ta">vīḻtal</def>
+            <def xml:lang="ta">veḵtal</def>
+            <def xml:lang="ta">vēṭkaiyiṉ perukkam</def>
+            <def xml:lang="ta">vēṇavā</def>
+            <def xml:lang="ta">vēṇṭal</def>
+            <def xml:lang="ta">vaikal</def>
+        </sense>
+        <sense type="nikantu">
+            <title xml:lang="ta">Cūṭāmaṇi (tāḻttal)</title>
+            <def xml:lang="ta">meyyeṉakoṭu</def>
+            <def xml:lang="ta">melleṉṟal</def>
+            <def xml:lang="ta">paiyeṉal</def>
+            <def xml:lang="ta">mantam</def>
+        </sense>
+        <sense type="nikantu">
+            <title xml:lang="ta">Tivākaram (tāḻ)</title>
+            <def xml:lang="ta">akaḷam</def>
+            <def xml:lang="ta">cāṭi</def>
+            <def xml:lang="ta">patalai</def>
+        </sense>
+        <sense type="nikantu">
+            <title xml:lang="ta">Piṅkalam (tāḻ)</title>
+            <def xml:lang="ta">akaḷam</def>
+            <def xml:lang="ta">kaṭikai</def>
+            <def xml:lang="ta">cāṭi</def>
+            <def xml:lang="ta">kāḻ</def>
+            <def xml:lang="ta">cīppu</def>
+            <def xml:lang="ta">patalai</def>
+            <def xml:lang="ta">taḷam</def>
+        </sense>
+        <sense type="nikantu">
+            <title xml:lang="ta">Cūṭāmaṇi (tāḻ)</title>
+            <def xml:lang="ta">kaṭikai</def>
+            <def xml:lang="ta">kāl</def>
+            <def xml:lang="ta">cīppu</def>
+        </sense>
+        <cit type="lexicon">
+            <title xml:lang="en">Vocabulario Tamulico com Asignificaçam Portugueza</title>
+            <ref target="https://digi.vatlib.it/view/MSS_Borg.ind.12/0387">f. 191r</ref>
+            <q xml:lang="pt">De baixo, ou abaixo.</q>
+        </cit>
+        <cit type="lexicon">
+            <title xml:lang="en">Tamil and English dictionary (Fabricius)</title>
+            <ref target="https://dsal.uchicago.edu/cgi-bin/app/fabricius_query.py?page=512">p. 512</ref>
+            <ref target="https://dsal.uchicago.edu/cgi-bin/app/fabricius_query.py?page=513">p. 513</ref>
+        </cit>
+        <cit type="lexicon">
+            <title xml:lang="en">A comprenhensive Tamil and English dictionary (Winslow)</title>
+            <ref target="https://dsal.uchicago.edu/cgi-bin/app/winslow_query.py?page=575">p. 575</ref>
+        </cit>
+        <cit type="lexicon">
+            <title xml:lang="en">University of Madras Tamil Lexicon</title>
+            <ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?page=912">p. 912</ref>
+        </cit>
+        <cit type="lexicon">
+            <title xml:lang="en">Tamil Moli Akarathi (Kadirvelu Pillai)</title>
+            <ref target="https://dsal.uchicago.edu/cgi-bin/app/kadirvelu_query.py?page=764">p. 764</ref>
+            <ref target="https://dsal.uchicago.edu/cgi-bin/app/kadirvelu_query.py?page=1446">p. 1446</ref>
+            <ref target="https://dsal.uchicago.edu/cgi-bin/app/kadirvelu_query.py?page=1699">p. 1699</ref>
+        </cit>
+        <cit type="lexicon">
+            <title xml:lang="en">Dravidian Etymological Dictionary</title>
+            <ref target="https://dsal.uchicago.edu/cgi-bin/app/burrow_query.py?page=276">3178 &amp; 3179, p. 276</ref>
+            <note xml:lang="en">The DEDR gives two entries, the first for the verb meaning <q>to fall low</q> and the second for the noun meaning <q>bolt, bar latch</q>; however, the noun seems to be derived from the verb in this case.</note>
+        </cit>
+        <cit type="lexicon">
+            <title xml:lang="ta">Kriyāviṉ taṟkālat Tamiḻ akarāti</title>
+            <ref target="https://dsal.uchicago.edu/cgi-bin/app/crea_query.py?page=530">p. 530</ref>
+        </cit>
+        <cit type="commentary">
+            <ref target="https://archive.org/details/196OldCommentaryNotesByRajagopalarya/page/57/mode/1up">anonymous commentary on <title xml:lang="ta">Akanāṉūṟu</title> 35 (ed. Rajagopalan 1926, 57)</ref>
+            <q xml:lang="ta">tāḷ – mūṭṭuvāyil vilaṅkac ceṟittum kaṭaiyāṇi ; kaṭikai – kāmpu.</q>
+        </cit>
+        <cit type="commentary">
+            <ref target="https://archive.org/details/gc-sh5-0112/page/n196/mode/1up">Nacciṉārkkiṉiyār on <title xml:lang="ta">Kalittokai</title> 48 (ed. Tāmōtarampiḷḷai 1887, 149)</ref>
+            <q xml:lang="ta">tāḻiṭṭu aṭaittāṟ pōluṅ kaṭiya kāvalaiyuṭaiya tāy</q>
+        </cit>
+        <cit type="nikantu">
+            <ref target="https://archive.org/details/dli.jZY9lup2kZl6TuXGlZQdjZp7kZUy.TVA_BOK_0002448/page/61/mode/1up"><title xml:lang="ta">Tivākaram</title> 9.29 <term xml:lang="ta">tāḻtal</term></ref>
+            <q rend="block" xml:lang="ta">
+                <lg>
+                    <l>iṟaiñcal, kuraṅkal, tāḻtal (ākum).</l>
+                </lg>
+            </q>
+        </cit>
+        <cit type="nikantu">
+            <ref target="https://archive.org/details/dli.jZY9lup2kZl6TuXGlZQdjZp7kZUy.TVA_BOK_0002448/page/61/mode/1up"><title xml:lang="ta">Tivākaram</title> 7.264 <term xml:lang="ta">tāḻiyiṉ peyar</term></ref>
+            <q rend="block" xml:lang="ta">
+                <lg>
+                    <l>cāṭi, akaḷam, patalai, tāḻi</l>
+                </lg>
+            </q>
+        </cit>
+        <cit type="nikantu">
+            <ref target="https://archive.org/details/dli.jZY9lup2kZl6TuXGlZQdjZp7kZUy.TVA_BOK_0002448/page/233/mode/1up"><title xml:lang="ta">Piṅkalam</title> 6.635 <term xml:lang="ta">tāḻi</term></ref>
+            <q rend="block" xml:lang="ta">
+                <lg>
+                    <l>akaḷamum, cāṭiyum, patalaiyum, (aṉṟit)</l>
+                    <l>taḷamum, tāḻiyiṉ (cāṟṟiya) peyarē.</l>
+                </lg>
+            </q>
+        </cit>
+        <cit type="nikantu">
+            <ref target="https://archive.org/details/dli.jZY9lup2kZl6TuXGlZQdjZp7kZUy.TVA_BOK_0002448/page/n194/mode/1up"><title xml:lang="ta">Piṅkalam</title> 4.236 <term xml:lang="ta">tāḻ</term></ref>
+            <q rend="block" xml:lang="ta">
+                <lg>
+                    <l>kāḻum, cīppum, kaṭikaiyum, tāḻ (ām).</l>
+                </lg>
+            </q>
+        </cit>
+        <cit type="nikantu">
+            <ref target="https://archive.org/details/dli.jZY9lup2kZl6TuXGlZQdjZp7kZUy.TVA_BOK_0002448/page/242/mode/1up"><title xml:lang="ta">Piṅkalam</title> 7.218 <term xml:lang="ta">tāḻtal</term></ref>
+            <q rend="block" xml:lang="ta">
+                <lg>
+                    <l>iṟaiñcalum, kuraṅkalum, tāḻtalai (icaikkum).</l>
+                </lg>
+            </q>
+        </cit>
+        <cit type="nikantu">
+            <ref target="https://archive.org/details/gc-sh10-0106/page/n107/mode/1up"><title xml:lang="ta">Cūṭāmaṇi</title> 7.49 <term xml:lang="ta">katavu, tāḻ, yāṉait tōṭṭi</term></ref>
+            <q rend="block" xml:lang="ta">
+                <lg>
+                    <l>kataviṉ (pēr), arari, vāri,</l>
+                    <l rend="indent">kāppoṭu, kavāṭam, tōṭṭi,</l>
+                    <l>patavum (ām); kāḻum, cīppum,</l>
+                    <l rend="indent">(pōṟṟiya) kaṭikaiyum, tāḻ;</l>
+                    <l>(matam uṟum) yāṉai (taṉṉai</l>
+                    <l rend="indent">vaṇakkum) aṅkucamē, tōṭṭi,</l>
+                    <l>(vitam uṟu) kōṇam (eṉṟum</l>
+                    <l rend="indent">viḷampuvar aḷanta nūlōr).</l>
+                </lg>
+            </q>
+        </cit>
+        <cit type="nikantu">
+            <ref target="https://archive.org/details/dli.jZY9lup2kZl6TuXGlZQdjZp7kZUy.TVA_BOK_0002448/page/432/mode/1up"><title xml:lang="ta">Cūṭāmaṇi</title> 8.76 <term xml:lang="ta">vēṭkaip perukkam, kāmanōy</term></ref>
+            <q rend="block" xml:lang="ta">
+                <lg>
+                    <l>(cūḻtarum) mōkam, nampal,</l>
+                    <l rend="indent">(coṟṟiṭum) irati, veḵkal,</l>
+                    <l>tāḻtalē, kavartal, peṭṭal,</l>
+                    <l rend="indent">kārpuṭaṉ, ivaṟal, vēṇṭal,</l>
+                    <l>vīḻtal, vēṇavā, (īrāṟum)</l>
+                    <l rend="indent">vēṭkaiyiṉ perukkam (eṉpa);</l>
+                    <l>(māḻkiya) virakam, kāmam,</l>
+                    <l rend="indent">mataṉamē, kāmanōy (ām).</l>
+                </lg>
+            </q>
+        </cit>
+        <cit type="nikantu">
+            <ref target="https://archive.org/details/dli.jZY9lup2kZl6TuXGlZQdjZp7kZUy.TVA_BOK_0002448/page/434/mode/1up"><title xml:lang="ta">Cūṭāmaṇi</title> 9.16 <term xml:lang="ta">aṭakkam, taṅkal, pāntal, tēyttal</term></ref>
+            <q rend="block" xml:lang="ta">
+                <lg>
+                    <l>muṭakkamē, maṭaṅkal, kutti,</l>
+                    <l rend="indent">muṇaṅkoṭu, noṟil, oṭukkam,</l>
+                    <l>aṭakkam (ām); vatital, vaikal,</l>
+                    <l rend="indent">alkalē, iṟuttal, tāḻtal,</l>
+                    <l>viṭuttal, (āṟum) taṅkal (pēr);</l>
+                    <l rend="indent">vacittalōṭu, iṟaiyum (ap pēr);</l>
+                    <l>oṭukkamē, patuṅkal, pāntal;</l>
+                    <l rend="indent">uraittalē, uriñcal, tēyttal.</l>
+                </lg>
+            </q>
+        </cit>
+        <cit type="nikantu">
+            <ref target="https://archive.org/details/dli.jZY9lup2kZl6TuXGlZQdjZp7kZUy.TVA_BOK_0002448/page/437/mode/1up"><title xml:lang="ta">Cūṭāmaṇi</title> 9.40 <term xml:lang="ta">viraivuk kuṟippu, mantam</term></ref>
+            <q rend="block" xml:lang="ta">
+                <lg>
+                    <l>aiyeṉaloṭu, poḷḷeṉṟal,</l>
+                    <l rend="indent">(āṉa) kuttiramē, caṇṭam,</l>
+                    <l>noyteṉṟal, katumeṉṟiṭṭal,</l>
+                    <l rend="indent">(noṭiyiṉil) porukkeṉṟiṭṭal,</l>
+                    <l>veyteṉṟal, ñeḷḷal, kōram,</l>
+                    <l rend="indent">viraiviṉil kuṟippu (pattām);</l>
+                    <l>meyyeṉakoṭu, melleṉṟal,</l>
+                    <l rend="indent">paiyeṉal, tāḻttal, mantam.</l>
+                </lg>
+            </q>
+        </cit>
+        <cit type="nikantu">
+            <ref target="https://archive.org/details/dli.jZY9lup2kZl6TuXGlZQdjZp7kZUy.TVA_BOK_0002448/page/435/mode/1up"><title xml:lang="ta">Cūṭāmaṇi</title> 9.19 <term xml:lang="ta">taṇṭaṉiṭal, āliṅkaṉam, kumpiṭal</term></ref>
+            <q rend="block" xml:lang="ta">
+                <lg>
+                    <l>vantaṉam, paṇital, kāṇal,</l>
+                    <l rend="indent">vaḻipaṭal, paṇivu, iṟaiñcal,</l>
+                    <l>(tam talai) vaṇaṅkal, pārttal,</l>
+                    <l rend="indent">tāḻtal, (oṉpāṉum) taṇṭaṉ;</l>
+                    <l>(muntiya) taḻuval, viḷḷal,</l>
+                    <l rend="indent">muyaṅkal, āliṅkaṉap (pēr);</l>
+                    <l>(antamāt) toḻal, kai kūppal,</l>
+                    <l rend="indent">añcali, kumpiṭal (pēr).</l>
+                </lg>
+            </q>
+        </cit>
+        <cit type="nikantu">
+            <ref target="https://archive.org/details/dli.jZY9lup2kZl6TuXGlZQdjZp7kZUy.TVA_BOK_0002448/page/435/mode/1up"><title xml:lang="ta">Cūṭāmaṇi</title> 9.27 <term xml:lang="ta">aimpoṟi nutarvu, viṭuttal, aṭukkutal, oḻital, tāḻtal</term></ref>
+            <q rend="block" xml:lang="ta">
+                <lg>
+                    <l>(aṭutta) tuppuravum, tuvvum,</l>
+                    <l rend="indent">aimpoṟi nukarvu (ākum);</l>
+                    <l>viṭuttal, mōcaṉamē, mōkkam,</l>
+                    <l rend="indent">vītamām, tīrtalum (pēr);</l>
+                    <l>aṭukkutal (pērē), ēṟṟal;</l>
+                    <l rend="indent">(ām) pval, oḻital (eṉpa);</l>
+                    <l>(naṭukkuṟat) tāḻtaliṉ (pēr),</l>
+                    <l rend="indent">kuraṅkutal, kuṉivum (nāṭṭum).</l>
+                </lg>
+            </q>
+        </cit>
+        <cit type="nikantu">
+            <ref target="https://archive.org/details/dli.jZY9lup2kZl6TuXGlZQdjZp7kZUy.TVA_BOK_0002448/page/448/mode/1up"><title xml:lang="ta">Cūṭāmaṇi</title> 11.23 <term xml:lang="ta">ñāṅkar, tūṅkal, vāṅkal, vai, vēṅkai, vī</term></ref>
+            <q rend="block" xml:lang="ta">
+                <lg>
+                    <l>ñāṅkar, vēl, pakkam, muṉpu,</l>
+                    <l rend="indent">mēl (eṉa nāṉkum ākum);</l>
+                    <l>tūṅkalē, niruttam, yāṉai,</l>
+                    <l rend="indent">tuyil, cōmpu, tarācu, tāḻtal;</l>
+                    <l>vāṅkalē, vaḷattal, koḷḷal;</l>
+                    <l rend="indent">vai, (eṉpa) kūrmai, vaikkōl;</l>
+                    <l>vēṅkai, poṉ, puli, marap(pēr);</l>
+                    <l rend="indent">vī, nīkkam, pū, puḷ, cā (ām).</l>
+                </lg>
+            </q>
+        </cit>
+        <cit type="external">
+            <ref target="https://www.ifpindia.org/digitaldb/site/digital_tevaram/U_TEV/CT-TAA.HTM#:~:text=y%C4%93y%C4%81m%C4%81%20t%C4%81v%C4%93%E1%B8%BB%C4%ABk%C4%81%20n%C4%ABt%C4%81%E1%B9%89%C4%93-,t%C4%81%E1%B8%BB,-%3A%2022">Digital <term xml:lang="ta">Tēvāram</term> 98.182</ref>
+        </cit>
+        <entry corresp="tāḻ[DEDR3179]">
+            <form xml:lang="ta">tāḻ</form>
+            <gramGrp>
+                <gram type="pos">noun</gram>
+            </gramGrp>
+        </entry>
+        <entry>
+            <form xml:lang="ta">tāḻa</form>
+        </entry>
+        <entry>
+            <form xml:lang="ta">tāḻā</form>
+        </entry>
+        <entry>
+            <form xml:lang="ta">tāḻātu</form>
+        </entry>
+        <entry>
+            <form xml:lang="ta">tāḻum</form>
+        </entry>
+        <entry>
+            <form xml:lang="ta">tāḻtaliṉ</form>
+        </entry>
+        <entry>
+            <form xml:lang="ta">tāḻtta</form>
+        </entry>
+        <entry>
+            <form xml:lang="ta">tāḻttatu</form>
+        </entry>
+        <entry>
+            <form xml:lang="ta">tāḻttu</form>
+        </entry>
+        <entry>
+            <form xml:lang="ta">tāḻnta</form>
+        </entry>
+        <entry>
+            <form xml:lang="ta">tāḻntaṉaḷ</form>
+        </entry>
+        <entry>
+            <form xml:lang="ta">tāḻntaṉṟu</form>
+        </entry>
+        <entry>
+            <form xml:lang="ta">tāḻntāy</form>
+        </entry>
+        <entry>
+            <form xml:lang="ta">tāḻpaṉṉa</form>
+        </entry>
+        <entry>
+            <form xml:lang="ta">tāḻpu</form>
+        </entry>
+        <entry>
+            <form xml:lang="ta">tāḻvu</form>
+        </entry>
+      </entry>
+      <listBibl>
+        <bibl>Brown, Charles Philip. 1903. <title>A Telugu-English Dictionary.</title> Madras: Promoting Christian Knowledge. Via <ref target="https://dsal.uchicago.edu/dictionaries/brown/">Digital Dictionaries of South Asia</ref>.</bibl>
+        <bibl><persName xml:lang="ta">Cāminātaiyar, U. Vē.</persName>, ed. 1924. <title xml:lang="ta">Puṟapporuḷ veṇpāmālai mūlamum uraiyum.</title> <term xml:lang="ta">Ceṉṉai:</term> <term xml:lang="ta">Kamarṣiyal Accukkūṭam</term>. <ref target="https://archive.org/details/gc-sh8-0001">ark:/13960/s2qt5kcst8p</ref></bibl>
+        <bibl>Cone, Margaret. 2010. <title>A Dictionary of Pāli, Part II. g ― n.</title> Bristol: Pali Text Society.</bibl>
+        <bibl>Connolly, Peter. 1979. <title>The Greek Armies.</title> London: Macdonald Educational.</bibl>
+        <bibl>Edgerton, Franklin. 1953. <title>Buddhist Hybrid Sanskrit Grammar and Dictionary. Volume II: Dictionary.</title> New Haven: Yale University Press.</bibl>
+        <bibl>Ghirshman, Roman. 1966. <title>Tchoga Zanbil (Dur-Untash). Vol. I, La ziggurat.</title> Paris: P. Geuthner.</bibl>
+        <bibl>Gundert, Hermann. 1872. <title>A Malayalam and English dictionary.</title> Mangalore/London: C. Stolz; Trübner &amp; Co. Via <ref target="https://dsal.uchicago.edu/dictionaries/gundert/">Digital Dictionaries of South Asia</ref>.</bibl>
+        <bibl><persName xml:lang="ta">Nārāyaṇacāmi Aiyar, A.</persName>, ed. 1915. <title xml:lang="ta">Naṟṟiṇai.</title> <term xml:lang="ta">Ceṉṉapaṭṭaṇam</term>: <term xml:lang="ta">Caivavittiyā nūpālaṉayantiracālai</term>. <ref target="https://archive.org/details/naiai00unse">ark:/13960/s24swjnf3tb</ref>. </bibl>
+        <bibl><persName xml:lang="ja">榊 亮三郎</persName> [Sakaki Ryōzaburō], ed. 1916. <title xml:lang="ja">飜譯名義大集 <term xml:lang="sa">[Mahāvyutpatti]</term>.</title> Kyoto: Shingonshū Kyōto Daigaku. <ref target="https://archive.org/details/kanwashiyakutaik01mahauoft">ark:/13960/t2x35824s</ref>.
+        </bibl>
+        <bibl>Scurlock, J. A. 1988. <title type="article">How to Lock a Gate: A New Interpretation of CT 40 12.</title> <title>Orientalia</title> 57(4): 421–433. <ref target="https://www.jstor.org/stable/43077596">jstor.org/stable/43077596</ref></bibl>
+        <bibl><persName xml:lang="ta">Tāmōtarampiḷḷai, Ci. Vai.</persName>, ed. 1887. <title xml:lang="ta">Kalittokai. Nacciṉārkkiṉiyār uraiyōṭum.</title> Madras: Scottish Press. <ref target="https://archive.org/details/gc-sh5-0112/">ark:/13960/s2sjcr8nx2v</ref></bibl>
+        <bibl><persName xml:lang="sa">Vedāntavāgīśa, Kālīvara</persName> &amp; <persName xml:lang="sa">Sena, Rāmadāsa</persName>. 1877. <title xml:lang="sa-Latn-t-sa-Deva">Abhidhānacintāmaṇiḥ | (saṅkṣiptaṭīkāsahitaḥ) Ācāryya Śrīhemacandrasūriciracitaḥ |</title> <term xml:lang="sa">Kalikātā</term>: <term xml:lang="sa">Jñānaratnākara</term>. <ref target="https://archive.org/details/abhidhana.cintamanih-hemacandrah-ed-kalivara-sarmma-vedantavagisa-and-ramdas-sen">ark:/13960/t0wq99946</ref></bibl> 
+      </listBibl>
+    </body>
+  </text>
+</TEI>

@@ -1,4 +1,3 @@
-//import openDb from './lib/js/sqlite-http.mjs';
 import openDb from './lib/js/sqlite.mjs';
 import SqlString from './SqlString.js';
 import { Sanscript } from './lib/js/sanscript.mjs';

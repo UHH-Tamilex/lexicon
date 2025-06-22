@@ -93,19 +93,21 @@
                 <xsl:element name="div">
                     <xsl:choose>
                         <xsl:when test="x:facsimile/x:graphic">
-                            <xsl:attribute name="id">record-thin</xsl:attribute>
+                            <xsl:attribute name="class">record thin</xsl:attribute>
                         </xsl:when>
                         <xsl:otherwise>
-                            <xsl:attribute name="id">record-fat</xsl:attribute>
+                            <xsl:attribute name="class">record fat</xsl:attribute>
                         </xsl:otherwise>
                     </xsl:choose>
                     <xsl:element name="div">
                         <xsl:attribute name="id">topbar</xsl:attribute>
-                        <xsl:element name="div">
-                            <xsl:attribute name="id">transbutton</xsl:attribute>
-                            <xsl:attribute name="data-anno">change script</xsl:attribute>
-                            <xsl:text>A</xsl:text>
-                        </xsl:element>
+                        <div id="buttoncontainer">
+                            <xsl:element name="div">
+                                <xsl:attribute name="id">transbutton</xsl:attribute>
+                                <xsl:attribute name="data-anno">change script</xsl:attribute>
+                                <xsl:text>A</xsl:text>
+                            </xsl:element>
+                        </div>
                     </xsl:element>
                     <xsl:element name="article">
                         <xsl:apply-templates/>
@@ -211,31 +213,66 @@
         </xsl:for-each>
     </p>
 </xsl:template>
+<xsl:template match="x:sense/x:gramGrp">
+    <xsl:call-template name="nested-grammar"/>
+</xsl:template>
+<xsl:template name="nested-grammar">
+    <span class="nested-grammar">
+        <xsl:for-each select=".//x:gram">
+            <xsl:apply-templates/>
+            <xsl:if test="position() != last()">, </xsl:if>
+        </xsl:for-each>
+        <xsl:text>.</xsl:text>
+    </span>
+    <xsl:text> </xsl:text>
+</xsl:template>
+
+<xsl:template match="x:form[@type='variant']">
+    <span class="form-variant">
+        <xsl:text>(var. </xsl:text>
+        <em lang="ta"><xsl:apply-templates/></em>
+        <xsl:text>)</xsl:text>
+    </span>
+        <xsl:text> </xsl:text>
+</xsl:template>
 <xsl:template match="x:sense">
     <li>
-        <xsl:if test="@cert='low'">
-            <xsl:attribute name="class">certlow</xsl:attribute>
-        </xsl:if>
-        <xsl:apply-templates select="x:def"/>
-        <xsl:apply-templates select="x:note"/>
-        <xsl:if test="x:cit">
-            <ul>
-                <xsl:apply-templates select="x:cit"/>
-            </ul>
-        </xsl:if>
+        <div class="sense">
+            <div>
+            <xsl:if test="@cert='low'">
+                <xsl:attribute name="class">certlow</xsl:attribute>
+            </xsl:if>
+            <xsl:apply-templates select="x:gramGrp"/>
+            <xsl:apply-templates select="x:form[@type='variant']"/>
+            <xsl:apply-templates select="x:def"/>
+            <xsl:if test="x:cit">
+                <ul>
+                    <xsl:apply-templates select="x:cit"/>
+                </ul>
+            </xsl:if>
+            </div>
+            <div>
+            <xsl:apply-templates select="x:note"/>
+            </div>
+        </div>
     </li>
 </xsl:template>
 <xsl:template match="x:sense/x:note">
-    <small><xsl:apply-templates/></small>
+    <small class="note"><xsl:apply-templates/></small>
 </xsl:template>
 <xsl:template match="x:def">
-    <div>
+    <span>
         <xsl:call-template name="lang"/>
         <xsl:apply-templates/>
-    </div>
+    </span>
 </xsl:template>
 <xsl:template match="x:cit">
     <li>
+        <xsl:if test="@source">
+            <xsl:attribute name="data-source">
+                <xsl:value-of select="@source"/>
+            </xsl:attribute>
+        </xsl:if>
         <xsl:apply-templates select="x:q[@xml:lang='ta']"/>
         <xsl:text> </xsl:text>
         <xsl:choose>
@@ -279,6 +316,13 @@
         </span>
     </li>
 </xsl:template>
+
+<xsl:template match="x:title">
+    <em>
+        <xsl:call-template name="lang"/>
+        <xsl:apply-templates/>
+    </em>
+</xsl:template>
 <xsl:template match="x:cit[@type='lexicon']">
     <li>
         <span class="msid"><xsl:apply-templates select="x:title"/></span>
@@ -297,6 +341,12 @@
         <xsl:apply-templates/>
     </q>
 </xsl:template>
+<xsl:template match="x:w">
+    <span class="word split">
+        <xsl:apply-templates/>
+    </span>
+</xsl:template>
+
 <xsl:template match="x:q[@rend='block']">
     <blockquote>
         <xsl:call-template name="lang"/>
@@ -306,8 +356,20 @@
 <xsl:template match="x:entry/x:entry">
     <details style="margin-left: 1rem" class="dict">
         <xsl:attribute name="data-entry"><xsl:value-of select="x:form"/></xsl:attribute>
-        <summary class="dict-heading" lang="ta"><xsl:value-of select="x:form"/></summary>
+        <xsl:attribute name="data-lemma"><xsl:value-of select="@corresp"/></xsl:attribute>
+        <summary class="dict-heading" lang="ta">
+            <xsl:value-of select="x:form"/>
+            <xsl:if test="x:gramGrp">
+                <xsl:text> </xsl:text>
+                <xsl:call-template name="nested-grammar"/>
+            </xsl:if>
+        </summary>
         <div class="spinner"></div>
     </details>
+</xsl:template>
+
+<xsl:template match="x:listBibl">
+    <h3>Additional bibliography</h3>
+    <xsl:apply-templates/>
 </xsl:template>
 </xsl:stylesheet>
