@@ -7,6 +7,10 @@ import Citer from './lib/debugging/cite.mjs';
 const init = () => {
     
     checkCitations();
+    const citlink = document.getElementById('citationlink');
+    const url = new URL(window.location);
+    citlink.textContent = url.hostname + decodeURI(url.pathname);
+    citlink.href = window.location;
 
     const loc = window.location.hash;
     if(!loc) return;

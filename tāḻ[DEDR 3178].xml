@@ -4,8 +4,8 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title><title xml:lang="ta">tāḻ</title></title>
-        <editor>Charles Li</editor>
+        <title xml:lang="ta">tāḻ</title>
+        <editor><forename>Charles</forename> <surname>Li</surname></editor>
       </titleStmt>
       <sourceDesc><p>Tamilex project.</p></sourceDesc>
     </fileDesc>

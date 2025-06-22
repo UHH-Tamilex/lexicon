@@ -112,7 +112,28 @@
                     <xsl:element name="article">
                         <xsl:apply-templates/>
                         <h3>Revision history</h3>
+                        <p>
+                            <xsl:text>Edited by </xsl:text>
+                            <xsl:value-of select="//x:titleStmt/x:editor"/>
+                            <xsl:text>.</xsl:text>
+                        </p>
+                        <p><a href="https://doi.org/10.5281/zenodo.15680522"><img src="https://zenodo.org/badge/785581051.svg" alt="DOI"/></a></p>
                         <p id="latestcommit"></p>
+                        <p class="bibliography" id="suggested-citation">
+                            <xsl:value-of select="//x:titleStmt/x:editor/x:surname"/>
+                            <xsl:text>, </xsl:text>
+                            <xsl:value-of select="//x:titleStmt/x:editor/x:forename"/>
+                            <xsl:text>. 2025. </xsl:text>
+                            <q>
+                                <xsl:value-of select="//x:titleStmt/x:title"/>
+                                <xsl:text>.</xsl:text>
+                            </q>
+                            <em>
+                                <xsl:text> Tamilex. </xsl:text>
+                            </em>
+                            <a id="citationlink"></a>
+                            <xsl:text> doi:10.5281/zenodo.15680522</xsl:text>
+                        </p>
                     </xsl:element>
                 </xsl:element>
             </xsl:element>
