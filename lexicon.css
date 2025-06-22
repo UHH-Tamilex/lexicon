@@ -66,3 +66,7 @@ span.word.split:hover {
 .citation-nikantu {
     max-width: 80ch;
 }
+
+.def-ta {
+    display: block;
+}

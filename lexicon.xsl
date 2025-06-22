@@ -262,6 +262,9 @@
 </xsl:template>
 <xsl:template match="x:def">
     <span>
+        <xsl:if test="@xml:lang='ta'">
+            <xsl:attribute name="class">def-ta</xsl:attribute>
+        </xsl:if>
         <xsl:call-template name="lang"/>
         <xsl:apply-templates/>
     </span>
