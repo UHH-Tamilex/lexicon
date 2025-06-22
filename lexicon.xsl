@@ -112,14 +112,14 @@
                     <xsl:element name="article">
                         <xsl:apply-templates/>
                         <h3>Revision history</h3>
-                        <p>
+                        <p style="font-size: 1.2rem">
                             <xsl:text>Edited by </xsl:text>
                             <xsl:value-of select="//x:titleStmt/x:editor"/>
-                            <xsl:text>.</xsl:text>
+                            <xsl:text>. </xsl:text>
+                            <span id="latestcommit"></span>
                         </p>
                         <p><a href="https://doi.org/10.5281/zenodo.15680522"><img src="https://zenodo.org/badge/785581051.svg" alt="DOI"/></a></p>
-                        <p id="latestcommit"></p>
-                        <p class="bibliography" id="suggested-citation">
+                        <p style="font-size: 1.2rem" class="bibliography" id="suggested-citation">
                             <xsl:value-of select="//x:titleStmt/x:editor/x:surname"/>
                             <xsl:text>, </xsl:text>
                             <xsl:value-of select="//x:titleStmt/x:editor/x:forename"/>
