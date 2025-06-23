@@ -20,7 +20,6 @@ li {
     display: flex;
     width: 100%;
     justify-content: space-between;
-    flex-wrap: wrap;
     flex-direction: row;
 }
 .sense > div:first-child {
@@ -30,6 +29,9 @@ li {
     margin-top: 2rem;
 }
 @media (max-width: 500px) {
+    .sense {
+        flex-wrap: wrap;
+    }
     .sense > div:first-child {
         max-width: fit-content;
     }
