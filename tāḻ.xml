@@ -581,6 +581,8 @@ This definition of <foreign xml:lang="ta">tāḻ</foreign>, as a <q>finger-ring<
             <form xml:lang="ta">tāḻvu</form>
         </entry>
       </entry>
+    </body>
+  </text>
       <listBibl>
         <bibl>Brown, Charles Philip. 1903. <title>A Telugu-English Dictionary.</title> Madras: Promoting Christian Knowledge. Via <ref target="https://dsal.uchicago.edu/dictionaries/brown/">Digital Dictionaries of South Asia</ref>.</bibl>
         <bibl><persName xml:lang="ta">Cāminātaiyar, U. Vē.</persName>, ed. 1924. <title xml:lang="ta">Puṟapporuḷ veṇpāmālai mūlamum uraiyum.</title> <term xml:lang="ta">Ceṉṉai:</term> <term xml:lang="ta">Kamarṣiyal Accukkūṭam</term>. <ref target="https://archive.org/details/gc-sh8-0001">ark:/13960/s2qt5kcst8p</ref></bibl>
@@ -596,6 +598,4 @@ This definition of <foreign xml:lang="ta">tāḻ</foreign>, as a <q>finger-ring<
         <bibl><persName xml:lang="ta">Tāmōtarampiḷḷai, Ci. Vai.</persName>, ed. 1887. <title xml:lang="ta">Kalittokai. Nacciṉārkkiṉiyār uraiyōṭum.</title> Madras: Scottish Press. <ref target="https://archive.org/details/gc-sh5-0112/">ark:/13960/s2sjcr8nx2v</ref></bibl>
         <bibl><persName xml:lang="sa">Vedāntavāgīśa, Kālīvara</persName> &amp; <persName xml:lang="sa">Sena, Rāmadāsa</persName>. 1877. <title xml:lang="sa-Latn-t-sa-Deva">Abhidhānacintāmaṇiḥ | (saṅkṣiptaṭīkāsahitaḥ) Ācāryya Śrīhemacandrasūriciracitaḥ |</title> <term xml:lang="sa">Kalikātā</term>: <term xml:lang="sa">Jñānaratnākara</term>. <ref target="https://archive.org/details/abhidhana.cintamanih-hemacandrah-ed-kalivara-sarmma-vedantavagisa-and-ramdas-sen">ark:/13960/t0wq99946</ref></bibl> 
       </listBibl>
-    </body>
-  </text>
 </TEI>
