@@ -1,3 +1,7 @@
+[lang^="ta-Taml"] {
+    font-size-adjust: ex-height 0.5;
+}
+
 .msid {
     font-size: 1.1rem;
     white-space: normal;
