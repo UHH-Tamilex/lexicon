@@ -53,7 +53,7 @@
                 <gram>root noun</gram>
             </gramGrp>
             <form type="variant">tāḷ</form>
-            <def xml:lang="en">locking bolt or pin</def>
+            <def xml:lang="en">a locking bolt or pin</def>
             <def xml:lang="ta"></def>
             <cit>
                 <q xml:lang="ta">tāḷ uṭai<c type="geminated">k</c> kaṭikai… kuṟumpu</q>
@@ -75,7 +75,7 @@ Although the <title>Dravidian Etymological Dictionary</title> places the verb <f
                 <gram>root noun</gram>
                 <gram>metonym</gram>
             </gramGrp>
-            <def xml:lang="en">lock</def>
+            <def xml:lang="en">a lock</def>
             <def xml:lang="ta"></def>
             <cit source="../Narrinai/NA120.xml?id=NA120&amp;w=18,23">
                 <q xml:lang="ta"><w>pēḻai</w> <w>ciṟu</w> <w>tāḻ</w> <w>ceṟitta</w> <w>mel</w> <w>viral</w></q>
@@ -96,7 +96,7 @@ Especially when employed with the verb <foreign xml:lang="ta">ceṟittal</foreig
                 <gram>noun</gram>
                 <gram>erroneous</gram>
             </gramGrp>
-            <def xml:lang="en"><sic>finger-ring</sic></def>
+            <def xml:lang="en">a <sic>finger-ring</sic></def>
             <cit>
                 <q xml:lang="ta">ciṟiya mōtirañ ceṟitta melliya viral</q>
                 <ref target="https://archive.org/details/naiai00unse/page/n271/mode/1up"><persName xml:lang="ta">A. Nārāyaṇacāmi Aiyar</persName> on <title xml:lang="ta">Naṟṟiṇai</title> 120 (1915, 162)</ref>
