@@ -165,6 +165,11 @@ This definition of <foreign xml:lang="ta">tāḻ</foreign>, as a <q>finger-ring<
             <def xml:lang="ta">mantam</def>
         </sense>
         <sense type="nikantu">
+            <title xml:lang="ta">Tivākaram (tāḻ)</title>
+            <def xml:lang="ta">kāḻ</def>
+            <def xml:lang="ta">cīppu</def>
+        </sense>
+        <sense type="nikantu">
             <title xml:lang="ta">Piṅkalam (tāḻ)</title>
             <def xml:lang="ta">kaṭikai</def>
             <def xml:lang="ta">kāḻ</def>
@@ -220,6 +225,14 @@ This definition of <foreign xml:lang="ta">tāḻ</foreign>, as a <q>finger-ring<
         <cit type="commentary">
             <ref target="https://archive.org/details/gc-sh5-0112/page/n196/mode/1up">Nacciṉārkkiṉiyār on <title xml:lang="ta">Kalittokai</title> 48 (ed. Tāmōtarampiḷḷai 1887, 149)</ref>
             <q xml:lang="ta">tāḻiṭṭu aṭaittāṟ pōluṅ kaṭiya kāvalaiyuṭaiya tāy</q>
+        </cit>
+        <cit type="nikantu">
+            <ref target="https://archive.org/details/dli.jZY9lup2kZl6TuXGlZQdjZp7kZUy.TVA_BOK_0002448/page/58/mode/1up"><title xml:lang="ta">Tivākaram</title> 7.165 <term xml:lang="ta">katavil ceṟi tāḻiṉ peyar</term></ref>
+            <q rend="block" xml:lang="ta">
+                <lg>
+                    <l>cīppu, kāḻ, katavil ceṟi tāḻ (ākum).</l>
+                </lg>
+            </q>
         </cit>
         <cit type="nikantu">
             <ref target="https://archive.org/details/dli.jZY9lup2kZl6TuXGlZQdjZp7kZUy.TVA_BOK_0002448/page/61/mode/1up"><title xml:lang="ta">Tivākaram</title> 9.29 <term xml:lang="ta">tāḻtal</term></ref>
