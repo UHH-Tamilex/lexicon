@@ -76,6 +76,10 @@ p.bibliography {
     display: block;
 }
 
+.teitext em.title, em.title {
+    font-style: italic;
+}
+
 @media (max-width: 1080px) {
     small.note {
         width: 300px;

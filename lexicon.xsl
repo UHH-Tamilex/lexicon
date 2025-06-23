@@ -321,12 +321,6 @@
         </xsl:if>
     </li>
 </xsl:template>
-<xsl:template match="x:title">
-    <em>
-        <xsl:call-template name="lang"/>
-        <xsl:apply-templates/>
-    </em>
-</xsl:template>
 <xsl:template match="x:sense[@type='nikantu']">
     <li><div class="citation-nikantu">
         <xsl:call-template name="lang"/>
@@ -350,12 +344,6 @@
     </div></li>
 </xsl:template>
 
-<xsl:template match="x:title">
-    <em>
-        <xsl:call-template name="lang"/>
-        <xsl:apply-templates/>
-    </em>
-</xsl:template>
 <xsl:template match="x:cit[@type='lexicon']">
     <li>
         <span class="msid"><xsl:apply-templates select="x:title"/></span>
