@@ -165,25 +165,15 @@ This definition of <foreign xml:lang="ta">tāḻ</foreign>, as a <q>finger-ring<
             <def xml:lang="ta">mantam</def>
         </sense>
         <sense type="nikantu">
-            <title xml:lang="ta">Tivākaram (tāḻ)</title>
-            <def xml:lang="ta">akaḷam</def>
-            <def xml:lang="ta">cāṭi</def>
-            <def xml:lang="ta">patalai</def>
-        </sense>
-        <sense type="nikantu">
             <title xml:lang="ta">Piṅkalam (tāḻ)</title>
-            <def xml:lang="ta">akaḷam</def>
             <def xml:lang="ta">kaṭikai</def>
-            <def xml:lang="ta">cāṭi</def>
             <def xml:lang="ta">kāḻ</def>
             <def xml:lang="ta">cīppu</def>
-            <def xml:lang="ta">patalai</def>
-            <def xml:lang="ta">taḷam</def>
         </sense>
         <sense type="nikantu">
             <title xml:lang="ta">Cūṭāmaṇi (tāḻ)</title>
             <def xml:lang="ta">kaṭikai</def>
-            <def xml:lang="ta">kāl</def>
+            <def xml:lang="ta">kāḻ</def>
             <def xml:lang="ta">cīppu</def>
         </sense>
         <cit type="lexicon">
@@ -236,23 +226,6 @@ This definition of <foreign xml:lang="ta">tāḻ</foreign>, as a <q>finger-ring<
             <q rend="block" xml:lang="ta">
                 <lg>
                     <l>iṟaiñcal, kuraṅkal, tāḻtal (ākum).</l>
-                </lg>
-            </q>
-        </cit>
-        <cit type="nikantu">
-            <ref target="https://archive.org/details/dli.jZY9lup2kZl6TuXGlZQdjZp7kZUy.TVA_BOK_0002448/page/61/mode/1up"><title xml:lang="ta">Tivākaram</title> 7.264 <term xml:lang="ta">tāḻiyiṉ peyar</term></ref>
-            <q rend="block" xml:lang="ta">
-                <lg>
-                    <l>cāṭi, akaḷam, patalai, tāḻi</l>
-                </lg>
-            </q>
-        </cit>
-        <cit type="nikantu">
-            <ref target="https://archive.org/details/dli.jZY9lup2kZl6TuXGlZQdjZp7kZUy.TVA_BOK_0002448/page/233/mode/1up"><title xml:lang="ta">Piṅkalam</title> 6.635 <term xml:lang="ta">tāḻi</term></ref>
-            <q rend="block" xml:lang="ta">
-                <lg>
-                    <l>akaḷamum, cāṭiyum, patalaiyum, (aṉṟit)</l>
-                    <l>taḷamum, tāḻiyiṉ (cāṟṟiya) peyarē.</l>
                 </lg>
             </q>
         </cit>
