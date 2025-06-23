@@ -51,26 +51,29 @@
             <note xml:lang="en">possible, rare; see <persName xml:lang="ta">Parimēlaḻakar</persName> on <title xml:lang="ta">Paripātal</title> 16.17</note>
         </sense>
         <sense type="nikantu">
-            <title xml:lang="ta">Tivākaram</title>
-            <def xml:lang="ta">kaḻi</def>
-            <def xml:lang="ta">pēyttēr</def>
-            <def xml:lang="ta">katir oḷi</def>
-            <def xml:lang="ta">kaṭal cārpiṉ cōlai</def>
-            <def xml:lang="ta">malaic cārpiṉ cōlai</def>
-        </sense>
-        <sense type="nikantu">
-            <title xml:lang="ta">Piṅkalam</title>
-            <def xml:lang="ta">uppaḷam</def>
-            <def xml:lang="ta">oḷi</def>
-            <def xml:lang="ta">kaḻikkarai cōlai</def>
-            <def xml:lang="ta">malaippuṟac cōlai</def>
-            <def xml:lang="ta">katiravaṉ oḷi</def>
-            <def xml:lang="ta">kaḻi</def>
-            <def xml:lang="ta">pēyttēr</def>
-        </sense>
-        <sense type="nikantu">
-            <title xml:lang="ta">Cūṭāmaṇi</title>
-            <def xml:lang="ta">kāṭu</def>
+            <form>kāṉal</form>
+            <cit>
+                <ref xml:lang="ta">Tivākaram</ref>
+                <def xml:lang="ta">kaḻi</def>
+                <def xml:lang="ta">pēyttēr</def>
+                <def xml:lang="ta">katir oḷi</def>
+                <def xml:lang="ta">kaṭal cārpiṉ cōlai</def>
+                <def xml:lang="ta">malaic cārpiṉ cōlai</def>
+            </cit>
+            <cit>
+                <ref xml:lang="ta">Piṅkalam</ref>
+                <def xml:lang="ta">uppaḷam</def>
+                <def xml:lang="ta">oḷi</def>
+                <def xml:lang="ta">kaḻikkarai cōlai</def>
+                <def xml:lang="ta">malaippuṟac cōlai</def>
+                <def xml:lang="ta">katiravaṉ oḷi</def>
+                <def xml:lang="ta">kaḻi</def>
+                <def xml:lang="ta">pēyttēr</def>
+            </cit>
+            <cit>
+                <ref xml:lang="ta">Cūṭāmaṇi</ref>
+                <def xml:lang="ta">kāṭu</def>
+            </cit>
         </sense>
         <cit type="lexicon">
             <title xml:lang="en">University of Madras Tamil Lexicon</title>

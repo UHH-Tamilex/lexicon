@@ -23,7 +23,6 @@
                 <gram>class 4</gram>
             </gramGrp>
             <def xml:lang="en">to hang down, to hang back, to be low</def>
-            <def xml:lang="ta"></def>
             <cit source="../Akananuru/AN175.1.xml?id=AN175.1&amp;w=95,99">
                 <q xml:lang="ta"><w>taṇ</w> <w>peyal</w> <w>eḻili</w> <w>tāḻnta</w> <w>pōḻt<c type="elided">u</c>-ē</w></q>
                 <q xml:lang="en">when the clouds hung low with cool rain</q>
@@ -54,7 +53,6 @@
             </gramGrp>
             <form type="variant">tāḷ</form>
             <def xml:lang="en">a locking bolt or pin</def>
-            <def xml:lang="ta"></def>
             <cit>
                 <q xml:lang="ta">tāḷ uṭai<c type="geminated">k</c> kaṭikai… kuṟumpu</q>
                 <q xml:lang="en">the stronghold… [its] door bars with locking bolts</q>
@@ -76,7 +74,6 @@ Although the <title>Dravidian Etymological Dictionary</title> places the verb <f
                 <gram>metonym</gram>
             </gramGrp>
             <def xml:lang="en">a lock</def>
-            <def xml:lang="ta"></def>
             <cit source="../Narrinai/NA120.xml?id=NA120&amp;w=18,23">
                 <q xml:lang="ta"><w>pēḻai</w> <w>ciṟu</w> <w>tāḻ</w> <w>ceṟitta</w> <w>mel</w> <w>viral</w></q>
                 <q xml:lang="en">[her] soft fingers, that had fastened the small lock on the box</q>
@@ -109,77 +106,88 @@ Especially when employed with the verb <foreign xml:lang="ta">ceṟittal</foreig
 This definition of <foreign xml:lang="ta">tāḻ</foreign>, as a <q>finger-ring</q>, seems to be a misinterpretation based on a single passage in the <title xml:lang="ta">Naṟṟiṇai</title> (see above), due to its collocation with <foreign xml:lang="ta">viral</foreign>, <q>finger</q>. It first appears in the editor's commentary in the 1915 editio princeps of the <title xml:lang="ta">Naṟṟiṇai</title>, and consequently it becomes lexicalized in the <title>Madras Tamil Lexicon</title> entry for <foreign xml:lang="ta">tāḻ</foreign>.
             </note>
         </sense>
-        <sense type="nikantu">
-            <title xml:lang="ta">Tivākaram (tāḻtal)</title>
-            <def xml:lang="ta">iṟaiñcal</def>
-            <def xml:lang="ta">kuraṅkal</def>
+        <sense type="nikantu" xml:lang="ta">
+            <form>tāḻtal</form>
+            <cit>
+                <ref>Tivākaram</ref>
+                <def>iṟaiñcal</def>
+                <def>kuraṅkal</def>
+            </cit>
+            <cit>
+                <ref>Piṅkalam</ref>
+                <def>iṟaiñcal</def>
+                <def>kuraṅkal</def>
+                <def>vaṇaṅkal</def>
+            </cit>
+            <cit>
+                <ref>Cūṭāmaṇi</ref>
+                <def>taṅkal</def>
+                <def>taṇṭaṉ</def>
+                <def>kuraṅkutal</def>
+                <def>kuṉivu</def>
+                <def>tūṅkal</def>
+            </cit>
         </sense>
-        <sense type="nikantu">
-            <title xml:lang="ta">Piṅkalam (tāḻtal)</title>
-            <def xml:lang="ta">iṟaiñcal</def>
-            <def xml:lang="ta">kuraṅkal</def>
+        <sense type="nikantu" xml:lang="ta">
+            <form>tāḻttal</form>
+            <cit>
+                <ref>Cūṭāmaṇi</ref>
+                <def>mantam</def>
+            </cit>
         </sense>
-        <sense type="nikantu">
-            <title xml:lang="ta">Cūṭāmaṇi (tāḻtal)</title>
-            <def xml:lang="ta">alkal</def>
-            <def xml:lang="ta">ivaṟal</def>
-            <def xml:lang="ta">irati</def>
-            <def xml:lang="ta">iṟuttal</def>
-            <def xml:lang="ta">iṟaiñcal</def>
-            <def xml:lang="ta">kavartal</def>
-            <def xml:lang="ta">kāṇal</def>
-            <def xml:lang="ta">kuraṅkutal</def>
-            <def xml:lang="ta">kuṉivu</def>
-            <def xml:lang="ta">cārpuṭaṉ</def>
-            <def xml:lang="ta">cōmpu</def>
-            <def xml:lang="ta">taṅkal</def>
-            <def xml:lang="ta">taṇṭaṉ</def>
-            <def xml:lang="ta">tarācu</def>
-            <def xml:lang="ta">tuyil</def>
-            <def xml:lang="ta">tūṅkal</def>
-            <def xml:lang="ta">nampal</def>
-            <def xml:lang="ta">niruttam</def>
-            <def xml:lang="ta">paṇital</def>
-            <def xml:lang="ta">paṇivu</def>
-            <def xml:lang="ta">pārttal</def>
-            <def xml:lang="ta">peṭṭal</def>
-            <def xml:lang="ta">mōkam</def>
-            <def xml:lang="ta">yāṉai</def>
-            <def xml:lang="ta">vaṇaṅkal</def>
-            <def xml:lang="ta">vatital</def>
-            <def xml:lang="ta">vantaṉam</def>
-            <def xml:lang="ta">vaḻipaṭal</def>
-            <def xml:lang="ta">viṭuttal</def>
-            <def xml:lang="ta">vīḻtal</def>
-            <def xml:lang="ta">veḵkal</def>
-            <def xml:lang="ta">vēṭkaiyiṉ perukkam</def>
-            <def xml:lang="ta">vēṇavā</def>
-            <def xml:lang="ta">vēṇṭal</def>
-            <def xml:lang="ta">vaikal</def>
+        <sense type="nikantu" xml:lang="ta">
+            <form>tāḻ</form>
+            <cit>
+                <ref>Tivākaram</ref>
+                <def>kāḻ</def>
+                <def>cīppu</def>
+            </cit>
+            <cit>
+                <ref>Piṅkalam</ref>
+                <def>kaṭikai</def>
+                <def>kāḻ</def>
+                <def n="2">cīppu</def>
+            </cit>
+            <cit>
+                <ref>Cūṭāmaṇi</ref>
+                <def n="2">kaṭikai</def>
+                <def>kāḻ</def>
+                <def n="2">cīppu</def>
+            </cit>
         </sense>
-        <sense type="nikantu">
-            <title xml:lang="ta">Cūṭāmaṇi (tāḻttal)</title>
-            <def xml:lang="ta">meyyeṉakoṭu</def>
-            <def xml:lang="ta">melleṉṟal</def>
-            <def xml:lang="ta">paiyeṉal</def>
-            <def xml:lang="ta">mantam</def>
+        <sense type="nikantu" xml:lang="ta">
+            <form>tāḻvu</form>
+            <cit>
+                <ref>Tivākaram</ref>
+                <def>tūṅkal</def>
+            </cit>
+            <cit>
+                <ref>Piṅkalam</ref>
+                <def>iḻivu</def>
+                <def>cāyppu</def>
+                <def>tañcam</def>
+                <def n="2">taṇmai</def>
+            </cit>
+            <cit>
+                <ref>Cūṭāmaṇi</ref>
+                <def>iḻivu</def>
+                <def>koṭiyaṉ</def>
+                <def>cāyppu</def>
+                <def>tañcam</def>
+                <def>taṇmai</def>
+                <def>talaiyiḻipuṭaṉ</def>
+                <def>paḷḷam</def>
+                <def>pāvam</def>
+            </cit>
         </sense>
-        <sense type="nikantu">
-            <title xml:lang="ta">Tivākaram (tāḻ)</title>
-            <def xml:lang="ta">kāḻ</def>
-            <def xml:lang="ta">cīppu</def>
-        </sense>
-        <sense type="nikantu">
-            <title xml:lang="ta">Piṅkalam (tāḻ)</title>
-            <def xml:lang="ta">kaṭikai</def>
-            <def xml:lang="ta">kāḻ</def>
-            <def xml:lang="ta">cīppu</def>
-        </sense>
-        <sense type="nikantu">
-            <title xml:lang="ta">Cūṭāmaṇi (tāḻ)</title>
-            <def xml:lang="ta">kaṭikai</def>
-            <def xml:lang="ta">kāḻ</def>
-            <def xml:lang="ta">cīppu</def>
+        <sense type="nikantu" xml:lang="ta">
+            <form>tāḻmai</form>
+            <cit>
+                <ref>Piṅkalam</ref>
+                <def>iḻivu</def>
+                <def>eṇmai</def>
+                <def>kīḻmai</def>
+            </cit>
         </sense>
         <cit type="lexicon">
             <title xml:lang="en">Vocabulario Tamulico com Asignificaçam Portugueza</title>
@@ -235,10 +243,32 @@ This definition of <foreign xml:lang="ta">tāḻ</foreign>, as a <q>finger-ring<
             </q>
         </cit>
         <cit type="nikantu">
+            <ref target="https://archive.org/details/dli.jZY9lup2kZl6TuXGlZQdjZp7kZUy.TVA_BOK_0002448/page/67/mode/1up"><title xml:lang="ta">Tivākaram</title> 8.89 <term xml:lang="ta">viruppu</term></ref>
+            <q rend="block" xml:lang="ta">
+                <lg>
+                    <l>mātar, kātal, ātaravu, ārvam,</l>
+                    <l>kāmar, veppam, paṟṟē, kāmam,</l>
+                    <l>vīḻtal, vēṭkai, tāḻtal, veḵkal,</l>
+                    <l>nacaiyē, nampu, mēvu, nayappu,</l>
+                    <l>piṇaiyē, pēṇal, peṭpē, peṭṭal,</l>
+                    <l>ivaṟal, avāvē, ivartal, kavartal,</l>
+                    <l>viḻaivē, viruppiṉ (poruḷ kaṭṭuraiyē).</l>
+                </lg>
+            </q>
+        </cit>
+        <cit type="nikantu">
             <ref target="https://archive.org/details/dli.jZY9lup2kZl6TuXGlZQdjZp7kZUy.TVA_BOK_0002448/page/61/mode/1up"><title xml:lang="ta">Tivākaram</title> 9.29 <term xml:lang="ta">tāḻtal</term></ref>
             <q rend="block" xml:lang="ta">
                 <lg>
                     <l>iṟaiñcal, kuraṅkal, tāḻtal (ākum).</l>
+                </lg>
+            </q>
+        </cit>
+        <cit type="nikantu">
+            <ref target="https://archive.org/details/dli.jZY9lup2kZl6TuXGlZQdjZp7kZUy.TVA_BOK_0002448/page/98/mode/1up"><title xml:lang="ta">Tivākaram</title> 11.132 <term xml:lang="ta">tūṅkal</term></ref>
+            <q rend="block" xml:lang="ta">
+                <lg>
+                    <l>tūṅkal, āṭalum, tāḻvum (collum).</l>
                 </lg>
             </q>
         </cit>
@@ -251,10 +281,68 @@ This definition of <foreign xml:lang="ta">tāḻ</foreign>, as a <q>finger-ring<
             </q>
         </cit>
         <cit type="nikantu">
-            <ref target="https://archive.org/details/dli.jZY9lup2kZl6TuXGlZQdjZp7kZUy.TVA_BOK_0002448/page/242/mode/1up"><title xml:lang="ta">Piṅkalam</title> 7.218 <term xml:lang="ta">tāḻtal</term></ref>
+            <ref target="https://archive.org/details/dli.jZY9lup2kZl6TuXGlZQdjZp7kZUy.TVA_BOK_0002448/page/237/mode/1up"><title xml:lang="ta">Piṅkalam</title> 7.92 <term xml:lang="ta">tāḻvu</term></ref>
+            <q rend="block" xml:lang="ta">
+                <lg>
+                    <l>cāyppum, iḻivum, taṇmaiyum, tañcamum,</l>
+                    <l>tāḻvu (eṉ kiḷavit taṉmaiyatu ākum).</l>
+                </lg>
+            </q>
+        </cit>
+        <cit type="nikantu">
+            <ref target="https://archive.org/details/dli.jZY9lup2kZl6TuXGlZQdjZp7kZUy.TVA_BOK_0002448/page/243/mode/1up"><title xml:lang="ta">Piṅkalam</title> 7.216 <term xml:lang="ta">vaṇaṅkal</term></ref>
+            <q rend="block" xml:lang="ta">
+                <lg>
+                    <l>vantaṉai, paṇital, taṇṭaṉ, vaṇakkam,</l>
+                    <l>paraval, iṟaiñcal, tāḻtal, kāṇṭal,</l>
+                    <l>vantittal, pōṟṟal, vaṇaṅkal (ākum).</l>
+                </lg>
+            </q>
+        </cit>
+        <cit type="nikantu">
+            <ref target="https://archive.org/details/dli.jZY9lup2kZl6TuXGlZQdjZp7kZUy.TVA_BOK_0002448/page/243/mode/1up"><title xml:lang="ta">Piṅkalam</title> 7.218 <term xml:lang="ta">tāḻtal</term></ref>
             <q rend="block" xml:lang="ta">
                 <lg>
                     <l>iṟaiñcalum, kuraṅkalum, tāḻtalai (icaikkum).</l>
+                </lg>
+            </q>
+        </cit>
+        <cit type="nikantu">
+            <ref target="https://archive.org/details/dli.jZY9lup2kZl6TuXGlZQdjZp7kZUy.TVA_BOK_0002448/page/304/mode/1up"><title xml:lang="ta">Piṅkalam</title> 10.508 <term xml:lang="ta">cīppu</term></ref>
+            <q rend="block" xml:lang="ta">
+                <lg>
+                    <l>kataviṉ tāḻum, kaṅkamum, cīppē.</l>
+                </lg>
+            </q>
+        </cit>
+        <cit type="nikantu">
+            <ref target="https://archive.org/details/dli.jZY9lup2kZl6TuXGlZQdjZp7kZUy.TVA_BOK_0002448/page/304/mode/1up"><title xml:lang="ta">Piṅkalam</title> 10.577 <term xml:lang="ta">taṇmai</term></ref>
+            <q rend="block" xml:lang="ta">
+                <lg>
+                    <l>tāḻvum, eḷimaiyum, taṇmai (eṉpa).</l>
+                </lg>
+            </q>
+        </cit>
+        <cit type="nikantu">
+            <ref target="https://archive.org/details/dli.jZY9lup2kZl6TuXGlZQdjZp7kZUy.TVA_BOK_0002448/page/308/mode/1up"><title xml:lang="ta">Piṅkalam</title> 10.602 <term xml:lang="ta">taḻmai</term></ref>
+            <q rend="block" xml:lang="ta">
+                <lg>
+                    <l>iḷivum, kīḻmaiyum, eṇmaiyum, tāḻmai.</l>
+                </lg>
+            </q>
+        </cit>
+        <cit type="nikantu">
+            <ref target="https://archive.org/details/dli.jZY9lup2kZl6TuXGlZQdjZp7kZUy.TVA_BOK_0002448/page/411/mode/1up"><title xml:lang="ta">Cūṭāmaṇi</title> 5.61 <term xml:lang="ta">paḷḷam, paḻaṅkollai, putuk kollai, uḻavu</term></ref>
+            <q rend="block" xml:lang="ta">
+                <lg>
+                    <l>iḻivu, kīḻ, payampu, tāḻvē,</l>
+                    <l rend="indent">(ēṟṟiṭum) paṭukar, ñeḷḷal,</l>
+                    <l>kuḻi, uvaḷakam, kiḻakku,</l>
+                    <l rend="indent">(kūṟu) aval, paḷḷam (pattām);</l>
+                    <l>aḻaiyatām kollaip (pērē),</l>
+                    <l rend="indent">(pakar) mutaip puṉam (ām eṉpa);</l>
+                    <l>(viḻaivuṟu) putiya kollai,</l>
+                    <l rend="indent">itaip puṉam; uḻavu, toyyal.</l>
                 </lg>
             </q>
         </cit>
@@ -270,6 +358,21 @@ This definition of <foreign xml:lang="ta">tāḻ</foreign>, as a <q>finger-ring<
                     <l rend="indent">vaṇakkum) aṅkucamē, tōṭṭi,</l>
                     <l>(vitam uṟu) kōṇam (eṉṟum</l>
                     <l rend="indent">viḷampuvar aḷanta nūlōr).</l>
+                </lg>
+            </q>
+        </cit>
+        <cit type="nikantu">
+            <ref target="https://archive.org/details/dli.jZY9lup2kZl6TuXGlZQdjZp7kZUy.TVA_BOK_0002448/page/430/mode/1up"><title xml:lang="ta">Cūṭāmaṇi</title> 8.56 <term xml:lang="ta">accak kuṟippu, tāḻvu</term></ref>
+            <q rend="block" xml:lang="ta">
+                <lg>
+                    <l>(nilai peṟātu) ōṭal, tēṅkal,</l>
+                    <l rend="indent">ñerēleṉal, kūcal, tiṭkal,</l>
+                    <l>ulamaral, aḷukkal, ñoḷkal,</l>
+                    <l rend="indent">(oṭu) tuṭukkeṉalē, tuṭkal,</l>
+                    <l>kulaital, veytuṟalē, accak</l>
+                    <l rend="indent">uṟippu, tuṇṇeṉalum (kūṟum);</l>
+                    <l>talaiyiḻipuṭaṉē, cāyppu,</l>
+                    <l rend="indent">tañcamē, taṇmai, tāḻvu.</l>
                 </lg>
             </q>
         </cit>
@@ -304,21 +407,6 @@ This definition of <foreign xml:lang="ta">tāḻ</foreign>, as a <q>finger-ring<
             </q>
         </cit>
         <cit type="nikantu">
-            <ref target="https://archive.org/details/dli.jZY9lup2kZl6TuXGlZQdjZp7kZUy.TVA_BOK_0002448/page/437/mode/1up"><title xml:lang="ta">Cūṭāmaṇi</title> 9.40 <term xml:lang="ta">viraivuk kuṟippu, mantam</term></ref>
-            <q rend="block" xml:lang="ta">
-                <lg>
-                    <l>aiyeṉaloṭu, poḷḷeṉṟal,</l>
-                    <l rend="indent">(āṉa) kuttiramē, caṇṭam,</l>
-                    <l>noyteṉṟal, katumeṉṟiṭṭal,</l>
-                    <l rend="indent">(noṭiyiṉil) porukkeṉṟiṭṭal,</l>
-                    <l>veyteṉṟal, ñeḷḷal, kōram,</l>
-                    <l rend="indent">viraiviṉil kuṟippu (pattām);</l>
-                    <l>meyyeṉakoṭu, melleṉṟal,</l>
-                    <l rend="indent">paiyeṉal, tāḻttal, mantam.</l>
-                </lg>
-            </q>
-        </cit>
-        <cit type="nikantu">
             <ref target="https://archive.org/details/dli.jZY9lup2kZl6TuXGlZQdjZp7kZUy.TVA_BOK_0002448/page/435/mode/1up"><title xml:lang="ta">Cūṭāmaṇi</title> 9.19 <term xml:lang="ta">taṇṭaṉiṭal, āliṅkaṉam, kumpiṭal</term></ref>
             <q rend="block" xml:lang="ta">
                 <lg>
@@ -349,6 +437,21 @@ This definition of <foreign xml:lang="ta">tāḻ</foreign>, as a <q>finger-ring<
             </q>
         </cit>
         <cit type="nikantu">
+            <ref target="https://archive.org/details/dli.jZY9lup2kZl6TuXGlZQdjZp7kZUy.TVA_BOK_0002448/page/437/mode/1up"><title xml:lang="ta">Cūṭāmaṇi</title> 9.40 <term xml:lang="ta">viraivuk kuṟippu, mantam</term></ref>
+            <q rend="block" xml:lang="ta">
+                <lg>
+                    <l>aiyeṉaloṭu, poḷḷeṉṟal,</l>
+                    <l rend="indent">(āṉa) kuttiramē, caṇṭam,</l>
+                    <l>noyteṉṟal, katumeṉṟiṭṭal,</l>
+                    <l rend="indent">(noṭiyiṉil) porukkeṉṟiṭṭal,</l>
+                    <l>veyteṉṟal, ñeḷḷal, kōram,</l>
+                    <l rend="indent">viraiviṉil kuṟippu (pattām);</l>
+                    <l>meyyeṉakoṭu, melleṉṟal,</l>
+                    <l rend="indent">paiyeṉal, tāḻttal, mantam.</l>
+                </lg>
+            </q>
+        </cit>
+        <cit type="nikantu">
             <ref target="https://archive.org/details/dli.jZY9lup2kZl6TuXGlZQdjZp7kZUy.TVA_BOK_0002448/page/448/mode/1up"><title xml:lang="ta">Cūṭāmaṇi</title> 11.23 <term xml:lang="ta">ñāṅkar, tūṅkal, vāṅkal, vai, vēṅkai, vī</term></ref>
             <q rend="block" xml:lang="ta">
                 <lg>
@@ -360,6 +463,66 @@ This definition of <foreign xml:lang="ta">tāḻ</foreign>, as a <q>finger-ring<
                     <l rend="indent">vai, (eṉpa) kūrmai, vaikkōl;</l>
                     <l>vēṅkai, poṉ, puli, marap(pēr);</l>
                     <l rend="indent">vī, nīkkam, pū, puḷ, cā (ām).</l>
+                </lg>
+            </q>
+        </cit>
+        <cit type="nikantu">
+            <ref target="https://archive.org/details/dli.jZY9lup2kZl6TuXGlZQdjZp7kZUy.TVA_BOK_0002448/page/451/mode/1up"><title xml:lang="ta">Cūṭāmaṇi</title> 11.49 <term xml:lang="ta">kaṭikai, paṭiṟu, pakartal, cuṭikai, iṭi</term></ref>
+            <q rend="block" xml:lang="ta">
+                <lg>
+                    <l>kaṭikai, nāḻikaiyē, tuṇṭam,</l>
+                    <l rend="indent">katavu iṭu tāḻē (mup pēr);</l>
+                    <l>paṭiṟu, poy, kaḷavu (iraṇṭu ām);</l>
+                    <l rend="indent">pakartalē, viṟṟal, pēcal;</l>
+                    <l>cuṭikaiyē, makuṭam, ucci,</l>
+                    <l rend="indent">cuṭṭiyum (iṭṭa pērē);</l>
+                    <l>iṭi, iṭip pērē, nel mā,</l>
+                    <l rend="indent">(ēṟṟiṭum) uṟutic collē.</l>
+                </lg>
+            </q>
+        </cit>
+        <cit type="nikantu">
+            <ref target="https://archive.org/details/dli.jZY9lup2kZl6TuXGlZQdjZp7kZUy.TVA_BOK_0002448/page/453/mode/1up"><title xml:lang="ta">Cūṭāmaṇi</title> 11.71 <term xml:lang="ta">paṭalikai, koṭiyaṉ, kuṇṭu, toṭu, muṭi</term></ref>
+            <q rend="block" xml:lang="ta">
+                <lg>
+                    <l>paṭalikai, pīrkku, vaṭṭam,</l>
+                    <l rend="indent">(paranta) kaim maṇi, pūn taṭṭu (ām);</l>
+                    <l>koṭiyaṉē, koṭiyaṉ, kētu (ām);</l>
+                    <l rend="indent">kuṇṭu, āḻam, tāḻvu, āṇ māvē;</l>
+                    <l>toṭu (eṉpa), marutap pūmi,</l>
+                    <l rend="indent">tōṭṭam, kaitavam (mup pērē);</l>
+                    <l>muṭi, mayir muṭiyē, ceṉṉi,</l>
+                    <l rend="indent">makuṭamum (moḻiyalāmē).</l>
+                </lg>
+            </q>
+        </cit>
+        <cit type="nikantu">
+            <ref target="https://archive.org/details/dli.jZY9lup2kZl6TuXGlZQdjZp7kZUy.TVA_BOK_0002448/page/460/mode/1up"><title xml:lang="ta">Cūṭāmaṇi</title> 11.135 <term xml:lang="ta">cīppu, nāppaṇ, kāppu, yāppu, iṟāl</term></ref>
+            <q rend="block" xml:lang="ta">
+                <lg>
+                    <l>cīppu (eṉpa), kataviṉ tāḻum,</l>
+                    <l rend="indent">cīvu kaṅkamum (ām eṉpa);</l>
+                    <l>nāppaṇ (eṉpatu), tērt taṭṭum,</l>
+                    <l rend="indent">naṭuvum, yāḻuṟuppum (muppēr);</l>
+                    <l>kāppu (eṉpa), kāvalōṭu,</l>
+                    <l rend="indent">katavum, veṇṇīṟum (ākum);</l>
+                    <l>yāppu (eṉpa), kavitai, kaṭṭu (ām);</l>
+                    <l rend="indent">iṟāl, tēṉ kūṭu, erutu, mīṉē.</l>
+                </lg>
+            </q>
+        </cit>
+        <cit type="nikantu">
+            <ref target="https://archive.org/details/dli.jZY9lup2kZl6TuXGlZQdjZp7kZUy.TVA_BOK_0002448/page/n470/mode/1up"><title xml:lang="ta">Cūṭāmaṇi</title> 11.245 <term xml:lang="ta">pavam, pāvam, cavuriyam, kaṇmai, yavam, yavaṉar</term></ref>
+            <q rend="block" xml:lang="ta">
+                <lg>
+                    <l>pavam (eṉpa), caṉaṉam, pāvam;</l>
+                    <l rend="indent">pāvam (tāṉ), viṉai, tiyāṉam;</l>
+                    <l>cavuriyam, kaḷavu, vīram;</l>
+                    <l rend="indent">taṇmai (tāṉ), kuḷircci, tāḻvu;</l>
+                    <l>yavam, oru tāṉiyap (pēr),</l>
+                    <l rend="indent">(eṉpa), nel(liṟkum ap pēr);</l>
+                    <l>yavaṉar, cōṉakar, kaṇ-</l>
+                    <l rend="indent">ṇāḷar, cittirakārar (eṉpa).</l>
                 </lg>
             </q>
         </cit>

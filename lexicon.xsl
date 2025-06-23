@@ -329,16 +329,24 @@
 </xsl:template>
 <xsl:template match="x:sense[@type='nikantu']">
     <li><div class="citation-nikantu">
-        <span class="msid"><xsl:apply-templates select="x:title"/></span>
-        <xsl:text> </xsl:text>
-        <span lang="ta">
-            <xsl:for-each select="x:def">
-                <xsl:apply-templates />
-                <xsl:if test="position() != last()">
-                    <xsl:text>, </xsl:text>
-                </xsl:if>
-            </xsl:for-each>
-        </span>
+        <xsl:call-template name="lang"/>
+        <em><xsl:apply-templates select="x:form/node()"/></em>
+        <ul>
+        <xsl:for-each select="x:cit">
+            <li>
+                <span class="msid"><xsl:apply-templates select="x:ref/node()"/>:</span>
+                <xsl:text> </xsl:text>
+                <span lang="ta">
+                    <xsl:for-each select="x:def">
+                        <xsl:apply-templates />
+                        <xsl:if test="position() != last()">
+                            <xsl:text>, </xsl:text>
+                        </xsl:if>
+                    </xsl:for-each>
+                </span>
+            </li>
+        </xsl:for-each>
+        </ul>
     </div></li>
 </xsl:template>
 
