@@ -1,5 +1,6 @@
 .msid {
     font-size: 1.1rem;
+    white-space: normal;
 }
 div.lg div.l {
     line-height: revert;
@@ -9,7 +10,7 @@ blockquote {
 }
 .blockcite {
     text-align: right;
-    width: 55%;
+    max-width: 80%;
 }
 li {
     /*width: fit-content;*/
@@ -23,10 +24,19 @@ li {
     flex-direction: row;
 }
 .sense > div:first-child {
-    max-width: 55%;
+    max-width: 80%;
 }
 .sense > div:last-child {
     margin-top: 2rem;
+}
+@media (max-width: 500px) {
+    .sense > div:first-child {
+        max-width: fit-content;
+    }
+    .blockcite {
+        text-align: right;
+        width: 100%;
+    }
 }
 
 .certlow {
@@ -45,7 +55,7 @@ details[open] > summary .nested-grammar {
 small.note {
     display: block;
     width: 500px;
-    max-width: 80vw;
+    max-width: 75vw;
 }
 
 .nested-grammar {
