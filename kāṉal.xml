@@ -50,29 +50,41 @@
             <def xml:lang="ta">maṇam</def>
             <note xml:lang="en">possible, rare; see <persName xml:lang="ta">Parimēlaḻakar</persName> on <title xml:lang="ta">Paripātal</title> 16.17</note>
         </sense>
-        <sense type="nikantu">
+        <sense type="nikantu" xml:lang="ta">
             <form>kāṉal</form>
             <cit>
-                <ref xml:lang="ta">Tivākaram</ref>
-                <def xml:lang="ta">kaḻi</def>
-                <def xml:lang="ta">pēyttēr</def>
-                <def xml:lang="ta">katir oḷi</def>
-                <def xml:lang="ta">kaṭal cārpiṉ cōlai</def>
-                <def xml:lang="ta">malaic cārpiṉ cōlai</def>
+                <ref target="#Tiv5.50"><title>Tivākaram</title> <num>5.50</num></ref>
+                <def>kaḻi</def>
             </cit>
             <cit>
-                <ref xml:lang="ta">Piṅkalam</ref>
-                <def xml:lang="ta">uppaḷam</def>
-                <def xml:lang="ta">oḷi</def>
-                <def xml:lang="ta">kaḻikkarai cōlai</def>
-                <def xml:lang="ta">malaippuṟac cōlai</def>
-                <def xml:lang="ta">katiravaṉ oḷi</def>
-                <def xml:lang="ta">kaḻi</def>
-                <def xml:lang="ta">pēyttēr</def>
+                <ref target="#Tiv6.125"><title>Tivākaram</title> <num>6.125</num></ref>
+                <def>pēyttēr</def>
             </cit>
             <cit>
-                <ref xml:lang="ta">Cūṭāmaṇi</ref>
-                <def xml:lang="ta">kāṭu</def>
+                <ref target="#Tiv11.90"><title>Tivākaram</title> <num>11.90</num></ref>
+                <def>katir oḷi</def>
+                <def>kaṭal cārpiṉ cōlai</def>
+                <def>malaic cārpiṉ cōlai</def>
+            </cit>
+            <cit>
+                <ref target="#Pin4.145"><title>Piṅkalam</title> <num>4.145</num></ref>
+                <def>uppaḷam</def>
+            </cit>
+            <cit>
+                <ref target="#Pin7.179"><title>Piṅkalam</title> <num>7.179</num></ref>
+                <def>oḷi</def>
+            </cit>
+            <cit>
+                <ref target="#Pin10.333"><title>Piṅkalam</title> <num>10.333</num></ref>
+                <def>kaḻikkarai cōlai</def>
+                <def>malaippuṟac cōlai</def>
+                <def>katiravaṉ oḷi</def>
+                <def>kaḻi</def>
+                <def>pēyttēr</def>
+            </cit>
+            <cit>
+                <ref target="#Cut4.55"><title>Cūṭāmaṇi</title> <num>4.55</num></ref>
+                <def>kāṭu</def>
             </cit>
         </sense>
         <cit type="lexicon">
@@ -108,7 +120,7 @@
                 </lg>
             </q>
         </cit>
-        <cit type="nikantu">
+        <cit type="nikantu" xml:id="Tiv6.125">
             <ref target="https://archive.org/details/dli.jZY9lup2kZl6TuXGlZQdjZp7kZUy.TVA_BOK_0002448/page/52/mode/1up"><title xml:lang="ta">Tivākaram</title> 6.125 <term xml:lang="ta">pēyttēriṉ peyar</term></ref>
             <q rend="block" xml:lang="ta">
                 <lg>
@@ -116,7 +128,7 @@
                 </lg>
             </q>
         </cit>
-        <cit type="nikantu">
+        <cit type="nikantu" xml:id="Tiv11.90">
             <ref target="https://archive.org/details/dli.jZY9lup2kZl6TuXGlZQdjZp7kZUy.TVA_BOK_0002448/page/96/mode/1up"><title xml:lang="ta">Tivākaram</title> 11.90 <term xml:lang="ta">kāṉal</term></ref>
             <q rend="block" xml:lang="ta">
                 <lg>
@@ -125,7 +137,7 @@
                 </lg>
             </q>
         </cit>
-        <cit type="nikantu">
+        <cit type="nikantu" xml:id="Pin4.145">
             <ref target="https://archive.org/details/in.ernet.dli.2015.293325/page/n90/mode/1up"><title xml:lang="ta">Piṅkalam</title> 4.145 <term xml:lang="ta">uppaḷam</term></ref>
             <q rend="block" xml:lang="ta">
                 <lg>
@@ -134,7 +146,7 @@
                 </lg>
             </q>
         </cit>
-        <cit type="nikantu">
+        <cit type="nikantu" xml:id="Pin7.179">
             <ref target="https://archive.org/details/in.ernet.dli.2015.293325/page/n229/mode/1up"><title xml:lang="ta">Piṅkalam</title> 7.179 <term xml:lang="ta">oḷi</term></ref>
             <q rend="block" xml:lang="ta">
                 <lg>
@@ -146,7 +158,7 @@
                 </lg>
             </q>
         </cit>
-        <cit type="nikantu">
+        <cit type="nikantu" xml:id="Pin10.333">
             <ref target="https://archive.org/details/in.ernet.dli.2015.293325/page/n358/mode/1up"><title xml:lang="ta">Piṅkalam</title> 10.333 <term xml:lang="ta">kāṉal</term></ref>
             <q rend="block" xml:lang="ta">
                 <lg>
@@ -156,7 +168,7 @@
                 </lg>
             </q>
         </cit>
-        <cit type="nikantu">
+        <cit type="nikantu" xml:id="Cut4.55">
             <ref target="https://archive.org/details/gc-sh10-0106/page/n107/mode/1up"><title xml:lang="ta">Cūṭāmaṇi</title> 4.55 <term xml:lang="ta">kāṭu</term></ref>
             <q rend="block" xml:lang="ta">
                 <lg>

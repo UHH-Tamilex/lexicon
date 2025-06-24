@@ -6,6 +6,36 @@
     font-size: 1.1rem;
     white-space: normal;
 }
+
+#nikantu-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+}
+    
+.citation-nikantu .versenumber:after {
+    content: ':';
+}
+
+.verseid {
+    display: none;
+}
+
+.nikantu-form {
+    font-style: italic;
+    font-size: 1.3rem;
+    font-weight: normal;
+}
+
+.graph-header {
+    font-size: 1.2rem;
+    font-weight: normal;
+    white-space: nowrap;
+}
+a.graph-bar {
+    background: none;
+}
+
 div.lg div.l {
     line-height: revert;
 }
@@ -86,7 +116,12 @@ p.bibliography {
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 800px) {
+    th {
+        writing-mode: revert;
+        position: revert;
+        padding-top: 0;
+    }
     .sense {
         flex-wrap: wrap;
     }

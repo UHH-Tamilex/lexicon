@@ -69,14 +69,11 @@
             <xsl:attribute name="rel">stylesheet</xsl:attribute>
             <xsl:attribute name="href">./lexicon.css</xsl:attribute>
         </xsl:element>
-        <xsl:element name="script">
+        <!--xsl:element name="script">
             <xsl:attribute name="type">module</xsl:attribute>
             <xsl:attribute name="src"><xsl:value-of select="$root"/>js/edition.mjs</xsl:attribute>
             <xsl:attribute name="id">editionscript</xsl:attribute>
-            <xsl:if test="$debugging = 'true'">
-                <xsl:attribute name="data-debugging">true</xsl:attribute>
-            </xsl:if>
-        </xsl:element>
+        </xsl:element-->
         <xsl:element name="script">
             <xsl:attribute name="type">module</xsl:attribute>
             <xsl:attribute name="src">./lexicon.mjs</xsl:attribute>
@@ -178,7 +175,7 @@
         <xsl:apply-templates select="x:sense[not(@type)]"/>
     </ol>
     <h5>Meanings attested in the <em lang="ta">Nikaṇṭu</em>-s</h5>
-    <ul>
+    <ul id="nikantu-list">
         <xsl:apply-templates select="x:sense[@type='nikantu']"/>
     </ul>
     <h5>Other lexica</h5>
@@ -293,6 +290,9 @@
 </xsl:template>
 <xsl:template match="x:cit">
     <li>
+        <xsl:if test="@xml:id">
+            <xsl:attribute name="id"><xsl:value-of select="@xml:id"/></xsl:attribute>
+        </xsl:if>
         <xsl:if test="@source">
             <xsl:attribute name="data-source">
                 <xsl:value-of select="@source"/>
@@ -324,15 +324,27 @@
 <xsl:template match="x:sense[@type='nikantu']">
     <li><div class="citation-nikantu">
         <xsl:call-template name="lang"/>
-        <em><xsl:apply-templates select="x:form/node()"/></em>
+        <span class="nikantu-form"><xsl:apply-templates select="x:form/node()"/></span>
         <ul>
         <xsl:for-each select="x:cit">
             <li>
-                <span class="msid"><xsl:apply-templates select="x:ref/node()"/>:</span>
+                <span class="citref">
+                    <span class="msid"><xsl:apply-templates select="x:ref/x:title"/></span>
+                    <xsl:text> </xsl:text>
+                    <span class="versenumber"><xsl:apply-templates select="x:ref/x:num"/></span>
+                    <span class="verseid"><xsl:value-of select="x:ref/@target"/></span>
+                </span>
                 <xsl:text> </xsl:text>
-                <span lang="ta">
+                <span class="nikantu-meanings">
                     <xsl:for-each select="x:def">
-                        <xsl:apply-templates />
+                        <span>
+                            <xsl:if test="@n">
+                                <xsl:attribute name="data-quantity">
+                                    <xsl:value-of select="@n"/>
+                                </xsl:attribute>
+                            </xsl:if>
+                            <xsl:apply-templates />
+                        </span>
                         <xsl:if test="position() != last()">
                             <xsl:text>, </xsl:text>
                         </xsl:if>

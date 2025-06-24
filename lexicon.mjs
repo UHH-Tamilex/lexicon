@@ -1,4 +1,7 @@
 import { Transliterate } from './lib/js/transliterate.mjs';
+import { GitHubFunctions } from './lib/js/githubfunctions.mjs';
+import './lib/js/tooltip.mjs';
+import './lib/js/removehyphens.mjs';
 //import createSqlWorker from './lib/js/sqlWorker.mjs';
 import openDb from './lib/js/sqlite.mjs';
 import { loadDoc } from './lib/debugging/fileops.mjs';
@@ -11,6 +14,13 @@ const init = () => {
     const url = new URL(window.location);
     citlink.textContent = url.hostname + decodeURI(url.pathname);
     citlink.href = window.location;
+    
+    makeNikantuGraphs();
+
+    const recordcontainer = document.getElementById('recordcontainer');
+    Transliterate.init(recordcontainer);
+    
+    GitHubFunctions.latestCommits();
 
     const loc = window.location.hash;
     if(!loc) return;
@@ -29,9 +39,104 @@ const init = () => {
 
 let citationProcessor = null;
 
+const tamilSort = (aa,bb,dir='asc') => {
+    const order = 'aāiīuūṛṝeēoōkgṅcjñṭḍṇtdnpbmyrlvḻḷṟṉśṣsh'.split('').reverse();
+    const ordermap = new Map();
+    for(const [i,v] of order.entries()) {
+        ordermap.set(v,i);
+    }
+    const a = aa[0];
+    const b = bb[0];
+    const minlen = Math.min(a.length,b.length);
+    let n = 0;
+    while(n < minlen) {
+        const achar = a.charAt(n).toLowerCase();
+        const bchar = b.charAt(n).toLowerCase();
+        if(achar === bchar) {
+            n++;
+        } else {
+            
+            const aindex = ordermap.get(achar) || -1;
+            const bindex = ordermap.get(bchar) || -1;
+            return dir === 'asc' ? aindex < bindex : aindex > bindex;
+            
+            //return order.indexOf(achar) < order.indexOf(bchar);
+        }
+    }
+    return dir === 'asc' ? a.length > b.length : a.length < b.length;
+};
+const makeNikantuGraphs = () => {
+    const colours = ['#66c2a5','#fc8d62','#8da0cb'];
+    const makeNikantuGraph = el => {
+        const form = el.querySelector('.nikantu-form').textContent;
+        const nikantus = el.querySelectorAll('li');
+        const rows = new Map();
+        const nikantunames = new Set();
+        for(const nikantu of nikantus) {
+            const citref = nikantu.querySelector('.citref');
+            const name = citref.querySelector('.msid').textContent;
+            const target = citref.querySelector('.verseid').textContent;
+            nikantunames.add(name);
+            const words = nikantu.querySelectorAll('.nikantu-meanings > span');
+            for(const word of words) {
+                const wordtext = word.textContent;
+                const row = rows.get(wordtext);
+                if(row)
+                    row.push([name,citref.innerHTML,target]);
+                else
+                    rows.set(wordtext,[[name,citref.innerHTML,target]]);
+            }
+        }
+
+        const colourMap = new Map();
+        for(const [i,name] of [...nikantunames].entries()) {
+            colourMap.set(name, colours[i]);
+        }
+
+        const table = document.createElement('table');
+        table.lang = 'ta';
+        const titlerow = document.createElement('tr');
+        const title = document.createElement('th');
+        title.className = 'nikantu-form';
+        title.append(form);
+        title.colSpan = 2;
+        titlerow.appendChild(title);
+        table.appendChild(titlerow);
+        const sortedrows = [...rows].toSorted(tamilSort);
+        for(const row of sortedrows) {
+            const tr = document.createElement('tr');
+            const th = document.createElement('th');
+            th.append(row[0]);
+            th.className = 'graph-header';
+            tr.appendChild(th);
+            const td = document.createElement('td');
+            for(const nikantu of row[1]) {
+                const span = document.createElement('a');
+                span.append('\u25A0');
+                span.style.color = colourMap.get(nikantu[0]);
+                span.className = 'graph-bar';
+                span.href = nikantu[2];
+                span.dataset.anno = '';
+                const anno = document.createElement('span');
+                anno.className = 'anno-inline';
+                anno.innerHTML = nikantu[1];
+                span.appendChild(anno);
+                td.appendChild(span);
+            }
+            tr.appendChild(td);
+            table.appendChild(tr);
+        }
+        el.replaceWith(table);
+    };
+
+    const cits = [...document.querySelectorAll('.citation-nikantu')].forEach(
+        el => makeNikantuGraph(el)
+    );
+};
+
 const checkCitation = async (thisxml,el) => {
     const url = URL.parse(el.dataset.source,window.location);
-    const xml = await loadDoc(url.href);
+    const xml = await loadDoc(url.href,'default');
     if(!xml) {
         markDifferent(el);
         return;
@@ -64,7 +169,7 @@ const markDifferent = el => {
 };
 
 const checkCitations = async () => {
-    const thisdoc = await loadDoc(window.location);
+    const thisdoc = await loadDoc(window.location,'default');
     const cits = document.querySelectorAll('li[data-source]');
     for(const cit of cits) {
         checkCitation(thisdoc, cit);
