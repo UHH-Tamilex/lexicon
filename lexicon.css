@@ -12,7 +12,13 @@
     flex-wrap: wrap;
     gap: 5rem;
 }
-    
+ 
+#nikantu-legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
 .citation-nikantu .versenumber:after {
     content: ':';
 }
@@ -31,6 +37,7 @@
     font-size: 1.2rem;
     font-weight: normal;
     white-space: nowrap;
+    padding-right: 0.2rem;
 }
 a.graph-bar {
     background: none;

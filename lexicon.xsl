@@ -331,7 +331,7 @@
                 <span class="citref">
                     <span class="msid"><xsl:apply-templates select="x:ref/x:title"/></span>
                     <xsl:text> </xsl:text>
-                    <span class="versenumber"><xsl:apply-templates select="x:ref/x:num"/></span>
+                    <span class="versenumber" lang="en"><xsl:apply-templates select="x:ref/x:num"/></span>
                     <span class="verseid"><xsl:value-of select="x:ref/@target"/></span>
                 </span>
                 <xsl:text> </xsl:text>

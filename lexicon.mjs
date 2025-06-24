@@ -66,17 +66,35 @@ const tamilSort = (aa,bb,dir='asc') => {
     return dir === 'asc' ? a.length > b.length : a.length < b.length;
 };
 const makeNikantuGraphs = () => {
+
     const colours = ['#66c2a5','#fc8d62','#8da0cb'];
+    
+    const textnames =  new Set([...document.querySelectorAll('.citation-nikantu .msid')].map(el => el.textContent));
+
+    const colourMap = new Map();
+    for(const [i,name] of [...textnames].entries()) {
+        colourMap.set(name, colours[i]);
+    }
+    
+    const legend = document.createElement('div');
+    legend.id = 'nikantu-legend';
+    for(const [name, colour] of [...colourMap]) {
+        const span = document.createElement('span');
+        span.innerHTML = `<span style="color: ${colour}">\u25A0</span> <span class="msid"><em class="title">${name}</em></span>`;
+        legend.appendChild(span);
+    }
+
+    const list = document.getElementById('nikantu-list');
+    list.parentNode.insertBefore(legend,list);
+
     const makeNikantuGraph = el => {
         const form = el.querySelector('.nikantu-form').textContent;
         const nikantus = el.querySelectorAll('li');
         const rows = new Map();
-        const nikantunames = new Set();
         for(const nikantu of nikantus) {
             const citref = nikantu.querySelector('.citref');
             const name = citref.querySelector('.msid').textContent;
             const target = citref.querySelector('.verseid').textContent;
-            nikantunames.add(name);
             const words = nikantu.querySelectorAll('.nikantu-meanings > span');
             for(const word of words) {
                 const wordtext = word.textContent;
@@ -86,11 +104,6 @@ const makeNikantuGraphs = () => {
                 else
                     rows.set(wordtext,[[name,citref.innerHTML,target]]);
             }
-        }
-
-        const colourMap = new Map();
-        for(const [i,name] of [...nikantunames].entries()) {
-            colourMap.set(name, colours[i]);
         }
 
         const table = document.createElement('table');
