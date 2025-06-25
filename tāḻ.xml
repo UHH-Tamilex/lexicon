@@ -91,7 +91,7 @@ Although the <title>Dravidian Etymological Dictionary</title> places the verb <f
                 <ref target="../Kalittokai/Kali048.xml?highlight=%5Bid%3D%22Kali48%22%5D%20.l%3Anth-of-type(10)"><title xml:lang="ta">Kalittokai</title> 48, line 10</ref>
             </cit>
             <note xml:lang="en">
-Especially when employed with the verb <foreign xml:lang="ta">ceṟittal</foreign>, the noun <foreign xml:lang="ta">tāḻ</foreign>, originally a <q>locking pin</q>, seems to be used as a metonym referring to the entire door locking mechanism. Fabricius defines <foreign xml:lang="ta">tāḻceṟitta</foreign> as <q>to bolt or bar a door</q> (1972, <ref target="https://dsal.uchicago.edu/cgi-bin/app/fabricius_query.py?page=512">512</ref>; not present in the <ref target="https://archive.org/details/bim_eighteenth-century_a-dictionary-malabar-an_1779/page/n98/mode/1up">1779 first edition</ref> or the <ref target="https://archive.org/details/malabarenglishdi00fabr/page/n106/mode/1up">1809 second edition</ref>). This usage can also be found in its cognates in other languages ― Telugu <foreign xml:lang="te-Latn-t-te-Telu">tāḷamu</foreign> can mean both <q>a lock</q> or <q>a key</q> (Brown 1903, <ref target="https://dsal.uchicago.edu/cgi-bin/app/brown_query.py?page=526">526</ref>), likewise with Malayalam <foreign xml:lang="ml-Latn-t-ml-Mlym">tāḻ</foreign> (Gundert 1872, <ref target="https://dsal.uchicago.edu/cgi-bin/app/gundert_query.py?page=448">448</ref>); the Sanskrit <foreign xml:lang="sa-Latn-t-sa-Deva">tālaka</foreign>, in the <title xml:lang="sa">Mahāvyutpatti</title>, is glossed as <foreign xml:lang="bo-Latn-t-bo-Tibt">sgo lcags</foreign>, <q>lock</q> (ed. Sakaki 1916, <ref target="https://archive.org/details/kanwashiyakutaik01mahauoft/page/383/mode/1up">383</ref>).
+Especially when employed with the verb <foreign xml:lang="ta">ceṟittal</foreign>, the noun <foreign xml:lang="ta">tāḻ</foreign>, originally a <q>locking pin</q>, seems to be used as a metonym referring to the entire door locking mechanism. Fabricius defines <foreign xml:lang="ta">tāḻceṟitta</foreign> as <q>to bolt or bar a door</q> (1972, <ref target="https://dsal.uchicago.edu/cgi-bin/app/fabricius_query.py?page=512">512</ref>; not present in the <ref target="https://archive.org/details/bim_eighteenth-century_a-dictionary-malabar-an_1779/page/n98/mode/1up">1779 first edition</ref> or the <ref target="https://archive.org/details/malabarenglishdi00fabr/page/n106/mode/1up">1809 second edition</ref>). This usage can also be found in its cognates in other languages ― Telugu <foreign xml:lang="te-Latn-t-te-Telu">tāḷamu</foreign> means <q>a lock</q> (Brown 1903, <ref target="https://dsal.uchicago.edu/cgi-bin/app/brown_query.py?page=526">526</ref>), likewise with Malayalam <foreign xml:lang="ml-Latn-t-ml-Mlym">tāḻ</foreign> (Gundert 1872, <ref target="https://dsal.uchicago.edu/cgi-bin/app/gundert_query.py?page=448">448</ref>); the Sanskrit <foreign xml:lang="sa-Latn-t-sa-Deva">tālaka</foreign>, in the <title xml:lang="sa">Mahāvyutpatti</title>, is glossed as <foreign xml:lang="bo-Latn-t-bo-Tibt">sgo lcags</foreign>, <q>lock</q> (ed. Sakaki 1916, <ref target="https://archive.org/details/kanwashiyakutaik01mahauoft/page/383/mode/1up">383</ref>).
            </note>
         </sense>
         <sense>
@@ -116,15 +116,26 @@ This definition of <foreign xml:lang="ta">tāḻ</foreign>, as a <q>finger-ring<
             <sense>
                 <form>tāḻtal</form>
                 <cit>
+                    <ref target="#Tiv8.89"><title>Tivākaram</title>  <num>8.89</num></ref>
+                    <def>viruppu</def>
+                </cit>
+                <cit>
                     <ref target="#Tiv9.29"><title>Tivākaram</title>  <num>9.29</num></ref>
                     <def>iṟaiñcal</def>
                     <def>kuraṅkal</def>
                 </cit>
                 <cit>
+                    <ref target="#Pin7.216"><title>Piṅkalam</title> <num>7.216</num></ref>
+                    <def>vaṇaṅkal</def>
+                </cit>
+                <cit>
                     <ref target="#Pin7.218"><title>Piṅkalam</title> <num>7.218</num></ref>
                     <def>iṟaiñcal</def>
                     <def>kuraṅkal</def>
-                    <def>vaṇaṅkal</def>
+                </cit>
+                <cit>
+                    <ref target="#Cut8.76"><title>Cūṭāmaṇi</title> <num>8.76</num></ref>
+                    <def>vēṭkaiyiṉ perukkam</def>
                 </cit>
                 <cit>
                     <ref target="#Cut9.27"><title>Cūṭāmaṇi</title> <num>9.27</num></ref>
@@ -132,11 +143,11 @@ This definition of <foreign xml:lang="ta">tāḻ</foreign>, as a <q>finger-ring<
                     <def>kuṉivu</def>
                 </cit>
                 <cit>
-                    <ref target="#Cut9.27"><title>Cūṭāmaṇi</title> <num>9.16</num></ref>
+                    <ref target="#Cut9.16"><title>Cūṭāmaṇi</title> <num>9.16</num></ref>
                     <def>taṅkal</def>
                 </cit>
                 <cit>
-                    <ref target="#Cut11.23"><title>Cūṭāmaṇi</title> <num>9.16</num></ref>
+                    <ref target="#Cut11.23"><title>Cūṭāmaṇi</title> <num>11.23</num></ref>
                     <def>tūṅkal</def>
                 </cit>
                 <cit>
@@ -147,7 +158,7 @@ This definition of <foreign xml:lang="ta">tāḻ</foreign>, as a <q>finger-ring<
             <sense>
                 <form>tāḻttal</form>
                 <cit>
-                    <ref target="#Cut9.19"><title>Cūṭāmaṇi</title> <num>9.40</num></ref>
+                    <ref target="#Cut9.40"><title>Cūṭāmaṇi</title> <num>9.40</num></ref>
                     <def>mantam</def>
                 </cit>
             </sense>
@@ -210,10 +221,6 @@ This definition of <foreign xml:lang="ta">tāḻ</foreign>, as a <q>finger-ring<
                 <cit>
                     <ref target="#Cut11.71"><title>Cūṭāmaṇi</title> <num>11.71</num></ref>
                     <def>koṭiyaṉ</def>
-                </cit>
-                <cit>
-                    <ref target="#Cut11.71"><title>Cūṭāmaṇi</title> <num>11.71</num></ref>
-                    <def>iḻivu</def>
                 </cit>
                 <cit>
                     <ref target="#Cut5.61"><title>Cūṭāmaṇi</title> <num>5.61</num></ref>
@@ -667,7 +674,7 @@ This definition of <foreign xml:lang="ta">tāḻ</foreign>, as a <q>finger-ring<
         <bibl>Ghirshman, Roman. 1966. <title>Tchoga Zanbil (Dur-Untash). Vol. I, La ziggurat.</title> Paris: P. Geuthner.</bibl>
         <bibl>Gundert, Hermann. 1872. <title>A Malayalam and English dictionary.</title> Mangalore/London: C. Stolz; Trübner &amp; Co. Via <ref target="https://dsal.uchicago.edu/dictionaries/gundert/">Digital Dictionaries of South Asia</ref>.</bibl>
         <bibl>Kittel, Ferdinand. 1968–1971. <title>Kittel's Kannada-English dictionary.</title> Madras: University of Madras. Via <ref target="https://dsal.uchicago.edu/dictionaries/kittel/">Digital Dictionaries of South Asia</ref>.</bibl>
-        <bibl>MacGregor, R. S. 1993. <title>The Oxford Hindi-English dictionary.</title> New York: Oxford University Press. Via <ref target="https://dsal.uchicago.edu/dictionaries/mcgregor/">Digital Dictionaries of South Asia</ref>.</bibl>
+        <bibl>McGregor, R. S. 1993. <title>The Oxford Hindi-English dictionary.</title> New York: Oxford University Press. Via <ref target="https://dsal.uchicago.edu/dictionaries/mcgregor/">Digital Dictionaries of South Asia</ref>.</bibl>
         <bibl><persName xml:lang="ta">Nārāyaṇacāmi Aiyar, A.</persName>, ed. 1915. <title xml:lang="ta">Naṟṟiṇai.</title> <term xml:lang="ta">Ceṉṉapaṭṭaṇam</term>: <term xml:lang="ta">Caivavittiyā nūpālaṉayantiracālai</term>. <ref target="https://archive.org/details/naiai00unse">ark:/13960/s24swjnf3tb</ref>. </bibl>
         <bibl><persName xml:lang="ta">Nāvalar, Āṟumuka,</persName> ed. 1861. <title xml:lang="ta">Tirukkuraṇmūlamum, Parimēlaḻakaruraiyum.</title> <term xml:lang="ta">Ceṉṉapaṭṭaṇam</term>: <term xml:lang="ta">Vāṇinikētaṉavaccukkūṭam</term>. <ref target="https://archive.org/details/tirukkua00tiru/">ark:/13960/s2f752393q3</ref>.</bibl>
         <bibl><persName xml:lang="ja">榊 亮三郎</persName> [Sakaki Ryōzaburō], ed. 1916. <title xml:lang="ja">飜譯名義大集 <term xml:lang="sa">[Mahāvyutpatti]</term>.</title> Kyoto: Shingonshū Kyōto Daigaku. <ref target="https://archive.org/details/kanwashiyakutaik01mahauoft">ark:/13960/t2x35824s</ref>.
