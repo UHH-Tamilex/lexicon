@@ -176,8 +176,8 @@
     </ol>
     <details open="true">
         <summary style="font-size: 1.5rem; font-style: italic">Meanings attested in the <em lang="ta">Nikaṇṭu</em>-s</summary>
-        <ul id="nikantu-list">
-            <xsl:apply-templates select="x:sense[@type='nikantu']"/>
+        <ul id="nikantu-list" lang="ta">
+            <xsl:apply-templates select="x:cit[@type='nikantu-meanings']/x:sense"/>
         </ul>
     </details>
     <details open="true">
@@ -325,7 +325,7 @@
         </xsl:if>
     </li>
 </xsl:template>
-<xsl:template match="x:sense[@type='nikantu']">
+<xsl:template match="x:cit[@type='nikantu-meanings']/x:sense">
     <li><div class="citation-nikantu">
         <xsl:call-template name="lang"/>
         <span class="nikantu-form"><xsl:apply-templates select="x:form/node()"/></span>

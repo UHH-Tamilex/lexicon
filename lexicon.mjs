@@ -175,10 +175,11 @@ const checkCitation = async (thisxml,el) => {
 
 const markDifferent = el => {
     const span = document.createElement('span');
-    span.style.color = 'red';
-    span.append('! ');
+    span.className = 'warning';
+    span.append('!');
     span.dataset.anno = 'Citation differs from the edition cited.';
     el.prepend(span);
+    el.style.listStyle = 'none';
 };
 
 const checkCitations = async () => {

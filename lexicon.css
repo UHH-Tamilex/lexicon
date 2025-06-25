@@ -143,6 +143,20 @@ h4 {
     text-indent: 0px;
 }
 
+.warning {
+	color: red;
+	border: 1px solid red;
+	display: inline-block;
+	width: 1.25rem;
+	height: 1.35rem;
+	border-radius: 20px;
+	text-align: center;
+	line-height: 1.5rem;
+	margin-right: 0.5rem;
+	cursor: default;
+    margin-left: -1.8rem;
+}
+
 @media (max-width: 1080px) {
     small.note {
         width: 300px;

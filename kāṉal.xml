@@ -7,9 +7,10 @@
         <title><title xml:lang="ta">kāṉal</title></title>
         <editor><forename>Eva</forename> <surname>Wilden</surname></editor>
       </titleStmt>
-      <sourceDesc><p>Tamilex project.</p></sourceDesc>
+      <publicationStmt><p>Tamilex project.</p></publicationStmt>
+      <sourceDesc><p/></sourceDesc>
     </fileDesc>
-    <revisionDesc/>
+    <revisionDesc><change/></revisionDesc>
   </teiHeader>
   <text xml:lang="en">
     <body>
@@ -51,43 +52,53 @@
             <def xml:lang="ta">maṇam</def>
             <note xml:lang="en">possible, rare; see <persName xml:lang="ta">Parimēlaḻakar</persName> on <title xml:lang="ta">Paripātal</title> 16.17</note>
         </sense>
-        <sense type="nikantu" xml:lang="ta">
-            <form>kāṉal</form>
-            <cit>
-                <ref target="#Tiv5.50"><title>Tivākaram</title> <num>5.50</num></ref>
-                <def>kaḻi</def>
-            </cit>
-            <cit>
-                <ref target="#Tiv6.125"><title>Tivākaram</title> <num>6.125</num></ref>
-                <def>pēyttēr</def>
-            </cit>
-            <cit>
-                <ref target="#Tiv11.90"><title>Tivākaram</title> <num>11.90</num></ref>
-                <def>katir oḷi</def>
-                <def>kaṭal cārpiṉ cōlai</def>
-                <def>malaic cārpiṉ cōlai</def>
-            </cit>
-            <cit>
-                <ref target="#Pin4.145"><title>Piṅkalam</title> <num>4.145</num></ref>
-                <def>uppaḷam</def>
-            </cit>
-            <cit>
-                <ref target="#Pin7.179"><title>Piṅkalam</title> <num>7.179</num></ref>
-                <def>oḷi</def>
-            </cit>
-            <cit>
-                <ref target="#Pin10.333"><title>Piṅkalam</title> <num>10.333</num></ref>
-                <def>kaḻikkarai cōlai</def>
-                <def>malaippuṟac cōlai</def>
-                <def>katiravaṉ oḷi</def>
-                <def>kaḻi</def>
-                <def>pēyttēr</def>
-            </cit>
-            <cit>
-                <ref target="#Cut4.55"><title>Cūṭāmaṇi</title> <num>4.55</num></ref>
-                <def>kāṭu</def>
-            </cit>
-        </sense>
+        <cit type="nikantu-meanings" xml:lang="ta">
+            <sense>
+                <form>kāṉal</form>
+                <cit>
+                    <ref target="#Tiv5.50"><title>Tivākaram</title> <num>5.50</num></ref>
+                    <def>kaḻi</def>
+                </cit>
+                <cit>
+                    <ref target="#Tiv6.125"><title>Tivākaram</title> <num>6.125</num></ref>
+                    <def>pēyttēr</def>
+                </cit>
+                <cit>
+                    <ref target="#Tiv11.90"><title>Tivākaram</title> <num>11.90</num></ref>
+                    <def>katir oḷi</def>
+                    <def>kaṭal cārpiṉ cōlai</def>
+                    <def>malaic cārpiṉ cōlai</def>
+                </cit>
+                <cit>
+                    <ref target="#Pin4.145"><title>Piṅkalam</title> <num>4.145</num></ref>
+                    <def>uppaḷam</def>
+                </cit>
+                <cit>
+                    <ref target="#Pin7.179"><title>Piṅkalam</title> <num>7.179</num></ref>
+                    <def>oḷi</def>
+                </cit>
+                <cit>
+                    <ref target="#Pin10.333"><title>Piṅkalam</title> <num>10.333</num></ref>
+                    <def>kaḻikkarai cōlai</def>
+                    <def>malaippuṟac cōlai</def>
+                    <def>katiravaṉ oḷi</def>
+                    <def>kaḻi</def>
+                    <def>pēyttēr</def>
+                </cit>
+                <cit>
+                    <ref target="#Cut4.55"><title>Cūṭāmaṇi</title> <num>4.55</num></ref>
+                    <def>kāṭu</def>
+                </cit>
+            </sense>
+        </cit>
+        <cit type="lexicon">
+            <bibl>
+                <date>1679</date>
+                <title xml:lang="en">Vocabulario Tamulico com Asignificaçam Portugueza</title>
+                <ref target="https://digi.vatlib.it/view/MSS_Borg.ind.12/309">f. 152r</ref>
+                <q xml:lang="pt">Reuerbaraçaõ do sol, que parece na agoa ao longe.<note xml:lang="en" place="foot">This entry preshadows the development towards the modern language. The Portuguese means something like <q>reflection of the sun that appears from far away like water</q>, which corresponds to <q xml:lang="ta">pēyttēr</q> found both in the <title xml:lang="ta">Tivākaram</title> and the <title xml:lang="ta">Piṅkalam</title> – a <q>mirage</q>, as in the modern entry in the Cre-A dictionary.</note></q>
+            </bibl>
+        </cit>
         <cit type="lexicon">
             <bibl>
                 <date>1924–1936</date>
@@ -95,20 +106,12 @@
                 <ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?page=912">p. 912</ref>
             </bibl>
         </cit>
-            <bibl>
-                <date>1679</date>
-                <title xml:lang="en">Vocabulario Tamulico com Asignificaçam Portugueza</title>
-                <ref target="https://digi.vatlib.it/view/MSS_Borg.ind.12/309">f. 152r</ref>
-                <q xml:lang="pt">Reuerbaraçaõ do sol, que parece na agoa ao longe.<note xml:lang="en" place="foot">This entry preshadows the development towards the modern language. The Portuguese means something like <q>reflection of the sun that appears from far away like water</q>, which corresponds to <q xml:lang="ta">pēyttēr</q> found both in the <title xml:lang="ta">Tivākaram</title> and the <title xml:lang="ta">Piṅkalam</title> – a <q>mirage</q>, as in the modern entry in the Cre-A dictionary.</note></q>
-            </bibl>
         <cit type="lexicon">
             <bibl>
                 <date>1984 [1961]</date>
                 <title xml:lang="en">Dravidian Etymological Dictionary</title>
                 <ref target="https://dsal.uchicago.edu/cgi-bin/app/burrow_query.py?page=139">p. 139</ref>
             </bibl>
-        </cit>
-        <cit type="lexicon">
         </cit>
         <cit type="commentary">
             <ref target="https://archive.org/details/Tamil-Purananuru-U-Ve-Sa-3rd-Edition-1935/page/n166/mode/1up">anonymous commentary on <title xml:lang="ta">Puṟanānūṟu</title> 17.11</ref>

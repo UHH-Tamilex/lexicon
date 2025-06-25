@@ -24,6 +24,11 @@
                 <gram>class 4</gram>
             </gramGrp>
             <def xml:lang="en">to hang down, to hang back, to be low</def>
+<cit source="../Kuruntokai/KT214.xml?id=KT214&amp;w=10,14">
+    <q xml:lang="ta"><w>puṟam</w> <w>tāḻ</w> <w>am</w> <w>cil</w> <w>ōti</w></q>
+    <q xml:lang="en">pretty thin hair hanging down [her] back</q>
+    <ref target="../Kuruntokai/KT214.xml?highlight=%5Bid%3D%22KT214%22%5D%20.l%3Anth-of-type(2)"><title xml:lang="ta">Kuṟuntokai</title> 214, lines 2–3</ref>
+</cit>
             <cit source="../Akananuru/AN175.1.xml?id=AN175.1&amp;w=95,99">
                 <q xml:lang="ta"><w>taṇ</w> <w>peyal</w> <w>eḻili</w> <w>tāḻnta</w> <w>pōḻt<c type="elided">u</c>-ē</w></q>
                 <q xml:lang="en">when the clouds hung low with cool rain</q>
@@ -66,7 +71,7 @@
             </cit>
             <note xml:lang="en">
 Although the <title>Dravidian Etymological Dictionary</title> places the verb <foreign xml:lang="ta">tāḻ</foreign> and the noun <foreign xml:lang="ta">tāḻ</foreign> in two separate entries, it rather seems that the noun is derived from the verbal root. As seen in the <title xml:lang="ta">Tirukkuṟaḷ</title>, the noun refers to a pin or bolt in that is lowered (<foreign xml:lang="ta">vīḻttal</foreign>) into a hole in a door bar in order to lock it in place. The commentator on the <title xml:lang="ta">Akanāṉūṟu</title> glosses it as a pin (<foreign xml:lang="ta">āṇi</foreign>) that is used to secure a joint (<foreign xml:lang="ta">mūṭṭuvāy</foreign>); perhaps the commentator is imagining a system in which two intersecting bars are used to block a gate, with a locking pin going through both in order to secure them in place ― see, for example, the Lion Gate at Mycenae (Connolly 1977, 49). Simpler mechanisms, with a single bar and a hole for a locking pin, can be also be found in other cultures (Ghirshman 1966, 75). The semantic association of the locking pin as something that is <q>lowered</q> into place can also be found in other languages (Scurlock 1988, 424–428; see also Gundert on Malayalam <foreign xml:lang="ml-Latn-t-ml-Mlym">tāḻ</foreign>, below).</note>
-<note>As a root noun, <foreign xml:lang="ta">tāḻ</foreign> is also written as <foreign xml:lang="ta">tāḷ</foreign> (see <title xml:lang="ta">Akanāṉūṟu</title> 35 and its commentary, as well as <title xml:lang="ta">Puṟapporuḷveṇpāmālai</title> 9.24 &amp; 10.5 (ed. U. Vē. Cāminātaiyar 1924, <ref target="https://archive.org/details/gc-sh8-0001/page/109/mode/1up">99</ref>; <ref target="https://archive.org/details/gc-sh8-0001/page/123/mode/1up">113</ref>). It seems to be the source of the Pali <foreign xml:lang="pli">tāḷa</foreign> (Cone 2010, 305–306), and the Buddhist Hybrid Sanskrit <foreign xml:lang="sa">tāḍa(ka)</foreign> (Edgerton 1953, 251). It appears later in <persName xml:lang="sa">Hemacandra</persName>'s <title xml:lang="sa">Abhidhānacintāmaṇi</title> 1005 as <foreign xml:lang="sa-Latn-t-sa-Deva">tālaka</foreign> (ed. <persName xml:lang="sa">Vedāntavāgīśa</persName> &amp; <persName xml:lang="sa">Sena</persName> 1877, <ref target="https://archive.org/details/abhidhana.cintamanih-hemacandrah-ed-kalivara-sarmma-vedantavagisa-and-ramdas-sen/page/n151/mode/1up">150</ref>) and is now ubiquitous across Dravidian and Indo-Aryan languages ― see Kannada <foreign xml:lang="kn-Latn-t-kn-Knda">tāḻ</foreign> (Kittel 1968–1971, <ref target="https://dsal.uchicago.edu/cgi-bin/app/kittel_query.py?page=756">756</ref>) and <foreign xml:lang="kn-Latn-t-kn-Knda">tāla</foreign> (<ref target="https://dsal.uchicago.edu/cgi-bin/app/kittel_query.py?page=753">753</ref>), Hindi <foreign xml:lang="hi-Latn-t-hi-Deva">tālā</foreign> (McGregor 1993, <ref target="https://dsal.uchicago.edu/cgi-bin/app/mcgregor_query.py?page=450">450</ref>), Sinhala <foreign xml:lang="si-Latn-t-si-Sinh">tālāva</foreign> (Carter 1924, <ref target="https://dsal.uchicago.edu/cgi-bin/app/carter_query.py?page=256">256</ref>), etc. 
+<note>As a root noun, <foreign xml:lang="ta">tāḻ</foreign> is also written as <foreign xml:lang="ta">tāḷ</foreign> (see <title xml:lang="ta">Akanāṉūṟu</title> 35 and its commentary, as well as <title xml:lang="ta">Puṟapporuḷveṇpāmālai</title> 9.24 &amp; 10.5 (ed. <persName xml:lang="ta">U. Vē. Cāminātaiyar</persName> 1924, <ref target="https://archive.org/details/gc-sh8-0001/page/109/mode/1up">99</ref>; <ref target="https://archive.org/details/gc-sh8-0001/page/123/mode/1up">113</ref>). It seems to be the source of the Pali <foreign xml:lang="pli">tāḷa</foreign> (Cone 2010, 305–306), and the Buddhist Hybrid Sanskrit <foreign xml:lang="sa">tāḍa(ka)</foreign> (Edgerton 1953, 251). It appears later in <persName xml:lang="sa">Hemacandra</persName>'s <title xml:lang="sa">Abhidhānacintāmaṇi</title> 1005 as <foreign xml:lang="sa-Latn-t-sa-Deva">tālaka</foreign> (ed. <persName xml:lang="sa">Vedāntavāgīśa</persName> &amp; <persName xml:lang="sa">Sena</persName> 1877, <ref target="https://archive.org/details/abhidhana.cintamanih-hemacandrah-ed-kalivara-sarmma-vedantavagisa-and-ramdas-sen/page/n151/mode/1up">150</ref>) and is now ubiquitous across Dravidian and Indo-Aryan languages ― see Kannada <foreign xml:lang="kn-Latn-t-kn-Knda">tāḻ</foreign> (Kittel 1968–1971, <ref target="https://dsal.uchicago.edu/cgi-bin/app/kittel_query.py?page=756">756</ref>) and <foreign xml:lang="kn-Latn-t-kn-Knda">tāla</foreign> (<ref target="https://dsal.uchicago.edu/cgi-bin/app/kittel_query.py?page=753">753</ref>), Hindi <foreign xml:lang="hi-Latn-t-hi-Deva">tālā</foreign> (McGregor 1993, <ref target="https://dsal.uchicago.edu/cgi-bin/app/mcgregor_query.py?page=450">450</ref>), Sinhala <foreign xml:lang="si-Latn-t-si-Sinh">tālāva</foreign> (Carter 1924, <ref target="https://dsal.uchicago.edu/cgi-bin/app/carter_query.py?page=256">256</ref>), etc. 
             </note>
         </sense>
         <sense>
@@ -86,7 +91,7 @@ Although the <title>Dravidian Etymological Dictionary</title> places the verb <f
                 <ref target="../Kalittokai/Kali048.xml?highlight=%5Bid%3D%22Kali48%22%5D%20.l%3Anth-of-type(10)"><title xml:lang="ta">Kalittokai</title> 48, line 10</ref>
             </cit>
             <note xml:lang="en">
-Especially when employed with the verb <foreign xml:lang="ta">ceṟittal</foreign>, the noun <foreign xml:lang="ta">tāḻ</foreign>, originally a <q>locking pin</q>, seems to be used as a metonym referring to the entire door locking mechanism (see also Fabricius on <foreign xml:lang="ta">tāḻceṟitta</foreign>: <q>to bolt or bar a door</q>, 1972, <ref target="https://dsal.uchicago.edu/cgi-bin/app/fabricius_query.py?page=512">512</ref>). This usage can also be found in its cognates in other languages ― Telugu <foreign xml:lang="te-Latn-t-te-Telu">tāḷamu</foreign> can mean both <q>a lock</q> or <q>a key</q> (Brown 1903, <ref target="https://dsal.uchicago.edu/cgi-bin/app/brown_query.py?page=526">526</ref>), likewise with Malayalam <foreign xml:lang="ml-Latn-t-ml-Mlym">tāḻ</foreign> (Gundert 1872, <ref target="https://dsal.uchicago.edu/cgi-bin/app/gundert_query.py?page=448">448</ref>); the Sanskrit <foreign xml:lang="sa-Latn-t-sa-Deva">tālaka</foreign>, in the <title xml:lang="sa">Mahāvyutpatti</title>, is glossed as <foreign xml:lang="bo-Latn-t-bo-Tibt">sgo lcags</foreign>, <q>lock</q> (ed. Sakaki 1916, <ref target="https://archive.org/details/kanwashiyakutaik01mahauoft/page/383/mode/1up">383</ref>).
+Especially when employed with the verb <foreign xml:lang="ta">ceṟittal</foreign>, the noun <foreign xml:lang="ta">tāḻ</foreign>, originally a <q>locking pin</q>, seems to be used as a metonym referring to the entire door locking mechanism. Fabricius defines <foreign xml:lang="ta">tāḻceṟitta</foreign> as <q>to bolt or bar a door</q> (1972, <ref target="https://dsal.uchicago.edu/cgi-bin/app/fabricius_query.py?page=512">512</ref>; not present in the <ref target="https://archive.org/details/bim_eighteenth-century_a-dictionary-malabar-an_1779/page/n98/mode/1up">1779 first edition</ref> or the <ref target="https://archive.org/details/malabarenglishdi00fabr/page/n106/mode/1up">1809 second edition</ref>). This usage can also be found in its cognates in other languages ― Telugu <foreign xml:lang="te-Latn-t-te-Telu">tāḷamu</foreign> can mean both <q>a lock</q> or <q>a key</q> (Brown 1903, <ref target="https://dsal.uchicago.edu/cgi-bin/app/brown_query.py?page=526">526</ref>), likewise with Malayalam <foreign xml:lang="ml-Latn-t-ml-Mlym">tāḻ</foreign> (Gundert 1872, <ref target="https://dsal.uchicago.edu/cgi-bin/app/gundert_query.py?page=448">448</ref>); the Sanskrit <foreign xml:lang="sa-Latn-t-sa-Deva">tālaka</foreign>, in the <title xml:lang="sa">Mahāvyutpatti</title>, is glossed as <foreign xml:lang="bo-Latn-t-bo-Tibt">sgo lcags</foreign>, <q>lock</q> (ed. Sakaki 1916, <ref target="https://archive.org/details/kanwashiyakutaik01mahauoft/page/383/mode/1up">383</ref>).
            </note>
         </sense>
         <sense>
@@ -107,126 +112,128 @@ Especially when employed with the verb <foreign xml:lang="ta">ceṟittal</foreig
 This definition of <foreign xml:lang="ta">tāḻ</foreign>, as a <q>finger-ring</q>, seems to be a misinterpretation based on a single passage in the <title xml:lang="ta">Naṟṟiṇai</title> (see above), due to its collocation with <foreign xml:lang="ta">viral</foreign>, <q>finger</q>. It first appears in the editor's commentary in the 1915 editio princeps of the <title xml:lang="ta">Naṟṟiṇai</title>, and consequently it becomes lexicalized in the <title>Madras Tamil Lexicon</title> entry for <foreign xml:lang="ta">tāḻ</foreign>.
             </note>
         </sense>
-        <sense type="nikantu" xml:lang="ta">
-            <form>tāḻtal</form>
-            <cit>
-                <ref target="#Tiv9.29"><title>Tivākaram</title>  <num>9.29</num></ref>
-                <def>iṟaiñcal</def>
-                <def>kuraṅkal</def>
-            </cit>
-            <cit>
-                <ref target="#Pin7.218"><title>Piṅkalam</title> <num>7.218</num></ref>
-                <def>iṟaiñcal</def>
-                <def>kuraṅkal</def>
-                <def>vaṇaṅkal</def>
-            </cit>
-            <cit>
-                <ref target="#Cut9.27"><title>Cūṭāmaṇi</title> <num>9.27</num></ref>
-                <def>kuraṅkutal</def>
-                <def>kuṉivu</def>
-            </cit>
-            <cit>
-                <ref target="#Cut9.27"><title>Cūṭāmaṇi</title> <num>9.16</num></ref>
-                <def>taṅkal</def>
-            </cit>
-            <cit>
-                <ref target="#Cut11.23"><title>Cūṭāmaṇi</title> <num>9.16</num></ref>
-                <def>tūṅkal</def>
-            </cit>
-            <cit>
-                <ref target="#Cut9.19"><title>Cūṭāmaṇi</title> <num>9.19</num></ref>
-                <def>taṇṭaṉ</def>
-            </cit>
-        </sense>
-        <sense type="nikantu" xml:lang="ta">
-            <form>tāḻttal</form>
-            <cit>
-                <ref target="#Cut9.19"><title>Cūṭāmaṇi</title> <num>9.40</num></ref>
-                <def>mantam</def>
-            </cit>
-        </sense>
-        <sense type="nikantu" xml:lang="ta">
-            <form>tāḻ</form>
-            <cit>
-                <ref target="#Tiv7.165"><title>Tivākaram</title> <num>7.165</num></ref>
-                <def>kāḻ</def>
-                <def>cīppu</def>
-            </cit>
-            <cit>
-                <ref target="#Pin4.236"><title>Piṅkalam</title> <num>4.236</num></ref>
-                <def>kaṭikai</def>
-                <def>kāḻ</def>
-                <def>cīppu</def>
-            </cit>
-            <cit>
-                <ref target="#Pin10.508"><title>Piṅkalam</title> <num>10.508</num></ref>
-                <def>cīppu</def>
-            </cit>
-            <cit>
-                <ref target="#Cut7.49"><title>Cūṭāmaṇi</title> <num>7.49</num></ref>
-                <def>kaṭikai</def>
-                <def>kāḻ</def>
-                <def>cīppu</def>
-            </cit>
-            <cit>
-                <ref target="#Cut11.49"><title>Cūṭāmaṇi</title> <num>11.49</num></ref>
-                <def>kaṭikai</def>
-            </cit>
-            <cit>
-                <ref target="#Cut11.135"><title>Cūṭāmaṇi</title> <num>11.135</num></ref>
-                <def>cīppu</def>
-            </cit>
-        </sense>
-        <sense type="nikantu" xml:lang="ta">
-            <form>tāḻvu</form>
-            <cit>
-                <ref target="#Tiv11.132"><title>Tivākaram</title> <num>11.132</num></ref>
-                <def>tūṅkal</def>
-            </cit>
-            <cit>
-                <ref target="#Pin7.92"><title>Piṅkalam</title> <num>7.92</num></ref>
-                <def>iḻivu</def>
-                <def>cāyppu</def>
-                <def>tañcam</def>
-                <def>taṇmai</def>
-            </cit>
-            <cit>
-                <ref target="#Pin10.577"><title>Piṅkalam</title> <num>10.577</num></ref>
-                <def>taṇmai</def>
-            </cit>
-            <cit>
-                <ref target="#Cut8.56"><title>Cūṭāmaṇi</title> <num>8.56</num></ref>
-                <def>cāyppu</def>
-                <def>tañcam</def>
-                <def>taṇmai</def>
-                <def>talaiyiḻipuṭaṉ</def>
-            </cit>
-            <cit>
-                <ref target="#Cut11.71"><title>Cūṭāmaṇi</title> <num>11.71</num></ref>
-                <def>koṭiyaṉ</def>
-            </cit>
-            <cit>
-                <ref target="#Cut11.71"><title>Cūṭāmaṇi</title> <num>11.71</num></ref>
-                <def>iḻivu</def>
-            </cit>
-            <cit>
-                <ref target="#Cut5.61"><title>Cūṭāmaṇi</title> <num>5.61</num></ref>
-                <def>paḷḷam</def>
-            </cit>
-            <cit>
-                <ref target="#Cut11.245"><title>Cūṭāmaṇi</title> <num>11.245</num></ref>
-                <def>pāvam</def>
-            </cit>
-        </sense>
-        <sense type="nikantu" xml:lang="ta">
-            <form>tāḻmai</form>
-            <cit>
-                <ref target="#Pin10.602"><title>Piṅkalam</title> <num>10.602</num></ref>
-                <def>iḻivu</def>
-                <def>eṇmai</def>
-                <def>kīḻmai</def>
-            </cit>
-        </sense>
+        <cit type="nikantu-meanings" xml:lang="ta">
+            <sense>
+                <form>tāḻtal</form>
+                <cit>
+                    <ref target="#Tiv9.29"><title>Tivākaram</title>  <num>9.29</num></ref>
+                    <def>iṟaiñcal</def>
+                    <def>kuraṅkal</def>
+                </cit>
+                <cit>
+                    <ref target="#Pin7.218"><title>Piṅkalam</title> <num>7.218</num></ref>
+                    <def>iṟaiñcal</def>
+                    <def>kuraṅkal</def>
+                    <def>vaṇaṅkal</def>
+                </cit>
+                <cit>
+                    <ref target="#Cut9.27"><title>Cūṭāmaṇi</title> <num>9.27</num></ref>
+                    <def>kuraṅkutal</def>
+                    <def>kuṉivu</def>
+                </cit>
+                <cit>
+                    <ref target="#Cut9.27"><title>Cūṭāmaṇi</title> <num>9.16</num></ref>
+                    <def>taṅkal</def>
+                </cit>
+                <cit>
+                    <ref target="#Cut11.23"><title>Cūṭāmaṇi</title> <num>9.16</num></ref>
+                    <def>tūṅkal</def>
+                </cit>
+                <cit>
+                    <ref target="#Cut9.19"><title>Cūṭāmaṇi</title> <num>9.19</num></ref>
+                    <def>taṇṭaṉ</def>
+                </cit>
+            </sense>
+            <sense>
+                <form>tāḻttal</form>
+                <cit>
+                    <ref target="#Cut9.19"><title>Cūṭāmaṇi</title> <num>9.40</num></ref>
+                    <def>mantam</def>
+                </cit>
+            </sense>
+            <sense>
+                <form>tāḻ</form>
+                <cit>
+                    <ref target="#Tiv7.165"><title>Tivākaram</title> <num>7.165</num></ref>
+                    <def>kāḻ</def>
+                    <def>cīppu</def>
+                </cit>
+                <cit>
+                    <ref target="#Pin4.236"><title>Piṅkalam</title> <num>4.236</num></ref>
+                    <def>kaṭikai</def>
+                    <def>kāḻ</def>
+                    <def>cīppu</def>
+                </cit>
+                <cit>
+                    <ref target="#Pin10.508"><title>Piṅkalam</title> <num>10.508</num></ref>
+                    <def>cīppu</def>
+                </cit>
+                <cit>
+                    <ref target="#Cut7.49"><title>Cūṭāmaṇi</title> <num>7.49</num></ref>
+                    <def>kaṭikai</def>
+                    <def>kāḻ</def>
+                    <def>cīppu</def>
+                </cit>
+                <cit>
+                    <ref target="#Cut11.49"><title>Cūṭāmaṇi</title> <num>11.49</num></ref>
+                    <def>kaṭikai</def>
+                </cit>
+                <cit>
+                    <ref target="#Cut11.135"><title>Cūṭāmaṇi</title> <num>11.135</num></ref>
+                    <def>cīppu</def>
+                </cit>
+            </sense>
+            <sense>
+                <form>tāḻvu</form>
+                <cit>
+                    <ref target="#Tiv11.132"><title>Tivākaram</title> <num>11.132</num></ref>
+                    <def>tūṅkal</def>
+                </cit>
+                <cit>
+                    <ref target="#Pin7.92"><title>Piṅkalam</title> <num>7.92</num></ref>
+                    <def>iḻivu</def>
+                    <def>cāyppu</def>
+                    <def>tañcam</def>
+                    <def>taṇmai</def>
+                </cit>
+                <cit>
+                    <ref target="#Pin10.577"><title>Piṅkalam</title> <num>10.577</num></ref>
+                    <def>taṇmai</def>
+                </cit>
+                <cit>
+                    <ref target="#Cut8.56"><title>Cūṭāmaṇi</title> <num>8.56</num></ref>
+                    <def>cāyppu</def>
+                    <def>tañcam</def>
+                    <def>taṇmai</def>
+                    <def>talaiyiḻipuṭaṉ</def>
+                </cit>
+                <cit>
+                    <ref target="#Cut11.71"><title>Cūṭāmaṇi</title> <num>11.71</num></ref>
+                    <def>koṭiyaṉ</def>
+                </cit>
+                <cit>
+                    <ref target="#Cut11.71"><title>Cūṭāmaṇi</title> <num>11.71</num></ref>
+                    <def>iḻivu</def>
+                </cit>
+                <cit>
+                    <ref target="#Cut5.61"><title>Cūṭāmaṇi</title> <num>5.61</num></ref>
+                    <def>paḷḷam</def>
+                </cit>
+                <cit>
+                    <ref target="#Cut11.245"><title>Cūṭāmaṇi</title> <num>11.245</num></ref>
+                    <def>pāvam</def>
+                </cit>
+            </sense>
+            <sense>
+                <form>tāḻmai</form>
+                <cit>
+                    <ref target="#Pin10.602"><title>Piṅkalam</title> <num>10.602</num></ref>
+                    <def>iḻivu</def>
+                    <def>eṇmai</def>
+                    <def>kīḻmai</def>
+                </cit>
+            </sense>
+        </cit>
         <cit type="lexicon">
             <bibl>
                 <date>1679</date>
@@ -244,7 +251,7 @@ This definition of <foreign xml:lang="ta">tāḻ</foreign>, as a <q>finger-ring<
         </cit>
         <cit type="lexicon">
             <bibl>
-                <date>1972 [1786?]</date>
+                <date>1972 [1779]</date>
                 <edition>4th edition</edition>
                 <title xml:lang="en">Tamil and English dictionary (Fabricius)</title>
                 <ref target="https://dsal.uchicago.edu/cgi-bin/app/fabricius_query.py?page=512">p. 512</ref>
@@ -264,9 +271,9 @@ This definition of <foreign xml:lang="ta">tāḻ</foreign>, as a <q>finger-ring<
                 <edition>6th edition</edition>
                 <title xml:lang="ta">Tamiḻmoḻiyakarāti (Katiraivēṟ Piḷḷai)</title>
                 <ref target="https://dsal.uchicago.edu/cgi-bin/app/kadirvelu_query.py?page=764">p. 764</ref>
+                <ref target="https://dsal.uchicago.edu/cgi-bin/app/kadirvelu_query.py?page=1446">p. 1446</ref>
+                <ref target="https://dsal.uchicago.edu/cgi-bin/app/kadirvelu_query.py?page=1699">p. 1699</ref>
             </bibl>
-            <ref target="https://dsal.uchicago.edu/cgi-bin/app/kadirvelu_query.py?page=1446">p. 1446</ref>
-            <ref target="https://dsal.uchicago.edu/cgi-bin/app/kadirvelu_query.py?page=1699">p. 1699</ref>
         </cit>
         <cit type="lexicon">
             <bibl>
