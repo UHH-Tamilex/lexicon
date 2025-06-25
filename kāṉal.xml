@@ -89,17 +89,26 @@
             </cit>
         </sense>
         <cit type="lexicon">
-            <title xml:lang="en">University of Madras Tamil Lexicon</title>
-            <ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?page=912">p. 912</ref>
+            <bibl>
+                <date>1924–1936</date>
+                <title xml:lang="en">University of Madras Tamil Lexicon</title>
+                <ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?page=912">p. 912</ref>
+            </bibl>
+        </cit>
+            <bibl>
+                <date>1679</date>
+                <title xml:lang="en">Vocabulario Tamulico com Asignificaçam Portugueza</title>
+                <ref target="https://digi.vatlib.it/view/MSS_Borg.ind.12/309">f. 152r</ref>
+                <q xml:lang="pt">Reuerbaraçaõ do sol, que parece na agoa ao longe.<note xml:lang="en" place="foot">This entry preshadows the development towards the modern language. The Portuguese means something like <q>reflection of the sun that appears from far away like water</q>, which corresponds to <q xml:lang="ta">pēyttēr</q> found both in the <title xml:lang="ta">Tivākaram</title> and the <title xml:lang="ta">Piṅkalam</title> – a <q>mirage</q>, as in the modern entry in the Cre-A dictionary.</note></q>
+            </bibl>
+        <cit type="lexicon">
+            <bibl>
+                <date>1984 [1961]</date>
+                <title xml:lang="en">Dravidian Etymological Dictionary</title>
+                <ref target="https://dsal.uchicago.edu/cgi-bin/app/burrow_query.py?page=139">p. 139</ref>
+            </bibl>
         </cit>
         <cit type="lexicon">
-            <title xml:lang="en">Dravidian Etymological Dictionary</title>
-            <ref target="https://dsal.uchicago.edu/cgi-bin/app/burrow_query.py?page=139">p. 139</ref>
-        </cit>
-        <cit type="lexicon">
-            <title xml:lang="en">Vocabulario Tamulico com Asignificaçam Portugueza</title>
-            <ref target="https://digi.vatlib.it/view/MSS_Borg.ind.12/309">f. 152r</ref>
-            <q xml:lang="pt">Reuerbaraçaõ do sol, que parece na agoa ao longe.<note xml:lang="en" place="foot">This entry preshadows the development towards the modern language. The Portuguese means something like <q>reflection of the sun that appears from far away like water</q>, which corresponds to <q xml:lang="ta">pēyttēr</q> found both in the <title xml:lang="ta">Tivākaram</title> and the <title xml:lang="ta">Piṅkalam</title> – a <q>mirage</q>, as in the modern entry in the Cre-A dictionary.</note></q>
         </cit>
         <cit type="commentary">
             <ref target="https://archive.org/details/Tamil-Purananuru-U-Ve-Sa-3rd-Edition-1935/page/n166/mode/1up">anonymous commentary on <title xml:lang="ta">Puṟanānūṟu</title> 17.11</ref>

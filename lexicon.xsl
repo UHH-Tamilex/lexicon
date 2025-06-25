@@ -108,7 +108,7 @@
                     </xsl:element>
                     <xsl:element name="article">
                         <xsl:apply-templates/>
-                        <h3>Revision history</h3>
+                        <h4>Revision history</h4>
                         <p style="font-size: 1.2rem">
                             <xsl:text>Edited by </xsl:text>
                             <xsl:value-of select="//x:titleStmt/x:editor"/>
@@ -174,18 +174,22 @@
     <ol>
         <xsl:apply-templates select="x:sense[not(@type)]"/>
     </ol>
-    <h5>Meanings attested in the <em lang="ta">Nikaṇṭu</em>-s</h5>
-    <ul id="nikantu-list">
-        <xsl:apply-templates select="x:sense[@type='nikantu']"/>
-    </ul>
-    <h5>Other lexica</h5>
-    <ul>
-        <xsl:apply-templates select="x:cit[@type='lexicon']"/>
-    </ul>
+    <details open="true">
+        <summary style="font-size: 1.5rem; font-style: italic">Meanings attested in the <em lang="ta">Nikaṇṭu</em>-s</summary>
+        <ul id="nikantu-list">
+            <xsl:apply-templates select="x:sense[@type='nikantu']"/>
+        </ul>
+    </details>
+    <details open="true">
+        <summary style="font-size: 1.5rem; font-style: italic">Other lexica</summary>
+        <ul>
+            <xsl:apply-templates select="x:cit[@type='lexicon']"/>
+        </ul>
+    </details>
     <details>
         <xsl:attribute name="id"><xsl:value-of select="@corresp"/></xsl:attribute>
-        <summary style="font-size: 1.2rem; font-weight: bold">Tamilex citations</summary>
-        <details style="margin-left: 1rem" class="dict">
+        <summary style="font-size: 1.5rem; font-style: italic">Tamilex citations</summary>
+        <details class="dict" style="margin-top: 1rem">
             <xsl:attribute name="data-lemma"><xsl:value-of select="@corresp"/></xsl:attribute>
             <xsl:attribute name="data-entry"><xsl:value-of select="x:form"/></xsl:attribute>
             <summary class="dict-heading" lang="ta"><xsl:value-of select="x:form"/></summary>
@@ -195,7 +199,7 @@
     </details>
     <xsl:if test="x:cit[@type='nikantu']">
         <details>
-            <summary style="font-size: 1.2rem; font-weight: bold"><em lang="ta">Nikaṇṭu</em> attestations</summary>
+            <summary style="font-size: 1.5rem; font-style: italic"><em lang="ta">Nikaṇṭu</em> citations</summary>
             <ul>
                 <xsl:apply-templates select="x:cit[@type='nikantu']"/>
             </ul>
@@ -203,7 +207,7 @@
     </xsl:if>
     <xsl:if test="x:cit[@type='commentary']">
         <details>
-            <summary style="font-size: 1.2rem; font-weight: bold">Commentarial glosses</summary>
+            <summary style="font-size: 1.5rem; font-style: italic">Commentarial glosses</summary>
             <ul>
                 <xsl:apply-templates select="x:cit[@type='commentary']"/>
             </ul>
@@ -211,7 +215,7 @@
     </xsl:if>
     <xsl:if test="x:cit[@type='external']">
         <details>
-            <summary style="font-size: 1.2rem; font-weight: bold">Other sources</summary>
+            <summary style="font-size: 1.5rem; font-style: italic">Other sources</summary>
                 <ul>
                     <xsl:apply-templates select="x:cit[@type='external']"/>
                 </ul>
@@ -236,7 +240,7 @@
     <xsl:call-template name="nested-grammar"/>
 </xsl:template>
 <xsl:template name="nested-grammar">
-    <span class="nested-grammar">
+    <span class="nested-grammar" lang="en">
         <xsl:for-each select=".//x:gram">
             <xsl:apply-templates/>
             <xsl:if test="position() != last()">, </xsl:if>
@@ -358,9 +362,20 @@
 
 <xsl:template match="x:cit[@type='lexicon']">
     <li>
-        <span class="msid"><xsl:apply-templates select="x:title"/></span>
+        <span class="date"><xsl:apply-templates select="x:bibl/x:date"/></span>
         <xsl:text> </xsl:text>
-        <xsl:for-each select="x:ref">
+        <span class="msid">
+            <xsl:apply-templates select="x:bibl/x:title"/>
+            <xsl:if test="x:bibl/x:edition">
+                <xsl:text> </xsl:text>
+                <span class="edition">
+                    <xsl:value-of select="x:bibl/x:edition"/>
+                </span>
+            </xsl:if>
+        </span>
+        <xsl:apply-templates select="x:bibl/x:note"/>
+        <xsl:text> </xsl:text>
+        <xsl:for-each select="x:bibl/x:ref">
             <xsl:apply-templates select="."/>
             <xsl:if test="position() != last()">, </xsl:if>
         </xsl:for-each>
@@ -405,7 +420,9 @@
 </xsl:template>
 
 <xsl:template match="x:listBibl">
-    <h3>Additional bibliography</h3>
-    <xsl:apply-templates/>
+    <details open="true">
+        <summary style="font-size: 1.5rem; font-style: italic">Additional bibliography</summary>
+        <xsl:apply-templates/>
+    </details>
 </xsl:template>
 </xsl:stylesheet>
