@@ -91,6 +91,16 @@ details[open] > summary .nested-grammar {
     display: none;
 }
 
+summary {
+    cursor: default;
+}
+details details summary {
+    width: 87.5%;
+}
+details:not([open]) summary:hover {
+    background: rgb(253,253,129);
+}
+
 small.note {
     display: block;
     width: 500px;
@@ -159,12 +169,22 @@ h4 {
 }
 
 @media (max-width: 1080px) {
+    .teitext {
+        width: 95%;
+    }
     small.note {
         width: 300px;
     }
 }
 
 @media (max-width: 800px) {
+    .teitext {
+        width: unset;
+        padding-right: 1rem;
+    }
+    img {
+        width: unset;
+    }
     th {
         writing-mode: revert;
         position: revert;
@@ -176,9 +196,25 @@ h4 {
     .sense > div:first-child {
         max-width: fit-content;
     }
+    .sense > div:last-child {
+        margin-top: 0px;
+    }
     .blockcite {
         text-align: right;
         width: 100%;
     }
+    small.note {
+        width: fit-content;
+        max-width: 90vw;
+    }
 }
 
+@media (max-width: 500px) {
+    .record.fat {
+        padding-left: 1rem;
+        width: 100%;
+    }
+    #buttoncontainer {
+        left: 0px;
+    }
+}
