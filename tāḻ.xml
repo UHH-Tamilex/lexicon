@@ -310,12 +310,16 @@ This definition of <foreign xml:lang="ta">tāḻ</foreign>, as a <q>finger-ring<
             <q xml:lang="ta">tāḷ – mūṭṭuvāyil vilaṅkac ceṟittum kaṭaiyāṇi ; kaṭikai – kāmpu.</q>
         </cit>
         <cit type="commentary">
-            <ref target="https://archive.org/details/gc-sh5-0112/page/n196/mode/1up">Nacciṉārkkiṉiyār on <title xml:lang="ta">Kalittokai</title> 48 (ed. Tāmōtarampiḷḷai 1887, 149)</ref>
+            <ref target="https://archive.org/details/gc-sh5-0112/page/n196/mode/1up"><persName xml:lang="ta">Nacciṉārkkiṉiyār</persName> on <title xml:lang="ta">Kalittokai</title> 48 (ed. <persName xml:lang="ta">Tāmōtarampiḷḷai</persName> 1887, 149)</ref>
             <q xml:lang="ta">tāḻiṭṭu aṭaittāṟ pōluṅ kaṭiya kāvalaiyuṭaiya tāy</q>
         </cit>
         <cit type="commentary">
-            <ref target="https://archive.org/details/tirukkua00tiru/page/n379/mode/1up">Parimēlaḻakar on <title xml:lang="ta">Tirukkuraḷ</title> 1251 (ed. Nāvalar 1861, 360)</ref>
+            <ref target="https://archive.org/details/tirukkua00tiru/page/n379/mode/1up"><persName xml:lang="ta">Parimēlaḻakar</persName> on <title xml:lang="ta">Tirukkuraḷ</title> 1251 (ed. Nāvalar 1861, 360)</ref>
             <q xml:lang="ta">tāḻiṉaik kōtta niṟaiyeṉṉuṅkataviṉai</q>
+        </cit>
+        <cit type="commentary">
+            <ref target="https://archive.org/details/cilappatikaram/page/129/mode/1up"><persName xml:lang="ta">Atiyārkkunnalār</persName> on <q xml:lang="ta">taḻtuṇai</q>, <title xml:lang="ta">Cilappatikāram</title> 4 (ed. <persName xml:lang="ta">U. Vē. Cāminātaiyar</persName>, 1955, 29)</ref>
+            <q xml:lang="ta">tammaṉattil taṅkiya koḻunar tammaip pirintirukkiṉṟa makaḷir…. tāḻtal – taṅkutal. tuṇai – kōṭṭuṇaiyeṉṟumām.</q>
         </cit>
         <cit type="nikantu" xml:id="Tiv7.165">
             <ref target="https://archive.org/details/dli.jZY9lup2kZl6TuXGlZQdjZp7kZUy.TVA_BOK_0002448/page/58/mode/1up"><title xml:lang="ta">Tivākaram</title> 7.165 <term xml:lang="ta">katavil ceṟi tāḻiṉ peyar</term></ref>
@@ -667,6 +671,7 @@ This definition of <foreign xml:lang="ta">tāḻ</foreign>, as a <q>finger-ring<
       <listBibl>
         <bibl>Brown, Charles Philip. 1903. <title>A Telugu-English Dictionary.</title> Madras: Promoting Christian Knowledge. Via <ref target="https://dsal.uchicago.edu/dictionaries/brown/">Digital Dictionaries of South Asia</ref>.</bibl>
         <bibl><persName xml:lang="ta">Cāminātaiyar, U. Vē.</persName>, ed. 1924. <title xml:lang="ta">Puṟapporuḷ veṇpāmālai mūlamum uraiyum.</title> <term xml:lang="ta">Ceṉṉai:</term> <term xml:lang="ta">Kamarṣiyal Accukkūṭam</term>. <ref target="https://archive.org/details/gc-sh8-0001">ark:/13960/s2qt5kcst8p</ref></bibl>
+        <bibl><persName xml:lang="ta">Cāminātaiyar, U. Vē.</persName>, ed. 1955. <title xml:lang="ta">¢ilappatikāra mūlamum. arumpatavuraiyum. Aṭiyārkkunallāruraiyum.</title> <term xml:lang="ta">Ceṉṉai:</term> <term xml:lang="ta">Kapīr Accukkūṭam</term>. <ref target="https://archive.org/details/cilappatikaram">ark:/13960/s2x53j5nnx3</ref></bibl>
         <bibl>Carter, Charles. 1924. <title>A Sinhalese-English dictionary.</title> London: Probsthain &amp; Co. Via <ref target="https://dsal.uchicago.edu/dictionaries/carter/">Digital Dictionaries of South Asia</ref>.</bibl>
         <bibl>Cone, Margaret. 2010. <title>A Dictionary of Pāli, Part II. g ― n.</title> Bristol: Pali Text Society.</bibl>
         <bibl>Connolly, Peter. 1979. <title>The Greek Armies.</title> London: Macdonald Educational.</bibl>

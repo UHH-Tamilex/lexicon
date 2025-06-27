@@ -33,6 +33,7 @@ const queryDb = async (word,select,taml) => {
 };
 
 const go = async str => {
+    document.getElementById('recent').style.display = 'none';
     const index = document.getElementById('index');
     $('#index').DataTable().clear();
     $('#index').DataTable().destroy();
