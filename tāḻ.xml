@@ -23,17 +23,23 @@
             <gramGrp>
                 <gram>class 4</gram>
             </gramGrp>
-            <def xml:lang="en">to hang down, to hang back, to be low</def>
-<cit source="../Kuruntokai/KT214.xml?id=KT214&amp;w=10,14">
-    <q xml:lang="ta"><w>puṟam</w> <w>tāḻ</w> <w>am</w> <w>cil</w> <w>ōti</w></q>
-    <q xml:lang="en">pretty, fine hair hanging down [her] back</q>
-    <ref target="../Kuruntokai/KT214.xml?highlight=%5Bid%3D%22KT214%22%5D%20.l%3Anth-of-type(2)"><title xml:lang="ta">Kuṟuntokai</title> 214, lines 2–3</ref>
-</cit>
+            <def xml:lang="en">to hang down, to be low</def>
+            <cit source="../Kuruntokai/KT214.xml?id=KT214&amp;w=10,14">
+                <q xml:lang="ta"><w>puṟam</w> <w>tāḻ</w> <w>am</w> <w>cil</w> <w>ōti</w></q>
+                <q xml:lang="en">pretty, fine hair hanging down [her] back</q>
+                <ref target="../Kuruntokai/KT214.xml?highlight=%5Bid%3D%22KT214%22%5D%20.l%3Anth-of-type(2)"><title xml:lang="ta">Kuṟuntokai</title> 214, lines 2–3</ref>
+            </cit>
             <cit source="../Akananuru/AN175.1.xml?id=AN175.1&amp;w=95,99">
                 <q xml:lang="ta"><w>taṇ</w> <w>peyal</w> <w>eḻili</w> <w>tāḻnta</w> <w>pōḻt<c type="elided">u</c>-ē</w></q>
                 <q xml:lang="en">when the clouds hung low with cool rain</q>
                 <ref target="../Akananuru/AN175.1.xml?highlight=[id%3D%22AN175.1%22]%20.l%3Anth-of-type(18)"><title xml:lang="ta">Akanāṉūṟu</title> 175.1, line 18</ref>
             </cit>
+        </sense>
+        <sense>
+            <gramGrp>
+                <gram>class 4</gram>
+            </gramGrp>
+            <def xml:lang="en">to hang back</def>
             <cit source="../TamilneriVilakkam/TNV23ed.xml?id=TNV23poem4&amp;w=17,20">
                 <q xml:lang="ta"><w>piṉ</w> <w>piṉ</w> <w>tāḻntaṉaḷ</w> <w>otuṅka</w></q>
                 <q xml:lang="en">while she hid, hanging back just behind [me]</q>
@@ -70,8 +76,8 @@
                 <ref target="../Tirukkural/TK1251.xml?highlight=%5Bid%3D%22TK1251%22%5D%20.l%3Anth-of-type(2)"><title xml:lang="ta">Tirukkuṟaḷ</title> 1251, line 2</ref>
             </cit>
             <note xml:lang="en">
-Although the <title>Dravidian Etymological Dictionary</title> places the verb <foreign xml:lang="ta">tāḻ</foreign> and the noun <foreign xml:lang="ta">tāḻ</foreign> in two separate entries, it rather seems that the noun is derived from the verbal root. As seen in the <title xml:lang="ta">Tirukkuṟaḷ</title>, the noun refers to a pin or bolt in that is lowered (<foreign xml:lang="ta">vīḻttal</foreign>) into a hole in a door bar in order to lock it in place. The commentator on the <title xml:lang="ta">Akanāṉūṟu</title> glosses it as a pin (<foreign xml:lang="ta">āṇi</foreign>) that is used to secure a joint (<foreign xml:lang="ta">mūṭṭuvāy</foreign>); perhaps the commentator is imagining a system in which two intersecting bars are used to block a gate, with a locking pin going through both in order to secure them in place ― see, for example, the Lion Gate at Mycenae (Connolly 1977, 49). Simpler mechanisms, with a single bar and a hole for a locking pin, can be also be found in other cultures (Ghirshman 1966, 75). The semantic association of the locking pin as something that is <q>lowered</q> into place can also be found in other languages (Scurlock 1988, 424–428; see also Gundert on Malayalam <foreign xml:lang="ml-Latn-t-ml-Mlym">tāḻ</foreign>, below).</note>
-<note>As a root noun, <foreign xml:lang="ta">tāḻ</foreign> is also written as <foreign xml:lang="ta">tāḷ</foreign> (see <title xml:lang="ta">Akanāṉūṟu</title> 35 and its commentary, as well as <title xml:lang="ta">Puṟapporuḷveṇpāmālai</title> 9.24 &amp; 10.5 (ed. <persName xml:lang="ta">U. Vē. Cāminātaiyar</persName> 1924, <ref target="https://archive.org/details/gc-sh8-0001/page/109/mode/1up">99</ref>; <ref target="https://archive.org/details/gc-sh8-0001/page/123/mode/1up">113</ref>). It seems to be the source of the Pali <foreign xml:lang="pli">tāḷa</foreign> (Cone 2010, 305–306), and the Buddhist Hybrid Sanskrit <foreign xml:lang="sa">tāḍa(ka)</foreign> (Edgerton 1953, 251). It appears later in <persName xml:lang="sa">Hemacandra</persName>'s <title xml:lang="sa">Abhidhānacintāmaṇi</title> 1005 as <foreign xml:lang="sa-Latn-t-sa-Deva">tālaka</foreign> (ed. <persName xml:lang="sa">Vedāntavāgīśa</persName> &amp; <persName xml:lang="sa">Sena</persName> 1877, <ref target="https://archive.org/details/abhidhana.cintamanih-hemacandrah-ed-kalivara-sarmma-vedantavagisa-and-ramdas-sen/page/n151/mode/1up">150</ref>) and is now ubiquitous across Dravidian and Indo-Aryan languages ― see Kannada <foreign xml:lang="kn-Latn-t-kn-Knda">tāḻ</foreign> (Kittel 1968–1971, <ref target="https://dsal.uchicago.edu/cgi-bin/app/kittel_query.py?page=756">756</ref>) and <foreign xml:lang="kn-Latn-t-kn-Knda">tāla</foreign> (<ref target="https://dsal.uchicago.edu/cgi-bin/app/kittel_query.py?page=753">753</ref>), Hindi <foreign xml:lang="hi-Latn-t-hi-Deva">tālā</foreign> (McGregor 1993, <ref target="https://dsal.uchicago.edu/cgi-bin/app/mcgregor_query.py?page=450">450</ref>), Sinhala <foreign xml:lang="si-Latn-t-si-Sinh">tālāva</foreign> (Carter 1924, <ref target="https://dsal.uchicago.edu/cgi-bin/app/carter_query.py?page=256">256</ref>), etc. 
+Although the <title>Dravidian Etymological Dictionary</title> places the verb <foreign xml:lang="ta">tāḻ</foreign> and the noun <foreign xml:lang="ta">tāḻ</foreign> in two separate entries, it rather seems that the noun is derived from the verbal root. As seen in the <title xml:lang="ta">Tirukkuṟaḷ</title>, the noun refers to a pin or bolt in that is lowered (<foreign xml:lang="ta">vīḻttal</foreign>) into a hole in a door bar in order to lock it in place. The commentator on the <title xml:lang="ta">Akanāṉūṟu</title> glosses it as a pin (<foreign xml:lang="ta">kaṭaiyāṇi</foreign>) that is used to secure a joint (<foreign xml:lang="ta">mūṭṭuvāy</foreign>); perhaps the commentator is imagining a system in which two intersecting bars are used to block a gate, with a locking pin going through both in order to secure them in place ― see, for example, the Lion Gate at Mycenae (Connolly 1977, 49). Simpler mechanisms, with a single bar and a hole for a locking pin, can be also be found in other cultures (Ghirshman 1966, 75). The semantic association of the locking pin as something that is <q>lowered</q> into place can also be found in other languages (Scurlock 1988, 424–428; see also Gundert on Malayalam <foreign xml:lang="ml-Latn-t-ml-Mlym">tāḻ</foreign>, below).</note>
+<note>As a root noun, <foreign xml:lang="ta">tāḻ</foreign> is also written as <foreign xml:lang="ta">tāḷ</foreign> (see <title xml:lang="ta">Akanāṉūṟu</title> 35 and its commentary, as well as <title xml:lang="ta">Puṟapporuḷveṇpāmālai</title> 9.24 &amp; 10.5 (ed. <persName xml:lang="ta">U. Vē. Cāminātaiyar</persName> 1924, <ref target="https://archive.org/details/gc-sh8-0001/page/109/mode/1up">99</ref>; <ref target="https://archive.org/details/gc-sh8-0001/page/123/mode/1up">113</ref>). It seems to be the source of the Pali <foreign xml:lang="pi">tāḷa</foreign> (Cone 2010, 305–306), and the Buddhist Hybrid Sanskrit <foreign xml:lang="sa">tāḍa(ka)</foreign> (Edgerton 1953, 251). It appears later in <persName xml:lang="sa">Hemacandra</persName>'s <title xml:lang="sa">Abhidhānacintāmaṇi</title> 1005 as <foreign xml:lang="sa-Latn-t-sa-Deva">tālaka</foreign> (ed. <persName xml:lang="sa">Vedāntavāgīśa</persName> &amp; <persName xml:lang="sa">Sena</persName> 1877, <ref target="https://archive.org/details/abhidhana.cintamanih-hemacandrah-ed-kalivara-sarmma-vedantavagisa-and-ramdas-sen/page/n151/mode/1up">150</ref>) and is now ubiquitous across Dravidian and Indo-Aryan languages ― see Kannada <foreign xml:lang="kn-Latn-t-kn-Knda">tāḻ</foreign> (Kittel 1968–1971, <ref target="https://dsal.uchicago.edu/cgi-bin/app/kittel_query.py?page=756">756</ref>) and <foreign xml:lang="kn-Latn-t-kn-Knda">tāla</foreign> (<ref target="https://dsal.uchicago.edu/cgi-bin/app/kittel_query.py?page=753">753</ref>), Hindi <foreign xml:lang="hi-Latn-t-hi-Deva">tālā</foreign> (McGregor 1993, <ref target="https://dsal.uchicago.edu/cgi-bin/app/mcgregor_query.py?page=450">450</ref>), Sinhala <foreign xml:lang="si-Latn-t-si-Sinh">tālāva</foreign> (Carter 1924, <ref target="https://dsal.uchicago.edu/cgi-bin/app/carter_query.py?page=256">256</ref>), etc. 
             </note>
         </sense>
         <sense>
@@ -79,7 +85,7 @@ Although the <title>Dravidian Etymological Dictionary</title> places the verb <f
                 <gram>root noun</gram>
                 <gram>metonym</gram>
             </gramGrp>
-            <def xml:lang="en">a lock</def>
+            <def xml:lang="en">a lock, a <unclear>clasp</unclear></def>
             <cit source="../Narrinai/NA120.xml?id=NA120&amp;w=18,23">
                 <q xml:lang="ta"><w>pēḻai</w> <w>ciṟu</w> <w>tāḻ</w> <w>ceṟitta</w> <w>mel</w> <w>viral</w></q>
                 <q xml:lang="en">[her] soft fingers, that had fastened the small lock on the box</q>
@@ -90,8 +96,13 @@ Although the <title>Dravidian Etymological Dictionary</title> places the verb <f
                 <q xml:lang="en">[her] mother, fiercely protective [like] the closing of a lock</q>
                 <ref target="../Kalittokai/Kali048.xml?highlight=%5Bid%3D%22Kali48%22%5D%20.l%3Anth-of-type(10)"><title xml:lang="ta">Kalittokai</title> 48, line 10</ref>
             </cit>
+            <cit source="../Kalittokai/Kali043.xml?id=Kali43&amp;w=38,45">
+                <q xml:lang="ta"><w>kai<c type="geminated">c</c></w> <w>ceṟitta</w> <w>tāḷ</w> <w>pōla<c type="geminated">k</c></w> <w>kāntaḷ</w> <w>mukaiyiṉ</w> <w>mēl</w> <w>tumpi</w></q>
+                <q xml:lang="en">a bee on the bud of a Malabar lily, like a <unclear>clasp</unclear> fastened around the hand</q>
+                <ref target="../Kalittokai/Kali043.xml?highlight=%5Bid%3DKali43%5D%20.l%3Anth-of-type(8)"><title xml:lang="ta">Kalittokai</title> 43, lines 8–9</ref>
+            </cit>
             <note xml:lang="en">
-Especially when employed with the verb <foreign xml:lang="ta">ceṟittal</foreign>, the noun <foreign xml:lang="ta">tāḻ</foreign>, originally a <q>locking pin</q>, seems to be used as a metonym referring to the entire door locking mechanism. Fabricius defines <foreign xml:lang="ta">tāḻceṟitta</foreign> as <q>to bolt or bar a door</q> (1972, <ref target="https://dsal.uchicago.edu/cgi-bin/app/fabricius_query.py?page=512">512</ref>; not present in the <ref target="https://archive.org/details/bim_eighteenth-century_a-dictionary-malabar-an_1779/page/n98/mode/1up">1779 first edition</ref> or the <ref target="https://archive.org/details/malabarenglishdi00fabr/page/n106/mode/1up">1809 second edition</ref>). This usage can also be found in its cognates in other languages ― Telugu <foreign xml:lang="te-Latn-t-te-Telu">tāḷamu</foreign> means <q>a lock</q> (Brown 1903, <ref target="https://dsal.uchicago.edu/cgi-bin/app/brown_query.py?page=526">526</ref>), likewise with Malayalam <foreign xml:lang="ml-Latn-t-ml-Mlym">tāḻ</foreign> (Gundert 1872, <ref target="https://dsal.uchicago.edu/cgi-bin/app/gundert_query.py?page=448">448</ref>); the Sanskrit <foreign xml:lang="sa-Latn-t-sa-Deva">tālaka</foreign>, in the <title xml:lang="sa">Mahāvyutpatti</title>, is glossed as <foreign xml:lang="bo-Latn-t-bo-Tibt">sgo lcags</foreign>, <q>lock</q>, and <foreign xml:lang="sa-Latn-t-sa-Deva">pratitālaka</foreign> as <foreign xml:lang="bo-Latn-t-bo-Tibt">lde mig</foreign>, <q>key</q> (ed. Sakaki 1916, <ref target="https://archive.org/details/kanwashiyakutaik01mahauoft/page/383/mode/1up">383</ref>).
+Especially when employed with the verb <foreign xml:lang="ta">ceṟittal</foreign>, the noun <foreign xml:lang="ta">tāḻ</foreign>, originally a <q>locking pin</q>, seems to be used as a metonym referring to the entire locking mechanism. Fabricius defines <foreign xml:lang="ta">tāḻceṟitta</foreign> as <q>to bolt or bar a door</q> (1972, <ref target="https://dsal.uchicago.edu/cgi-bin/app/fabricius_query.py?page=512">512</ref>; not present in the <ref target="https://archive.org/details/bim_eighteenth-century_a-dictionary-malabar-an_1779/page/n98/mode/1up">1779 first edition</ref> or the <ref target="https://archive.org/details/malabarenglishdi00fabr/page/n106/mode/1up">1809 second edition</ref>). The idiom appears as <foreign xml:lang="ta">tāḻiṭṭu</foreign> in <title xml:lang="ta">Tēvāram</title> <ref target="https://www.ifpindia.org/digitaldb/site/digital_tevaram/U_TEV/DM4_111.HTM#p6">4-111 (6)</ref> and in <persName xml:lang="ta">Nacciṉārkkiṉiyār</persName> on <title xml:lang="ta">Kalittokai</title> 48 (see below). This usage can also be found in its cognates in other languages ― Telugu <foreign xml:lang="te-Latn-t-te-Telu">tāḷamu</foreign> means <q>a lock</q> (Brown 1903, <ref target="https://dsal.uchicago.edu/cgi-bin/app/brown_query.py?page=526">526</ref>), likewise with Malayalam <foreign xml:lang="ml-Latn-t-ml-Mlym">tāḻ</foreign> (Gundert 1872, <ref target="https://dsal.uchicago.edu/cgi-bin/app/gundert_query.py?page=448">448</ref>); the Sanskrit <foreign xml:lang="sa-Latn-t-sa-Deva">tālaka</foreign>, in the <title xml:lang="sa">Mahāvyutpatti</title>, is glossed as <foreign xml:lang="bo-Latn-t-bo-Tibt">sgo lcags</foreign>, <q>lock</q>, and <foreign xml:lang="sa-Latn-t-sa-Deva">pratitālaka</foreign> as <foreign xml:lang="bo-Latn-t-bo-Tibt">lde mig</foreign>, <q>key</q> (ed. Sakaki 1916, <ref target="https://archive.org/details/kanwashiyakutaik01mahauoft/page/383/mode/1up">383</ref>).
            </note>
         </sense>
         <sense>
@@ -109,7 +120,7 @@ Especially when employed with the verb <foreign xml:lang="ta">ceṟittal</foreig
                 <ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?page=1852"><title xml:lang="en">University of Madras Tamil Lexicon</title> on <foreign xml:lang="ta">tāḻ</foreign> (1924–1936, vol. 3, pt. 4, 1852)</ref>
             </cit>
             <note>
-This definition of <foreign xml:lang="ta">tāḻ</foreign>, as a <q>finger-ring</q>, seems to be a misinterpretation based on a single passage in the <title xml:lang="ta">Naṟṟiṇai</title> (see above), due to its collocation with <foreign xml:lang="ta">viral</foreign>, <q>finger</q>. It first appears in the editor's commentary in the 1915 editio princeps of the <title xml:lang="ta">Naṟṟiṇai</title>, and consequently it becomes lexicalized in the <title>Madras Tamil Lexicon</title> entry for <foreign xml:lang="ta">tāḻ</foreign>.
+This definition of <foreign xml:lang="ta">tāḻ</foreign>, as a <q>finger-ring</q>, seems to be a misinterpretation based on a passage in the <title xml:lang="ta">Naṟṟiṇai</title> (see above), due to its collocation with <foreign xml:lang="ta">viral</foreign>, <q>finger</q>. It first appears in the editor's commentary in the 1915 editio princeps of the <title xml:lang="ta">Naṟṟiṇai</title>, and consequently it becomes lexicalized in the <title>Madras Tamil Lexicon</title> entry for <foreign xml:lang="ta">tāḻ</foreign>. However, the quotation from <title xml:lang="ta">Kalittokai</title> 43 does seem to support the usage of <foreign xml:lang="ta">tāḷ</foreign> in relation to a sort of hand ornament. 
             </note>
         </sense>
         <cit type="nikantu-meanings" xml:lang="ta">
@@ -308,6 +319,10 @@ This definition of <foreign xml:lang="ta">tāḻ</foreign>, as a <q>finger-ring<
         <cit type="commentary">
             <ref target="https://archive.org/details/196OldCommentaryNotesByRajagopalarya/page/57/mode/1up">anonymous commentary on <title xml:lang="ta">Akanāṉūṟu</title> 35 (ed. Rajagopalan 1926, 57)</ref>
             <q xml:lang="ta">tāḷ – mūṭṭuvāyil vilaṅkac ceṟittum kaṭaiyāṇi ; kaṭikai – kāmpu.</q>
+        </cit>
+        <cit type="commentary">
+            <ref target="https://archive.org/details/gc-sh5-0112/page/n180/mode/1up"><persName xml:lang="ta">Nacciṉārkkiṉiyār</persName> on <title xml:lang="ta">Kalittokai</title> 43 (ed. <persName xml:lang="ta">Tāmōtarampiḷḷai</persName> 1887, 133)</ref>
+            <q xml:lang="ta">kaiyiliṭṭa tāṭkūṭṭākiya nīlakkaṭaicceṟipōlak kāntaḷiṉatu mukaiyiṉmēlē</q>
         </cit>
         <cit type="commentary">
             <ref target="https://archive.org/details/gc-sh5-0112/page/n196/mode/1up"><persName xml:lang="ta">Nacciṉārkkiṉiyār</persName> on <title xml:lang="ta">Kalittokai</title> 48 (ed. <persName xml:lang="ta">Tāmōtarampiḷḷai</persName> 1887, 149)</ref>

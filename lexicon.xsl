@@ -174,6 +174,14 @@
     <ol>
         <xsl:apply-templates select="x:sense[not(@type)]"/>
     </ol>
+    <xsl:if test="x:cit[@type='commentary']">
+        <details open="true">
+            <summary style="font-size: 1.5rem; font-style: italic">Commentarial glosses</summary>
+            <ul>
+                <xsl:apply-templates select="x:cit[@type='commentary']"/>
+            </ul>
+        </details>
+    </xsl:if>
     <details open="true">
         <summary style="font-size: 1.5rem; font-style: italic">Meanings attested in the <em lang="ta">Nikaṇṭu</em>-s</summary>
         <ul id="nikantu-list" lang="ta">
@@ -202,14 +210,6 @@
             <summary style="font-size: 1.5rem; font-style: italic"><em lang="ta">Nikaṇṭu</em> citations</summary>
             <ul>
                 <xsl:apply-templates select="x:cit[@type='nikantu']"/>
-            </ul>
-        </details>
-    </xsl:if>
-    <xsl:if test="x:cit[@type='commentary']">
-        <details>
-            <summary style="font-size: 1.5rem; font-style: italic">Commentarial glosses</summary>
-            <ul>
-                <xsl:apply-templates select="x:cit[@type='commentary']"/>
             </ul>
         </details>
     </xsl:if>
