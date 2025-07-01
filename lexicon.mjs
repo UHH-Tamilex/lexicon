@@ -228,7 +228,11 @@ const getEntry = async targ => {
         const lemma = targ.closest('details[id]')?.id || targ.dataset.select;
         const form = targ.closest('details').dataset.entry;
         const islemma = targ.closest('details').dataset.lemma;
-        if(islemma) {
+        const isparticle = targ.closest('details').dataset.type === 'particle';
+        if(isparticle) {
+                results = await workers.local.exec(`SELECT particlefunction, syntax, context, citation, line, filename FROM citations WHERE enclitic = "${form}"`);
+        }
+        else if(islemma) {
             if(lemma)
                 results = await workers.local.exec(`SELECT def, pos, number, gender, nouncase, person, voice, aspect, particlefunction, syntax, rootnoun, enclitic, context, citation, line, filename FROM citations WHERE islemma = "${islemma}"`);
             else

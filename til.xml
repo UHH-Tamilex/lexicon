@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./lexicon.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="ta">til</title>
+        <editor><forename>Charles</forename> <surname>Li</surname></editor>
+      </titleStmt>
+      <publicationStmt><p>Tamilex project.</p></publicationStmt>
+      <sourceDesc><p/></sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+  <text xml:lang="en">
+    <body>
+      <entry corresp="til" type="particle">
+        <form xml:lang="ta">til</form>
+        <gramGrp>
+            <gram>enclitic particle</gram>
+        </gramGrp>
+        <sense>
+            <usg xml:lang="en">a particle used with the optative</usg>
+            <cit source="https://uhh-tamilex.github.io/Purananuru/PN284.xml?id=PN284&amp;w=0,4">
+                <q xml:lang="ta"><w>varuka-til</w> <w>val-<c type="geminated">l</c>ē</w> <w>varuka-til</w> <w>val</w> <w><c type="geminated">l</c>eṉa</w></q>
+                <q xml:lang="en">saying, <q>please come quickly, please come quickly!</q></q>
+                <ref target="https://uhh-tamilex.github.io/Purananuru/PN284.xml?highlight=%5Bid%3DPN284%5D%20.l%3Anth-of-type(1)"><title xml:lang="ta">Puṟanāṉūṟu</title> 284, line 1</ref>
+            </cit>
+            <cit source="https://uhh-tamilex.github.io/Kuruntokai/KT14.xml?id=KT14&amp;w=13,14">
+                <q xml:lang="ta"><w>peṟuka-tillamma</w> <w>yāṉ-ē</w></q>
+                <q xml:lang="en">If only I could get her!</q>
+                <ref target="https://uhh-tamilex.github.io/Kuruntokai/KT14.xml?highlight=%5Bid%3DKT14%5D%20.l%3Anth-of-type(3)"><title xml:lang="ta">Kuṟuntokai</title> 14, line 3</ref>
+            </cit>
+            <note xml:lang="en">
+This particle is almost always enclitic with the optative in <foreign xml:lang="ta">-ka</foreign>. It may also be expanded to <foreign xml:lang="ta">tilla</foreign> or <foreign xml:lang="ta">tillamma</foreign>. The <title xml:lang="ta">Tolkāppiyam</title> states three functions that are conveyed by this particle — indicating a wish, time (i.e., the contrast between the present and a desired future action), or a subtext. It further specifies that the indication of a wish is only relevant with a verb in the first person. For a full discussion, see <title xml:lang="ta">Collatikāram</title> <ref target="../Tolkappiyam/TolC253.xml">253</ref> &amp; <ref target="../Tolkappiyam/TolC260.xml">260</ref>.
+            </note>
+        </sense>
+        <sense>
+            <usg xml:lang="en">an interjection</usg>
+            <cit source="https://uhh-tamilex.github.io/Ainkurunuru/Aink319.xml?id=Aink319&amp;w=15,18">
+                <q xml:lang="ta"><w>maṟantaṉar-ō</w> <w>til</w> <w>maṟavā</w> <w>nam-<c type="geminated">m</c>ē</w></q>
+                <q xml:lang="en">Alas, has he forgotten us, who haven't forgotten him?</q>
+                <ref target="https://uhh-tamilex.github.io/Ainkurunuru/Aink319.xml?highlight=%5Bid%3DAink319%5D%20.l%3Anth-of-type(4)"><title xml:lang="ta">Aiṅkuṟunūṟu</title> 319, line 4</ref>
+            </cit>
+            <note xml:lang="en">
+An extraordinary usage of <foreign xml:lang="ta">til</foreign> occurs in <title xml:lang="ta">Aiṅkuṟunūṟu</title> 319, where it seems to be a free-standing interjection. 
+            </note>
+        </sense>
+        <cit type="lexicon">
+            <bibl>
+                <date>1732[–1739]</date>
+                <title xml:lang="ta">Caturakarāti</title>
+                <ref target="https://gallica.bnf.fr/ark:/12148/btv1b100915963/f59">p. 81</ref>
+                <q xml:lang="ta">acaiccol.</q>
+            </bibl>
+        </cit>
+        <cit type="lexicon">
+            <bibl>
+                <date>1972 [1779]</date>
+                <edition>4th edition</edition>
+                <title xml:lang="en">Tamil and English dictionary (Fabricius)</title>
+                <ref target="https://dsal.uchicago.edu/cgi-bin/app/fabricius_query.py?page=527">p. 527</ref>
+            </bibl>
+        </cit>
+        <cit type="lexicon">
+            <bibl>
+                <date>1862</date>
+                <title xml:lang="en">A comprehensive Tamil and English dictionary (Winslow)</title>
+                <ref target="https://dsal.uchicago.edu/cgi-bin/app/winslow_query.py?page=592">p. 592</ref>
+            </bibl>
+        </cit>
+        <cit type="lexicon">
+            <bibl>
+                <date>1928 [1902]</date>
+                <edition>6th edition</edition>
+                <title xml:lang="ta">Tamiḻmoḻiyakarāti (Katiraivēṟ Piḷḷai)</title>
+                <ref target="https://dsal.uchicago.edu/cgi-bin/app/kadirvelu_query.py?page=802">p. 802</ref>
+                <ref target="https://dsal.uchicago.edu/cgi-bin/app/kadirvelu_query.py?page=1647">p. 1647</ref>
+            </bibl>
+        </cit>
+        <cit type="lexicon">
+            <bibl>
+                <date>1924–1936</date>
+                <title xml:lang="en">Tamil Lexicon (University of Madras)</title>
+                <ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?page=1924">p. 1924</ref>
+            </bibl>
+        </cit>
+        <cit type="commentary">
+            <ref target="https://archive.org/details/Tamil-Purananuru-U-Ve-Sa-3rd-Edition-1935/page/n562/mode/1up">anonymous commentary on <title xml:lang="ta">Puṟanāṉūṟu</title> 246 (ed. <persName xml:lang="ta">U. Vē. Cāminātaiyar</persName> 1935, 443)</ref>
+            <q xml:lang="ta">til : viḻaiviṉkaṇ vantatu.</q>
+        </cit>
+        <cit type="nikantu-meanings" xml:lang="ta">
+            <sense>
+                <form>til</form>
+                <cit>
+                    <ref target="#Pin10.17"><title>Piṅkalam</title>  <num>10.17</num></ref>
+                    <def>iṭaic col</def>
+                </cit>
+            </sense>
+        </cit>
+        <cit type="nikantu" xml:id="Pin10.17">
+            <ref target="https://archive.org/details/dli.jZY9lup2kZl6TuXGlZQdjZp7kZUy.TVA_BOK_0002448/page/442/mode/1up"><title xml:lang="ta">Piṅkalam</title> 10.17 <term xml:lang="ta">iṭaiccol, cāriya</term></ref>
+            <q rend="block" xml:lang="ta">
+                <lg>
+                    <l>am(mōṭu), ām, tam, nam, num, ē,</l>
+                    <l rend="indent">al, āl; vāṉ, pākku, tillē,</l>
+                    <l>em(mōṭu), ēm, maṉṉē, pāṉē, um,</l>
+                    <l rend="indent">(īreṭṭu) iṭaic col (eṉpa);</l>
+                    <l>am(mōṭu), iṟṟu, aṟṟē, attē,</l>
+                    <l rend="indent">al, il, aṉ, āṉē, ai(yē),</l>
+                    <l>tam, num(mē), a(vvē), ku(vvē)</l>
+                    <l rend="indent">cāriyai (paṉmūṉṟu eṉpa).</l>
+                </lg>
+            </q>
+        </cit>
+        <entry corresp="til">
+            <form xml:lang="ta">til</form>
+            <gramGrp>
+                <gram>interjection</gram>
+            </gramGrp>
+        </entry>
+        <entry corresp="tilla" type="particle">
+            <form xml:lang="ta">tilla</form>
+        </entry>
+        <entry corresp="tilamma" type="particle">
+            <form xml:lang="ta">tilamma</form>
+        </entry>
+        <entry corresp="tillamma" type="particle">
+            <form xml:lang="ta">tillamma</form>
+        </entry>
+      </entry>
+      <listBibl>
+        <bibl><persName xml:lang="ta">Cāminātaiyar, U. Vē.</persName>, ed. 1935. <title xml:lang="ta">Puṟanāṉūṟu mūlamum uraiyum.</title> <term xml:lang="ta">Ceṉṉai</term>: <term xml:lang="ta">Lā Jarṉal Accukkūṭam.</term></bibl>
+      </listBibl>
+    </body>
+  </text>
+</TEI>
