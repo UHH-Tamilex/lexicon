@@ -32,7 +32,11 @@
                 <ref target="https://uhh-tamilex.github.io/Kuruntokai/KT14.xml?highlight=%5Bid%3DKT14%5D%20.l%3Anth-of-type(3)"><title xml:lang="ta">Kuṟuntokai</title> 14, line 3</ref>
             </cit>
             <note xml:lang="en">
-This particle is almost always enclitic with the optative in <foreign xml:lang="ta">-ka</foreign>. It may also be expanded to <foreign xml:lang="ta">tilla</foreign> or <foreign xml:lang="ta">tillamma</foreign>. The <title xml:lang="ta">Tolkāppiyam</title> states three functions that are conveyed by this particle — indicating a wish, time (i.e., the contrast between the present and a desired future action), or a subtext. It further specifies that the indication of a wish is only relevant with a verb in the first person. For a full discussion, see <title xml:lang="ta">Collatikāram</title> <ref target="../Tolkappiyam/TolC253.xml">253</ref> &amp; <ref target="../Tolkappiyam/TolC260.xml">260</ref>.
+This particle is usually enclitic with the optative in <foreign xml:lang="ta">-ka</foreign>. It may also be expanded to <foreign xml:lang="ta">tilla</foreign> or <foreign xml:lang="ta">tillamma</foreign>. The <title xml:lang="ta">Tolkāppiyam</title> states three functions that are conveyed by this particle — indicating a wish, time (i.e., the contrast between the present and a desired future action), or a subtext. It further specifies that the indication of a wish is only relevant with a verb in the first person. For a full discussion, see <title xml:lang="ta">Collatikāram</title> <ref target="../Tolkappiyam/TolC253.xml">253</ref> &amp; <ref target="../Tolkappiyam/TolC260.xml">260</ref>.
+            </note>
+            <note xml:lang="en">
+In a few cases, <foreign xml:lang="ta">til</foreign> can also be found in other contexts, often following a first-person verb form (<title xml:lang="ta">Akanāṉūṟu</title> 6) or pronominalised noun (<title xml:lang="ta">Aiṅkuṟunūṟu</title> <ref target="https://uhh-tamilex.github.io/Ainkurunuru/Aink204.xml">204</ref>). Examples of this kind are comparatively rare — they are not found at all in the <title xml:lang="ta">Kuṟuntokai</title> or <title xml:lang="ta">Naṟṟiṇai</title>, nor are they cited by the <title xml:lang="ta">Tolkāppiyam</title> commentators. 
+
             </note>
         </sense>
         <sense>
@@ -43,8 +47,7 @@ This particle is almost always enclitic with the optative in <foreign xml:lang="
                 <ref target="https://uhh-tamilex.github.io/Ainkurunuru/Aink319.xml?highlight=%5Bid%3DAink319%5D%20.l%3Anth-of-type(4)"><title xml:lang="ta">Aiṅkuṟunūṟu</title> 319, line 4</ref>
             </cit>
             <note xml:lang="en">
-An extraordinary usage of <foreign xml:lang="ta">til</foreign> occurs in the <title xml:lang="ta">Aiṅkuṟunūṟu</title>, where it seems to be an interjection following the particle <foreign xml:lang="ta">ō</foreign> (241 &amp; 319) or following a first-person verb or pronominalised noun (<ref target="https://uhh-tamilex.github.io/Ainkurunuru/Aink204.xml">204</ref>). Examples of this kind are not recorded elsewhere in the corpus, nor are they cited by the <title xml:lang="ta">Tolkāppiyam</title> commentators. 
-            </note>
+An extraordinary usage of <foreign xml:lang="ta">til</foreign> occurs in the <title xml:lang="ta">Aiṅkuṟunūṟu</title>, where it seems to be an interjection following the particle <foreign xml:lang="ta">ō</foreign> (241 &amp; 319).             </note>
         </sense>
         <cit type="lexicon">
             <bibl>
@@ -84,6 +87,10 @@ An extraordinary usage of <foreign xml:lang="ta">til</foreign> occurs in the <ti
                 <title xml:lang="en">Tamil Lexicon (University of Madras)</title>
                 <ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?page=1924">p. 1924</ref>
             </bibl>
+        </cit>
+        <cit type="commentary">
+            <ref target="https://archive.org/details/196OldCommentaryNotesByRajagopalarya/page/n109/mode/1up">anonymous commentary on <title xml:lang="ta">Akanāṉūṟu</title> 6 (ed. Rajagopalan 1926, 13)</ref>
+            <q xml:lang="ta">til viḻaivu</q>
         </cit>
         <cit type="commentary">
             <ref target="https://archive.org/details/Tamil-Purananuru-U-Ve-Sa-3rd-Edition-1935/page/n562/mode/1up">anonymous commentary on <title xml:lang="ta">Puṟanāṉūṟu</title> 246 (ed. <persName xml:lang="ta">U. Vē. Cāminātaiyar</persName> 1935, 443)</ref>
