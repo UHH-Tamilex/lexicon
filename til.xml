@@ -93,13 +93,28 @@ An extraordinary usage of <foreign xml:lang="ta">til</foreign> occurs in <title 
             <sense>
                 <form>til</form>
                 <cit>
-                    <ref target="#Pin10.17"><title>Piṅkalam</title>  <num>10.17</num></ref>
+                    <ref target="#Tiv10.17"><title>Tivākaram</title>  <num>10.71</num></ref>
+                    <def>iṭaic col</def>
+                </cit>
+                <cit>
+                    <ref target="#Cut10.17"><title>Cūṭāmaṇi</title>  <num>10.17</num></ref>
                     <def>iṭaic col</def>
                 </cit>
             </sense>
         </cit>
-        <cit type="nikantu" xml:id="Pin10.17">
-            <ref target="https://archive.org/details/dli.jZY9lup2kZl6TuXGlZQdjZp7kZUy.TVA_BOK_0002448/page/442/mode/1up"><title xml:lang="ta">Piṅkalam</title> 10.17 <term xml:lang="ta">iṭaiccol, cāriya</term></ref>
+        <cit type="nikantu" xml:id="Tiv10.71">
+            <ref target="https://archive.org/details/dli.jZY9lup2kZl6TuXGlZQdjZp7kZUy.TVA_BOK_0002448/page/88/mode/1up"><title xml:lang="ta">Tivākaram</title> 10.71 <term xml:lang="ta">iṭaiccol</term></ref>
+            <q rend="block" xml:lang="ta">
+                <lg>
+                    <l>am, ām, em, ēm, tam, nam, num, ē,</l>
+                    <l>ummē, aṉ, āṉ, uṟai, keḻu, ñāṉṟē,</l>
+                    <l>al, āl, aṉṟē, eṉavē, maṉṉē,</l>
+                    <l>tillai, vāṉ, pākku, teyyavum, iṭaic col.</l>
+                </lg>
+            </q>
+        </cit>
+        <cit type="nikantu" xml:id="Cut10.17">
+            <ref target="https://archive.org/details/dli.jZY9lup2kZl6TuXGlZQdjZp7kZUy.TVA_BOK_0002448/page/442/mode/1up"><title xml:lang="ta">Cūṭāmaṇi</title> 10.17 <term xml:lang="ta">iṭaiccol, cāriya</term></ref>
             <q rend="block" xml:lang="ta">
                 <lg>
                     <l>am(mōṭu), ām, tam, nam, num, ē,</l>
