@@ -311,13 +311,13 @@
         <xsl:choose>
             <xsl:when test="x:q[@rend='block']">
                 <div class="blockcite">
-                    <span class="msid">
+                    <span class="citref">
                         <xsl:apply-templates select="x:ref"/>
                     </span>
                 </div>
             </xsl:when>
             <xsl:otherwise>
-                <span class="msid">
+                <span class="citref">
                     <xsl:apply-templates select="x:ref"/>
                 </span>
             </xsl:otherwise>
@@ -337,7 +337,7 @@
         <xsl:for-each select="x:cit">
             <li>
                 <span class="citref">
-                    <span class="msid"><xsl:apply-templates select="x:ref/x:title"/></span>
+                    <span class="citref"><xsl:apply-templates select="x:ref/x:title"/></span>
                     <xsl:text> </xsl:text>
                     <span class="versenumber" lang="en"><xsl:apply-templates select="x:ref/x:num"/></span>
                     <span class="verseid"><xsl:value-of select="x:ref/@target"/></span>
@@ -368,7 +368,7 @@
     <li>
         <span class="date"><xsl:apply-templates select="x:bibl/x:date"/></span>
         <xsl:text> </xsl:text>
-        <span class="msid">
+        <span class="citref">
             <xsl:apply-templates select="x:bibl/x:title"/>
             <xsl:if test="x:bibl/x:edition">
                 <xsl:text> </xsl:text>

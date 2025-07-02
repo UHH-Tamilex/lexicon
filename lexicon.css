@@ -2,9 +2,14 @@
     font-size-adjust: ex-height 0.5;
 }
 
-.msid {
+.citref {
     font-size: 1.1rem;
     white-space: normal;
+    font-variant: small-caps;
+}
+
+.citref [lang^='ta-Taml'] {
+    font-variant-ligatures: historical-ligatures;
 }
 
 #nikantu-list {
@@ -137,6 +142,10 @@ span.word.split:hover {
 
 .teitext em.title, em.title {
     font-style: italic;
+}
+
+.teitext em.title[lang^='ta-Taml'], em.title[lang^='ta-Taml'] {
+    font-style: oblique;
 }
 
 ol {

@@ -69,7 +69,7 @@ const makeNikantuGraphs = () => {
 
     const colours = ['#66c2a5','#fc8d62','#8da0cb'];
     
-    const textnames =  new Set([...document.querySelectorAll('.citation-nikantu .msid')].map(el => el.textContent));
+    const textnames =  new Set([...document.querySelectorAll('.citation-nikantu .citref')].map(el => el.textContent));
 
     const colourMap = new Map();
     for(const [i,name] of [...textnames].entries()) {
@@ -80,7 +80,7 @@ const makeNikantuGraphs = () => {
     legend.id = 'nikantu-legend';
     for(const [name, colour] of [...colourMap]) {
         const span = document.createElement('span');
-        span.innerHTML = `<span style="color: ${colour}">\u25A0</span> <span class="msid"><em class="title">${name}</em></span>`;
+        span.innerHTML = `<span style="color: ${colour}">\u25A0</span> <span class="citref"><em class="title">${name}</em></span>`;
         legend.appendChild(span);
     }
 
@@ -93,7 +93,7 @@ const makeNikantuGraphs = () => {
         const rows = new Map();
         for(const nikantu of nikantus) {
             const citref = nikantu.querySelector('.citref');
-            const name = citref.querySelector('.msid').textContent;
+            const name = citref.querySelector('.citref').textContent;
             const target = citref.querySelector('.verseid').textContent;
             const words = nikantu.querySelectorAll('.nikantu-meanings > span');
             for(const word of words) {
@@ -196,7 +196,7 @@ const formatCitations = (citations) => {
             c.filename + '?highlight=' + encodeURIComponent(`[id="${c.siglum}"] .l:nth-of-type(${c.line})`) :
             c.filename;
     return `<tr>
-    <td><span class="msid" lang="en"><a href="https://uhh-tamilex.github.io/${link}">${c.siglum}</a></span></td>
+    <td><span class="citref" lang="en"><a href="https://uhh-tamilex.github.io/${link}">${c.siglum}</a></span></td>
     <td><q lang="ta">${c.context}</q></td>
     <td>${c.translation ? '<span class="context-translation">'+c.translation+'</span>':''}</td>
     <td>${c.syntax ? ' <span class="syntax">'+c.syntax+'</span>':''}</td>
