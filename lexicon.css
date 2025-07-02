@@ -235,4 +235,7 @@ h4 {
     #buttoncontainer {
         left: 0px;
     }
+    .citref {
+        display: block;
+    }
 }
