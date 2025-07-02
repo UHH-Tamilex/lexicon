@@ -337,7 +337,7 @@
         <xsl:for-each select="x:cit">
             <li>
                 <span class="citref">
-                    <span class="citref"><xsl:apply-templates select="x:ref/x:title"/></span>
+                    <span class="reftitle"><xsl:apply-templates select="x:ref/x:title"/></span>
                     <xsl:text> </xsl:text>
                     <span class="versenumber" lang="en"><xsl:apply-templates select="x:ref/x:num"/></span>
                     <span class="verseid"><xsl:value-of select="x:ref/@target"/></span>

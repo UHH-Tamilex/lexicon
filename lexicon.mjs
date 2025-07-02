@@ -69,7 +69,7 @@ const makeNikantuGraphs = () => {
 
     const colours = ['#66c2a5','#fc8d62','#8da0cb'];
     
-    const textnames =  new Set([...document.querySelectorAll('.citation-nikantu .citref')].map(el => el.textContent));
+    const textnames =  new Set([...document.querySelectorAll('.citation-nikantu .reftitle')].map(el => el.textContent));
 
     const colourMap = new Map();
     for(const [i,name] of [...textnames].entries()) {
@@ -93,7 +93,7 @@ const makeNikantuGraphs = () => {
         const rows = new Map();
         for(const nikantu of nikantus) {
             const citref = nikantu.querySelector('.citref');
-            const name = citref.querySelector('.citref').textContent;
+            const name = citref.querySelector('.reftitle').textContent;
             const target = citref.querySelector('.verseid').textContent;
             const words = nikantu.querySelectorAll('.nikantu-meanings > span');
             for(const word of words) {
