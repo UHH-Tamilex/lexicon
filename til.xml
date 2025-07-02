@@ -20,23 +20,34 @@
             <gram>enclitic particle</gram>
         </gramGrp>
         <sense>
-            <usg xml:lang="en">a particle used with the optative</usg>
-            <cit source="https://uhh-tamilex.github.io/Purananuru/PN284.xml?id=PN284&amp;w=0,4">
-                <q xml:lang="ta"><w>varuka-til</w> <w>val-<c type="geminated">l</c>ē</w> <w>varuka-til</w> <w>val</w> <w><c type="geminated">l</c>eṉa</w></q>
-                <q xml:lang="en">saying, <q>please come quickly, please come quickly!</q></q>
-                <ref target="https://uhh-tamilex.github.io/Purananuru/PN284.xml?highlight=%5Bid%3DPN284%5D%20.l%3Anth-of-type(1)"><title xml:lang="ta">Puṟanāṉūṟu</title> 284, line 1</ref>
-            </cit>
+            <usg xml:lang="en">a particle expressing longing or potentiality</usg>
             <cit source="https://uhh-tamilex.github.io/Kuruntokai/KT14.xml?id=KT14&amp;w=13,14">
                 <q xml:lang="ta"><w>peṟuka-tillamma</w> <w>yāṉ-ē</w></q>
                 <q xml:lang="en">If only I could get her!</q>
                 <ref target="https://uhh-tamilex.github.io/Kuruntokai/KT14.xml?highlight=%5Bid%3DKT14%5D%20.l%3Anth-of-type(3)"><title xml:lang="ta">Kuṟuntokai</title> 14, line 3</ref>
             </cit>
+            <cit source="https://uhh-tamilex.github.io/Purananuru/PN284.xml?id=PN284&amp;w=0,4">
+                <q xml:lang="ta"><w>varuka-til</w> <w>val-<c type="geminated">l</c>ē</w> <w>varuka-til</w> <w>val</w> <w><c type="geminated">l</c>eṉa</w></q>
+                <q xml:lang="en">saying, <q>please come quickly, please come quickly!</q></q>
+                <ref target="https://uhh-tamilex.github.io/Purananuru/PN284.xml?highlight=%5Bid%3DPN284%5D%20.l%3Anth-of-type(1)"><title xml:lang="ta">Puṟanāṉūṟu</title> 284, line 1</ref>
+            </cit>
+            <cit source="../Ainkurunuru/Aink204.xml?id=Aink204&amp;w=20,22">
+                <q xml:lang="ta"><w>tīyēṉ-tilla</w> <w>malai</w> <w>kiḻavōṟk<c type="elided">u</c>-ē</w></q>
+                <q xml:lang="en">[Why] would I be bad for the lord of the mountain?</q>
+                <ref target="../Ainkurunuru/Aink204.xml?highlight=%5Bid%3DAink204%5D%20.l%3Anth-of-type(5)"><title xml:lang="ta">Aiṅkuṟunūṟu</title> 204, line 5</ref>
+            </cit>
             <note xml:lang="en">
-This particle is usually enclitic with the optative in <foreign xml:lang="ta">-ka</foreign>. It may also be expanded to <foreign xml:lang="ta">tilla</foreign> or <foreign xml:lang="ta">tillamma</foreign>. The <title xml:lang="ta">Tolkāppiyam</title> states three functions that are conveyed by this particle — indicating a wish, time (i.e., the contrast between the present and a desired future action), or a subtext. It further specifies that the indication of a wish is only relevant with a verb in the first person. For a full discussion, see <title xml:lang="ta">Collatikāram</title> <ref target="../Tolkappiyam/TolC253.xml">253</ref> &amp; <ref target="../Tolkappiyam/TolC260.xml">260</ref>.
+This particle is usually enclitic with the optative in <foreign xml:lang="ta">-ka</foreign>. It may also be expanded to <foreign xml:lang="ta">tilla</foreign> or <foreign xml:lang="ta">tillamma</foreign>. The <title xml:lang="ta">Tolkāppiyam</title> states three functions that are conveyed by this particle — indicating a wish (<foreign xml:lang="ta">viḻaivu</foreign>), time (<foreign xml:lang="ta">kālam</foreign>, i.e., the contrast between the present and a desired future action), or subtext (<foreign xml:lang="ta">oḻiyicai</foreign>). It further specifies that the indication of a wish is only relevant when used with the first person. For a full discussion, see <title xml:lang="ta">Collatikāram</title> <ref target="../Tolkappiyam/TolC253.xml">253</ref> &amp; <ref target="../Tolkappiyam/TolC260.xml">260</ref>. Note, however, that the commentary on <title xml:lang="ta">Puṟanāṉūṟu</title> <ref target="../Purananuru/PN246.xml">246</ref> glosses the usage of <foreign xml:lang="ta">til</foreign> as <foreign xml:lang="ta">viḻaivu</foreign> even though it is used with the second person.
             </note>
             <note xml:lang="en">
-In a few cases, <foreign xml:lang="ta">til</foreign> can also be found in other contexts, often following a first-person verb form (<title xml:lang="ta">Akanāṉūṟu</title> 6) or pronominalised noun (<title xml:lang="ta">Aiṅkuṟunūṟu</title> <ref target="https://uhh-tamilex.github.io/Ainkurunuru/Aink204.xml">204</ref>). Examples of this kind are comparatively rare — they are not found at all in the <title xml:lang="ta">Kuṟuntokai</title> or <title xml:lang="ta">Naṟṟiṇai</title>, nor are they cited by the <title xml:lang="ta">Tolkāppiyam</title> commentators. 
+Although not sanctioned by the <title xml:lang="ta">Tolkāppiyam</title> or its commentators, modern lexica generally class <foreign xml:lang="ta">til</foreign> as an <foreign xml:lang="ta">acaiccol</foreign>, a metrical filler.
+            </note>
+            <note xml:lang="en">
+In a few cases, <foreign xml:lang="ta">til</foreign> can also be found in other contexts, often following an indicative first person verb form (<title xml:lang="ta">Akanāṉūṟu</title> 6) or first person pronominalised noun (<title xml:lang="ta">Aiṅkuṟunūṟu</title> 204). Examples of this kind are comparatively rare — they are not found at all in the <title xml:lang="ta">Kuṟuntokai</title> or <title xml:lang="ta">Naṟṟiṇai</title>, nor are they cited by the <title xml:lang="ta">Tolkāppiyam</title> commentators. 
 
+            </note>
+            <note xml:lang="en">
+See also the particles <foreign xml:lang="ta">maṉṟil</foreign>, <foreign xml:lang="ta">maṉṟilla</foreign>, and <foreign xml:lang="ta">āṟṟilla</foreign>.
             </note>
         </sense>
         <sense>
@@ -54,8 +65,8 @@ An extraordinary usage of <foreign xml:lang="ta">til</foreign> occurs in the <ti
                 <date>1732[–1739]</date>
                 <title xml:lang="ta">Caturakarāti</title>
                 <ref target="https://gallica.bnf.fr/ark:/12148/btv1b100915963/f59">p. 81</ref>
-                <q xml:lang="ta">acaiccol.</q>
             </bibl>
+            <q xml:lang="ta">acaiccol.</q>
         </cit>
         <cit type="lexicon">
             <bibl>
@@ -89,7 +100,7 @@ An extraordinary usage of <foreign xml:lang="ta">til</foreign> occurs in the <ti
             </bibl>
         </cit>
         <cit type="commentary">
-            <ref target="https://archive.org/details/196OldCommentaryNotesByRajagopalarya/page/n109/mode/1up">anonymous commentary on <title xml:lang="ta">Akanāṉūṟu</title> 6 (ed. Rajagopalan 1926, 13)</ref>
+            <ref target="https://archive.org/details/196OldCommentaryNotesByRajagopalarya/page/n109/mode/1up">anonymous commentary on <title xml:lang="ta">Akanāṉūṟu</title> 6 (ed. <persName xml:lang="ta">Rājakōpālāryaṉ</persName> 1926, 13)</ref>
             <q xml:lang="ta">til viḻaivu</q>
         </cit>
         <cit type="commentary">
@@ -152,7 +163,9 @@ An extraordinary usage of <foreign xml:lang="ta">til</foreign> occurs in the <ti
         </entry>
       </entry>
       <listBibl>
-        <bibl><persName xml:lang="ta">Cāminātaiyar, U. Vē.</persName>, ed. 1935. <title xml:lang="ta">Puṟanāṉūṟu mūlamum uraiyum.</title> <term xml:lang="ta">Ceṉṉai</term>: <term xml:lang="ta">Lā Jarṉal Accukkūṭam.</term></bibl>
+        <bibl><persName xml:lang="ta">Cāminātaiyar, U. Vē.</persName>, ed. 1935. <title xml:lang="ta">Puṟanāṉūṟu mūlamum uraiyum.</title> <term xml:lang="ta">Ceṉṉai</term>: <term xml:lang="ta">Lā Jarṉal Accukkūṭam.</term> <ref target="https://archive.org/details/Tamil-Purananuru-U-Ve-Sa-3rd-Edition-1935">ark:/13960/t5dc0n26b</ref></bibl>
+        <bibl>Chevillard, Jean-Luc. 1996. <title xml:lang="fr">Le commentaire de Cēnāvaraiyar sur le Collatikāram du Tolkāppiyam: Sur la métalangue grammaticale des maîtres commentateurs tamouls mediévaux.</title> Pondichéry: EFEO/IFP.</bibl>
+        <bibl><persName xml:lang="ta">Rājakōpālāryaṉ, Śrīvatsacakravartti</persName> ed. 1926. <title xml:lang="ta">Akanāṉūṟu mutalāvatu kaḷiṟṟiyāṉainirai mulamum mutaṟṟeṇṇūṟu pāṭṭiṟkup paḻaiya uraiyum.</title> <term xml:lang="ta">Ceṉṉai</term>: <term xml:lang="ta">Kampar Pustakālayam</term>. <ref target="https://archive.org/details/196OldCommentaryNotesByRajagopalarya">ark:/13960/t3909hz2j</ref></bibl>
       </listBibl>
     </body>
   </text>

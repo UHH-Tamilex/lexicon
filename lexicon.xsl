@@ -200,6 +200,9 @@
         <details class="dict" style="margin-top: 1rem">
             <xsl:attribute name="data-lemma"><xsl:value-of select="@corresp"/></xsl:attribute>
             <xsl:attribute name="data-entry"><xsl:value-of select="x:form"/></xsl:attribute>
+            <xsl:if test="@type='particle'">
+                <xsl:attribute name="data-type">particle</xsl:attribute>
+            </xsl:if>
             <summary class="dict-heading" lang="ta"><xsl:value-of select="x:form"/></summary>
             <div class="spinner"></div>
         </details>
@@ -268,6 +271,7 @@
             <xsl:apply-templates select="x:gramGrp"/>
             <xsl:apply-templates select="x:form[@type='variant']"/>
             <xsl:apply-templates select="x:def"/>
+            <xsl:apply-templates select="x:usg"/>
             <xsl:if test="x:cit">
                 <ul>
                     <xsl:apply-templates select="x:cit"/>
@@ -283,7 +287,7 @@
 <xsl:template match="x:sense/x:note">
     <small class="note"><xsl:apply-templates/></small>
 </xsl:template>
-<xsl:template match="x:def">
+<xsl:template match="x:def|x:usg">
     <span>
         <xsl:if test="@xml:lang='ta'">
             <xsl:attribute name="class">def-ta</xsl:attribute>
@@ -408,6 +412,9 @@
     <details style="margin-left: 1rem" class="dict">
         <xsl:attribute name="data-entry"><xsl:value-of select="x:form"/></xsl:attribute>
         <xsl:attribute name="data-lemma"><xsl:value-of select="@corresp"/></xsl:attribute>
+        <xsl:if test="@type='particle'">
+            <xsl:attribute name="data-type">particle</xsl:attribute>
+        </xsl:if>
         <summary class="dict-heading" lang="ta">
             <xsl:value-of select="x:form"/>
             <xsl:if test="x:gramGrp">

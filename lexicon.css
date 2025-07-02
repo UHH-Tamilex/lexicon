@@ -106,7 +106,9 @@ small.note {
     width: 500px;
     max-width: 75vw;
 }
-
+small.note + small.note {
+    margin-top: 1rem;
+}
 .nested-grammar {
     font-style: italic;
     font-size: smaller;
