@@ -196,7 +196,7 @@ const formatCitations = (citations) => {
             c.filename + '?highlight=' + encodeURIComponent(`[id="${c.siglum}"] .l:nth-of-type(${c.line})`) :
             c.filename;
     return `<tr>
-    <td><span class="citref" lang="en"><a href="https://uhh-tamilex.github.io/${link}">${c.siglum}</a></span></td>
+    <td><span class="msid" lang="en"><a href="https://uhh-tamilex.github.io/${link}">${c.siglum}</a></span></td>
     <td><q lang="ta">${c.context}</q></td>
     <td>${c.translation ? '<span class="context-translation">'+c.translation+'</span>':''}</td>
     <td>${c.syntax ? ' <span class="syntax">'+c.syntax+'</span>':''}</td>

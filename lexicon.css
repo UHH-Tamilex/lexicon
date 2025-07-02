@@ -12,6 +12,13 @@
     font-variant-ligatures: historical-ligatures;
 }
 
+.citref a[href]::after {
+    background: none;
+}
+.citref a[href] {
+    background: none;
+}
+
 #nikantu-list {
     display: flex;
     flex-wrap: wrap;
