@@ -11,7 +11,7 @@
 <xsl:param name="root">./lib/</xsl:param>
 <xsl:param name="debugging">false</xsl:param>
 
-<xsl:template name="htmlheader">
+<xsl:template name="lexiconheader">
     <xsl:element name="head">
         <xsl:element name="meta">
             <xsl:attribute name="charset">utf-8</xsl:attribute>
@@ -69,33 +69,21 @@
             <xsl:attribute name="rel">stylesheet</xsl:attribute>
             <xsl:attribute name="href">./lexicon.css</xsl:attribute>
         </xsl:element>
-        <!--xsl:element name="script">
-            <xsl:attribute name="type">module</xsl:attribute>
-            <xsl:attribute name="src"><xsl:value-of select="$root"/>js/edition.mjs</xsl:attribute>
-            <xsl:attribute name="id">editionscript</xsl:attribute>
-        </xsl:element-->
         <xsl:element name="script">
             <xsl:attribute name="type">module</xsl:attribute>
             <xsl:attribute name="src">./lexicon.mjs</xsl:attribute>
         </xsl:element>
     </xsl:element>
 </xsl:template>
-<xsl:template name="TEI">
+<xsl:template match="x:TEI">
     <xsl:element name="html">
-        <xsl:call-template name="htmlheader"/>
+        <xsl:call-template name="lexiconheader"/>
         <xsl:element name="body">
             <xsl:attribute name="lang">en</xsl:attribute>   
             <xsl:element name="div">
                 <xsl:attribute name="id">recordcontainer</xsl:attribute>
                 <xsl:element name="div">
-                    <xsl:choose>
-                        <xsl:when test="x:facsimile/x:graphic">
-                            <xsl:attribute name="class">record thin</xsl:attribute>
-                        </xsl:when>
-                        <xsl:otherwise>
-                            <xsl:attribute name="class">record fat</xsl:attribute>
-                        </xsl:otherwise>
-                    </xsl:choose>
+                    <xsl:attribute name="class">record fat</xsl:attribute>
                     <xsl:element name="div">
                         <xsl:attribute name="id">topbar</xsl:attribute>
                         <div id="buttoncontainer">
@@ -156,15 +144,6 @@
     </xsl:element>
 </xsl:template>
 <xsl:template match="x:titleStmt"/>
-<!--xsl:template match="x:revisionDesc">
-    <section>
-        <h3>Revision history</h3>
-        <p id="latestcommit"></p>
-        <xsl:element name="table">
-            <xsl:apply-templates/>
-        </xsl:element>
-    </section>
-</xsl:template-->
 <xsl:template match="x:revisionDesc"/>
 <xsl:template match="x:sourceDesc"/>
 

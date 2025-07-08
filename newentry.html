@@ -1,0 +1,96 @@
+<html><head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta charset="utf-8">
+      
+      <title>New lexicon entry</title>
+      
+      <link rel="icon" type="image/png" href="./lib/img/favicon-32.png">
+      <script type="module" src="newentry.mjs"></script>
+      <link rel="stylesheet" href="./lib/css/tufte.css">
+      <link rel="stylesheet" href="./lib/css/fonts.css">
+      <link rel="stylesheet" href="./lib/css/edition.css">
+      <style>
+body {
+    padding: 0;
+}
+
+td, th {
+    font-size: 1.2rem;
+}
+
+#lemmainput {
+    font-size: 1.3rem;
+    font-family: inherit;
+    padding: 0.5rem;
+    border-radius: 3px;
+    width: 50ch;
+    max-width: 80vw;
+    margin: 1rem;
+}
+#foundwords {
+    width: 50ch;
+    font-size: 1.3rem;
+    max-width: 80vw;
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    margin-left: 1rem;
+    margin-top: -1rem;
+    border: 1px solid black;
+    background: white;
+}
+.searchitem {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: 0.2rem 0.5rem 0.2rem 0.5rem;
+}
+.selected {
+    background: yellow;
+}
+.searchitem .def {
+    display: none;
+}
+.dedr {
+    font-size: 80%;
+}
+#spinnerdiv {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    </style>
+   </head>
+   <body lang="en">
+    <article>
+        <div class="wide">
+            <h1 style="text-align: center">New lexicon entry</h1>
+            <div class="center">
+                <div id="searchbox">
+                    <input type="text" id="lemmainput" placeholder="aḵku, aḵtai, aka(m), akạtu, etc.">
+                    <span id="foundwords"></span>
+                </div>
+            </div>
+            <div id="spinnerdiv"><div class="spinner"></div></div>
+        </div>
+    </article>
+   
+
+
+
+
+
+
+
+</body></html>

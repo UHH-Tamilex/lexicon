@@ -4,10 +4,10 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title xml:lang="ta">tāḻ</title>
+        <title xml:lang="ta"></title>
         <editor>
-            <forename>Charles</forename> 
-            <surname>Li</surname>
+            <forename>First name</forename> 
+            <surname>Last name</surname>
         </editor>
       </titleStmt>
       <publicationStmt><p>Tamilex project.</p></publicationStmt>
@@ -17,66 +17,14 @@
   </teiHeader>
   <text xml:lang="en">
     <body>
-      <entry corresp="tāḻ[DEDR3178]">
-        <form xml:lang="ta">tāḻ</form>
+      <entry corresp="">
+        <form xml:lang="ta"></form>
         <gramGrp>
-            <gram>verb</gram>
         </gramGrp>
         <sense>
-            <def xml:lang="en">to hang down</def>
+            <def xml:lang="en"></def>
             <!-- add citations here -->
         </sense>
-        <entry corresp="tāḻ[DEDR3179]">
-            <form xml:lang="ta">tāḻ</form>
-            <gramGrp>
-                <gram type="pos">noun</gram>
-            </gramGrp>
-        </entry>
-        <entry>
-            <form xml:lang="ta">tāḻa</form>
-        </entry>
-        <entry>
-            <form xml:lang="ta">tāḻā</form>
-        </entry>
-        <entry>
-            <form xml:lang="ta">tāḻātu</form>
-        </entry>
-        <entry>
-            <form xml:lang="ta">tāḻum</form>
-        </entry>
-        <entry>
-            <form xml:lang="ta">tāḻtaliṉ</form>
-        </entry>
-        <entry>
-            <form xml:lang="ta">tāḻtta</form>
-        </entry>
-        <entry>
-            <form xml:lang="ta">tāḻttatu</form>
-        </entry>
-        <entry>
-            <form xml:lang="ta">tāḻttu</form>
-        </entry>
-        <entry>
-            <form xml:lang="ta">tāḻnta</form>
-        </entry>
-        <entry>
-            <form xml:lang="ta">tāḻntaṉaḷ</form>
-        </entry>
-        <entry>
-            <form xml:lang="ta">tāḻntaṉṟu</form>
-        </entry>
-        <entry>
-            <form xml:lang="ta">tāḻntāy</form>
-        </entry>
-        <entry>
-            <form xml:lang="ta">tāḻpaṉṉa</form>
-        </entry>
-        <entry>
-            <form xml:lang="ta">tāḻpu</form>
-        </entry>
-        <entry>
-            <form xml:lang="ta">tāḻvu</form>
-        </entry>
       </entry>
     </body>
   </text>
