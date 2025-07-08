@@ -136,7 +136,7 @@ const startNew = async e => {
         entry.appendChild(other);
         
     const previewed = await previewDoc(example);
-    document.replaceChild(previewed.documentElement, document.documentElement);
+    document.replaceChild(document.adoptNode(previewed.documentElement), document.documentElement);
 
     const blurin = [
         {filter: 'blur(20px)'},
@@ -169,7 +169,7 @@ const makeProgressBox = () => {
     box.style.justifyContent = 'center';
     box.style.alignItems = 'center';
     box.style.height = '10ch';
-    box.style.background = 'white';
+    box.style.background = 'rgba(255,255,255,1)';
     box.style.fontSize = '1.5rem';
     box.style.border = '1px solid black';
     box.style.borderRadius = '0.3rem';

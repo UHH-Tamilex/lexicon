@@ -183,8 +183,10 @@ const markDifferent = el => {
 };
 
 const checkCitations = async () => {
-    const thisdoc = await loadDoc(window.location,'default');
     const cits = document.querySelectorAll('li[data-source]');
+    if(cits.length === 0) return;
+
+    const thisdoc = await loadDoc(window.location,'default');
     for(const cit of cits) {
         checkCitation(thisdoc, cit);
     }
