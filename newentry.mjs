@@ -4,6 +4,8 @@ import openDb from './lib/js/sqlite.mjs';
 import previewDoc from './lib/debugging/preview.mjs';
 import { init as lexInit, docClick} from './lexicon-main.mjs';
 import { Sanscript } from './lib/js/sanscript.mjs';
+import { findGrammar } from './lib/debugging/aligner.mjs';
+import { gramAbbreviations } from './lib/debugging/abbreviations.mjs';
 
 const _state = {
     csv: null,
@@ -104,23 +106,30 @@ const startNew = async e => {
     const lemma = item.dataset.id;
     const form = item.querySelector('.lemma').textContent;
     const def = item.querySelector('.def').textContent;
-    const citations = _state.csv.filter(e => e[1] && e[2] === lemma)
-                                .map(e => e[1]);
+    const citations = _state.csv.filter(e => e[1] && e[2] === lemma);
+    const citforms = citations.map(e => e[1]);
     const example = await loadDoc('example.xml');
     example.querySelector('titleStmt title').textContent = form;
     const entry = example.querySelector('entry');
     entry.setAttribute('corresp',lemma);
     entry.querySelector('form').textContent = form;
     entry.querySelector('def').textContent = def;
+    const gramMap = new Map(gramAbbreviations);
     for(const citation of citations) {
         const subentry = example.createElementNS(_state.ns,'entry');
-        subentry.innerHTML = `<form xml:lang="ta">${citation}</form>`;
+        const grammar = findGrammar(`(${citation[3]})`);
+        let inner = '';
+        if(grammar) {
+            inner = `<gramGrp>${grammar.gram.map(e => '<gram>' + gramMap.get(e) + '</gram>').join('')}</gramGrp>`;
+        }    
+        inner = inner + `<form xml:lang="ta">${citation[1]}</form>`;
+        subentry.innerHTML = inner;
         entry.appendChild(subentry);
     }
     
     updateWindow.innerHTML = '<span>Checking Nikaṇṭu database...</span>';
 
-    const nikantus = await getNikantuCitations([form,...citations]);
+    const nikantus = await getNikantuCitations([form,...citforms]);
     if(nikantus) {
         const ncit = example.createElementNS(_state.ns,'cit');
         ncit.setAttribute('xml:lang','ta');
@@ -131,7 +140,7 @@ const startNew = async e => {
     
     updateWindow.innerHTML = '<span>Checking other lexica...</span>';
 
-    const others = await getOtherCitations([form,...citations],example);
+    const others = await getOtherCitations([form,...citforms],example);
     for(const other of others)
         entry.appendChild(other);
         

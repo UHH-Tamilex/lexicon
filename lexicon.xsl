@@ -224,10 +224,8 @@
 <xsl:template name="nested-grammar">
     <span class="nested-grammar" lang="en">
         <xsl:for-each select=".//x:gram">
-            <xsl:apply-templates/>
-            <xsl:if test="position() != last()">, </xsl:if>
+            <span><xsl:apply-templates/></span>
         </xsl:for-each>
-        <xsl:text>.</xsl:text>
     </span>
     <xsl:text> </xsl:text>
 </xsl:template>

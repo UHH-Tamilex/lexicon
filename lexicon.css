@@ -33,7 +33,7 @@
     margin-top: 1rem;
 }
 
-.citation-nikantu .versenumber:after {
+.citation-nikantu .versenumber::after {
     content: ':';
 }
 
@@ -124,6 +124,14 @@ small.note + small.note {
 .nested-grammar {
     font-style: italic;
     font-size: smaller;
+}
+
+.nested-grammar span::after {
+    content: ', ';
+}
+
+.nested-grammar span:last-child::after {
+    content: '.';
 }
 span.word.split {
     margin-right: 0;

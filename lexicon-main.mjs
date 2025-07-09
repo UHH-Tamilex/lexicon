@@ -6,6 +6,7 @@ import './lib/js/removehyphens.mjs';
 import openDb from './lib/js/sqlite.mjs';
 import { loadDoc } from './lib/debugging/fileops.mjs';
 import Citer from './lib/debugging/cite.mjs';
+import { dbSchema } from './lib/debugging/abbreviations.mjs';
 
 const init = () => {
     
@@ -215,6 +216,16 @@ const workers = {
     /*full: null*/
 };
 
+const getPOS = el => {
+    const grams = el.querySelectorAll('.nested-grammar span');
+    for(const gram of grams) {
+        const s = gram.textContent.trim();
+        if(dbSchema.pos.has(s))
+            return ` AND (pos = "${s}" OR pos IS NULL)`;
+    }
+    return '';
+};
+
 const getEntry = async targ => {
     const spinner = targ.querySelector(':scope > .spinner');
     if(!spinner) return;
@@ -228,9 +239,11 @@ const getEntry = async targ => {
     }
     else {
         const lemma = targ.closest('details[id]')?.id || targ.dataset.select;
-        const form = targ.closest('details').dataset.entry;
-        const islemma = targ.closest('details').dataset.lemma;
-        const isparticle = targ.closest('details').dataset.type === 'particle';
+        const headel = targ.closest('details');
+        const form = headel.dataset.entry;
+        const islemma = headel.dataset.lemma;
+        const isparticle = headel.dataset.type === 'particle';
+        const grammar = getPOS(headel);
         if(isparticle) {
                 results = await workers.local.exec(`SELECT particlefunction, syntax, context, citation, line, filename FROM citations WHERE enclitic = "${form}"`);
         }
@@ -238,14 +251,14 @@ const getEntry = async targ => {
             if(lemma)
                 results = await workers.local.exec(`SELECT def, pos, number, gender, nouncase, person, voice, aspect, particlefunction, syntax, rootnoun, enclitic, context, citation, line, filename FROM citations WHERE islemma = "${islemma}"`);
             else
-                results = await workers.local.exec(`SELECT def, pos, number, gender, nouncase, person, voice, aspect, particlefunction, syntax, rootnoun, enclitic, context, citation, filename, line FROM citations WHERE form = "${islemma}"`);
+                results = await workers.local.exec(`SELECT def, pos, number, gender, nouncase, person, voice, aspect, particlefunction, syntax, rootnoun, enclitic, context, citation, filename, line FROM citations WHERE form = "${islemma}"${grammar}`);
         }
         else if(lemma)
-            results = await workers.local.exec(`SELECT def, pos, number, gender, nouncase, person, voice, aspect, particlefunction, syntax, rootnoun, enclitic, context, citation, line, filename FROM citations WHERE form = "${form}" AND fromlemma = "${lemma}"`);
+            results = await workers.local.exec(`SELECT def, pos, number, gender, nouncase, person, voice, aspect, particlefunction, syntax, rootnoun, enclitic, context, citation, line, filename FROM citations WHERE form = "${form}" AND fromlemma = "${lemma}"${grammar}`);
         else
-            results = await workers.local.exec(`SELECT def, pos, number, gender, nouncase, person, voice, aspect, particlefunction, syntax, rootnoun, enclitic, context, citation, line, filename FROM citations WHERE form = "${form}" AND fromlemma IS NULL`);
+            results = await workers.local.exec(`SELECT def, pos, number, gender, nouncase, person, voice, aspect, particlefunction, syntax, rootnoun, enclitic, context, citation, line, filename FROM citations WHERE form = "${form}" AND fromlemma IS NULL${grammar}`);
         if(results.length === 0) // this is a hack; will get rid of this when words a properly lemmatized
-            results = await workers.local.exec(`SELECT def, pos, number, gender, nouncase, person, voice, aspect, particlefunction, syntax, rootnoun, enclitic, context, citation, line, filename FROM citations WHERE form = "${form}" AND fromlemma IS NULL`);
+            results = await workers.local.exec(`SELECT def, pos, number, gender, nouncase, person, voice, aspect, particlefunction, syntax, rootnoun, enclitic, context, citation, line, filename FROM citations WHERE form = "${form}" AND fromlemma IS NULL${grammar}`);
     }
     
     const entry = {
