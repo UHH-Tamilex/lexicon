@@ -101,7 +101,7 @@ const startNew = async e => {
     
     const updateWindow = makeProgressBox();
     
-    updateWindow.innerHTML = '<span>Checking Tamilex database...</span>';
+    document.getElementById('updateSpan1').textContent = 'Checking Tamilex database..';
 
     const lemma = item.dataset.id;
     const form = item.querySelector('.lemma').textContent;
@@ -127,8 +127,6 @@ const startNew = async e => {
         entry.appendChild(subentry);
     }
     
-    updateWindow.innerHTML = '<span>Checking Nikaṇṭu database...</span>';
-
     const nikantus = await getNikantuCitations([form,...citforms]);
     if(nikantus) {
         const ncit = example.createElementNS(_state.ns,'cit');
@@ -138,8 +136,6 @@ const startNew = async e => {
         entry.appendChild(ncit);
     }
     
-    updateWindow.innerHTML = '<span>Checking other lexica...</span>';
-
     const others = await getOtherCitations([form,...citforms],example);
     for(const other of others)
         entry.appendChild(other);
@@ -178,32 +174,38 @@ const makeProgressBox = () => {
     box.style.justifyContent = 'center';
     box.style.alignItems = 'center';
     box.style.height = '10ch';
-    box.style.background = 'rgba(255,255,255,1)';
+    box.style.background = 'rgba(255,255,255,0.7)';
     box.style.fontSize = '1.5rem';
     box.style.border = '1px solid black';
     box.style.borderRadius = '0.3rem';
+    const span1 = document.createElement('span');
+    span1.id = 'updateSpan1';
+    const span2 = document.createElement('span');
+    span2.id = 'updateSpan2';
+    box.append(span1, span2);
     container.appendChild(box);
     document.body.appendChild(container);
     const fadeinout = [
         {opacity: '1'},
-        {opacity: '0.4'},
+        {opacity: '0.3'},
         {opacity: '1'},
     ];
     const fadetimer = {
-        duration: 1500,
+        duration: 1300,
         iterations: Infinity
     };
 
-    box.animate(fadeinout,fadetimer);
+    span2.animate(fadeinout,fadetimer);
     return box;
 };
 
 const getNikantuCitations = async forms => {
     const db = await openDb('../Tivakaram/index.db');
-    const updatebox = document.getElementById('updateWindow').querySelector('span');
+    document.getElementById('updateSpan1').textContent = 'Checking Tivākaram for ';
+    const updatebox = document.getElementById('updateSpan2');
     const ret = new Map();
     for(const form of forms) {
-        updatebox.textContent = `Checking Tivākaram for ${form}...`;    
+        updatebox.textContent = `${form}...`;    
         const glosses = await db.exec(`SELECT gloss, citation, line, filename FROM citations WHERE lemma = "${form}"`);
         const glossed = await db.exec(`SELECT lemma, citation, line, filename FROM citations WHERE gloss = "${form}"`);
         const all = [];
@@ -262,10 +264,11 @@ const getOtherCitations = async (forms,doc) => {
     ]);
     const dictsort = [...dicts.keys()];
     const ret = new Map();
-    const updatebox = document.getElementById('updateWindow').querySelector('span');
+    document.getElementById('updateSpan1').textContent = 'Checking other lexica for ';
+    const updatebox = document.getElementById('updateSpan2');
     for(const form of forms) {
         const transed = Sanscript.t(form,'iast','tamil');
-        updatebox.textContent = `Checking other lexica for ${transed}...`;    
+        updatebox.textContent = `${transed}...`;    
         const doc = await loadDoc(`https://dsal.uchicago.edu/cgi-bin/app/tamil_query.py?qs=${transed}&searchhws=yes&matchtype=exact`,'default','html');
         for(const result of doc.querySelectorAll('.hw_result')) {
             const as = result.querySelectorAll('a');
