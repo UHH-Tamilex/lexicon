@@ -101,7 +101,7 @@ const startNew = async e => {
     
     const updateWindow = makeProgressBox();
     
-    document.getElementById('updateSpan1').textContent = 'Checking Tamilex database..';
+    document.getElementById('updateSpan1').textContent = 'Checking Tamilex database...';
 
     const lemma = item.dataset.id;
     const form = item.querySelector('.lemma').textContent;
@@ -182,6 +182,7 @@ const makeProgressBox = () => {
     span1.id = 'updateSpan1';
     const span2 = document.createElement('span');
     span2.id = 'updateSpan2';
+    span2.style.marginLeft = '0.7rem';
     box.append(span1, span2);
     container.appendChild(box);
     document.body.appendChild(container);
@@ -264,7 +265,7 @@ const getOtherCitations = async (forms,doc) => {
     ]);
     const dictsort = [...dicts.keys()];
     const ret = new Map();
-    document.getElementById('updateSpan1').textContent = 'Checking other lexica for ';
+    document.getElementById('updateSpan1').textContent = 'Checking other lexica for';
     const updatebox = document.getElementById('updateSpan2');
     for(const form of forms) {
         const transed = Sanscript.t(form,'iast','tamil');
