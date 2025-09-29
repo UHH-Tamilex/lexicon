@@ -17,6 +17,7 @@
 }
 .citref a[href] {
     background: none;
+    text-decoration: none;
 }
 
 #nikantu-list {
