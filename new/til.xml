@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./lexicon.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="ta">til</title>
+        <editor><forename>Charles</forename> <surname>Li</surname></editor>
+      </titleStmt>
+      <publicationStmt><p>Tamilex project.</p></publicationStmt>
+      <sourceDesc><p/></sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+  <text xml:lang="en">
+    <body>
+      <entry corresp="til" type="particle">
+        <form xml:lang="ta">til</form>
+        <gramGrp>
+            <gram>enclitic particle</gram>
+        </gramGrp>
+        <sense>
+            <usg xml:lang="en">a particle expressing longing or potentiality</usg>
+            <cit source="https://uhh-tamilex.github.io/Kuruntokai/KT14.xml?id=KT14&amp;w=13,14">
+                <q xml:lang="ta"><w>peṟuka-tillamma</w> <w>yāṉ-ē</w></q>
+                <q xml:lang="en">If only I could get her!</q>
+                <ref target="https://uhh-tamilex.github.io/Kuruntokai/KT14.xml?highlight=%5Bid%3DKT14%5D%20.l%3Anth-of-type(3)"><title xml:lang="ta">Kuṟuntokai</title> 14, line 3</ref>
+            </cit>
+            <cit source="https://uhh-tamilex.github.io/Purananuru/PN284.xml?id=PN284&amp;w=0,4">
+                <q xml:lang="ta"><w>varuka-til</w> <w>val-<c type="geminated">l</c>ē</w> <w>varuka-til</w> <w>val</w> <w><c type="geminated">l</c>eṉa</w></q>
+                <q xml:lang="en">saying, <q>please come quickly, please come quickly!</q></q>
+                <ref target="https://uhh-tamilex.github.io/Purananuru/PN284.xml?highlight=%5Bid%3DPN284%5D%20.l%3Anth-of-type(1)"><title xml:lang="ta">Puṟanāṉūṟu</title> 284, line 1</ref>
+            </cit>
+            <cit source="../Ainkurunuru/Aink204.xml?id=Aink204&amp;w=20,22">
+                <q xml:lang="ta"><w>tīyēṉ-tilla</w> <w>malai</w> <w>kiḻavōṟk<c type="elided">u</c>-ē</w></q>
+                <q xml:lang="en">[Why] would I be bad for the lord of the mountain?</q>
+                <ref target="../Ainkurunuru/Aink204.xml?highlight=%5Bid%3DAink204%5D%20.l%3Anth-of-type(5)"><title xml:lang="ta">Aiṅkuṟunūṟu</title> 204, line 5</ref>
+            </cit>
+            <note xml:lang="en">
+This particle is usually enclitic with the optative in <foreign xml:lang="ta">-ka</foreign>. It may also be expanded to <foreign xml:lang="ta">tilla</foreign> or <foreign xml:lang="ta">tillamma</foreign>. The <title xml:lang="ta">Tolkāppiyam</title> states three functions that are conveyed by this particle — indicating a wish (<foreign xml:lang="ta">viḻaivu</foreign>), time (<foreign xml:lang="ta">kālam</foreign>, i.e., the contrast between the present and a desired future action), or subtext (<foreign xml:lang="ta">oḻiyicai</foreign>). It further specifies that the indication of a wish is only relevant when used with the first person. For a full discussion, see <title xml:lang="ta">Collatikāram</title> <ref target="../Tolkappiyam/TolC253.xml">253</ref> &amp; <ref target="../Tolkappiyam/TolC260.xml">260</ref>. Note, however, that the commentary on <title xml:lang="ta">Puṟanāṉūṟu</title> <ref target="../Purananuru/PN246.xml">246</ref> glosses the usage of <foreign xml:lang="ta">til</foreign> as <foreign xml:lang="ta">viḻaivu</foreign> even though it is used with the second person.
+            </note>
+            <note xml:lang="en">
+Although not explicitly sanctioned by the <title xml:lang="ta">Tolkāppiyam</title> or its commentators, modern lexica generally class <foreign xml:lang="ta">til</foreign> as an <foreign xml:lang="ta">acaiccol</foreign>, a metrical filler.
+            </note>
+            <note xml:lang="en">
+In a few cases, <foreign xml:lang="ta">til</foreign> can also be found in other contexts, often following an indicative first person verb form (<title xml:lang="ta">Akanāṉūṟu</title> 6) or first person pronominalised noun (<title xml:lang="ta">Aiṅkuṟunūṟu</title> 204), perhaps functioning to add a sense of potentiality or hypotheticality; see also the quotations given in Rajam 1992 (420–421). Examples of this kind are comparatively rare — they are not found at all in the <title xml:lang="ta">Kuṟuntokai</title> or <title xml:lang="ta">Naṟṟiṇai</title>, nor are they cited by the <title xml:lang="ta">Tolkāppiyam</title> commentators. 
+            </note>
+            <note xml:lang="en">
+See also the particles <foreign xml:lang="ta">maṉṟil</foreign>, <foreign xml:lang="ta">maṉṟilla</foreign>, and <foreign xml:lang="ta">āṟṟilla</foreign>.
+            </note>
+        </sense>
+        <sense>
+            <usg xml:lang="en">an interjection</usg>
+            <cit source="https://uhh-tamilex.github.io/Ainkurunuru/Aink319.xml?id=Aink319&amp;w=15,18">
+                <q xml:lang="ta"><w>maṟantaṉar-ō</w> <w>til</w> <w>maṟavā</w> <w>nam-<c type="geminated">m</c>ē</w></q>
+                <q xml:lang="en">Alas, has he forgotten us, who haven't forgotten him?</q>
+                <ref target="https://uhh-tamilex.github.io/Ainkurunuru/Aink319.xml?highlight=%5Bid%3DAink319%5D%20.l%3Anth-of-type(4)"><title xml:lang="ta">Aiṅkuṟunūṟu</title> 319, line 4</ref>
+            </cit>
+            <note xml:lang="en">
+An extraordinary usage of <foreign xml:lang="ta">til</foreign> occurs in the <title xml:lang="ta">Aiṅkuṟunūṟu</title> (241<note place="foot"><persName xml:lang="ta">Iḷampūraṇar</persName> quotes <title xml:lang="ta">Aiṅkuṟunūṟu</title> 241, but in a different context — commenting on <title xml:lang="ta">Poruḷatikāram kaḷaviyal</title> 109 (ed. <persName xml:lang="ta">Citamparampiḷḷai</persName> 1933, 180)</note> &amp; 319) and the <title xml:lang="ta">Patiṟṟuppattu</title> (40, 57, &amp; 60), where it seems to be an interjection following the particle <foreign xml:lang="ta">ō</foreign>. Since both anthologies are connected to the <term xml:lang="ta">Cēra</term> court, this usage may reflect an idiosyncracy of the <term xml:lang="ta">Cēra</term> literary tradition (see Wilden 2014, 12; Ferenczi 2022, 2ff).
+            </note>
+        </sense>
+        <cit type="lexicon">
+            <bibl>
+                <date>1732[–1739]</date>
+                <title xml:lang="ta">Caturakarāti</title>
+                <ref target="https://gallica.bnf.fr/ark:/12148/btv1b100915963/f59">p. 81</ref>
+            </bibl>
+            <q xml:lang="ta">acaiccol.</q>
+        </cit>
+        <cit type="lexicon">
+            <bibl>
+                <date>1972 [1779]</date>
+                <edition>4th edition</edition>
+                <title xml:lang="en">Tamil and English dictionary (Fabricius)</title>
+                <ref target="https://dsal.uchicago.edu/cgi-bin/app/fabricius_query.py?page=527">p. 527</ref>
+            </bibl>
+        </cit>
+        <cit type="lexicon">
+            <bibl>
+                <date>1862</date>
+                <title xml:lang="en">A comprehensive Tamil and English dictionary (Winslow)</title>
+                <ref target="https://dsal.uchicago.edu/cgi-bin/app/winslow_query.py?page=592">p. 592</ref>
+            </bibl>
+        </cit>
+        <cit type="lexicon">
+            <bibl>
+                <date>1928 [1902]</date>
+                <edition>6th edition</edition>
+                <title xml:lang="ta">Tamiḻmoḻiyakarāti (Katiraivēṟ Piḷḷai)</title>
+                <ref target="https://dsal.uchicago.edu/cgi-bin/app/kadirvelu_query.py?page=802">p. 802</ref>
+                <ref target="https://dsal.uchicago.edu/cgi-bin/app/kadirvelu_query.py?page=1647">p. 1647</ref>
+            </bibl>
+        </cit>
+        <cit type="lexicon">
+            <bibl>
+                <date>1924–1936</date>
+                <title xml:lang="en">Tamil Lexicon (University of Madras)</title>
+                <ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?page=1924">p. 1924</ref>
+            </bibl>
+        </cit>
+        <cit type="commentary">
+            <ref target="https://archive.org/details/196OldCommentaryNotesByRajagopalarya/page/n109/mode/1up">anonymous commentary on <title xml:lang="ta">Akanāṉūṟu</title> 6 (ed. <persName xml:lang="ta">Rājakōpālāryaṉ</persName> 1926, 13)</ref>
+            <q xml:lang="ta">til viḻaivu</q>
+        </cit>
+        <cit type="commentary">
+            <ref target="https://archive.org/details/Tamil-Purananuru-U-Ve-Sa-3rd-Edition-1935/page/n562/mode/1up">anonymous commentary on <title xml:lang="ta">Puṟanāṉūṟu</title> 246 (ed. <persName xml:lang="ta">U. Vē. Cāminātaiyar</persName> 1935, 443)</ref>
+            <q xml:lang="ta">til : viḻaiviṉkaṇ vantatu.</q>
+        </cit>
+        <cit type="nikantu-meanings" xml:lang="ta">
+            <sense>
+                <form>til</form>
+                <cit>
+                    <ref target="#Tiv10.17"><title>Tivākaram</title>  <num>10.71</num></ref>
+                    <def>iṭaic col</def>
+                </cit>
+                <cit>
+                    <ref target="#Cut10.17"><title>Cūṭāmaṇi</title>  <num>10.17</num></ref>
+                    <def>iṭaic col</def>
+                </cit>
+            </sense>
+        </cit>
+        <cit type="nikantu" xml:id="Tiv10.71">
+            <ref target="https://archive.org/details/dli.jZY9lup2kZl6TuXGlZQdjZp7kZUy.TVA_BOK_0002448/page/88/mode/1up"><title xml:lang="ta">Tivākaram</title> 10.71 <term xml:lang="ta">iṭaiccol</term></ref>
+            <q rend="block" xml:lang="ta">
+                <lg>
+                    <l>am, ām, em, ēm, tam, nam, num, ē,</l>
+                    <l>ummē, aṉ, āṉ, uṟai, keḻu, ñāṉṟē,</l>
+                    <l>al, āl, aṉṟē, eṉavē, maṉṉē,</l>
+                    <l>tillai, vāṉ, pākku, teyyavum, iṭaic col.</l>
+                </lg>
+            </q>
+        </cit>
+        <cit type="nikantu" xml:id="Cut10.17">
+            <ref target="https://archive.org/details/dli.jZY9lup2kZl6TuXGlZQdjZp7kZUy.TVA_BOK_0002448/page/442/mode/1up"><title xml:lang="ta">Cūṭāmaṇi</title> 10.17 <term xml:lang="ta">iṭaiccol, cāriya</term></ref>
+            <q rend="block" xml:lang="ta">
+                <lg>
+                    <l>am(mōṭu), ām, tam, nam, num, ē,</l>
+                    <l rend="indent">al, āl; vāṉ, pākku, tillē,</l>
+                    <l>em(mōṭu), ēm, maṉṉē, pāṉē, um,</l>
+                    <l rend="indent">(īreṭṭu) iṭaic col (eṉpa);</l>
+                    <l>am(mōṭu), iṟṟu, aṟṟē, attē,</l>
+                    <l rend="indent">al, il, aṉ, āṉē, ai(yē),</l>
+                    <l>tam, num(mē), a(vvē), ku(vvē)</l>
+                    <l rend="indent">cāriyai (paṉmūṉṟu eṉpa).</l>
+                </lg>
+            </q>
+        </cit>
+        <entry corresp="til">
+            <form xml:lang="ta">til</form>
+            <gramGrp>
+                <gram>interjection</gram>
+            </gramGrp>
+        </entry>
+        <entry corresp="tilla" type="particle">
+            <form xml:lang="ta">tilla</form>
+        </entry>
+        <entry corresp="tilamma" type="particle">
+            <form xml:lang="ta">tilamma</form>
+        </entry>
+        <entry corresp="tillamma" type="particle">
+            <form xml:lang="ta">tillamma</form>
+        </entry>
+      </entry>
+      <listBibl>
+        <bibl><persName xml:lang="ta">Cāminātaiyar, U. Vē.</persName>, ed. 1935. <title xml:lang="ta">Puṟanāṉūṟu mūlamum uraiyum.</title> <term xml:lang="ta">Ceṉṉai</term>: <term xml:lang="ta">Lā Jarṉal Accukkūṭam.</term> <ref target="https://archive.org/details/Tamil-Purananuru-U-Ve-Sa-3rd-Edition-1935">ark:/13960/t5dc0n26b</ref></bibl>
+        <bibl>Chevillard, Jean-Luc. 1996. <title xml:lang="fr">Le commentaire de Cēṉāvaraiyar sur le Collatikāram du Tolkāppiyam: Sur la métalangue grammaticale des maîtres commentateurs tamouls mediévaux.</title> Pondichéry: EFEO/IFP.</bibl>
+        <bibl><persName xml:lang="ta">Citamparampiḷḷai, Va. U.</persName>, ed. 1933. <title xml:lang="ta">Tolkāppiyam Iḷampūraṇam. Poruḷatikāram kaḷaviyal, kaṟpiyal, poruḷiyal.</title> <term xml:lang="ta">Ceṉṉai</term>: <term xml:lang="ta">Vaviḷḷa Irāmasvāmi Cāstrulu Aṇṭa Saṉs</term>.</bibl>
+        <bibl>Ferenczi, Roland. 2022. <title type="article">History beind the praising words of the learned: An annotated translation of the <hi rend="italic">Patiṟṟuppattu</hi> and the political geography of the early Cēra kingdom.</title> PhD diss., Universität Hamburg. <ref target="https://nbn-resolving.org/urn%3Anbn%3Ade%3Agbv%3A18-ediss-123150">urn:nbn:de:gbv:18-ediss-123150</ref></bibl>
+        <bibl><persName xml:lang="ta">Rājakōpālāryaṉ, Śrīvatsacakravartti</persName>, ed. 1926. <title xml:lang="ta">Akanāṉūṟu mutalāvatu kaḷiṟṟiyāṉainirai mulamum mutaṟṟeṇṇūṟu pāṭṭiṟkup paḻaiya uraiyum.</title> <term xml:lang="ta">Ceṉṉai</term>: <term xml:lang="ta">Kampar Pustakālayam</term>. <ref target="https://archive.org/details/196OldCommentaryNotesByRajagopalarya">ark:/13960/t3909hz2j</ref></bibl>
+        <bibl>Rajam, V. S. 1992. <title>A Reference Grammar of Classical Tamil Poetry (150 B.C.―pre-fith/sixth century A.D.)</title> Philadelphia: American Philosophical Society.</bibl>
+        <bibl>Wilden, Eva. 2014. <title>Manuscript, Print and Memory: Relics of the Caṅkam in Tamilnadu.</title> Berlin: De Gruyter. <ref target="https://doi.org/10.1515/9783110352764">doi:10.1515/9783110352764</ref></bibl>
+      </listBibl>
+    </body>
+  </text>
+</TEI>

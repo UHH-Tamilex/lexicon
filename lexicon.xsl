@@ -9,7 +9,7 @@
 <xsl:output method="html" encoding="UTF-8" omit-xml-declaration="yes" indent="no"/>
 
 <xsl:param name="root">./lib/</xsl:param>
-<xsl:param name="debugging">false</xsl:param>
+<xsl:param name="thisroot">./</xsl:param>
 
 <xsl:template name="lexiconheader">
     <xsl:element name="head">
@@ -47,19 +47,25 @@
             <xsl:attribute name="rel">stylesheet</xsl:attribute>
             <xsl:attribute name="href"><xsl:value-of select="$root"/>css/apparatus.css</xsl:attribute>
         </xsl:element>
-        <xsl:if test="$debugging = 'true'">
-            <xsl:element name="link">
-                <xsl:attribute name="rel">stylesheet</xsl:attribute>
-                <xsl:attribute name="href"><xsl:value-of select="$root"/>debugging/prism.css</xsl:attribute>
-            </xsl:element>
-            <xsl:element name="link">
-                <xsl:attribute name="rel">stylesheet</xsl:attribute>
-                <xsl:attribute name="href"><xsl:value-of select="$root"/>debugging/codemirror.css</xsl:attribute>
-            </xsl:element>
-        </xsl:if>
+        <xsl:element name="link">
+            <xsl:attribute name="rel">stylesheet</xsl:attribute>
+            <xsl:attribute name="href"><xsl:value-of select="$root"/>debugging/codemirror.css</xsl:attribute>
+        </xsl:element>
+        <xsl:element name="link">
+            <xsl:attribute name="rel">stylesheet</xsl:attribute>
+            <xsl:attribute name="href"><xsl:value-of select="$root"/>debugging/show-hint.css</xsl:attribute>
+        </xsl:element>
+        <xsl:element name="link">
+            <xsl:attribute name="rel">stylesheet</xsl:attribute>
+            <xsl:attribute name="href"><xsl:value-of select="$root"/>debugging/lint.css</xsl:attribute>
+        </xsl:element>
         <xsl:element name="link">
             <xsl:attribute name="rel">stylesheet</xsl:attribute>
             <xsl:attribute name="href"><xsl:value-of select="$root"/>css/edition.css</xsl:attribute>
+        </xsl:element>
+        <xsl:element name="link">
+            <xsl:attribute name="rel">stylesheet</xsl:attribute>
+            <xsl:attribute name="href"><xsl:value-of select="$root"/>debugging/debugging.css</xsl:attribute>
         </xsl:element>
         <xsl:element name="link">
             <xsl:attribute name="rel">stylesheet</xsl:attribute>
@@ -67,11 +73,11 @@
         </xsl:element>
         <xsl:element name="link">
             <xsl:attribute name="rel">stylesheet</xsl:attribute>
-            <xsl:attribute name="href">./lexicon.css</xsl:attribute>
+            <xsl:attribute name="href"><xsl:value-of select="$thisroot"/>lexicon.css</xsl:attribute>
         </xsl:element>
         <xsl:element name="script">
             <xsl:attribute name="type">module</xsl:attribute>
-            <xsl:attribute name="src">./lexicon.mjs</xsl:attribute>
+            <xsl:attribute name="src"><xsl:value-of select="$thisroot"/>lexicon.mjs</xsl:attribute>
         </xsl:element>
     </xsl:element>
 </xsl:template>
@@ -93,6 +99,7 @@
                                 <xsl:text>A</xsl:text>
                             </xsl:element>
                         </div>
+                        <button id="button_savebutton" class="important">Save as...</button>
                     </xsl:element>
                     <xsl:element name="article">
                         <xsl:apply-templates/>
@@ -150,7 +157,7 @@
 <xsl:template match="x:entry">
     <xsl:apply-templates select="x:form"/>
     <xsl:apply-templates select="x:gramGrp"/>
-    <ol>
+    <ol id="list_sense">
         <xsl:apply-templates select="x:sense[not(@type)]"/>
     </ol>
     <xsl:if test="x:cit[@type='commentary']">

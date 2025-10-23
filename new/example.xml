@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./lexicon.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="ta"></title>
+        <editor>
+            <forename>First name</forename> 
+            <surname>Last name</surname>
+        </editor>
+      </titleStmt>
+      <publicationStmt><p>Tamilex project.</p></publicationStmt>
+      <sourceDesc><p/></sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+  <text xml:lang="en">
+    <body>
+      <entry corresp="">
+        <form xml:lang="ta"></form>
+        <gramGrp>
+        </gramGrp>
+        <sense>
+            <def xml:lang="en"></def>
+            <!-- add citations here -->
+        </sense>
+      </entry>
+      <listBibl>
+      </listBibl>
+    </body>
+  </text>
+</TEI>

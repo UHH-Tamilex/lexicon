@@ -1,11 +1,11 @@
 import { parse as CSVParse } from './csv-sync.js';
-import { loadDoc } from './lib/debugging/fileops.mjs';
-import openDb from './lib/js/sqlite.mjs';
-import previewDoc from './lib/debugging/preview.mjs';
-import { init as lexInit, docClick} from './lexicon-main.mjs';
-import { Sanscript } from './lib/js/sanscript.mjs';
-import { findGrammar } from './lib/debugging/aligner.mjs';
-import { gramAbbreviations } from './lib/debugging/abbreviations.mjs';
+import { loadDoc } from '../lib/debugging/fileops.mjs';
+import openDb from '../lib/js/sqlite.mjs';
+import previewDoc from '../lib/debugging/preview.mjs';
+import { init as lexInit, docClick} from '../lexicon-main.mjs';
+import Sanscript from '../lib/js/sanscript.mjs';
+import { findGrammar } from '../lib/debugging/aligner.mjs';
+import { gramAbbreviations } from '../lib/debugging/abbreviations.mjs';
 
 const _state = {
     csv: null,
@@ -108,6 +108,7 @@ const startNew = async e => {
     const def = item.querySelector('.def').textContent;
     const citations = _state.csv.filter(e => e[1] && e[2] === lemma);
     const citforms = citations.map(e => e[1]);
+
     const example = await loadDoc('example.xml');
     example.querySelector('titleStmt title').textContent = form;
     const entry = example.querySelector('entry');
@@ -135,7 +136,7 @@ const startNew = async e => {
         ncit.innerHTML = nikantus;
         entry.appendChild(ncit);
     }
-    
+    // TODO: add -tal and -ttal forms for Madras Lexicon 
     const others = await getOtherCitations([form,...citforms],example);
     for(const other of others)
         entry.appendChild(other);
@@ -150,7 +151,7 @@ const startNew = async e => {
     document.body.animate(blurin, blurtimer);
     document.getElementById('recordcontainer').style.filter = 'blur(0)';
     document.addEventListener('click',docClick);
-    lexInit();
+    lexInit('../wordindex.db',{doc: example, filename: `${form}.xsl`});
     for(const det of document.querySelectorAll('.teitext > div > details'))
         det.open = 'true';
 
@@ -201,7 +202,7 @@ const makeProgressBox = () => {
 };
 
 const getNikantuCitations = async forms => {
-    const db = await openDb('../Tivakaram/index.db');
+    const db = await openDb('../../Tivakaram/index.db','../lib/js/');
     document.getElementById('updateSpan1').textContent = 'Checking Tivākaram for ';
     const updatebox = document.getElementById('updateSpan2');
     const ret = new Map();

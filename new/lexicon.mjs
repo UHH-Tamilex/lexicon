@@ -4,18 +4,11 @@ import './lib/js/tooltip.mjs';
 import './lib/js/removehyphens.mjs';
 //import createSqlWorker from './lib/js/sqlWorker.mjs';
 import openDb from './lib/js/sqlite.mjs';
-import { dbSchema } from './lib/debugging/abbreviations.mjs';
-import startEditMode from './new/editmode.mjs';
-import {formatCitations, checkCitations} from './citations.mjs';
+import { loadDoc } from './lib/debugging/fileops.mjs';
+import Citer from './lib/debugging/cite.mjs';
 
-const _state = {
-    dburl: './wordindex.db'
-};
-
-const init = (dburl,xmlsrc) => {
+const init = () => {
     
-    if(dburl) _state.dburl = dburl;
-
     checkCitations();
     const citlink = document.getElementById('citationlink');
     const url = new URL(window.location);
@@ -28,11 +21,6 @@ const init = (dburl,xmlsrc) => {
     Transliterate.init(recordcontainer);
     
     GitHubFunctions.latestCommits();
-    
-    const islocal = ['localhost','127.0.0.1'].includes(window.location.hostname);
-    const searchparams = new URLSearchParams(window.location.search);
-    if(searchparams.get('noedit') === null && (searchparams.get('edit') !== null || islocal))
-        startEditMode(Transliterate,xmlsrc);
 
     const loc = window.location.hash;
     if(!loc) return;
@@ -92,7 +80,7 @@ const makeNikantuGraphs = () => {
     legend.id = 'nikantu-legend';
     for(const [name, colour] of [...colourMap]) {
         const span = document.createElement('span');
-        span.innerHTML = `<span style="color: ${colour}">\u25A0</span> <span class="citref"><em class="title" lang="ta">${name}</em></span>`;
+        span.innerHTML = `<span style="color: ${colour}">\u25A0</span> <span class="citref"><em class="title">${name}</em></span>`;
         legend.appendChild(span);
     }
 
@@ -159,6 +147,62 @@ const makeNikantuGraphs = () => {
     );
 };
 
+const checkCitation = async (thisxml,el) => {
+    const url = URL.parse(el.dataset.source,window.location);
+    const xml = await loadDoc(url.href,'default');
+    if(!xml) {
+        markDifferent(el);
+        return;
+    }
+    
+    const id = url.searchParams.get('id');
+    const indices = url.searchParams.get('w').split(',').map(n => parseInt(n));
+    const cit = Citer.makeCitation(xml, id, indices);
+    const q = thisxml.querySelector(`cit[source="${el.dataset.source}"] q[*|lang^="ta"]`);
+    let w1 = q.firstElementChild;
+    let w2 = cit.documentElement.firstElementChild;
+    while(w1 && w2) {
+        if(w1.innerHTML.replaceAll(/ xmlns="http:\/\/www.tei-c.org\/ns\/1.0"/g,'') !== w2.innerHTML) {
+            console.log(w1.innerHTML);
+            console.log(w2.innerHTML);
+            markDifferent(el);
+            break;
+        }
+        w1 = w1.nextElementSibling;
+        w2 = w2.nextElementSibling;
+    }
+};
+
+const markDifferent = el => {
+    const span = document.createElement('span');
+    span.className = 'warning';
+    span.append('!');
+    span.dataset.anno = 'Citation differs from the edition cited.';
+    el.prepend(span);
+    el.style.listStyle = 'none';
+};
+
+const checkCitations = async () => {
+    const thisdoc = await loadDoc(window.location,'default');
+    const cits = document.querySelectorAll('li[data-source]');
+    for(const cit of cits) {
+        checkCitation(thisdoc, cit);
+    }
+};
+
+const formatCitations = (citations) => {
+    return '<table><tbody>' + citations.map(c => {
+        const link = c.line ?
+            c.filename + '?highlight=' + encodeURIComponent(`[id="${c.siglum}"] .l:nth-of-type(${c.line})`) :
+            c.filename;
+    return `<tr>
+    <td><span class="msid" lang="en"><a href="https://uhh-tamilex.github.io/${link}">${c.siglum}</a></span></td>
+    <td><q lang="ta">${c.context}</q></td>
+    <td>${c.translation ? '<span class="context-translation">'+c.translation+'</span>':''}</td>
+    <td>${c.syntax ? ' <span class="syntax">'+c.syntax+'</span>':''}</td>
+</tr>`;}).join('\n') + '</tbody></table>';
+};
+
 const docClick = e => {
     const details = e.target.closest('details[data-entry]');
     if(details) getEntry(details);
@@ -169,22 +213,12 @@ const workers = {
     /*full: null*/
 };
 
-const getPOS = el => {
-    const grams = el.querySelectorAll('.nested-grammar span');
-    for(const gram of grams) {
-        const s = gram.textContent.trim();
-        if(dbSchema.pos.has(s))
-            return ` AND (pos = "${s}" OR pos IS NULL)`;
-    }
-    return '';
-};
-
 const getEntry = async targ => {
     const spinner = targ.querySelector(':scope > .spinner');
     if(!spinner) return;
     
     if(!workers.local) 
-        workers.local = await openDb(_state.dburl);
+        workers.local = await openDb('./wordindex.db');
 
     let results = {};
     if(targ.id) {
@@ -192,11 +226,9 @@ const getEntry = async targ => {
     }
     else {
         const lemma = targ.closest('details[id]')?.id || targ.dataset.select;
-        const headel = targ.closest('details');
-        const form = headel.dataset.entry;
-        const islemma = headel.dataset.lemma;
-        const isparticle = headel.dataset.type === 'particle';
-        const grammar = getPOS(headel);
+        const form = targ.closest('details').dataset.entry;
+        const islemma = targ.closest('details').dataset.lemma;
+        const isparticle = targ.closest('details').dataset.type === 'particle';
         if(isparticle) {
                 results = await workers.local.exec(`SELECT particlefunction, syntax, context, citation, line, filename FROM citations WHERE enclitic = "${form}"`);
         }
@@ -204,14 +236,14 @@ const getEntry = async targ => {
             if(lemma)
                 results = await workers.local.exec(`SELECT def, pos, number, gender, nouncase, person, voice, aspect, particlefunction, syntax, rootnoun, enclitic, context, citation, line, filename FROM citations WHERE islemma = "${islemma}"`);
             else
-                results = await workers.local.exec(`SELECT def, pos, number, gender, nouncase, person, voice, aspect, particlefunction, syntax, rootnoun, enclitic, context, citation, filename, line FROM citations WHERE form = "${islemma}"${grammar}`);
+                results = await workers.local.exec(`SELECT def, pos, number, gender, nouncase, person, voice, aspect, particlefunction, syntax, rootnoun, enclitic, context, citation, filename, line FROM citations WHERE form = "${islemma}"`);
         }
         else if(lemma)
-            results = await workers.local.exec(`SELECT def, pos, number, gender, nouncase, person, voice, aspect, particlefunction, syntax, rootnoun, enclitic, context, citation, line, filename FROM citations WHERE form = "${form}" AND fromlemma = "${lemma}"${grammar}`);
+            results = await workers.local.exec(`SELECT def, pos, number, gender, nouncase, person, voice, aspect, particlefunction, syntax, rootnoun, enclitic, context, citation, line, filename FROM citations WHERE form = "${form}" AND fromlemma = "${lemma}"`);
         else
-            results = await workers.local.exec(`SELECT def, pos, number, gender, nouncase, person, voice, aspect, particlefunction, syntax, rootnoun, enclitic, context, citation, line, filename FROM citations WHERE form = "${form}" AND fromlemma IS NULL${grammar}`);
+            results = await workers.local.exec(`SELECT def, pos, number, gender, nouncase, person, voice, aspect, particlefunction, syntax, rootnoun, enclitic, context, citation, line, filename FROM citations WHERE form = "${form}" AND fromlemma IS NULL`);
         if(results.length === 0) // this is a hack; will get rid of this when words a properly lemmatized
-            results = await workers.local.exec(`SELECT def, pos, number, gender, nouncase, person, voice, aspect, particlefunction, syntax, rootnoun, enclitic, context, citation, line, filename FROM citations WHERE form = "${form}" AND fromlemma IS NULL${grammar}`);
+            results = await workers.local.exec(`SELECT def, pos, number, gender, nouncase, person, voice, aspect, particlefunction, syntax, rootnoun, enclitic, context, citation, line, filename FROM citations WHERE form = "${form}" AND fromlemma IS NULL`);
     }
     
     const entry = {
@@ -219,10 +251,7 @@ const getEntry = async targ => {
         grammar: new Set(),
         citations: []
     };
-    if(!results[0]) {
-        spinner.remove();
-        return;
-    }
+    
     const cols = new Map(results[0].columns.map((e,i) => [e,i]));
     for(const result of results[0].values) {
         if(result[cols.get('def')]) entry.translations.add(result[cols.get('def')]);
@@ -268,4 +297,5 @@ ${formatCitations(entry.citations)}
         Transliterate.activate(par);
 };
 
-export { init, docClick, checkCitations };
+document.addEventListener('click',docClick);
+window.addEventListener('load',init);
