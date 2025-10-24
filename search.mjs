@@ -1,6 +1,6 @@
 import openDb from './lib/js/sqlite.mjs';
 import SqlString from './SqlString.js';
-import { Sanscript } from './lib/js/sanscript.mjs';
+import Sanscript from './lib/js/sanscript.mjs';
 import Hypher from './lib/js/hypher.mjs';
 import { hyphenation_ta } from './lib/js/ta.mjs';
 
