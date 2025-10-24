@@ -12,7 +12,7 @@ const _state = {
     dburl: './wordindex.db'
 };
 
-const init = (dburl,xmlsrc) => {
+const init = (dburl,xmlsrc,edit=false) => {
     
     if(dburl) _state.dburl = dburl;
 
@@ -29,10 +29,13 @@ const init = (dburl,xmlsrc) => {
     
     GitHubFunctions.latestCommits();
     
-    const islocal = ['localhost','127.0.0.1'].includes(window.location.hostname);
-    const searchparams = new URLSearchParams(window.location.search);
-    if(searchparams.get('noedit') === null && (searchparams.get('edit') !== null || islocal))
-        startEditMode(Transliterate,xmlsrc);
+    if(edit) startEditMode(Transliterate,xmlsrc);
+    else {
+        const islocal = ['localhost','127.0.0.1'].includes(window.location.hostname);
+        const searchparams = new URLSearchParams(window.location.search);
+        if(searchparams.get('noedit') === null && (searchparams.get('edit') !== null || islocal))
+            startEditMode(Transliterate,xmlsrc);
+    }
 
     const loc = window.location.hash;
     if(!loc) return;
