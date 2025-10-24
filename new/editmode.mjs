@@ -35,6 +35,20 @@ const injectCSS = () => {
   backdrop-filter: blur(1px);
   flex-direction: row;
 }
+
+#topbar.hidebuttons {
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+#topbar > button {
+  display: block;
+}
+
+#topbar.hidebuttons button {
+  display: none;
+}
+
 #buttoncontainer {
   top: auto;
 }
@@ -164,8 +178,7 @@ const injectCSS = () => {
 
 const revealButtons = () => {
     const topbar = document.getElementById('topbar');
-    for(const button of topbar.querySelectorAll('button'))
-        button.style.display = 'block';
+    topbar.classList.remove('hidebuttons');
 };
 
 const addEditButton = par => {
@@ -195,6 +208,7 @@ const addEditButtons = () => {
 };
 
 const openEditForm = e => {
+  document.getElementById('topbar').classList.add('hidebuttons');
   const nextsib = e.target.nextElementSibling;
   if(nextsib.classList.contains('sense')) {
     editSense(nextsib);
@@ -317,9 +331,11 @@ const preview = e => {
     alert('Please fix XML errors first.');
     return;
   }
-  
+
   if(e.target.dataset.type === 'sense')
     previewSense(e.target);
+
+  document.getElementById('topbar').classList.remove('hidebuttons');
 };
 const previewSense = async button => {
   const n = button.dataset.n;

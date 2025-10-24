@@ -13,7 +13,7 @@ const _state = {
 };
 
 const init = async () => {
-    const res = await fetch('index.csv');
+    const res = await fetch('../lemmaindex.csv');
     const text = await res.text();
     _state.csv = CSVParse(text,{relax_column_count_less: true});
 

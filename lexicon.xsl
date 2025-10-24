@@ -92,6 +92,7 @@
                     <xsl:attribute name="class">record fat</xsl:attribute>
                     <xsl:element name="div">
                         <xsl:attribute name="id">topbar</xsl:attribute>
+                        <xsl:attribute name="class">hidebuttons</xsl:attribute>
                         <div id="buttoncontainer">
                             <xsl:element name="div">
                                 <xsl:attribute name="id">transbutton</xsl:attribute>
