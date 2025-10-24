@@ -19,9 +19,10 @@ jobs:
           ref: ${{ github.head_ref }}
           submodules: 'true'
 
-      - uses: actions/setup-node@v3
+      - uses: actions/setup-node@v6
         with:
-          node-version: '20'
+          node-version: '24'
+          cache: 'yarn'
 
       - name: build word index
         run: |
@@ -31,8 +32,8 @@ jobs:
           yarn todb
           cd ../
 
-      - uses: stefanzweifel/git-auto-commit-action@v4
+      - uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: automatic wordindex update
-          file_pattern: *.db
+          file_pattern: '*.db'
           commit_user_name: Tamilex Bot
