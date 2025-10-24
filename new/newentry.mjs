@@ -151,7 +151,7 @@ const startNew = async e => {
     document.body.animate(blurin, blurtimer);
     document.getElementById('recordcontainer').style.filter = 'blur(0)';
     document.addEventListener('click',docClick);
-    lexInit('../wordindex.db',{doc: example, filename: `${form}.xsl`},true);
+    lexInit('../wordindex.db',{doc: example, filename: `${form}.xsl`});
     for(const det of document.querySelectorAll('.teitext > div > details'))
         det.open = 'true';
 

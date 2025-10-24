@@ -29,7 +29,7 @@ const init = (dburl,xmlsrc,edit=false) => {
     
     GitHubFunctions.latestCommits();
     
-    if(edit) startEditMode(Transliterate,xmlsrc);
+    if(xmlsrc) startEditMode(Transliterate,xmlsrc);
     else {
         const islocal = ['localhost','127.0.0.1'].includes(window.location.hostname);
         const searchparams = new URLSearchParams(window.location.search);
