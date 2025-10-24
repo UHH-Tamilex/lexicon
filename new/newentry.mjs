@@ -215,7 +215,7 @@ const getNikantuCitations = async forms => {
         if(glossed[0]) for(const g of glossed[0].values) all.push(g);
         if(all.length) {
             ret.set(form, all.map(e =>
-                    `<cit><ref target="../Tivakaram/${e[3]}?highlight=[id%3D'${e[1]}'] .l%3Anth-of-type(${e[2]})"><title>Tivākaram</title> <num>${e[1].split(/(\d)/).slice(1).join('')}</num></ref><def>${e[0]}</def></cit>`
+                    `<cit><ref target="https://uhh-tamilex.github.io/Tivakaram/${e[3]}?highlight=[id%3D'${e[1]}'] .l%3Anth-of-type(${e[2]})"><title>Tivākaram</title> <num>${e[1].split(/(\d)/).slice(1).join('')}</num></ref><def>${e[0]}</def></cit>`
                 )
             );
         }
