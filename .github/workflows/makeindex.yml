@@ -19,10 +19,9 @@ jobs:
           ref: ${{ github.head_ref }}
           submodules: 'true'
 
-      - uses: actions/setup-node@v6
+      - uses: actions/setup-node@v3
         with:
           node-version: '24'
-          cache: 'yarn'
 
       - name: build word index
         run: |
