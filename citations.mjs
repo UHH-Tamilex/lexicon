@@ -48,12 +48,14 @@ const checkCitations = async (doc = document, thisdoc = null) => {
 
 const formatCitations = (citations) => {
     const editing = document.getElementById('button_savebutton') ? '&edit' : '';
+    const newwin = editing !== '' ? ' target="_blank" rel="noopener noreferrer"' : '';
+
     return '<table><tbody>' + citations.map(c => {
         const link = c.line ?
             c.filename + '?highlight=' + encodeURIComponent(`[id="${c.siglum}"] .l:nth-of-type(${c.line})`) :
             c.filename;
     return `<tr>
-    <td><span class="msid" lang="en"><a href="https://uhh-tamilex.github.io/${link}${editing}">${c.siglum}</a></span></td>
+    <td><span class="msid" lang="en"><a href="https://uhh-tamilex.github.io/${link}${editing}"${newwin}>${c.siglum}</a></span></td>
     <td><q lang="ta">${c.context}</q></td>
     <td>${c.translation ? '<span class="context-translation">'+c.translation+'</span>':''}</td>
     <td>${c.syntax ? ' <span class="syntax">'+c.syntax+'</span>':''}</td>
