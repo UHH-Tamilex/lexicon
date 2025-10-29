@@ -44,7 +44,7 @@ const checkCitations = async (doc = document, thisdoc = null) => {
     for(const cit of cits) {
         checkCitation(thisdoc, cit);
     }
-};
+};
 
 const formatCitations = (citations) => {
     const editing = document.getElementById('button_savebutton') ? '&edit' : '';
