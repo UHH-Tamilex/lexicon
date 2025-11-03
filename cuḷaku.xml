@@ -20,6 +20,7 @@
       <entry corresp="cuḷaku[TL]">
         <form xml:lang="ta">cuḷaku</form>
         <gramGrp>
+            <gram>noun</gram>
         </gramGrp>
         <sense><def xml:lang="en"> winnowing fan</def><usg xml:lang="en">
 </usg><cit source="https://uhh-tamilex.github.io/Purananuru/PN321.xml?id=PN321&amp;w=4,17">
@@ -35,12 +36,15 @@
 <cit>
   <q xml:lang="ta"> cuḷaku vār cevi<c type="geminated">t</c> tūṅku kai<c type="geminated">k</c> kuñcaram</q>
   <q xml:lang="en"> an elephant with long ears [like] winnowing fans [and] a long trunk </q> 
-  <ref target="https://archive.org/details/kmm-0708-seevaga-sinthamani-1922/page/519/mode/1up"><title xml:lang="ta">Cīvakacitāmaṇi</title> 1778.3</ref>
+  <ref target="https://archive.org/details/kmm-0708-seevaga-sinthamani-1922/page/519/mode/1up"><title xml:lang="ta">Cīvakacintāmaṇi</title> 1778.3</ref>
 </cit><note xml:lang="en"> The noun <foreign xml:lang="ta">cuḷaku</foreign> remains a fairly rare word but its meaning remained stable: the few old commentary passages available (see below) do not bother to explain the word, and still in the modern <abbr ref="#Cre-A"/> dictionary we find an entry for <foreign xml:lang="ta">cuḷaku</foreign> as <q>narrow-mouthed winnowing pan (longer than <foreign xml:lang="ta">muṟam</foreign>)</q>, and another entry for <foreign xml:lang="ta">muṟam</foreign> (the gloss found in <expan ref="#Nacc"/>'s commentary on <title xml:lang="ta">Cīvakacintāmaṇi</title> 1778.3 for <foreign xml:lang="ta">cuḷaku</foreign>) as <q>wide-mouthed winnowing pan</q>.
 </note>
 <note xml:lang="en">The <abbr ref="#TL"/> quotes <expan ref="#AN"/> 393.13v	(<foreign xml:lang="ta">cuḻal maram colitta cuḷak<c type="elided">u</c> alai veḷ kāḻ</foreign>, <q>the white kernels dipersed on the winnowing fan that had been removed from the Cuḻal tree</q>), which is not actually attested but goes back to an emendation by a late corrected paper copy which then was adopted into all the editions.
 </note></sense>
-      <entry><gramGrp><gram>noun</gram><gram>oblique</gram></gramGrp><form xml:lang="ta">cuḷakiṉ</form></entry><entry><gramGrp><gram>noun</gram><gram>locative</gram></gramGrp><form xml:lang="ta">cuḷakil</form></entry><cit type="lexicon"><bibl><date>1972 [1779]</date><title xml:lang="en">Tamil and English Dictionary (Fabricius)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/fabricius_query.py?page=424">p. 424</ref></bibl></cit><cit type="lexicon"><bibl><date>1862</date><title xml:lang="en">A comprehensive Tamil and English dictionary (Winslow)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/winslow_query.py?page=489">p. 489</ref></bibl></cit><cit type="lexicon"><bibl><date>1928 [1902]</date><title xml:lang="ta">Tamiḻmoḻiyakarāti (Katiraivēṟ Piḷḷai)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/kadirvelu_query.py?page=684">p. 684</ref><ref target="https://dsal.uchicago.edu/cgi-bin/app/kadirvelu_query.py?page=1439">p. 1439</ref><ref target="https://dsal.uchicago.edu/cgi-bin/app/kadirvelu_query.py?page=1656">p. 1656</ref></bibl></cit><cit type="lexicon"><bibl><date>1924–1936</date><title xml:lang="en">Tamil Lexicon (University of Madras)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?page=1548">p. 1548</ref></bibl></cit><cit type="lexicon"><bibl><date>1992</date><title xml:lang="ta">Kriyāviṉ taṟkālat Tamiḻ akarāti</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/crea_query.py?page=460">p. 460</ref></bibl></cit></entry>
+      <entry><gramGrp><gram>noun</gram><gram>oblique</gram></gramGrp><form xml:lang="ta">cuḷakiṉ</form></entry><entry><gramGrp><gram>noun</gram><gram>locative</gram></gramGrp><form xml:lang="ta">cuḷakil</form></entry><cit type="lexicon"><bibl><date>1972 [1779]</date><title xml:lang="en">Tamil and English Dictionary (Fabricius)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/fabricius_query.py?page=424">p. 424</ref></bibl></cit><cit type="lexicon"><bibl><date>1862</date><title xml:lang="en">A comprehensive Tamil and English dictionary (Winslow)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/winslow_query.py?page=489">p. 489</ref></bibl></cit><cit type="lexicon"><bibl><date>1928 [1902]</date><title xml:lang="ta">Tamiḻmoḻiyakarāti (Katiraivēṟ Piḷḷai)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/kadirvelu_query.py?page=684">p. 684</ref><ref target="https://dsal.uchicago.edu/cgi-bin/app/kadirvelu_query.py?page=1439">p. 1439</ref><ref target="https://dsal.uchicago.edu/cgi-bin/app/kadirvelu_query.py?page=1656">p. 1656</ref></bibl></cit><cit type="lexicon"><bibl><date>1924–1936</date><title xml:lang="en">Tamil Lexicon (University of Madras)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?page=1548">p. 1548</ref></bibl></cit><cit type="lexicon"><bibl><date>1992</date><title xml:lang="ta">Kriyāviṉ taṟkālat Tamiḻ akarāti</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/crea_query.py?page=460">p. 460</ref></bibl></cit>
+        <cit type="commentary">
+        </cit>
+      </entry>
       <listBibl>
       </listBibl>
     </body>
