@@ -11,6 +11,8 @@ const _state = {
   cms: []
 };
 
+const plusSVG = '<svg height="32px" width="32px" xmlns="http://www.w3.org/2000/svg" version="1.1" x="0px" y="0px" viewBox="0 0 100 100" style="width: 20px; height: 20px;"><g transform="translate(0,-952.36218)"><path d="m 50,978.36217 c -2.7615,0 -5,2.2386 -5,5 l 0,14 -14,0 c -2.7614,0 -5,2.2385 -5,5.00003 0,2.7615 2.2386,5 5,5 l 14,0 0,14 c 0,2.7614 2.2385,5 5,5 2.7615,0 5,-2.2386 5,-5 l 0,-14 14,0 c 2.7614,0 5,-2.2385 5,-5 0,-2.76153 -2.2386,-5.00003 -5,-5.00003 l -14,0 0,-14 c 0,-2.7614 -2.2385,-5 -5,-5 z" style="text-indent:0;text-transform:none;direction:ltr;block-progression:tb;baseline-shift:baseline;enable-background:accumulate;" fill-opacity="1" stroke="none" marker="none" display="inline" overflow="visible"></path></g></svg>';
+
 const startEditMode = async (Transliterator,xml) => {
   _state.Transliterator = Transliterator;
   injectCSS();
@@ -18,7 +20,7 @@ const startEditMode = async (Transliterator,xml) => {
   addEditButtons();
   _state.curDoc = xml ? xml.doc : await loadDoc(window.location.pathname);
   _state.NS = _state.curDoc.documentElement.namespaceURI;
-  _state.filename = xml ? xml.filename : window.location.pathname.split('/').pop();
+  _state.filename = xml ? xml.filename : decodeURIComponent(window.location.pathname.split('/').pop());
   document.getElementById('button_savebutton')?.addEventListener('click',saveAs.bind(null,_state.filename, _state.curDoc));
 };
 
@@ -185,26 +187,43 @@ const addEditButton = par => {
     const button = document.createElement('button');
     button.addEventListener('click',openEditForm);
     button.className = 'minibutton';
-    button.dataset.anno = 'Edit definition';
+    const type = par.classList.contains('sense') ? 'definition' :
+                 par.classList.contains('commentary') ? 'commentary' :
+                 par.id === 'entry_gramGrp' ? 'grammar' :
+                  '';
+    button.dataset.anno = `Edit ${type}`;
     button.append('\u{1F589}');
     par.before(button);
     return button;
 };
 
 const addEditButtons = () => {
-  for(const sense of document.querySelectorAll('div.sense'))
+  for(const sense of document.querySelectorAll('div.sense, div.commentary, #entry_gramGrp'))
     addEditButton(sense);
-
+   
   const listsense = document.getElementById('list_sense');
   const addli = document.createElement('li');
   const addbutton = document.createElement('button');
   addbutton.className = 'plusbutton';
   addbutton.style.width = '100%';
   addbutton.dataset.anno = 'Add new sense';
-  addbutton.innerHTML = '<svg height="32px" width="32px" xmlns="http://www.w3.org/2000/svg" version="1.1" x="0px" y="0px" viewBox="0 0 100 100" style="width: 20px; height: 20px;"><g transform="translate(0,-952.36218)"><path d="m 50,978.36217 c -2.7615,0 -5,2.2386 -5,5 l 0,14 -14,0 c -2.7614,0 -5,2.2385 -5,5.00003 0,2.7615 2.2386,5 5,5 l 14,0 0,14 c 0,2.7614 2.2385,5 5,5 2.7615,0 5,-2.2386 5,-5 l 0,-14 14,0 c 2.7614,0 5,-2.2385 5,-5 0,-2.76153 -2.2386,-5.00003 -5,-5.00003 l -14,0 0,-14 c 0,-2.7614 -2.2385,-5 -5,-5 z" style="text-indent:0;text-transform:none;direction:ltr;block-progression:tb;baseline-shift:baseline;enable-background:accumulate;" fill-opacity="1" stroke="none" marker="none" display="inline" overflow="visible"></path></g></svg>';
+  addbutton.innerHTML = plusSVG;
   addli.appendChild(addbutton);
   listsense.appendChild(addli);
   addbutton.addEventListener('click',newSense);
+
+  const comms = document.getElementById('list_commentary');
+  const lastli = comms[comms.length-1];
+  const firstli = comms.querySelector('li');
+  const commli = firstli.textContent.trim() === '' ? firstli : document.createElement('li');
+  const commadd = document.createElement('button');
+  commadd.className = 'plusbutton';
+  commadd.style.width = '100%';
+  commadd.dataset.anno = 'Add new sense';
+  commadd.innerHTML = plusSVG;
+  commli.appendChild(commadd);
+  if(firstli !== commli) comms.appendChild(commli);
+  commadd.addEventListener('click',newCommentary);
 };
 
 const openEditForm = e => {
@@ -212,6 +231,14 @@ const openEditForm = e => {
   const nextsib = e.target.nextElementSibling;
   if(nextsib.classList.contains('sense')) {
     editSense(nextsib);
+    e.target.style.display = 'none';
+  }
+  else if(nextsib.id === 'entry_gramGrp') {
+    editGrammar(nextsib);
+    e.target.style.display = 'none';
+  }
+  else if(nextsib.classList.contains('commentary')) {
+    editCommentary(nextsib);
     e.target.style.display = 'none';
   }
 };
@@ -300,6 +327,102 @@ const newSense = () => {
   editbutton.click();
 };
 
+const newCommentary = () => {
+  const comms = [..._state.curDoc.querySelectorAll('text > body > entry > cit[type="commentary"]')];
+  const lastcomm = comms[comms.length-1];
+  const newcomm = lastcomm.textContent.trim() === '' ? lastcomm : _state.curDoc.createElementNS(_state.NS,'cit');
+  if(newcomm !== lastcomm) {
+    newcomm.setAttribute('type','commentary');
+    lastcomm.after(newcomm);
+  }
+
+  const lastli = document.getElementById('list_commentary').lastElementChild;
+  const newli = lastli.textContent.trim() === '' ? lastli : document.createElement('li');
+  const newcommel = document.createElement('div');
+  newcommel.className = 'commentary';
+  newli.appendChild(newcommel);
+  if(lastli !== newli) lastli.before(newli);
+  const editbutton = addEditButton(newcommel);
+  editbutton.click();
+};
+
+const editGrammar = el => {
+  const editbox = document.createElement('div');
+  editbox.className = 'multi-item';
+  editbox.innerHTML = `
+<div>
+  <label>Grammar</label>
+  <textarea name="entry_gramGrp" rows="3"></textarea>
+</div>
+<div style="display: flex; justify-content: center">
+  <button name="preview" data-type="entry_gramGrp">Preview</button>
+</div>
+`;
+
+  while(el.firstChild)
+    el.removeChild(el.firstChild);
+  el.appendChild(editbox);
+
+  const gramGrp = _state.curDoc.querySelector('text > body > entry > gramGrp');
+  const ta = editbox.querySelector('textarea');
+  const cm = cmWrapper(ta);
+  if(gramGrp && gramGrp.innerHTML.trim() !== '') {
+    const val = [...gramGrp.childNodes].map(c => {
+      if(c.nodeType === '3')
+        return c.data;
+      else
+        return serialize(c);
+    }).join('');
+    cm.setValue(val);
+  }
+  else
+    cm.setValue('<gram></gram>');
+    _state.cms.push(cm);
+  editbox.querySelector('button[name="preview"]').addEventListener('click',preview);
+};
+
+const editCommentary = el => {
+  const li = el.closest('li');
+  const ul = li.closest('ul');
+  const comms = [..._state.curDoc.querySelectorAll('text > body > entry > cit[type="commentary"]')];
+  let xmlitem, n;
+  for(n=0;n<ul.children.length;n++) {
+    if(ul.children.item(n) === li) {
+      xmlitem = comms[n];
+      break;
+    }
+  }
+  const editbox = document.createElement('div');
+  editbox.className = 'multi-item';
+  editbox.innerHTML = `
+<div>
+  <label>Citation</label>
+  <textarea name="citation" rows="3"></textarea>
+</div>
+<div style="display: flex; justify-content: center">
+  <button name="preview" data-type="commentary" data-n="${n}">Preview</button>
+</div>
+`;
+
+  while(el.firstChild)
+    el.removeChild(el.firstChild);
+  el.appendChild(editbox);
+  const ta = editbox.querySelector('textarea');
+  const cm = cmWrapper(ta);
+  if(xmlitem && xmlitem.innerHTML.trim() !== '') {
+    const val = [...xmlitem.childNodes].map(c => {
+      if(c.nodeType === '3')
+        return c.data;
+      else
+        return serialize(c);
+    }).join('');
+    cm.setValue(val);
+  }
+  else cm.setValue('');
+  _state.cms.push(cm);
+  editbox.querySelector('button[name="preview"]').addEventListener('click',preview);
+};
+
 const NSCleaner = (() => {
   const Sheet = (new DOMParser()).parseFromString(`
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tei="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="tei">
@@ -333,25 +456,47 @@ const preview = e => {
   }
 
   if(e.target.dataset.type === 'sense')
-    previewSense(e.target);
+    previewField(e.target,'body > entry > sense','div.sense');
+  
+  else if(e.target.dataset.type === 'entry_gramGrp')
+    previewField(e.target,'body > entry > gramGrp','#entry_gramGrp');
+
+  else if(e.target.dataset.type === 'commentary')
+    previewField(e.target,'body > entry > cit[type="commentary"]','div.commentary');
 
   document.getElementById('topbar').classList.remove('hidebuttons');
 };
-const previewSense = async button => {
+
+const previewField = async (button,xmlsel,htmlsel) => {
   const n = button.dataset.n;
-  const el = _state.curDoc.querySelector('text > body > entry').querySelectorAll('sense')[n];
+  const el = n ? _state.curDoc.querySelectorAll(xmlsel)[n] :
+                 _state.curDoc.querySelector(xmlsel);
   for(const cm of _state.cms) cm.toTextArea();
   _state.cms = [];
-  while(el.firstChild) el.removeChild(el.firstChild);
-  const newstr = [...button.closest('.multi-item').querySelectorAll('textarea')].map(t => t.value).join('');
-  el.innerHTML = newstr;
-  const previewed = (await previewDoc(_state.curDoc)).querySelectorAll('div.sense')[n];
-  const htmlsense = document.querySelectorAll('div.sense')[n];
-  htmlsense.replaceWith(document.adoptNode(previewed));
-  previewed.classList.add('edited');
-  previewed.parentNode.querySelector('button.minibutton').style.display = 'block';
-  _state.Transliterator.refreshCache(previewed);
-  checkCitations(previewed, _state.curDoc);
+  const newstr = [...button.closest('.multi-item').querySelectorAll('textarea')].map(t => t.value).join('\n');
+  if(newstr.trim() === '') {
+    el.remove();
+    const oldel = n ? document.querySelectorAll(htmlsel)[n] :
+                      document.querySelector(htmlsel);
+    if(oldel.parentNode.tagName === 'LI')
+      oldel.parentNode.remove();
+    else
+      oldel.remove();
+  }
+  else {
+    while(el.firstChild) el.removeChild(el.firstChild);
+    el.innerHTML = newstr;
+    const res = await previewDoc(_state.curDoc);
+    const newel = n ? res.querySelectorAll(htmlsel)[n] :
+                          res.querySelector(htmlsel);
+    const oldel = n ? document.querySelectorAll(htmlsel)[n] :
+                          document.querySelector(htmlsel);
+    oldel.replaceWith(document.adoptNode(newel));
+    newel.classList.add('edited');
+    newel.parentNode.querySelector('button.minibutton').style.display = 'block';
+    _state.Transliterator.refreshCache(newel);
+    checkCitations(newel, _state.curDoc);
+  }
 };
 
 export default startEditMode;

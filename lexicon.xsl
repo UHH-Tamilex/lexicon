@@ -167,14 +167,16 @@
 
 <xsl:template match="x:entry">
     <xsl:apply-templates select="x:form"/>
-    <xsl:apply-templates select="x:gramGrp"/>
+    <div id="entry_gramGrp">
+      <xsl:apply-templates select="x:gramGrp"/>
+    </div>
     <ol id="list_sense">
         <xsl:apply-templates select="x:sense[not(@type)]"/>
     </ol>
     <xsl:if test="x:cit[@type='commentary']">
         <details open="true">
             <summary style="font-size: 1.5rem; font-style: italic">Commentarial glosses</summary>
-            <ul>
+            <ul id="list_commentary">
                 <xsl:apply-templates select="x:cit[@type='commentary']"/>
             </ul>
         </details>
@@ -292,7 +294,10 @@
     </span>
 </xsl:template>
 <xsl:template match="x:cit">
-    <li>
+    <li><div>
+        <xsl:if test="@type='commentary'">
+          <xsl:attribute name="class">commentary</xsl:attribute>
+        </xsl:if>
         <xsl:if test="@xml:id">
             <xsl:attribute name="id"><xsl:value-of select="@xml:id"/></xsl:attribute>
         </xsl:if>
@@ -311,18 +316,19 @@
                     </span>
                 </div>
             </xsl:when>
-            <xsl:otherwise>
+            <xsl:when test="x:ref">
                 <span class="citref">
                     <xsl:apply-templates select="x:ref"/>
                 </span>
-            </xsl:otherwise>
+            </xsl:when>
+            <xsl:otherwise/>
         </xsl:choose>
         <xsl:if test="x:q[@xml:lang='en']">
             <div>
                 <xsl:apply-templates select="x:q[@xml:lang='en']"/>
             </div>
         </xsl:if>
-    </li>
+    </div></li>
 </xsl:template>
 <xsl:template match="x:cit[@type='nikantu-meanings']/x:sense">
     <li><div class="citation-nikantu">
