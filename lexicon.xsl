@@ -107,7 +107,17 @@
                         <h4>Revision history</h4>
                         <p style="font-size: 1.2rem">
                             <xsl:text>Edited by </xsl:text>
-                            <xsl:value-of select="//x:titleStmt/x:editor"/>
+                            <xsl:variable name="editor" select="//x:titleStmt/x:editor"/>
+                            <xsl:choose>
+                                <xsl:when test="$editor/x:forename">
+                                    <xsl:value-of select="$editor/x:forename"/>
+                                    <xsl:text> </xsl:text>
+                                    <xsl:value-of select="$editor/x:surname"/>
+                                </xsl:when>
+                                <xsl:otherwise>
+                                    <xsl:value-of select="//x:titleStmt/x:editor"/>
+                                </xsl:otherwise>
+                            </xsl:choose>
                             <xsl:text>. </xsl:text>
                             <span id="latestcommit"></span>
                         </p>
