@@ -181,7 +181,7 @@
             </ul>
         </details>
     </xsl:if>
-    <details open="true">
+    <details open="true" id="list_nikantus">
         <summary style="font-size: 1.5rem; font-style: italic">Meanings attested in the <em lang="ta">Nikaṇṭu</em>-s</summary>
         <ul id="nikantu-list" lang="ta">
             <xsl:apply-templates select="x:cit[@type='nikantu-meanings']/x:sense"/>

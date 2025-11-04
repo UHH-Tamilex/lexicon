@@ -2,6 +2,7 @@ import { loadDoc, saveAs } from '../lib/debugging/fileops.mjs';
 import { init as cmWrapper } from '../lib/debugging/cmwrapper.mjs';
 import previewDoc from '../lib/debugging/preview.mjs';
 import { checkCitations } from '../citations.mjs';
+import { getNikantuCitations, makeNikantuGraphs } from './nikantus.mjs';
 
 const _state = {
   Transliterator: null,
@@ -58,6 +59,11 @@ const injectCSS = () => {
     position: absolute;
     left: -0.5rem;
     padding: 0.3rem 0.3rem 0 0.4rem;
+}
+.refreshbutton {
+  font-size: 1.4rem;
+  padding: 0.3rem 0.3rem 0.2rem 0.5rem;
+  margin-top: -3rem;
 }
 .buttonrow {
     /*margin: 0 1em 1em 0;*/
@@ -184,6 +190,7 @@ const revealButtons = () => {
 };
 
 const addEditButton = par => {
+    if(par.querySelector('.plusbutton')) return null;
     const button = document.createElement('button');
     button.addEventListener('click',openEditForm);
     button.className = 'minibutton';
@@ -197,10 +204,19 @@ const addEditButton = par => {
     return button;
 };
 
+const addRefreshButton = par => {
+    const button = document.createElement('button');
+    button.addEventListener('click',refreshCitations);
+    button.className = 'minibutton refreshbutton';
+    const type = par.id === 'list_nikantus' ? 'Nikaṇṭu' :
+                  '';
+    button.dataset.anno = `Refresh ${type} citations`;
+    button.append('\u{27F3}');
+    par.prepend(button);
+    return button;
+};
+
 const addEditButtons = () => {
-  for(const sense of document.querySelectorAll('div.sense, div.commentary, #entry_gramGrp'))
-    addEditButton(sense);
-   
   const listsense = document.getElementById('list_sense');
   const addli = document.createElement('li');
   const addbutton = document.createElement('button');
@@ -212,18 +228,24 @@ const addEditButtons = () => {
   listsense.appendChild(addli);
   addbutton.addEventListener('click',newSense);
 
-  const comms = document.getElementById('list_commentary');
+  const commslist = document.getElementById('list_commentary');
+  const comms = commslist.querySelectorAll('li');
   const lastli = comms[comms.length-1];
-  const firstli = comms.querySelector('li');
-  const commli = firstli.textContent.trim() === '' ? firstli : document.createElement('li');
+  const commli = lastli.textContent.trim() === '' ? lastli : document.createElement('li');
   const commadd = document.createElement('button');
   commadd.className = 'plusbutton';
   commadd.style.width = '100%';
   commadd.dataset.anno = 'Add new sense';
   commadd.innerHTML = plusSVG;
   commli.appendChild(commadd);
-  if(firstli !== commli) comms.appendChild(commli);
+  if(lastli !== commli) commslist.appendChild(commli);
   commadd.addEventListener('click',newCommentary);
+
+  for(const sense of document.querySelectorAll('div.sense, div.commentary, #entry_gramGrp'))
+    addEditButton(sense);
+   
+  const nikantus = document.getElementById('list_nikantus');
+  addRefreshButton(nikantus);
 };
 
 const openEditForm = e => {
@@ -499,4 +521,25 @@ const previewField = async (button,xmlsel,htmlsel) => {
   }
 };
 
+const refreshCitations = async button => {
+  const forms = [...document.querySelectorAll('details[data-entry]')].map(h => h.dataset.entry);
+  const res = await getNikantuCitations(forms,'./lib/js/');
+  const curcit = _state.curDoc.querySelector('cit[type="nikantu-meanings');
+  if(curcit) curcit.innerHTML = res.join('\n');
+  else {
+      const newcit = _state.curDoc.createElementNS(_state.NS,'cit');
+      newcit.setAttribute('type','nikantu-meanings');
+      newcit.setAttribute('xml:lang','ta');
+      newcit.innerHTML = res.join('\n');
+      _state.curDoc.querySelector('body entry').appendChild(newcit);
+    }
+    const newdoc = await previewDoc(_state.curDoc);
+    const summary = document.getElementById('list_nikantus').querySelector('summary');
+    while(summary.nextSibling)
+      summary.nextSibling.remove();
+    const newsummary = newdoc.getElementById('list_nikantus').querySelector('summary');
+    while(newsummary.nextSibling)
+      summary.after(document.adoptNode(newsummary.nextSibling));
+    makeNikantuGraphs();
+};
 export default startEditMode;
