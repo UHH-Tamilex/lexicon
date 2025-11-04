@@ -2,6 +2,10 @@
     font-size-adjust: ex-height 0.5;
 }
 
+#entry_gramGrp {
+  min-height: 3rem;
+}
+
 .citref {
     font-size: 1.1rem;
     white-space: normal;
