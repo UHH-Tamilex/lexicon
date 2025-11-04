@@ -28,7 +28,7 @@ const tamilSort = (aa,bb,dir='asc') => {
 };
 
 const getNikantuCitations = async (forms,libdir='../lib/js/') => {
-    const db = await openDb('https://uhh-tamilex.github.io/Tivakaram/index.db',libdir);
+    const db = await openDb('https://uhh-tamilex.github.io/Tivakaram/index.db');
     const updatespan = document.getElementById('updateSpan1');
     if(updatespan) updatespan.textContent = 'Checking Tivākaram for ';
     const updatebox = document.getElementById('updateSpan2');

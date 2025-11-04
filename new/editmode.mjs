@@ -228,10 +228,16 @@ const addEditButtons = () => {
   listsense.appendChild(addli);
   addbutton.addEventListener('click',newSense);
 
-  const commslist = document.getElementById('list_commentary');
+  let commslist = document.getElementById('list_commentary');
+  if(!commslist) {
+    const commsdet = document.createElement('details');
+    commsdet.innerHTML = '<summary style="font-size: 1.5rem;font-style italic" lang="en">Commentarial glosses</summary><ul id="list_commentary" lang="en"></ul>';
+    document.getElementById('list_sense').after(commsdet);
+    commslist = document.getElementById('list_commentary');
+  }
   const comms = commslist.querySelectorAll('li');
   const lastli = comms[comms.length-1];
-  const commli = lastli.textContent.trim() === '' ? lastli : document.createElement('li');
+  const commli = lastli && lastli.textContent.trim() === '' ? lastli : document.createElement('li');
   const commadd = document.createElement('button');
   commadd.className = 'plusbutton';
   commadd.style.width = '100%';

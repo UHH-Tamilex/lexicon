@@ -202,7 +202,7 @@ const makeProgressBox = () => {
 };
 
 const getNikantuCitations = async forms => {
-    const db = await openDb('https://uhh-tamilex.github.io/Tivakaram/index.db','../lib/js/');
+    const db = await openDb('https://uhh-tamilex.github.io/Tivakaram/index.db');
     document.getElementById('updateSpan1').textContent = 'Checking Tivākaram for ';
     const updatebox = document.getElementById('updateSpan2');
     const ret = new Map();
