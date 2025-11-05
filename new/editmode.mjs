@@ -291,19 +291,19 @@ const editSense = el => {
   editbox.innerHTML = `
 <div>
   <label>Definition</label>
-  <textarea name="def" rows="3"></textarea>
+  <textarea name="def" data-schema="def" rows="3"></textarea>
 </div>
 <div>
   <label>Usage</label>
-  <textarea name="usg" rows="3"></textarea>
+  <textarea name="usg" data-schema="usg" rows="3"></textarea>
 </div>
 <div>
   <label>Citations</label>
-  <textarea name="cits" rows="10"></textarea>
+  <textarea name="cits" data-schema="cit" rows="10"></textarea>
 </div>
 <div>
   <label>Notes</label>
-  <textarea name="notes" rows="10"></textarea>
+  <textarea name="notes" data-schema="note" rows="10"></textarea>
 </div>
 <div style="display: flex; justify-content: center">
   <button name="preview" data-type="sense" data-n="${n}">Preview</button>
@@ -380,7 +380,7 @@ const editGrammar = el => {
   editbox.innerHTML = `
 <div>
   <label>Grammar</label>
-  <textarea name="entry_gramGrp" rows="3"></textarea>
+  <textarea name="entry_gramGrp" data-schema="gramGrp" rows="3"></textarea>
 </div>
 <div style="display: flex; justify-content: center">
   <button name="preview" data-type="entry_gramGrp">Preview</button>
@@ -425,7 +425,7 @@ const editCommentary = el => {
   editbox.innerHTML = `
 <div>
   <label>Citation</label>
-  <textarea name="citation" rows="3"></textarea>
+  <textarea name="citation" data-schema="citinner" rows="6"></textarea>
 </div>
 <div style="display: flex; justify-content: center">
   <button name="preview" data-type="commentary" data-n="${n}">Preview</button>

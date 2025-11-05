@@ -47,7 +47,7 @@ const checkCitations = async (doc = document, thisdoc = null) => {
 };
 
 const formatCitations = (citations) => {
-    const editing = document.getElementById('button_savebutton') ? '&edit' : '';
+    const editing = document.getElementById('button_savebutton') ? '&edit&wordsplit' : '';
     const newwin = editing !== '' ? ' target="_blank" rel="noopener noreferrer"' : '';
 
     return '<table><tbody>' + citations.map(c => {
