@@ -40,11 +40,11 @@
   <q xml:lang="en"> an elephant with long ears [like] winnowing fans [and] a long trunk </q> 
   <ref target="https://archive.org/details/kmm-0708-seevaga-sinthamani-1922/page/519/mode/1up"><title xml:lang="ta">Cīvakacintāmaṇi</title> 1778.3</ref>
 </cit>
-<note xml:lang="en"> The noun <foreign xml:lang="ta">cuḷaku</foreign> remains a fairly rare word but its meaning remained stable: the few old commentary passages available (see below) do not bother to explain the word, and still in the modern <abbr ref="#Cre-A"/> dictionary we find an entry for <foreign xml:lang="ta">cuḷaku</foreign> as <q>narrow-mouthed winnowing pan (longer than <foreign xml:lang="ta">muṟam</foreign>)</q>, and another entry for <foreign xml:lang="ta">muṟam</foreign> (the gloss found in UVC's notes on <title xml:lang="ta">Cīvakacintāmaṇi</title> 1778.3 for <foreign xml:lang="ta">cuḷaku</foreign>) as <q>wide-mouthed winnowing pan</q>. 
+<note xml:lang="en"> The noun <foreign xml:lang="ta">cuḷaku</foreign> remains a fairly rare word but its meaning remained stable: the few old commentary passages available (see below) do not bother to explain the word, and still in the modern <abbr ref="#Cre-A"/> dictionary we find an entry for <foreign xml:lang="ta">cuḷaku</foreign> as <q>narrow-mouthed winnowing pan (longer than <foreign xml:lang="ta">muṟam</foreign>)</q>, and another entry for <foreign xml:lang="ta">muṟam</foreign> (the gloss found in <abbr ref="#UVC"/>'s notes on <title xml:lang="ta">Cīvakacintāmaṇi</title> 1778.3 for <foreign xml:lang="ta">cuḷaku</foreign>) as <q>wide-mouthed winnowing pan</q>. 
  </note>
 <note xml:lang="en"> The sutra in the <expan ref="#Tiv"/> (Cānt. 7.198) that gives cūrppam (<foreign xml:lang="sa">sūrpa/śūrpa</foreign>) as a quasi-synonym for cuḷaku is added with a star by editor of the editio princeps, but it appears to be there in Piṅkalam (Cānt. 6.584).  
  </note>
-<note xml:lang="en">The VAMTIPA quotes <expan ref="#AN"/> 393.13v	(<foreign xml:lang="ta">cuḻal maram colitta cuḷak<c type="elided">u</c> alai veḷ kāḻ</foreign>, <q>the white kernels dipersed on the winnowing fan that had been removed from the Cuḻal tree</q>), which is not actually attested but goes back to an emendation by a late corrected paper copy which then was adopted into all the editions.
+<note xml:lang="en">The <abbr ref="#VAMTIPA"/> quotes <expan ref="#AN"/> 393.13v	(<foreign xml:lang="ta">cuḻal maram colitta cuḷak<c type="elided">u</c> alai veḷ kāḻ</foreign>, <q>the white kernels dipersed on the winnowing fan that had been removed from the Cuḻal tree</q>), which is not actually attested but goes back to an emendation by a late corrected paper copy which then was adopted into all the editions.
 </note></sense>
         <entry><gramGrp><gram>noun</gram><gram>oblique</gram></gramGrp><form xml:lang="ta">cuḷakiṉ</form></entry><entry><gramGrp><gram>noun</gram><gram>locative</gram></gramGrp><form xml:lang="ta">cuḷakil</form></entry>
         
@@ -72,7 +72,7 @@
 </sense></cit><cit type="commentary"><ref>p.u. ad <expan ref="#PN"/> 249.12</ref>
 <q xml:lang="ta">cuḷakupōla+ ciṟiya ~iṭattai</q></cit><cit type="commentary"><ref><expan ref="#Nacc"/> ad <expan ref="#Kali"/> 41.2</ref> 
 <q xml:lang="ta">nalla cēmpiṉat* ilai cuḷakāka</q>
-<note>No early comm. gloss, which means it was regarded as an ordinary word!</note></cit><cit type="commentary"><ref>UVC ad Cint. 1778.3</ref> 
+<note>No early comm. gloss, which means it was regarded as an ordinary word!</note></cit><cit type="commentary"><ref><expan ref="#UVC"/> ad <expan ref="#Cint"/> 1778.3</ref> 
 <q xml:lang="ta">cuḷakupōṉṟa ceviyaiyum tūṅkukaiyaiyumuṭaiya kuñcaram; cuḷaku – muṟam</q></cit></entry>
       <listBibl>
       </listBibl>
