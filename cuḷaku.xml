@@ -22,8 +22,10 @@
         <gramGrp>
             <gram>noun</gram>
         </gramGrp>
-        <sense><def xml:lang="en"> winnowing fan</def><usg xml:lang="en">
-</usg><cit source="https://uhh-tamilex.github.io/Purananuru/PN321.xml?id=PN321&amp;w=4,17">
+        <sense><def xml:lang="en"> winnowing fan</def>
+<usg xml:lang="en">
+</usg>
+<cit source="https://uhh-tamilex.github.io/Purananuru/PN321.xml?id=PN321&amp;w=4,17">
     <q xml:lang="ta"><w>val</w> <w>cēval</w> <w>mēm</w> <w>tōl</w> <w>kaḷainta</w> <w>tīm</w> <w>kōḷ</w> <w>veḷ</w> <w><c type="geminated">ḷ</c>eḷ</w> <w>cuḷak<c type="elided">u</c></w> <w>iṭai</w> <w><c type="glide">y</c>uṇaṅkal</w> <w>cevvi</w> <w>koṇṭeṉa</w></q>
     <q xml:lang="en">because the cock took the occasion of the white sesame [seeds] in sweet bunches, from which the upper skin had been removed, drying in the winnowing fan</q>
     <ref target="https://uhh-tamilex.github.io/Purananuru/PN321.xml?highlight=%5Bid%3DPN321%5D%20.l%3Anth-of-type(1)"><expan ref="#PN">test</expan> 321, lines 1–3</ref>
@@ -32,14 +34,17 @@
     <q xml:lang="ta"><w>vaya<c type="geminated">k</c></w> <w>kaḷiṟṟu<c type="geminated">k</c></w> <w>kōṭ<c type="elided">u</c></w> <w>ulakkai</w> <w><c type="glide">y</c>āka</w> <w>nal</w> <w>cēmpiṉ</w> <w>ilai</w> <w>cuḷak<c type="elided">u</c></w> <w>ā</w> <w><c type="glide">v</c>āṭu</w> <w>kaḻai</w> <w>nellai</w> <w><c type="glide">y</c>aṟai</w> <w><c type="glide">y</c>ural</w> <w>uḷ</w> <w>peyt<c type="elided">u</c></w> </q>
     <q xml:lang="en">with the tusk of the strong elephant bull as a pestle, with a leaf of good kale as a fan, pouring into the rock mortar the paddy from the dancing bamboo</q>
     <ref target="https://uhh-tamilex.github.io/Kalittokai/Kali041.xml?highlight=%5Bid%3DKali41%5D%20.l%3Anth-of-type(1)"><expan ref="#Kali"/> 41, lines 1–3</ref>
-</cit> 
+</cit>
 <cit>
   <q xml:lang="ta"> cuḷaku vār cevi<c type="geminated">t</c> tūṅku kai<c type="geminated">k</c> kuñcaram</q>
   <q xml:lang="en"> an elephant with long ears [like] winnowing fans [and] a long trunk </q> 
   <ref target="https://archive.org/details/kmm-0708-seevaga-sinthamani-1922/page/519/mode/1up"><title xml:lang="ta">Cīvakacintāmaṇi</title> 1778.3</ref>
-</cit><note xml:lang="en"> The noun <foreign xml:lang="ta">cuḷaku</foreign> remains a fairly rare word but its meaning remained stable: the few old commentary passages available (see below) do not bother to explain the word, and still in the modern <abbr ref="#Cre-A"/> dictionary we find an entry for <foreign xml:lang="ta">cuḷaku</foreign> as <q>narrow-mouthed winnowing pan (longer than <foreign xml:lang="ta">muṟam</foreign>)</q>, and another entry for <foreign xml:lang="ta">muṟam</foreign> (the gloss found in <expan ref="#Nacc"/>'s commentary on <title xml:lang="ta">Cīvakacintāmaṇi</title> 1778.3 for <foreign xml:lang="ta">cuḷaku</foreign>) as <q>wide-mouthed winnowing pan</q>.
-</note>
-<note xml:lang="en">The <abbr ref="#TL"/> quotes <expan ref="#AN"/> 393.13v	(<foreign xml:lang="ta">cuḻal maram colitta cuḷak<c type="elided">u</c> alai veḷ kāḻ</foreign>, <q>the white kernels dipersed on the winnowing fan that had been removed from the Cuḻal tree</q>), which is not actually attested but goes back to an emendation by a late corrected paper copy which then was adopted into all the editions.
+</cit>
+<note xml:lang="en"> The noun <foreign xml:lang="ta">cuḷaku</foreign> remains a fairly rare word but its meaning remained stable: the few old commentary passages available (see below) do not bother to explain the word, and still in the modern <abbr ref="#Cre-A"/> dictionary we find an entry for <foreign xml:lang="ta">cuḷaku</foreign> as <q>narrow-mouthed winnowing pan (longer than <foreign xml:lang="ta">muṟam</foreign>)</q>, and another entry for <foreign xml:lang="ta">muṟam</foreign> (the gloss found in UVC's notes on <title xml:lang="ta">Cīvakacintāmaṇi</title> 1778.3 for <foreign xml:lang="ta">cuḷaku</foreign>) as <q>wide-mouthed winnowing pan</q>. 
+ </note>
+<note xml:lang="en"> The sutra in the <expan ref="#Tiv"/> (Cānt. 7.198) that gives cūrppam (<foreign xml:lang="sa">sūrpa/śūrpa</foreign>) as a quasi-synonym for cuḷaku is added with a star by editor of the editio princeps, but it appears to be there in Piṅkalam (Cānt. 6.584).  
+ </note>
+<note xml:lang="en">The VAMTIPA quotes <expan ref="#AN"/> 393.13v	(<foreign xml:lang="ta">cuḻal maram colitta cuḷak<c type="elided">u</c> alai veḷ kāḻ</foreign>, <q>the white kernels dipersed on the winnowing fan that had been removed from the Cuḻal tree</q>), which is not actually attested but goes back to an emendation by a late corrected paper copy which then was adopted into all the editions.
 </note></sense>
         <entry><gramGrp><gram>noun</gram><gram>oblique</gram></gramGrp><form xml:lang="ta">cuḷakiṉ</form></entry><entry><gramGrp><gram>noun</gram><gram>locative</gram></gramGrp><form xml:lang="ta">cuḷakil</form></entry>
         
@@ -60,7 +65,11 @@
               <q xml:lang="ta">muṟam - vicākanāḷ -</q>
         </cit>
         <cit type="lexicon"><bibl><date>1972 [1779]</date><title xml:lang="en">Tamil and English Dictionary (Fabricius)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/fabricius_query.py?page=424">p. 424</ref></bibl></cit><cit type="lexicon"><bibl><date>1862</date><title xml:lang="en">A comprehensive Tamil and English dictionary (Winslow)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/winslow_query.py?page=489">p. 489</ref></bibl></cit><cit type="lexicon"><bibl><date>1928 [1902]</date><title xml:lang="ta">Tamiḻmoḻiyakarāti (Katiraivēṟ Piḷḷai)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/kadirvelu_query.py?page=684">p. 684</ref><ref target="https://dsal.uchicago.edu/cgi-bin/app/kadirvelu_query.py?page=1439">p. 1439</ref><ref target="https://dsal.uchicago.edu/cgi-bin/app/kadirvelu_query.py?page=1656">p. 1656</ref></bibl></cit><cit type="lexicon"><bibl><date>1924–1936</date><title xml:lang="en">Tamil Lexicon (University of Madras)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?page=1548">p. 1548</ref></bibl></cit><cit type="lexicon"><bibl><date>1992</date><title xml:lang="ta">Kriyāviṉ taṟkālat Tamiḻ akarāti</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/crea_query.py?page=460">p. 460</ref></bibl></cit>
-      </entry>
+      <cit type="nikantu-meanings" xml:lang="ta"><sense>
+<form>cuḷaku</form>
+<cit><ref target="https://uhh-tamilex.github.io/Tivakaram/Tiv1.xml?highlight=[id%3D'Tiv1.95'] .l%3Anth-of-type(2)"><title>Tivākaram</title> <num>1.95</num></ref><def>vicākam</def></cit>
+<cit><ref target="https://uhh-tamilex.github.io/Tivakaram/Tiv7.xml?highlight=[id%3D'Tiv7.133v133'] .l%3Anth-of-type(1)"><title>Tivākaram</title> <num>7.133v133</num></ref><def>cūrppam</def></cit>
+</sense></cit></entry>
       <listBibl>
       </listBibl>
     </body>
