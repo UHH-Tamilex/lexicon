@@ -355,21 +355,22 @@ const newSense = () => {
   editbutton.click();
 };
 
-const newCommentary = () => {
+const newCommentary = e => {
   const comms = [..._state.curDoc.querySelectorAll('text > body > entry > cit[type="commentary"]')];
   const lastcomm = comms[comms.length-1];
-  const newcomm = lastcomm?.textContent.trim() === '' ? lastcomm : _state.curDoc.createElementNS(_state.NS,'cit');
-  if(newcomm !== lastcomm) {
-    newcomm.setAttribute('type','commentary');
+  const newcomm = _state.curDoc.createElementNS(_state.NS,'cit');
+  newcomm.setAttribute('type','commentary');
+  if(lastcomm)
     lastcomm.after(newcomm);
-  }
-
-  const lastli = document.getElementById('list_commentary').lastElementChild;
-  const newli = lastli.textContent.trim() === '' ? lastli : document.createElement('li');
+  else
+    _state.curDoc.querySelector('text > body > entry').appendChild(newcomm);
+  
+  const lastli = e.target.closest('li');
+  const newli = document.createElement('li');
   const newcommel = document.createElement('div');
   newcommel.className = 'commentary';
   newli.appendChild(newcommel);
-  if(lastli !== newli) lastli.before(newli);
+  lastli.before(newli);
   const editbutton = addEditButton(newcommel);
   editbutton.click();
 };
