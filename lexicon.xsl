@@ -328,7 +328,14 @@
                 <xsl:apply-templates select="x:q[@xml:lang='en']"/>
             </div>
         </xsl:if>
+        <xsl:apply-templates select="x:note"/>
     </div></li>
+</xsl:template>
+<xsl:template match="x:cit/x:note">
+    <small class="note">
+      <xsl:call-template name="lang"/>    
+      <xsl:apply-templates/>
+    </small>
 </xsl:template>
 <xsl:template match="x:cit[@type='nikantu-meanings']/x:sense">
     <li><div class="citation-nikantu">
