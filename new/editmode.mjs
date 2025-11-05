@@ -358,7 +358,7 @@ const newSense = () => {
 const newCommentary = () => {
   const comms = [..._state.curDoc.querySelectorAll('text > body > entry > cit[type="commentary"]')];
   const lastcomm = comms[comms.length-1];
-  const newcomm = lastcomm.textContent.trim() === '' ? lastcomm : _state.curDoc.createElementNS(_state.NS,'cit');
+  const newcomm = lastcomm?.textContent.trim() === '' ? lastcomm : _state.curDoc.createElementNS(_state.NS,'cit');
   if(newcomm !== lastcomm) {
     newcomm.setAttribute('type','commentary');
     lastcomm.after(newcomm);
