@@ -69,7 +69,11 @@
 <form>cuḷaku</form>
 <cit><ref target="https://uhh-tamilex.github.io/Tivakaram/Tiv1.xml?highlight=[id%3D'Tiv1.95'] .l%3Anth-of-type(2)"><title>Tivākaram</title> <num>1.95</num></ref><def>vicākam</def></cit>
 <cit><ref target="https://uhh-tamilex.github.io/Tivakaram/Tiv7.xml?highlight=[id%3D'Tiv7.133v133'] .l%3Anth-of-type(1)"><title>Tivākaram</title> <num>7.133v133</num></ref><def>cūrppam</def></cit>
-</sense></cit></entry>
+</sense></cit><cit type="commentary"><ref>p.u. ad <expan ref="#PN"/> 249.12</ref>
+<q xml:lang="ta">cuḷakupōla+ ciṟiya ~iṭattai</q></cit><cit type="commentary"><ref><expan ref="#Nacc"/> ad <expan ref="#Kali"/> 41.2</ref> 
+<q xml:lang="ta">nalla cēmpiṉat* ilai cuḷakāka</q>
+<note>No early comm. gloss, which means it was regarded as an ordinary word!</note></cit><cit type="commentary"><ref>UVC ad Cint. 1778.3</ref> 
+<q xml:lang="ta">cuḷakupōṉṟa ceviyaiyum tūṅkukaiyaiyumuṭaiya kuñcaram; cuḷaku – muṟam</q></cit></entry>
       <listBibl>
       </listBibl>
     </body>
