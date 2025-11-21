@@ -49,7 +49,9 @@ Just like <foreign xml:lang="ta">cuḷaku</foreign>, <foreign xml:lang="ta">mu�
         <cit type="external">
             <ref target="https://www.ifpindia.org/digitaldb/site/digital_tevaram/U_TEV/CT-MU_03.HTM#:~:text=k%C5%ABkai%20muralum%20c%C5%8Dlai-,mu%E1%B9%9Fa%E1%B9%85ka%E1%B8%B7i%E1%B9%89%C4%81l,-%3A%201">Digital <term xml:lang="ta">Tēvāram</term> 162.101</ref>
         </cit>
-      <cit type="commentary"/></entry>
+      <cit type="commentary"><ref target="https://archive.org/details/cilappatikaram/page/285/mode/1up"><persName xml:lang="ta">Aṭiyārkkunallār</persName> on <expan ref="#Cila"/>  10.247</ref>
+  <q xml:lang="ta">muṟam pōlum ceviyaiyuṭaiya yāṉai</q>
+  <q xml:lang="en">Elephant with ears like winnowing fans</q></cit><cit type="commentary"/></entry>
 
       <listBibl>
       </listBibl>
