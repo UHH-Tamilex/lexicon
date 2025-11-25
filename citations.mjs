@@ -33,11 +33,12 @@ const markDifferent = el => {
     span.append('!');
     span.dataset.anno = 'Citation differs from the edition cited.';
     el.prepend(span);
-    el.style.listStyle = 'none';
+    const li = el.closest('li');
+    li.style.listStyle = 'none';
 };
 
 const checkCitations = async (doc = document, thisdoc = null) => {
-    const cits = doc.querySelectorAll('li[data-source]');
+    const cits = doc.querySelectorAll('[data-source]');
     if(cits.length === 0) return;
 
     if(!thisdoc) thisdoc = await loadDoc(window.location,'default');
