@@ -48,7 +48,7 @@ const injectCSS = () => {
   display: block;
 }
 
-#topbar.hidebuttons button {
+#topbar.hidebuttons button, .hidden {
   display: none;
 }
 
@@ -130,6 +130,10 @@ const injectCSS = () => {
   grid-template-columns: 5rem 1fr;
   width: 100%;
   gap: 2rem;
+}
+
+li:has(.plusbutton) {
+  list-style-type: none;
 }
 
 .multiple div.plusbutton {
@@ -254,21 +258,28 @@ const addEditButtons = () => {
   addRefreshButton(nikantus);
 };
 
-const openEditForm = e => {
+const hideButtons = () => {
   document.getElementById('topbar').classList.add('hidebuttons');
+  for(const button of document.querySelectorAll('.minibutton, .plusbutton')) {
+    button.classList.add('hidden');
+  }
+};
+const showButtons = () => {
+  document.getElementById('topbar').classList.remove('hidebuttons');
+  for(const button of document.querySelectorAll('.minibutton, .plusbutton')) {
+    button.classList.remove('hidden');
+  }
+};
+
+const openEditForm = e => {
+  hideButtons();
   const nextsib = e.target.nextElementSibling;
-  if(nextsib.classList.contains('sense')) {
+  if(nextsib.classList.contains('sense'))
     editSense(nextsib);
-    e.target.style.display = 'none';
-  }
-  else if(nextsib.id === 'entry_gramGrp') {
+  else if(nextsib.id === 'entry_gramGrp')
     editGrammar(nextsib);
-    e.target.style.display = 'none';
-  }
-  else if(nextsib.classList.contains('commentary')) {
+  else if(nextsib.classList.contains('commentary'))
     editCommentary(nextsib);
-    e.target.style.display = 'none';
-  }
 };
 
 const editSense = el => {
@@ -285,7 +296,7 @@ const editSense = el => {
   const def = xmlitem.querySelector('def');
   const usg = xmlitem.querySelector('usg');
   const cits = xmlitem.querySelectorAll('cit');
-  const notes = xmlitem.querySelectorAll('note');
+  const notes = xmlitem.querySelectorAll(':scope > note');
   const editbox = document.createElement('div');
   editbox.className = 'multi-item';
   editbox.innerHTML = `
@@ -307,6 +318,7 @@ const editSense = el => {
 </div>
 <div style="display: flex; justify-content: center">
   <button name="preview" data-type="sense" data-n="${n}">Preview</button>
+  <button name="cancel" data-type="sense" data-n="${n}">Cancel</button>
 </div>
 `;
 
@@ -335,9 +347,11 @@ const editSense = el => {
       else
         cm.setValue(serialize(usg));
     }
+    cm.save(); // save original to restore if editing is cancelled
     _state.cms.push(cm);
   }
   editbox.querySelector('button[name="preview"]').addEventListener('click',preview);
+  editbox.querySelector('button[name="cancel"]').addEventListener('click',cancel);
 };
 
 const newSense = () => {
@@ -360,6 +374,9 @@ const newCommentary = e => {
   const lastcomm = comms[comms.length-1];
   const newcomm = _state.curDoc.createElementNS(_state.NS,'cit');
   newcomm.setAttribute('type','commentary');
+  newcomm.innerHTML = `<ref target="link here">title, poem number, line number</ref>
+<q xml:lang="ta">Tamil quote</q>
+<q xml:lang="en">English translation</q>`;
   if(lastcomm)
     lastcomm.after(newcomm);
   else
@@ -385,6 +402,7 @@ const editGrammar = el => {
 </div>
 <div style="display: flex; justify-content: center">
   <button name="preview" data-type="entry_gramGrp">Preview</button>
+  <button name="cancel" data-type="entry_gramGrp">Cancel</button>
 </div>
 `;
 
@@ -406,8 +424,10 @@ const editGrammar = el => {
   }
   else
     cm.setValue('<gram></gram>');
-    _state.cms.push(cm);
+  cm.save()
+  _state.cms.push(cm);
   editbox.querySelector('button[name="preview"]').addEventListener('click',preview);
+  editbox.querySelector('button[name="cancel"]').addEventListener('click',cancel);
 };
 
 const editCommentary = el => {
@@ -430,6 +450,7 @@ const editCommentary = el => {
 </div>
 <div style="display: flex; justify-content: center">
   <button name="preview" data-type="commentary" data-n="${n}">Preview</button>
+  <button name="cancel" data-type="commentary" data-n="${n}">Cancel</button>
 </div>
 `;
 
@@ -448,8 +469,10 @@ const editCommentary = el => {
     cm.setValue(val);
   }
   else cm.setValue('');
+  cm.save();
   _state.cms.push(cm);
   editbox.querySelector('button[name="preview"]').addEventListener('click',preview);
+  editbox.querySelector('button[name="cancel"]').addEventListener('click',cancel);
 };
 
 const NSCleaner = (() => {
@@ -477,33 +500,46 @@ const serialize = el => {
   return serializer.serializeToString(newdoc);
 };
 
-const preview = e => {
-  const par = e.target.closest('.multi-item');
-  if(par.querySelector('.cm-error, .CodeMirror-lint-mark-error, .CodeMirror-lint-marker-error')) {
-    alert('Please fix XML errors first.');
-    return;
+const cancel = e => {
+  preview(e,true);
+};
+
+const preview = (e,cancel=false) => {
+  if(!cancel) {
+    const par = e.target.closest('.multi-item');
+    if(par.querySelector('.cm-error, .CodeMirror-lint-mark-error, .CodeMirror-lint-marker-error')) {
+      alert('Please fix XML errors first.');
+      return;
+    }
   }
 
   if(e.target.dataset.type === 'sense')
-    previewField(e.target,'body > entry > sense','div.sense');
+    previewField(e.target,'body > entry > sense','div.sense',cancel);
   
   else if(e.target.dataset.type === 'entry_gramGrp')
-    previewField(e.target,'body > entry > gramGrp','#entry_gramGrp');
+    previewField(e.target,'body > entry > gramGrp','#entry_gramGrp',cancel);
 
   else if(e.target.dataset.type === 'commentary')
-    previewField(e.target,'body > entry > cit[type="commentary"]','div.commentary');
-
-  document.getElementById('topbar').classList.remove('hidebuttons');
+    previewField(e.target,'body > entry > cit[type="commentary"]','div.commentary',cancel);
+  
+  showButtons();
 };
 
-const previewField = async (button,xmlsel,htmlsel) => {
+const previewField = async (button,xmlsel,htmlsel,cancel) => {
   const n = button.dataset.n;
   const el = n ? _state.curDoc.querySelectorAll(xmlsel)[n] :
                  _state.curDoc.querySelector(xmlsel);
-  for(const cm of _state.cms) cm.toTextArea();
+
+  for(const cm of _state.cms) {
+    if(cancel) cm.setValue(cm.getTextArea().value);
+    cm.toTextArea();
+  }
   _state.cms = [];
+
   const newstr = [...button.closest('.multi-item').querySelectorAll('textarea')].map(t => t.value).join('\n');
-  if(newstr.trim() === '') {
+  const tempel = _state.curDoc.createElementNS(_state.NS,'text');
+  tempel.innerHTML = newstr;
+  if(tempel.textContent.trim() === '') {
     el.remove();
     const oldel = n ? document.querySelectorAll(htmlsel)[n] :
                       document.querySelector(htmlsel);
@@ -521,8 +557,8 @@ const previewField = async (button,xmlsel,htmlsel) => {
     const oldel = n ? document.querySelectorAll(htmlsel)[n] :
                           document.querySelector(htmlsel);
     oldel.replaceWith(document.adoptNode(newel));
-    newel.classList.add('edited');
-    newel.parentNode.querySelector('button.minibutton').style.display = 'block';
+    if(!cancel) newel.classList.add('edited');
+    //newel.parentNode.querySelector('button.minibutton').style.display = 'block';
     _state.Transliterator.refreshCache(newel);
     checkCitations(newel, _state.curDoc);
   }
