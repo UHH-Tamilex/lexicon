@@ -435,7 +435,7 @@
 </xsl:template>
 
 <xsl:template match="x:listBibl">
-    <details open="true">
+    <details open="true" id="list_bibliography">
         <summary style="font-size: 1.5rem; font-style: italic">Additional bibliography</summary>
         <xsl:apply-templates/>
     </details>

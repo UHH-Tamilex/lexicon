@@ -220,6 +220,20 @@ const addRefreshButton = par => {
     return button;
 };
 
+const addPlusButton = (par,fn,tagname='li') => {
+  const comms = par.querySelectorAll(tagname);
+  const lastli = comms[comms.length-1];
+  const commli = lastli && lastli.textContent.trim() === '' ? lastli : document.createElement(tagname);
+  const commadd = document.createElement('button');
+  commadd.className = 'plusbutton';
+  commadd.style.width = '100%';
+  commadd.dataset.anno = 'Add new sense';
+  commadd.innerHTML = plusSVG;
+  commli.appendChild(commadd);
+  if(lastli !== commli) par.appendChild(commli);
+  commadd.addEventListener('click',fn);
+};
+
 const addEditButtons = () => {
   const listsense = document.getElementById('list_sense');
   const addli = document.createElement('li');
@@ -235,10 +249,21 @@ const addEditButtons = () => {
   let commslist = document.getElementById('list_commentary');
   if(!commslist) {
     const commsdet = document.createElement('details');
-    commsdet.innerHTML = '<summary style="font-size: 1.5rem;font-style italic" lang="en">Commentarial glosses</summary><ul id="list_commentary" lang="en"></ul>';
+    commsdet.innerHTML = '<summary style="font-size: 1.5rem;font-style italic" lang="en">Commentarial glosses</summary>';
     document.getElementById('list_sense').after(commsdet);
     commslist = document.getElementById('list_commentary');
   }
+  addPlusButton(commslist,newCommentary);
+  let bibllist = document.getElementById('list_bibliography');
+  if(!bibllist) {
+    const bibldet = document.createElement('details');
+    bibldet.id = 'list_bibliography';
+    bibldet.innerHTML = '<summary style="font-size: 1.5rem;font-style italic" lang="en">Additional Bibliography</summary>';
+    document.getElementById('list_nikantucitations').after(bibldet);
+    bibllist = document.getElementById('list_commentary');
+  }
+  addPlusButton(bibllist,newBibliography,'p');
+/*
   const comms = commslist.querySelectorAll('li');
   const lastli = comms[comms.length-1];
   const commli = lastli && lastli.textContent.trim() === '' ? lastli : document.createElement('li');
@@ -250,8 +275,8 @@ const addEditButtons = () => {
   commli.appendChild(commadd);
   if(lastli !== commli) commslist.appendChild(commli);
   commadd.addEventListener('click',newCommentary);
-
-  for(const sense of document.querySelectorAll('div.sense, div.commentary, #entry_gramGrp'))
+*/
+  for(const sense of document.querySelectorAll('div.sense, div.commentary, p.bibliography, #entry_gramGrp'))
     addEditButton(sense);
    
   const nikantus = document.getElementById('list_nikantus');
@@ -369,14 +394,18 @@ const newSense = () => {
   editbutton.click();
 };
 
+const newBibliography = e => {};
+
 const newCommentary = e => {
   const comms = [..._state.curDoc.querySelectorAll('text > body > entry > cit[type="commentary"]')];
   const lastcomm = comms[comms.length-1];
   const newcomm = _state.curDoc.createElementNS(_state.NS,'cit');
   newcomm.setAttribute('type','commentary');
-  newcomm.innerHTML = `<ref target="link here">title, poem number, line number</ref>
-<q xml:lang="ta">Tamil quote</q>
-<q xml:lang="en">English translation</q>`;
+  /*
+  newcomm.innerHTML = `<ref target="link here"><!--title, poem number, line number--></ref>
+<q xml:lang="ta"><!--Tamil quote--></q>
+<q xml:lang="en"><!--English translation--></q>`;
+  */
   if(lastcomm)
     lastcomm.after(newcomm);
   else
@@ -467,9 +496,12 @@ const editCommentary = el => {
         return serialize(c);
     }).join('');
     cm.setValue(val);
+    cm.save();
   }
-  else cm.setValue('');
-  cm.save();
+  else cm.setValue(`<ref target="link here">title, poem number, line number</ref>
+<q xml:lang="ta">Tamil quote</q>
+<q xml:lang="en">English translation</q>`);
+
   _state.cms.push(cm);
   editbox.querySelector('button[name="preview"]').addEventListener('click',preview);
   editbox.querySelector('button[name="cancel"]').addEventListener('click',cancel);
