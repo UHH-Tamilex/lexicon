@@ -249,7 +249,7 @@ const addEditButtons = () => {
   let commslist = document.getElementById('list_commentary');
   if(!commslist) {
     const commsdet = document.createElement('details');
-    commsdet.innerHTML = '<summary style="font-size: 1.5rem;font-style italic" lang="en">Commentarial glosses</summary>';
+    commsdet.innerHTML = '<summary style="font-size: 1.5rem;font-style italic" lang="en">Commentarial glosses</summary><ul id="list_commentary"></ul>';
     document.getElementById('list_sense').after(commsdet);
     commslist = document.getElementById('list_commentary');
   }
