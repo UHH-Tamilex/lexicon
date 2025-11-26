@@ -35,14 +35,15 @@
 </cit>
 <cit>
             <ref target="https://www.ifpindia.org/digitaldb/site/digital_tevaram/U_TEV/DM1_131.HTM#p7"><expan ref="#Tev"/> 1.131.7.3f.</ref>
-  <q xml:lang="ta">eḻil kuṟavar ciṟumimārkaḷ | muṟaṅkaḷiṉāl koḻittu maṇi cela</q> 
-  <q xml:lang="en">as the gems come out when the graceful little girls of the hill people sift with winnowing fans</q>
+  <q xml:lang="ta">eḻil kuṟavar ciṟumimārkaḷ | muṟaṅkaḷiṉāl koḻittu maṇi cela mutt<c type="elided">u</c> pulai<c type="geminated">p</c> pey</q> 
+  <q xml:lang="en">where the graceful little girls of the hill people sift with winnowing fans
+	so that the gems go out [and] pour the pearls [as paddy] into [their play] mortars</q>
   </cit>
 <note xml:lang="en">
 All six early occurrences, including those from the two oldest <foreign xml:lang="ta">Peruṅkāppiyam</foreign>-s, form part of a miniature formulaic system that describe the ears of an elephant – the quoted <expan ref="#Kali"/> passage breaks up the formula and relegates the missing <foreign xml:lang="ta">yāṉai</foreign> to the end of line 4. It is only the <expan ref="#Tev"/> passage that allows a more direct understanding of what the object is used for. Of course modern dictionaries distinguish <foreign xml:lang="ta">cuḷaku</foreign> and <foreign xml:lang="ta">muṟam</foreign> both by form and by size, but from the available quotations one may wonder whether <foreign xml:lang="ta">cuḷaku</foreign> was used as a piece of kitchen equipment in food production while <foreign xml:lang="ta">muṟam</foreign> served other extended household purposes.
 </note>
 <note xml:lang="en">
-Just like <foreign xml:lang="ta">cuḷaku</foreign>, <foreign xml:lang="ta">muṟam</foreign> is not glossed by any early commentator, thus making it clear that this too was regarded as an ordinary word not in need of explanation. 
+Unlike <foreign xml:lang="ta">cuḷaku</foreign>, <foreign xml:lang="ta">muṟam</foreign> is glossed by an early commentator, namely as <foreign xml:lang="ta">cuḷaku</foreign> (p.u. on <expan ref="#Cila"/> 10.247). 
 </note></sense>
         <cit xml:lang="ta" type="nikantu-meanings"><sense><form>muṟam</form><cit><ref target="https://uhh-tamilex.github.io/Tivakaram/Tiv1.xml?highlight=[id%3D'Tiv1.95'] .l%3Anth-of-type(1)"><title>Tivākaram</title> <num>1.95</num></ref><def>vicākam</def></cit></sense></cit><cit type="lexicon"><bibl><date>1972 [1779]</date><title xml:lang="en">Tamil and English Dictionary (Fabricius)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/fabricius_query.py?page=814">p. 814</ref></bibl></cit><cit type="lexicon"><bibl><date>1862</date><title xml:lang="en">A comprehensive Tamil and English dictionary (Winslow)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/winslow_query.py?page=885">p. 885</ref></bibl></cit><cit type="lexicon"><bibl><date>1928 [1902]</date><title xml:lang="ta">Tamiḻmoḻiyakarāti (Katiraivēṟ Piḷḷai)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/kadirvelu_query.py?page=1179">p. 1179</ref><ref target="https://dsal.uchicago.edu/cgi-bin/app/kadirvelu_query.py?page=1483">p. 1483</ref><ref target="https://dsal.uchicago.edu/cgi-bin/app/kadirvelu_query.py?page=1661">p. 1661</ref></bibl></cit><cit type="lexicon"><bibl><date>1924–1936</date><title xml:lang="en">Tamil Lexicon (University of Madras)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?page=3296">p. 3296</ref></bibl></cit><cit type="lexicon"><bibl><date>1992</date><title xml:lang="ta">Kriyāviṉ taṟkālat Tamiḻ akarāti</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/crea_query.py?page=850">p. 850</ref></bibl></cit>
       
@@ -51,7 +52,10 @@ Just like <foreign xml:lang="ta">cuḷaku</foreign>, <foreign xml:lang="ta">mu�
         </cit>
       <cit type="commentary"><ref target="https://archive.org/details/cilappatikaram/page/285/mode/1up"><persName xml:lang="ta">Aṭiyārkkunallār</persName> on <expan ref="#Cila"/>  10.247</ref>
   <q xml:lang="ta">muṟam pōlum ceviyaiyuṭaiya yāṉai</q>
-  <q xml:lang="en">Elephant with ears like winnowing fans</q></cit></entry>
+  <q xml:lang="en">Elephant with ears like winnowing fans</q></cit><cit type="commentary"><ref target="https://archive.org/details/gc-sh5-0112/page/n176/mode/1up"><expan ref="#Nacc"/> ad <expan ref="#Kali"/> 42.2</ref>
+<q xml:lang="ta">muṟam pōlum ceviyaiyuṭaiya yāṉai</q></cit><cit type="commentary"><ref target="https://archive.org/details/gc-sh5-0112/page/n205/mode/1up"><expan ref="#Nacc"/> ad <expan ref="#Kali"/> 52.1+4d</ref>
+<q xml:lang="ta">muṟam pōlum ceviyaiyākiya maṟaippiṭamākiya vantu pāyntu māṟupāṭu ceyta puliyai+ kōppittu ... puliyiṉatu marumattai+ tiṟantu māṟupāṭu tīrnta aḻakiṉaiyuṭaiya yāṉai</q>
+</cit></entry>
 
       <listBibl>
       </listBibl>
