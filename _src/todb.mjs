@@ -30,6 +30,7 @@ const paths = [
     'PatinoranTirumurai',
     'NalayiratTivviyapPirapantam',
     'Tolkappiyam',
+    'Nannul',
 ];
 
 const go = async () => {
