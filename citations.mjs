@@ -48,7 +48,7 @@ const checkCitations = async (doc = document, thisdoc = null) => {
 };
 
 const formatCitations = citations => {
-    const editing = !document.getElementById('topbar').classList.contains('hidebuttons') ? '&editing&wordsplit' : '';
+    const editing = !document.getElementById('topbar').classList.contains('hidebuttons') ? '&edit&wordsplit' : '';
     const newwin = editing !== '' ? ' target="_blank" rel="noopener noreferrer"' : '';
 
     return '<table><tbody>' + citations.map(c => {
