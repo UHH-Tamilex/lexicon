@@ -123,6 +123,7 @@ const injectCSS = () => {
     border-radius: 0.3rem;
     padding: 0.5rem;
     gap: 1rem;
+    text-indent: 0;
 }
 
 .multi-item > div {
@@ -220,14 +221,14 @@ const addRefreshButton = par => {
     return button;
 };
 
-const addPlusButton = (par,fn,tagname='li') => {
+const addPlusButton = (par,fn,title='sense',tagname='li') => {
   const comms = par.querySelectorAll(tagname);
   const lastli = comms[comms.length-1];
   const commli = lastli && lastli.textContent.trim() === '' ? lastli : document.createElement(tagname);
   const commadd = document.createElement('button');
   commadd.className = 'plusbutton';
   commadd.style.width = '100%';
-  commadd.dataset.anno = 'Add new sense';
+  commadd.dataset.anno = `/Add new ${title}`;
   commadd.innerHTML = plusSVG;
   commli.appendChild(commadd);
   if(lastli !== commli) par.appendChild(commli);
@@ -249,11 +250,13 @@ const addEditButtons = () => {
   let commslist = document.getElementById('list_commentary');
   if(!commslist) {
     const commsdet = document.createElement('details');
+    commsdet.open = true;
     commsdet.innerHTML = '<summary style="font-size: 1.5rem;font-style italic" lang="en">Commentarial glosses</summary><ul id="list_commentary"></ul>';
     document.getElementById('list_sense').after(commsdet);
     commslist = document.getElementById('list_commentary');
   }
-  addPlusButton(commslist,newCommentary);
+  addPlusButton(commslist,newCommentary,'commentary');
+
   let bibllist = document.getElementById('list_bibliography');
   if(!bibllist) {
     const bibldet = document.createElement('details');
@@ -262,20 +265,8 @@ const addEditButtons = () => {
     document.getElementById('list_nikantucitations').after(bibldet);
     bibllist = document.getElementById('list_commentary');
   }
-  addPlusButton(bibllist,newBibliography,'p');
-/*
-  const comms = commslist.querySelectorAll('li');
-  const lastli = comms[comms.length-1];
-  const commli = lastli && lastli.textContent.trim() === '' ? lastli : document.createElement('li');
-  const commadd = document.createElement('button');
-  commadd.className = 'plusbutton';
-  commadd.style.width = '100%';
-  commadd.dataset.anno = 'Add new sense';
-  commadd.innerHTML = plusSVG;
-  commli.appendChild(commadd);
-  if(lastli !== commli) commslist.appendChild(commli);
-  commadd.addEventListener('click',newCommentary);
-*/
+  addPlusButton(bibllist,newBibliography,'bibliography entry','p');
+
   for(const sense of document.querySelectorAll('div.sense, div.commentary, p.bibliography, #entry_gramGrp'))
     addEditButton(sense);
    
@@ -305,6 +296,8 @@ const openEditForm = e => {
     editGrammar(nextsib);
   else if(nextsib.classList.contains('commentary'))
     editCommentary(nextsib);
+  else if(nextsib.classList.contains('bibliography'))
+    editBibliography(nextsib);
 };
 
 const editSense = el => {
@@ -394,7 +387,23 @@ const newSense = () => {
   editbutton.click();
 };
 
-const newBibliography = e => {};
+const newBibliography = e => {
+  const listbibl = _state.curDoc.querySelector('listBibl');
+  const bibls = [...listbibl.querySelectorAll('bibl')];
+  const lastbibl = bibls[bibls.length-1];
+  const newbibl = _state.curDoc.createElementNS(_state.NS,'bibl');
+  if(lastbibl)
+    lastbibl.after(newbibl);
+  else
+    listbibl.appendChild(newbibl);
+  
+  const addbuttonel = e.target.closest('p');
+  const newp = document.createElement('p');
+  newp.classList.add('bibliography');
+  addbuttonel.before(newp);
+  const editbutton = addEditButton(newp);
+  editbutton.click();
+};
 
 const newCommentary = e => {
   const comms = [..._state.curDoc.querySelectorAll('text > body > entry > cit[type="commentary"]')];
@@ -507,6 +516,52 @@ const editCommentary = el => {
   editbox.querySelector('button[name="cancel"]').addEventListener('click',cancel);
 };
 
+const editBibliography = el => {
+  const par = el.closest('details');
+  const comms = [..._state.curDoc.querySelector('listBibl').querySelectorAll('bibl')];
+  let xmlitem, n;
+  const bibls = par.querySelectorAll('p.bibliography');
+  for(n=0;n<bibls.length;n++) {
+    if(bibls.item(n) === el) {
+      xmlitem = comms[n];
+      break;
+    }
+  }
+  const editbox = document.createElement('div');
+  editbox.className = 'multi-item';
+  editbox.innerHTML = `
+<div>
+  <label>Reference</label>
+  <textarea name="bibliography" data-schema="prose" rows="6"></textarea>
+</div>
+<div style="display: flex; justify-content: center">
+  <button name="preview" data-type="bibliography" data-n="${n}">Preview</button>
+  <button name="cancel" data-type="bibliography" data-n="${n}">Cancel</button>
+</div>
+`;
+
+  while(el.firstChild)
+    el.removeChild(el.firstChild);
+  el.appendChild(editbox);
+  const ta = editbox.querySelector('textarea');
+  const cm = cmWrapper(ta);
+  if(xmlitem && xmlitem.innerHTML.trim() !== '') {
+    const val = [...xmlitem.childNodes].map(c => {
+      if(c.nodeType === '3')
+        return c.data;
+      else
+        return serialize(c);
+    }).join('');
+    cm.setValue(val);
+    cm.save();
+  }
+  else cm.setValue(`Last name, First name. Year. <title>Title.</title> Place: Publisher.`);
+
+  _state.cms.push(cm);
+  editbox.querySelector('button[name="preview"]').addEventListener('click',preview);
+  editbox.querySelector('button[name="cancel"]').addEventListener('click',cancel);
+};
+
 const NSCleaner = (() => {
   const Sheet = (new DOMParser()).parseFromString(`
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tei="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="tei">
@@ -554,6 +609,9 @@ const preview = (e,cancel=false) => {
   else if(e.target.dataset.type === 'commentary')
     previewField(e.target,'body > entry > cit[type="commentary"]','div.commentary',cancel);
   
+  else if(e.target.dataset.type === 'bibliography')
+    previewField(e.target,'listBibl > bibl','p.bibliography',cancel);
+  
   showButtons();
 };
 
@@ -561,7 +619,6 @@ const previewField = async (button,xmlsel,htmlsel,cancel) => {
   const n = button.dataset.n;
   const el = n ? _state.curDoc.querySelectorAll(xmlsel)[n] :
                  _state.curDoc.querySelector(xmlsel);
-
   for(const cm of _state.cms) {
     if(cancel) cm.setValue(cm.getTextArea().value);
     cm.toTextArea();

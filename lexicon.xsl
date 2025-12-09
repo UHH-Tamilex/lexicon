@@ -208,7 +208,7 @@
         <xsl:apply-templates select="x:entry"/>
     </details>
     <xsl:if test="x:cit[@type='nikantu']">
-        <details>
+      <details id="list_nikantucitations">
             <summary style="font-size: 1.5rem; font-style: italic"><em lang="ta">Nikaṇṭu</em> citations</summary>
             <ul>
                 <xsl:apply-templates select="x:cit[@type='nikantu']"/>
