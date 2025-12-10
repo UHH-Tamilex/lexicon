@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./lexicon.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="ta">kaḻal</title>
+        <editor>
+            <forename>First name</forename> 
+            <surname>Last name</surname>
+        </editor>
+      </titleStmt>
+      <publicationStmt><p>Tamilex project.</p></publicationStmt>
+      <sourceDesc><p/></sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+  <text xml:lang="en">
+    <body>
+      <entry corresp="kaḻal[DEDR1351]">
+        <form xml:lang="ta">kaḻal</form>
+        <gramGrp><gram>noun</gram></gramGrp>
+        <sense><def xml:lang="en">anklet for a male, warrior’s anklet</def>
+<usg xml:lang="en">
+</usg>
+<cit source="https://uhh-tamilex.github.io/Kuruntokai/KT7.xml?id=KT7&amp;w=0,2">
+    <q xml:lang="ta"><w>villōṉ</w> <w>kālaṉa</w> <w>kaḻal-ē</w></q>
+    <q xml:lang="en">On the feet of the bowman there are anklets.</q>
+    <ref target="https://uhh-tamilex.github.io/Kuruntokai/KT7.xml?highlight=%5Bid%3DKT7%5D%20.l%3Anth-of-type(1)">KT7, line 1</ref>
+</cit>
+<cit source="https://uhh-tamilex.github.io/Purananuru/PN397.xml?id=PN397&amp;w=140,145">
+    <q xml:lang="ta"><w>tiruntu</w> <w>kaḻal</w> <w>nōṉ</w> <w>tāḷ</w> <w>taṇ</w> <w>niḻalēm-ē</w></q>
+    <q xml:lang="en">we in the cool shade of [his] sturdy feet with perfect anklets</q>
+    <ref target="https://uhh-tamilex.github.io/Purananuru/PN397.xml?highlight=%5Bid%3DPN397%5D%20.l%3Anth-of-type(27)">PN397, line 27</ref>
+</cit>
+<note xml:lang="en">
+</note></sense><sense><def xml:lang="en">anklet worn by a woman
+</def>
+<usg xml:lang="en">
+</usg>
+<cit>
+  <ref target="https://archive.org/details/pathitrupathu/1904-%E0%AE%AA%E0%AE%A4%E0%AE%BF%E0%AE%B1%E0%AF%8D%E0%AE%B1%E0%AF%81%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AE%A4%E0%AF%8D%E0%AE%A4%E0%AF%81%2C%20%E0%AE%89.%E0%AE%B5%E0%AF%87.%E0%AE%9A%E0%AE%BE%20%E0%AE%AA%E0%AE%A4%E0%AE%BF%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AF%81../page/40/mode/1up">Patiṟṟuppattu 30.28</ref>
+  <q xml:lang="ta">oḷ nutal makaḷir kaḻaloṭu maṟukum</q>
+  <q xml:lang="en">where women with bright foreheads walk with [warriors’] anklets</q>
+</cit>
+<cit>
+  <ref target="https://archive.org/details/cilappatikaram/page/497/mode/1up"><expan ref="#Cila"/> 23.9</ref>
+  <q xml:lang="ta">vala<c type="geminated">k</c> kāl puṉai kaḻal kaṭṭiṉum</q>
+  <q xml:lang="en">although [she] tied an anklet for wearing on the right leg</q>
+</cit>
+<note xml:lang="en">
+</note></sense><sense><def xml:lang="en">metonymy for the foot as a taboo metaphor for the deity to be worshipped
+</def>
+<usg xml:lang="en">
+</usg>
+<cit source="https://uhh-tamilex.github.io/NalayiratTivviyapPirapantam/MuTA2.xml?id=MuTA2&amp;w=0,6">
+    <q xml:lang="ta"><w>iṉṟ<c type="elided">u</c>-ē</w> <w>kaḻal</w> <w>kaṇṭēṉ</w> <w>ēḻ</w> <w>piṟapp<c type="elided">u</c>-um</w> <w>yāṉ</w> <w>aṟuttēṉ</w></q>
+    <q xml:lang="en">Today I saw the anklets [on Viṣṇu’s feet]; all seven births I cut off.</q>
+    <ref target="https://uhh-tamilex.github.io/NalayiratTivviyapPirapantam/MuTA2.xml?highlight=%5Bid%3DMuTA2%5D%20.l%3Anth-of-type(1)">MuTA2, line 1</ref>
+</cit>
+<note xml:lang="en">
+</note></sense><sense><def xml:lang="en"><unclear>toe ring</unclear>
+</def>
+<usg xml:lang="en">
+</usg>
+<cit>
+  <ref target="https://archive.org/details/gc-sh5-0231/page/98/mode/1up">Paripāṭal 12.23f.</ref>
+  <q xml:lang="ta">iṭu puṇar vaḷaiyoṭu toṭu tōḷ vaḷaiyar / 	kaṭṭuvaṭa+ kaḻaliṉar maṭṭu mālaiyar
+</q>
+  <q xml:lang="en">[girls] with with armlets tight on [their] upper arms along with bangles to be put [and] combined, /
+	with toe-rings(?) [and] anklets(?), with honey garlands
+</q>
+</cit>
+<note xml:lang="en"><foreign xml:lang="ta">kaṭṭuvaṭam</foreign> is an isolated occurrence in the early corpus (Pondicherry index); Parimēlaḻakar glosses it as <foreign xml:lang="ta">kaṭṭuvaṭattōṭu kāṉmōtirattar</foreign>, which suggests he understood <foreign xml:lang="ta">kaḻal</foreign> here as a kind of toe-ring and <foreign xml:lang="ta">kaṭṭuvaṭam</foreign> as not in need of an explanation.
+</note></sense>
+      <entry><gramGrp><gram>sociative</gram><gram>noun</gram></gramGrp><form xml:lang="ta">kaḻaloṭu</form></entry><entry><gramGrp><gram>noun</gram><gram>plural</gram></gramGrp><form xml:lang="ta">kaḻalkaḷ</form></entry><entry><gramGrp><gram>adjective</gram></gramGrp><form xml:lang="ta">kaḻala</form></entry><entry><gramGrp><gram>pronominalised noun</gram><gram>masculine singular</gram></gramGrp><form xml:lang="ta">kaḻalaṉ</form></entry><entry><gramGrp><gram>pronominalised noun</gram><gram>masculine singular</gram></gramGrp><form xml:lang="ta">kaḻalāṉ</form></entry><entry><gramGrp><gram>pronominalised noun</gram><gram>masculine singular</gram></gramGrp><form xml:lang="ta">kaḻaliṉaṉ</form></entry><entry><gramGrp><gram>pronominalised noun</gram><gram>singular</gram><gram>second person</gram></gramGrp><form xml:lang="ta">kaḻalōy</form></entry><entry><gramGrp><gram>pronominalised noun</gram><gram>masculine singular</gram></gramGrp><form xml:lang="ta">kaḻalōṉ</form></entry><cit type="lexicon"><bibl><date>1972 [1779]</date><title xml:lang="en">Tamil and English Dictionary (Fabricius)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/fabricius_query.py?page=214">p. 214</ref></bibl></cit><cit type="lexicon"><bibl><date>1862</date><title xml:lang="en">A comprehensive Tamil and English dictionary (Winslow)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/winslow_query.py?page=263">p. 263</ref><ref target="https://dsal.uchicago.edu/cgi-bin/app/winslow_query.py?page=264">p. 264</ref></bibl></cit><cit type="lexicon"><bibl><date>1928 [1902]</date><title xml:lang="ta">Tamiḻmoḻiyakarāti (Katiraivēṟ Piḷḷai)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/kadirvelu_query.py?page=407">p. 407</ref><ref target="https://dsal.uchicago.edu/cgi-bin/app/kadirvelu_query.py?page=1653">p. 1653</ref></bibl></cit><cit type="lexicon"><bibl><date>1924–1936</date><title xml:lang="en">Tamil Lexicon (University of Madras)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?page=798">p. 798</ref></bibl></cit><cit type="lexicon"><bibl><date>1992</date><title xml:lang="ta">Kriyāviṉ taṟkālat Tamiḻ akarāti</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/crea_query.py?page=270">p. 270</ref></bibl></cit><cit type="commentary"><ref target="https://archive.org/details/pathitrupathu/1904-%E0%AE%AA%E0%AE%A4%E0%AE%BF%E0%AE%B1%E0%AF%8D%E0%AE%B1%E0%AF%81%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AE%A4%E0%AF%8D%E0%AE%A4%E0%AF%81%2C%20%E0%AE%89.%E0%AE%B5%E0%AF%87.%E0%AE%9A%E0%AE%BE%20%E0%AE%AA%E0%AE%A4%E0%AE%BF%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AF%81../page/41/mode/2up">title, poem number, line number</ref>
+<q xml:lang="ta">Tamil quote</q>
+<q xml:lang="en">English translation</q></cit></entry>
+      <listBibl>
+      </listBibl>
+    </body>
+  </text>
+</TEI>
