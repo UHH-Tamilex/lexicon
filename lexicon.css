@@ -146,7 +146,7 @@ span.word.split:hover {
     background: none;
 }
 
-.teitext details p.bibliography {
+#list_bibliography > p {
     font-size: 1.2rem;
     max-width: 100ch;
     text-indent: -1em;

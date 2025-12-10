@@ -296,6 +296,8 @@ const openEditForm = e => {
     editGrammar(nextsib);
   else if(nextsib.classList.contains('commentary'))
     editCommentary(nextsib);
+  else if(nextsib.id === 'suggested-citation')
+    editReference(nextsib);
   else if(nextsib.classList.contains('bibliography'))
     editBibliography(nextsib);
 };
@@ -468,6 +470,44 @@ const editGrammar = el => {
   editbox.querySelector('button[name="cancel"]').addEventListener('click',cancel);
 };
 
+const editReference = el => {
+  const editbox = document.createElement('div');
+  editbox.className = 'multi-item';
+  editbox.innerHTML = `
+<div>
+  <label>Citation</label>
+  <textarea name="suggested-citation" data-schema="prose" rows="3"></textarea>
+</div>
+<div style="display: flex; justify-content: center">
+  <button name="preview" data-type="suggested-citation">Preview</button>
+  <button name="cancel" data-type="suggested-citation">Cancel</button>
+</div>
+`;
+
+  while(el.firstChild)
+    el.removeChild(el.firstChild);
+  el.appendChild(editbox);
+
+  const gramGrp = _state.curDoc.querySelector('fileDesc > titleStmt > editor');
+  const ta = editbox.querySelector('textarea');
+  const cm = cmWrapper(ta);
+  if(gramGrp && gramGrp.innerHTML.trim() !== '') {
+    const val = [...gramGrp.childNodes].map(c => {
+      if(c.nodeType === '3')
+        return c.data;
+      else
+        return serialize(c);
+    }).join('');
+    cm.setValue(val);
+  }
+  else
+    cm.setValue('<forename>Eva</forename> <surname>Wilden</surname>');
+  cm.save()
+  _state.cms.push(cm);
+  editbox.querySelector('button[name="preview"]').addEventListener('click',preview);
+  editbox.querySelector('button[name="cancel"]').addEventListener('click',cancel);
+};
+
 const editCommentary = el => {
   const li = el.closest('li');
   const ul = li.closest('ul');
@@ -609,6 +649,9 @@ const preview = (e,cancel=false) => {
   else if(e.target.dataset.type === 'commentary')
     previewField(e.target,'body > entry > cit[type="commentary"]','div.commentary',cancel);
   
+  else if(e.target.dataset.type === 'suggested-citation')
+    previewField(e.target,'fileDesc > titleStmt > editor','#suggested-citation',cancel);
+
   else if(e.target.dataset.type === 'bibliography')
     previewField(e.target,'listBibl > bibl','p.bibliography',cancel);
   
