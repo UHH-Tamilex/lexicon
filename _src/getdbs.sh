@@ -1,6 +1,6 @@
 #!/bin/bash
 
-allPaths=("Kuruntokai" "Narrinai" "Akananuru" "Purananuru" "Ainkurunuru" "Patirruppattu" "Kalittokai" "TamilneriVilakkam" "Tirukkural" "Cilappatikaram" "Manimekalai" "PatinoranTirumurai" "NalayiratTivviyapPirapantam" "Tolkappiyam" "Nannul")
+allPaths=("Kuruntokai" "Narrinai" "Akananuru" "Purananuru" "Ainkurunuru" "Patirruppattu" "Kalittokai" "Paripatal" "TamilneriVilakkam" "Tirukkural" "Cilappatikaram" "Manimekalai" "PatinoranTirumurai" "NalayiratTivviyapPirapantam" "Tolkappiyam" "Nannul")
 
 mkdir indices
 
