@@ -48,13 +48,13 @@ const checkCitations = async (doc = document, thisdoc = null) => {
 };
 
 const formatCitations = citations => {
-    const editing = !document.getElementById('topbar').classList.contains('hidebuttons') ? '&edit&wordsplit' : '';
+    const editing = !document.getElementById('topbar').classList.contains('hidebuttons') ? '&amp;edit&amp;wordsplit' : '';
     const newwin = editing !== '' ? ' target="_blank" rel="noopener noreferrer"' : '';
 
     return '<table><tbody>' + citations.map(c => {
         const link = c.line ?
-            c.filename + '?highlight=' + encodeURIComponent(`[id="${c.siglum}"] .l:nth-of-type(${c.line})`) :
-            c.filename;
+            c.filename.replace(/^\.\.\//,'') + '?highlight=' + encodeURIComponent(`[id="${c.siglum}"] .l:nth-of-type(${c.line})`) :
+            c.filename.replace(/^\.\.\//,'');
     return `<tr>
     <td><span class="msid" lang="en"><a href="https://uhh-tamilex.github.io/${link}${editing}"${newwin}>${c.siglum}</a></span></td>
     <td><q lang="ta">${c.context}</q></td>
