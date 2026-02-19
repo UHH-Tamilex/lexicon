@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./lexicon.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="ta">-mā</title>
+        <editor><forename>Charles</forename> <surname>Li</surname></editor>
+      </titleStmt>
+      <publicationStmt><p>Tamilex project.</p></publicationStmt>
+      <sourceDesc><p/></sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+  <text xml:lang="en">
+    <body>
+      <entry corresp="mā" type="particle">
+        <form xml:lang="ta">mā</form>
+        <gramGrp>
+            <gram>enclitic particle</gram>
+        </gramGrp>
+        <sense>
+          <usg xml:lang="en">a particle following the optative</usg>
+          <cit source="../Purananuru/PN234.xml?id=PN234&amp;w=0,6">
+            <q xml:lang="ta"><w>nōk<c type="elided">u</c>-ō</w> <w>yāṉ-ē</w> <choice type="ambiguous"><seg><w>tēyka-mā</w></seg><seg><w>tēyka</w><w>mā</w></seg></choice> <w>kālai</w></q>
+              <q xml:lang="en">Oh I ache! May the time pass [quickly].</q>
+            <ref target="../Purananuru/PN234.xml?highlight=%5Bid%3DPN234%5D%20.l%3Anth-of-type(1)"><title xml:lang="ta">Puṟanāṉūṟu</title> 234, lines 1–2</ref>
+          </cit>
+          <cit source="../Tolkappiyam/TolC273.xml?id=TolC273-Tey-cit1&amp;w=0,4">
+              <q xml:lang="ta"><w>upp<c type="elided">u</c></w> <w>iṉṟu</w> <w>puṟkai</w> <choice type="ambiguous"><seg><w><c type="glide">y</c>uṇka-mā</w></seg><seg><w><c type="glide">y</c>uṇka</w><w>mā</w></seg></choice> <w>koṟkaiyōṉ-ē</w></q>
+              <q xml:lang="en">Oh man from Koṟkai, please eat this porridge without salt.</q>
+            <ref target="../Tolkappiyam/TolC273.xml?highlight=%5Bid%3DTolC273-Tey-cit1%5D%20.l%3Anth-of-type(1)"><persName xml:lang="ta">Teyvaccilaiyār</persName> ad <title xml:lang="ta">Tolkāppiyam Collatikāram</title> 273</ref>
+          </cit>
+            <note xml:lang="en">
+            This particle is described in <ref target="../Tolkappiyam/TolC273.xml"><title xml:lang="ta">Tolkāppiyam Collatikāram</title> 273</ref> as a metrical filler going with the optative (<foreign xml:lang="ta">viyaṅkōḷ</foreign>). In the extant corpus, it is extremely rare, and in some cases it may be interpreted as the adjective <foreign xml:lang="ta">mā</foreign> in the sense of <q>big</q> or <q>dark</q>. Examples given by commentators on the <title xml:lang="ta">Tolkāppiyam</title> do not appear in extant poems, although one, <q xml:lang="ta">orka[mā] tōḻiyavar tērmaṇik kural</q> may have been a variant reading on <ref target="../Narrinai/NA145.xml"><title xml:lang="ta">Naṟṟiṇai</title> 145</ref>, <q xml:lang="ta">varuvarō / vamma vāḻiyavar tērmaṇik kuralē</q>.
+            </note>
+          <note xml:lang="en">
+            Given its rarity, it is understandibly not mentioned in existing lexica. The <expan ref="#TL"/> defines it as <q>An expletive</q>, but unrelated to the optative; instead, it cites <ref target="../Narrinai/NA178.xml"><title xml:lang="ta">Naṟṟiṇai</title> 178</ref>, <q xml:lang="ta">mā tavat teḷinta</q>. In fact, <persName xml:lang="ta">Nacciṉārkkiṉiyar</persName> comments that it <q>generally</q> (<foreign xml:lang="ta">perumpāṉmai</foreign>) goes with the optative, leaving scope for interpretation, although he is the only commentator, out of the four, to do so. 
+            </note>
+        </sense>
+        <cit type="lexicon">
+            <bibl>
+                <date>1924–1936</date>
+                <title xml:lang="en">Tamil Lexicon (University of Madras)</title>
+                <ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?page=3142">p. 3142</ref>
+            </bibl>
+        </cit>
+        <cit type="commentary">
+          <ref target="../Tolkappiyam/TolC273.xml"><persName xml:lang="ta">Nacciṉārkkiṉiyar</persName> on <title xml:lang="ta">Tolkāppiyam Collatikāram</title> 273 (ed. <persName xml:lang="ta">Kōvintacāmipiḷḷai</persName> 1997, 299)</ref>
+          <q xml:lang="ta">māveṉkiḷavi viyaṅkōḷaic col ― māveṉṉu miṭaic coṟ perumpāṉmai viyaṅkōḷaic cārn tacainilaiyāy varu meṉṟavāṟu.</q>
+        </cit>
+      </entry>
+      <listBibl>
+        <bibl>Chevillard, Jean-Luc. 1996. <title xml:lang="fr">Le commentaire de Cēṉāvaraiyar sur le Collatikāram du Tolkāppiyam: Sur la métalangue grammaticale des maîtres commentateurs tamouls mediévaux.</title> Pondichéry: EFEO/IFP.</bibl>
+        <bibl><persName xml:lang="ta">Kōvintacāmipiḷḷai, Irāma</persName>. 1997. <title xml:lang="ta">Tolkāppiyam Collatikāram (Nacciṉarrkkiṉiyar uraiyuṭaṉ).</title>. <term xml:lang="ta">Tañcāvur</term>: <term xml:lang="ta">Caracuvati Makāl Nūlakam</term>.</bibl>
+        <bibl>Rajam, V. S. 1992. <title>A Reference Grammar of Classical Tamil Poetry (150 B.C.―pre-fith/sixth century A.D.)</title> Philadelphia: American Philosophical Society.</bibl>
+      </listBibl>
+    </body>
+  </text>
+</TEI>
