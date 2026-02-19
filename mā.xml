@@ -32,10 +32,10 @@
             <ref target="../Tolkappiyam/TolC273.xml?highlight=%5Bid%3DTolC273-Tey-cit1%5D%20.l%3Anth-of-type(1)"><persName xml:lang="ta">Teyvaccilaiyār</persName> ad <title xml:lang="ta">Tolkāppiyam Collatikāram</title> 273</ref>
           </cit>
             <note xml:lang="en">
-            This particle is described in <ref target="../Tolkappiyam/TolC273.xml"><title xml:lang="ta">Tolkāppiyam Collatikāram</title> 273</ref> as a metrical filler going with the optative (<foreign xml:lang="ta">viyaṅkōḷ</foreign>). In the extant corpus, it is extremely rare, and in some cases it may be interpreted as the adjective <foreign xml:lang="ta">mā</foreign> in the sense of <q>big</q> or <q>dark</q>. Examples given by commentators on the <title xml:lang="ta">Tolkāppiyam</title> do not appear in extant poems, although one, <q xml:lang="ta">orka[mā] tōḻiyavar tērmaṇik kural</q> may have been a variant reading on <ref target="../Narrinai/NA145.xml"><title xml:lang="ta">Naṟṟiṇai</title> 145</ref>, <q xml:lang="ta">varuvarō / vamma vāḻiyavar tērmaṇik kuralē</q>.
+            This particle is described in <ref target="../Tolkappiyam/TolC273.xml"><title xml:lang="ta">Tolkāppiyam Collatikāram</title> 273</ref> as a metrical filler going with the optative (<foreign xml:lang="ta">viyaṅkōḷ</foreign>). In the extant corpus, it is extremely rare, and in some cases it may be interpreted as the adjective <foreign xml:lang="ta">mā</foreign> in the sense of <q>big</q> or <q>dark</q>. Examples given by commentators on the <title xml:lang="ta">Tolkāppiyam</title> do not appear in extant poems, although one, <q xml:lang="ta">orkamā tōḻiyavar tērmaṇik kural</q> may have been a variant reading on <ref target="../Narrinai/NA145.xml"><title xml:lang="ta">Naṟṟiṇai</title> 145</ref>, <q xml:lang="ta">varuvarō / vamma vāḻiyavar tērmaṇik kuralē</q>.
             </note>
           <note xml:lang="en">
-            Given its rarity, it is understandibly not mentioned in existing lexica. The <expan ref="#TL"/> defines it as <q>An expletive</q>, but unrelated to the optative; instead, it cites <ref target="../Narrinai/NA178.xml"><title xml:lang="ta">Naṟṟiṇai</title> 178</ref>, <q xml:lang="ta">mā tavat teḷinta</q>. In fact, <persName xml:lang="ta">Nacciṉārkkiṉiyar</persName> comments that it <q>generally</q> (<foreign xml:lang="ta">perumpāṉmai</foreign>) goes with the optative, leaving scope for interpretation, although he is the only commentator, out of the four, to do so. 
+            Given its rarity, it is understandibly not mentioned in existing lexica. The <expan ref="#TL"/> defines it as <q>An expletive</q>, but unrelated to the optative; instead, it cites <ref target="../Narrinai/NA178.xml"><title xml:lang="ta">Naṟṟiṇai</title> 178</ref>, <q xml:lang="ta">mā tavat teḷinta</q>. In fact, commenting on <title xml:lang="ta">Tolkāppiyam Collatikāram</title> 273, <persName xml:lang="ta">Nacciṉārkkiṉiyar</persName> states that <foreign xml:lang="ta">mā</foreign> only <q>generally</q> (<foreign xml:lang="ta">perumpāṉmai</foreign>) goes with the optative, leaving scope for interpretation, although he is the only commentator, out of the four, to do so. 
             </note>
         </sense>
         <cit type="lexicon">
@@ -52,7 +52,7 @@
       </entry>
       <listBibl>
         <bibl>Chevillard, Jean-Luc. 1996. <title xml:lang="fr">Le commentaire de Cēṉāvaraiyar sur le Collatikāram du Tolkāppiyam: Sur la métalangue grammaticale des maîtres commentateurs tamouls mediévaux.</title> Pondichéry: EFEO/IFP.</bibl>
-        <bibl><persName xml:lang="ta">Kōvintacāmipiḷḷai, Irāma</persName>. 1997. <title xml:lang="ta">Tolkāppiyam Collatikāram (Nacciṉarrkkiṉiyar uraiyuṭaṉ).</title>. <term xml:lang="ta">Tañcāvur</term>: <term xml:lang="ta">Caracuvati Makāl Nūlakam</term>.</bibl>
+        <bibl><persName xml:lang="ta">Kōvintacāmipiḷḷai, Irāma</persName>. 1997. <title xml:lang="ta">Tolkāppiyam Collatikāram (Nacciṉarrkkiṉiyar uraiyuṭaṉ)</title>. <term xml:lang="ta">Tañcāvur</term>: <term xml:lang="ta">Caracuvati Makāl Nūlakam</term>.</bibl>
         <bibl>Rajam, V. S. 1992. <title>A Reference Grammar of Classical Tamil Poetry (150 B.C.―pre-fith/sixth century A.D.)</title> Philadelphia: American Philosophical Society.</bibl>
       </listBibl>
     </body>

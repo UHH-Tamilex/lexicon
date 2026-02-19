@@ -2,6 +2,7 @@
                 xmlns:exsl="http://exslt.org/common"
                 xmlns:x="http://www.tei-c.org/ns/1.0"
                 xmlns:tst="https://github.com/tst-project"
+                xmlns:xhtml="http://www.w3.org/1999/xhtml"
                 exclude-result-prefixes="x tst exsl">
 
 <xsl:import href="./lib/xslt/edition.xsl"/>
@@ -10,6 +11,8 @@
 
 <xsl:param name="root">./lib/</xsl:param>
 <xsl:param name="thisroot">./</xsl:param>
+
+<xsl:template match="xhtml:script"/>
 
 <xsl:template name="lexiconheader">
     <xsl:element name="head">
@@ -181,12 +184,14 @@
             </ul>
         </details>
     </xsl:if>
-    <details open="true" id="list_nikantus">
-        <summary style="font-size: 1.5rem; font-style: italic">Meanings attested in the <em lang="ta">Nikaṇṭu</em>-s</summary>
-        <ul id="nikantu-list" lang="ta">
-            <xsl:apply-templates select="x:cit[@type='nikantu-meanings']/x:sense"/>
-        </ul>
-    </details>
+    <xsl:if test="x:cit[@type='nikantu-meanings']">
+      <details open="true" id="list_nikantus">
+          <summary style="font-size: 1.5rem; font-style: italic">Meanings attested in the <em lang="ta">Nikaṇṭu</em>-s</summary>
+          <ul id="nikantu-list" lang="ta">
+              <xsl:apply-templates select="x:cit[@type='nikantu-meanings']/x:sense"/>
+          </ul>
+      </details>
+    </xsl:if>
     <details open="true">
         <summary style="font-size: 1.5rem; font-style: italic">Other lexica</summary>
         <ul>
