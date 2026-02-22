@@ -257,6 +257,16 @@ const addEditButtons = () => {
   }
   addPlusButton(commslist,newCommentary,'commentary');
 
+  let nikantus = document.getElementById('list_nikantus');
+  if(!nikantus) {
+    nikantus = document.createElement('details');
+    nikantus.setAttribute('open','');
+    nikantus.id = 'list_nikantus';
+    nikantus.innerHTML = '<summary style="font-size: 1.5rem;font-style italic" lang="en">Meanings attested in the <em lang="ta">Nikaṇṭu</em>-s</summary>';
+    document.getElementById('list_commentary').after(nikantus);
+  }
+  addRefreshButton(nikantus);
+
   let bibllist = document.getElementById('list_bibliography');
   if(!bibllist) {
     const bibldet = document.createElement('details');
@@ -270,8 +280,6 @@ const addEditButtons = () => {
   for(const sense of document.querySelectorAll('div.sense, div.commentary, p.bibliography, #entry_gramGrp'))
     addEditButton(sense);
    
-  const nikantus = document.getElementById('list_nikantus');
-  addRefreshButton(nikantus);
 };
 
 const hideButtons = () => {
