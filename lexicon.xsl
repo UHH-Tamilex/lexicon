@@ -129,7 +129,7 @@
                             <xsl:value-of select="//x:titleStmt/x:editor/x:surname"/>
                             <xsl:text>, </xsl:text>
                             <xsl:value-of select="//x:titleStmt/x:editor/x:forename"/>
-                            <xsl:text>. 2025. </xsl:text>
+                            <xsl:text>. 2026. </xsl:text>
                             <q>
                                 <xsl:value-of select="//x:titleStmt/x:title"/>
                                 <xsl:text>.</xsl:text>
