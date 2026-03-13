@@ -29,7 +29,6 @@ const init = (dburl,xmlsrc,edit=false) => {
     Transliterate.init(recordcontainer);
     
     GitHubFunctions.latestCommits();
-    
     if(xmlsrc) startEditMode(Transliterate,xmlsrc);
     else {
         const islocal = ['localhost','127.0.0.1'].includes(window.location.hostname);
@@ -143,10 +142,10 @@ const getEntry = async targ => {
         frag = frag + 
 `<div>
 <h4 lang="en">translations in context</h4>
-<div class="dict-definitions">${[...entry.translations].join(', ')}</div>`;
+<div class="dict-definitions">${[...entry.translations].join(', ')}</div></div>`;
     }
     if(entry.citations.length > 0) {
-        frag = frag + 
+        frag = frag +
 `<h4 lang="en">citations</h4>
 <div class="dict-citations">
 ${formatCitations(entry.citations)}

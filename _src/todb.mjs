@@ -23,6 +23,7 @@ const paths = [
     'Ainkurunuru',
     'Patirruppattu',
     'Kalittokai',
+    'Paripatal',
     'TamilneriVilakkam',
     'Tirukkural',
     'Cilappatikaram',

@@ -53,6 +53,9 @@ const getNikantuCitations = async (forms,libdir='../lib/js/') => {
 
 const makeNikantuGraphs = () => {
 
+    const list = document.getElementById('nikantu-list');
+    if(!list) return;
+
     const colours = ['#66c2a5','#fc8d62','#8da0cb'];
     
     const textnames =  new Set([...document.querySelectorAll('.citation-nikantu .reftitle')].map(el => el.textContent));
@@ -70,7 +73,6 @@ const makeNikantuGraphs = () => {
         legend.appendChild(span);
     }
 
-    const list = document.getElementById('nikantu-list');
     list.parentNode.insertBefore(legend,list);
 
     const makeNikantuGraph = el => {
