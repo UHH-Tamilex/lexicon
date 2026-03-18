@@ -48,7 +48,7 @@
   <q xml:lang="ta">vala<c type="geminated">k</c> kāl puṉai kaḻal kaṭṭiṉum</q>
   <q xml:lang="en">although [she] tied an anklet for wearing on the right leg</q>
 </cit>
-<note xml:lang="en">
+<note xml:lang="en">This second meaning appears to remain rare and is not found in the earliest layers 0f the corpus (see commentarial gloss on <expan ref="#Pati"/> 30.28).
 </note></sense><sense><def xml:lang="en">metonymy for the foot as a taboo metaphor for the deity to be worshipped
 </def>
 <usg xml:lang="en">
@@ -72,12 +72,29 @@
 </q>
 </cit>
 <note xml:lang="en"><foreign xml:lang="ta">kaṭṭuvaṭam</foreign> is an isolated occurrence in the early corpus (Pondicherry index); Parimēlaḻakar glosses it as <foreign xml:lang="ta">kaṭṭuvaṭattōṭu kāṉmōtirattar</foreign>, which suggests he understood <foreign xml:lang="ta">kaḻal</foreign> here as a kind of toe-ring and <foreign xml:lang="ta">kaṭṭuvaṭam</foreign> as not in need of an explanation.
+</note></sense><sense><def xml:lang="en">sandal
+</def>
+<usg xml:lang="en">
+</usg>
+<cit>
+  <q xml:lang="ta">kaḻaliṉ cem tāmarai <c type="glide">y</c>aṭikaḷ pulli </q>
+  <q xml:lang="en">embracing [his] read lotus feet like [his] sandals</q> 
+  <ref target="https://archive.org/details/kmm-0708-seevaga-sinthamani-1922/page/481/mode/1up"><title xml:lang="ta">Cīvakacintāmaṇi</title> 1648.1</ref>
+</cit>
+<note xml:lang="en">The meaning of sandal so far is corroborated only by the two <foreign xml:lang="ta">nikaṇṭu</foreign> entries on <foreign xml:lang="ta"> ceruppu</foreign> (<expan ref="#Tiv"/> 8.170 ~ <expan ref="#Pink"/> 20.613) which list <foreign xml:lang="ta">kaḻal</foreign> among the synonyms.
 </note></sense>
-      <entry><gramGrp><gram>sociative</gram><gram>noun</gram></gramGrp><form xml:lang="ta">kaḻaloṭu</form></entry><entry><gramGrp><gram>noun</gram><gram>plural</gram></gramGrp><form xml:lang="ta">kaḻalkaḷ</form></entry><entry><gramGrp><gram>adjective</gram></gramGrp><form xml:lang="ta">kaḻala</form></entry><entry><gramGrp><gram>pronominalised noun</gram><gram>masculine singular</gram></gramGrp><form xml:lang="ta">kaḻalaṉ</form></entry><entry><gramGrp><gram>pronominalised noun</gram><gram>masculine singular</gram></gramGrp><form xml:lang="ta">kaḻalāṉ</form></entry><entry><gramGrp><gram>pronominalised noun</gram><gram>masculine singular</gram></gramGrp><form xml:lang="ta">kaḻaliṉaṉ</form></entry><entry><gramGrp><gram>pronominalised noun</gram><gram>singular</gram><gram>second person</gram></gramGrp><form xml:lang="ta">kaḻalōy</form></entry><entry><gramGrp><gram>pronominalised noun</gram><gram>masculine singular</gram></gramGrp><form xml:lang="ta">kaḻalōṉ</form></entry><cit type="lexicon"><bibl><date>1972 [1779]</date><title xml:lang="en">Tamil and English Dictionary (Fabricius)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/fabricius_query.py?page=214">p. 214</ref></bibl></cit><cit type="lexicon"><bibl><date>1862</date><title xml:lang="en">A comprehensive Tamil and English dictionary (Winslow)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/winslow_query.py?page=263">p. 263</ref><ref target="https://dsal.uchicago.edu/cgi-bin/app/winslow_query.py?page=264">p. 264</ref></bibl></cit><cit type="lexicon"><bibl><date>1928 [1902]</date><title xml:lang="ta">Tamiḻmoḻiyakarāti (Katiraivēṟ Piḷḷai)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/kadirvelu_query.py?page=407">p. 407</ref><ref target="https://dsal.uchicago.edu/cgi-bin/app/kadirvelu_query.py?page=1653">p. 1653</ref></bibl></cit><cit type="lexicon"><bibl><date>1924–1936</date><title xml:lang="en">Tamil Lexicon (University of Madras)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?page=798">p. 798</ref></bibl></cit><cit type="lexicon"><bibl><date>1992</date><title xml:lang="ta">Kriyāviṉ taṟkālat Tamiḻ akarāti</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/crea_query.py?page=270">p. 270</ref></bibl></cit><cit type="commentary"><ref target="https://archive.org/details/pathitrupathu/1904-%E0%AE%AA%E0%AE%A4%E0%AE%BF%E0%AE%B1%E0%AF%8D%E0%AE%B1%E0%AF%81%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AE%A4%E0%AF%8D%E0%AE%A4%E0%AF%81%2C%20%E0%AE%89.%E0%AE%B5%E0%AF%87.%E0%AE%9A%E0%AE%BE%20%E0%AE%AA%E0%AE%A4%E0%AE%BF%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AF%81../page/41/mode/2up">title, poem number, line number</ref>
-<q xml:lang="ta">Tamil quote</q>
-<q xml:lang="en">English translation</q></cit></entry>
+      <entry><gramGrp><gram>sociative</gram><gram>noun</gram></gramGrp><form xml:lang="ta">kaḻaloṭu</form></entry><entry><gramGrp><gram>noun</gram><gram>plural</gram></gramGrp><form xml:lang="ta">kaḻalkaḷ</form></entry><entry><gramGrp><gram>adjective</gram></gramGrp><form xml:lang="ta">kaḻala</form></entry><entry><gramGrp><gram>pronominalised noun</gram><gram>masculine singular</gram></gramGrp><form xml:lang="ta">kaḻalaṉ</form></entry><entry><gramGrp><gram>pronominalised noun</gram><gram>masculine singular</gram></gramGrp><form xml:lang="ta">kaḻalāṉ</form></entry><entry><gramGrp><gram>pronominalised noun</gram><gram>masculine singular</gram></gramGrp><form xml:lang="ta">kaḻaliṉaṉ</form></entry><entry><gramGrp><gram>pronominalised noun</gram><gram>singular</gram><gram>second person</gram></gramGrp><form xml:lang="ta">kaḻalōy</form></entry><entry><gramGrp><gram>pronominalised noun</gram><gram>masculine singular</gram></gramGrp><form xml:lang="ta">kaḻalōṉ</form></entry><cit type="lexicon"><bibl><date>1972 [1779]</date><title xml:lang="en">Tamil and English Dictionary (Fabricius)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/fabricius_query.py?page=214">p. 214</ref></bibl></cit><cit type="lexicon"><bibl><date>1862</date><title xml:lang="en">A comprehensive Tamil and English dictionary (Winslow)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/winslow_query.py?page=263">p. 263</ref><ref target="https://dsal.uchicago.edu/cgi-bin/app/winslow_query.py?page=264">p. 264</ref></bibl></cit><cit type="lexicon"><bibl><date>1928 [1902]</date><title xml:lang="ta">Tamiḻmoḻiyakarāti (Katiraivēṟ Piḷḷai)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/kadirvelu_query.py?page=407">p. 407</ref><ref target="https://dsal.uchicago.edu/cgi-bin/app/kadirvelu_query.py?page=1653">p. 1653</ref></bibl></cit><cit type="lexicon"><bibl><date>1924–1936</date><title xml:lang="en">Tamil Lexicon (University of Madras)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?page=798">p. 798</ref></bibl></cit><cit type="lexicon"><bibl><date>1992</date><title xml:lang="ta">Kriyāviṉ taṟkālat Tamiḻ akarāti</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/crea_query.py?page=270">p. 270</ref></bibl></cit><cit type="commentary"><ref target="https://archive.org/details/Tamil-Purananuru-U-Ve-Sa-3rd-Edition-1935/page/n131/mode/2up"><expan ref="#pu"/> ad <expan ref="#PN"/> 3.15</ref>
+<q xml:lang="ta">poṉṉāl ceyyappaṭṭa vīrakkaḻal </q>
+<note xml:lang="en">The word <foreign xml:lang="ta">kaḻal</foreign> as meaning "anklet" is not glossed by commentators as it is regarded as the normal and frequent one.</note></cit><cit type="commentary"><ref target="https://archive.org/details/pathitrupathu/1904-%E0%AE%AA%E0%AE%A4%E0%AE%BF%E0%AE%B1%E0%AF%8D%E0%AE%B1%E0%AF%81%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AE%A4%E0%AF%8D%E0%AE%A4%E0%AF%81%2C%20%E0%AE%89.%E0%AE%B5%E0%AF%87.%E0%AE%9A%E0%AE%BE%20%E0%AE%AA%E0%AE%A4%E0%AE%BF%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AF%81../page/41/mode/1up"><expan ref="#pu"/> ad <expan ref="#Pati"/> 30.28</ref>
+<q xml:lang="ta">maṇaṟkōṭu koṇṭeṉṟatu maṇaṟkōṭṭai kaḻalāṭutaṟku iṭamāka<c type="geminated">k</c> koṇṭeṉṟavāṟu. iṉi<c type="geminated">k</c> kaḻaleṉṟataṉai<c type="geminated">k</c> kaḻalaiyuṭaiya talaimakaṉkālākki akkāloṭu talaimakaḷir puṇarntu uṭaṉpōm eṉparumuḷar.</q>
+<note xml:lang="en"> Here the commentator points out that a man's anklet on occasion can be worn by a woman.</note>
+
+</cit></entry>
       <listBibl>
-      </listBibl>
+      <bibl><persName xml:lang="ta">Cāminātaiyar, U. Vē.</persName>, ed. 1935.
+<title xml:lang="ta">Puṟanāṉūṟu mūlamum uraiyum.</title>
+<term xml:lang="ta">Ceṉṉai</term>: <term xml:lang="ta">Lā Jarṉal Accukkūṭam.</term>
+<ref target="https://archive.org/details/Tamil-Purananuru-U-Ve-Sa-3rd-Edition-1935">ark:/13960/t5dc0n26b</ref></bibl></listBibl>
     </body>
   </text>
 </TEI>

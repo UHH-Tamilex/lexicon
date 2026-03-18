@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./lexicon.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="ta">kaḻal</title>
+        <editor>
+            <forename>First name</forename> 
+            <surname>Last name</surname>
+        </editor>
+      </titleStmt>
+      <publicationStmt><p>Tamilex project.</p></publicationStmt>
+      <sourceDesc><p/></sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+  <text xml:lang="en">
+    <body>
+      <entry corresp="kaḻal[DEDR1347]">
+        <form xml:lang="ta">kaḻal</form>
+        <gramGrp><gram>noun</gram></gramGrp>
+        <sense><def xml:lang="en">molucca bean</def>
+<usg xml:lang="en">
+</usg>
+<cit>
+  <ref target="https://ifpindia.org/digitaldb/site/digital_tevaram/U_TEV/VMS1_004.HTM#p2"><expan ref="#Tēv."/> 1.4.2.1</ref>
+  <q xml:lang="ta">kaḻal malku pantoṭ<c type="elided">u</c> ammāṉai muṟṟil kaṟṟavar ciṟṟ<c type="elided">u</c> iṭai<c type="geminated">k</c> kaṉṉimārkaḷ</q>
+  <q xml:lang="en">young unmarried girls who have a small waist and have learnt the games of playing with molucca beans, large number of balls, ammāṉai, and small winnows<note place="foot">Translated by <expan ref="#VMS"/>.</note></q>
+</cit>
+<cit>
+  <ref target="https://archive.org/details/Tamil-Purananuru-U-Ve-Sa-3rd-Edition-1935/page/n333/mode/1up"><expan ref="#PN"/> 97.23f. </ref> 
+  <q xml:lang="ta">kaḻal kaṉi vakutta tuṇai<c type="geminated">c</c> cil <c type="geminated">l</c>ōti<c type="geminated">k</c> | kuṟum toṭi makaḷir</q>
+  </cit>
+<note xml:lang="en">Here the p.u. for line 23 with an unusually detailed description of the women’s hair-do reads: kaḻaṉmaṇiyiṉatu kaṉiyāl kūṟupaṭuttuc curuṭṭappaṭṭa iṉamākiya cilavākiya paṉiccai, presumably “a Paṉiccai-mode in which there are few that are groups [of hair] which have been rolled in portions by means of the ripe fruit of the Kaḻaṉmaṇi”. Here one would expect Kaḻaṉmaṇi to be a proper name for a plant, but this is not attested or discussed elsewhere. Instead, for kaḻal a sub-entry with reference to this passage is found in the TL, which equates kaḻal here with kaḻaṟci, “molucca bean”. 
+This does not appear justified either by the text of the PN nor by its commentary. Of course we may speculate that women used the molucca pods as curlers, but one would want parallels. Perhaps another trace of the general idea is found in Tēvāram 1.4.2.1 where kaḻal is enumerated under a series of girl’s games and translated by VMS as moluca beans (a game otherwise known under the name of kaḻaṅku.
+
+</note></sense>
+      <cit type="lexicon"><bibl><date>1972 [1779]</date><title xml:lang="en">Tamil and English Dictionary (Fabricius)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/fabricius_query.py?page=214">p. 214</ref></bibl></cit><cit type="lexicon"><bibl><date>1862</date><title xml:lang="en">A comprehensive Tamil and English dictionary (Winslow)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/winslow_query.py?page=263">p. 263</ref><ref target="https://dsal.uchicago.edu/cgi-bin/app/winslow_query.py?page=264">p. 264</ref></bibl></cit><cit type="lexicon"><bibl><date>1928 [1902]</date><title xml:lang="ta">Tamiḻmoḻiyakarāti (Katiraivēṟ Piḷḷai)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/kadirvelu_query.py?page=407">p. 407</ref><ref target="https://dsal.uchicago.edu/cgi-bin/app/kadirvelu_query.py?page=1653">p. 1653</ref></bibl></cit><cit type="lexicon"><bibl><date>1924–1936</date><title xml:lang="en">Tamil Lexicon (University of Madras)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?page=798">p. 798</ref></bibl></cit><cit type="lexicon"><bibl><date>1992</date><title xml:lang="ta">Kriyāviṉ taṟkālat Tamiḻ akarāti</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/crea_query.py?page=270">p. 270</ref></bibl></cit></entry>
+      <listBibl>
+      </listBibl>
+    </body>
+  </text>
+</TEI>
