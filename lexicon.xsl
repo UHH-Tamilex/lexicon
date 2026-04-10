@@ -311,29 +311,33 @@
                 <xsl:value-of select="@source"/>
             </xsl:attribute>
         </xsl:if>
-        <xsl:apply-templates select="x:q[@xml:lang='ta']"/>
-        <xsl:text> </xsl:text>
-        <xsl:choose>
-            <xsl:when test="x:q[@rend='block']">
-                <div class="blockcite">
-                    <span class="citref">
-                        <xsl:apply-templates select="x:ref"/>
-                    </span>
-                </div>
-            </xsl:when>
-            <xsl:when test="x:ref">
-                <span class="citref">
-                    <xsl:apply-templates select="x:ref"/>
-                </span>
-            </xsl:when>
-            <xsl:otherwise/>
-        </xsl:choose>
-        <xsl:if test="x:q[@xml:lang='en']">
-            <div>
-                <xsl:apply-templates select="x:q[@xml:lang='en']"/>
-            </div>
-        </xsl:if>
-        <xsl:apply-templates select="x:note"/>
+        <xsl:element name="div">
+          <xsl:apply-templates select="x:q[@xml:lang='ta']"/>
+          <xsl:text> </xsl:text>
+          <xsl:choose>
+              <xsl:when test="x:q[@rend='block']">
+                  <div class="blockcite">
+                      <span class="citref">
+                          <xsl:apply-templates select="x:ref"/>
+                      </span>
+                  </div>
+              </xsl:when>
+              <xsl:when test="x:ref">
+                  <span class="citref">
+                      <xsl:apply-templates select="x:ref"/>
+                  </span>
+              </xsl:when>
+              <xsl:otherwise/>
+          </xsl:choose>
+          <xsl:if test="x:q[@xml:lang='en']">
+              <div>
+                  <xsl:apply-templates select="x:q[@xml:lang='en']"/>
+              </div>
+          </xsl:if>
+        </xsl:element>
+        <div>
+          <xsl:apply-templates select="x:note"/>
+        </div>
     </div></li>
 </xsl:template>
 <xsl:template match="x:cit/x:note">

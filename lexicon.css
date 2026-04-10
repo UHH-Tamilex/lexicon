@@ -80,18 +80,18 @@ li {
     /*width: fit-content;*/
     margin-bottom: 1rem;
 }
-.sense {
+.sense, .commentary {
     display: flex;
     width: 100%;
     justify-content: space-between;
     flex-direction: row;
     gap: 1rem;
 }
-.sense > div:first-child {
+.sense > div:first-child, .commentary > div:first-child {
     max-width: 80%;
 }
 .sense > div:last-child {
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 .certlow {
     opacity: 60%;
