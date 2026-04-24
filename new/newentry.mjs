@@ -116,6 +116,19 @@ const startNew = async e => {
     entry.querySelector('form').textContent = form;
     entry.querySelector('def').textContent = def;
     const gramMap = new Map(gramAbbreviations);
+    
+    for(const row of _state.csv) {  
+      if(row[0] === form) {
+        const grammar = findGrammar(`(${row[3]})`);
+        if(grammar) {
+            const gramGrp = example.querySelector('gramGrp');
+            if(gramGrp) 
+              gramGrp.innerHTML = grammar.gram.map(e => '<gram>' + gramMap.get(e) + '</gram>').join('');
+        }
+        break;
+      }
+    }
+
     for(const citation of citations) {
         const subentry = example.createElementNS(_state.ns,'entry');
         const grammar = findGrammar(`(${citation[3]})`);
