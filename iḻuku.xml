@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="./lexicon.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="ta">iḻuku</title>
+        <editor>
+            <forename>First name</forename> 
+            <surname>Last name</surname>
+        </editor>
+      </titleStmt>
+      <publicationStmt><p>Tamilex project.</p></publicationStmt>
+      <sourceDesc><p/></sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+  <text xml:lang="en">
+    <body>
+      <entry corresp="iḻuku[DEDR505]">
+        <form xml:lang="ta">iḻuku</form>
+        <gramGrp>
+        </gramGrp>
+        <sense>
+            <def xml:lang="en">to smear</def>
+            <!-- add citations here -->
+        </sense>
+      <entry><gramGrp><gram>absolutive</gram></gramGrp><form xml:lang="ta">iḻuki</form></entry><entry><gramGrp><gram>peyareccam</gram><gram>perfective aspect</gram></gramGrp><form xml:lang="ta">iḻukiya</form></entry><entry><gramGrp><gram>peyareccam</gram></gramGrp><form xml:lang="ta">iḻikum</form></entry><entry><gramGrp><gram>perfective aspect</gram><gram>masculine singular</gram></gramGrp><form xml:lang="ta">iḻukiṉāṉ</form></entry><cit type="lexicon"><bibl><date>1972 [1779]</date><title xml:lang="en">Tamil and English Dictionary (Fabricius)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/fabricius_query.py?page=90">p. 90</ref></bibl></cit><cit type="lexicon"><bibl><date>1862</date><title xml:lang="en">A comprehensive Tamil and English dictionary (Winslow)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/winslow_query.py?page=110">p. 110</ref></bibl></cit></entry>
+      <listBibl>
+      </listBibl>
+    </body>
+  </text>
+</TEI>
