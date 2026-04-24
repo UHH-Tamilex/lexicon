@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="./lexicon.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./lexicon.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -17,13 +19,51 @@
     <body>
       <entry corresp="iḻuku[DEDR505]">
         <form xml:lang="ta">iḻuku</form>
-        <gramGrp>
-        </gramGrp>
-        <sense>
-            <def xml:lang="en">to smear</def>
-            <!-- add citations here -->
-        </sense>
-      <entry><gramGrp><gram>absolutive</gram></gramGrp><form xml:lang="ta">iḻuki</form></entry><entry><gramGrp><gram>peyareccam</gram><gram>perfective aspect</gram></gramGrp><form xml:lang="ta">iḻukiya</form></entry><entry><gramGrp><gram>peyareccam</gram></gramGrp><form xml:lang="ta">iḻikum</form></entry><entry><gramGrp><gram>perfective aspect</gram><gram>masculine singular</gram></gramGrp><form xml:lang="ta">iḻukiṉāṉ</form></entry><cit type="lexicon"><bibl><date>1972 [1779]</date><title xml:lang="en">Tamil and English Dictionary (Fabricius)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/fabricius_query.py?page=90">p. 90</ref></bibl></cit><cit type="lexicon"><bibl><date>1862</date><title xml:lang="en">A comprehensive Tamil and English dictionary (Winslow)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/winslow_query.py?page=110">p. 110</ref></bibl></cit></entry>
+        <gramGrp><gram>verb</gram>
+<gram>5th class</gram></gramGrp>
+        <sense><def xml:lang="en">to smear, to daub</def>
+<usg xml:lang="en">transitive
+</usg>
+<cit source="https://uhh-tamilex.github.io/Purananuru/PN281.xml?id=PN281&amp;w=15,17">
+    <q xml:lang="ta"><w>mai</w> <w><c type="glide">y</c>iḻut<c type="elided">u</c></w> <w>iḻuki</w></q>
+    <q xml:lang="en">smearing black fat/paste</q>
+    <ref target="https://uhh-tamilex.github.io/Purananuru/PN281.xml?highlight=%5Bid%3DPN281%5D%20.l%3Anth-of-type(3)">PN281, line 3</ref>
+</cit>
+<cit>   <ref target="https://archive.org/details/maimkalai00matu/page/n255/mode/1up"><expan ref="#Mani"/> 6.43</ref>   <q xml:lang="ta">veḷḷi veḷ cutai  <c type="glide">y</c>iḻukiya māṭattu</q>   <q xml:lang="en"> storied mansions daubed with silver-white plaster</q> </cit>
+<cit>   
+   <ref target="https://ifpindia.org/digitaldb/site/digital_tevaram/U_TEV/DM1_19.HTM#p10"><expan ref="#Tev"/> 1.19.10.1 (trans. <expan ref="#VMS"/>, lightly corrected)</ref>
+   <q xml:lang="ta">amaivaṉa tuvar iḻukiya tukil aṇi <c type="glide">y</c>uṭaiyiṉar</q>
+   <q xml:lang="en"> (the Buddhists) who dress in robes smeared in the myrtle dye which are fitting them </q>
+</cit>
+<cit>   <ref target="https://archive.org/details/kmm-0708-seevaga-sinthamani-1922/page/469/mode/1up"><expan ref="#Cint"/> 1602.3</ref>
+  <q xml:lang="ta">iḻuku poṉ matattiṉ varaik kuñcaram</q>
+  <q xml:lang="en"> a mountain[-like] elephant with musth [like] gold smeared on [it] </q> </cit>
+<note xml:lang="en">
+</note></sense><sense><def xml:lang="en"> to settle (as particles of dust)    
+</def>
+<usg xml:lang="en">intransitive
+</usg>
+ <cit>   <ref target="https://ifpindia.org/digitaldb/site/digital_tevaram/U_TEV/DM3_67.HTM#p12"><expan ref="#Tev"/> 3.67.12.3</ref>
+   <q xml:lang="ta"> ulakil iḻukum malam aḻiyum vakai </q>
+   <q xml:lang="en"> a way to destroy the blemishes that settle on the world </q> </cit>  
+<note xml:lang="en">
+</note></sense><sense><def xml:lang="en">to delay
+</def>
+<usg xml:lang="en">intransitive
+</usg>
+Paḻamoḻi 160.3
+iḻukiṉāṉ ā kāppatu illai-~ē                              
+muṉṉam eḻutiṉāṉ ōlai paḻutu,                               
+“One who previously wrote a palm-leaf ola wrongly                               
+Does not save [it], putting [corrections] off.” (trans. Suganya Anadakichenin)      
+<note xml:lang="en">
+</note></sense>
+      <entry><gramGrp><gram>absolutive</gram></gramGrp><form xml:lang="ta">iḻuki</form></entry><entry><gramGrp><gram>peyareccam</gram><gram>perfective aspect</gram></gramGrp><form xml:lang="ta">iḻukiya</form></entry><entry><gramGrp><gram>peyareccam</gram></gramGrp><form xml:lang="ta">iḻikum</form></entry><entry><gramGrp><gram>perfective aspect</gram><gram>masculine singular</gram></gramGrp><form xml:lang="ta">iḻukiṉāṉ</form></entry><cit type="lexicon"><bibl><date>1972 [1779]</date><title xml:lang="en">Tamil and English Dictionary (Fabricius)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/fabricius_query.py?page=90">p. 90</ref></bibl></cit><cit type="lexicon"><bibl><date>1862</date><title xml:lang="en">A comprehensive Tamil and English dictionary (Winslow)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/winslow_query.py?page=110">p. 110</ref></bibl></cit><cit type="commentary"><ref target="https://archive.org/details/kmm-0708-seevaga-sinthamani-1922/page/469/mode/1up"><expan ref="#Nacc"/> ad <expan ref="#Cint"/> 1602.3</ref>
+<q xml:lang="ta">uriñcum poṉṉākiya matattaiyumuṭaiya varaiyākiya yāṉai</q>
+<q xml:lang="en">elephants that are mountains that have musth ichor which is gold that is smeared on</q>
+<note xml:lang="en">
+  The only medieval gloss currently available is this one by <expan ref="#Nacc"/> on the <foreign xml:lang="ta">Cintāmaṇi</foreign>. In the textcritical mess that is the <foreign xml:lang="ta">Paḻamoḻi</foreign> I currently don’t see a way of being sure what would be the gloss(es) to what is verse 160.3 in the Kaḻakam edition and  29.3 in the Rājam edition, as the former comes with a modern commentary, not the <foreign xml:lang="ta">paḻaiyavurai</foreign> (transmitted in various version in various manuscripts), and the latter does not have a commentary.     
+</note></cit></entry>
       <listBibl>
       </listBibl>
     </body>
