@@ -7,8 +7,8 @@
       <titleStmt>
         <title xml:lang="ta">aṭṭil</title>
         <editor>
-            <forename>First name</forename> 
-            <surname>Last name</surname>
+            <forename>Roland</forename> 
+            <surname>Ferenczi</surname>
         </editor>
       </titleStmt>
       <publicationStmt><p>Tamilex project.</p></publicationStmt>
@@ -67,19 +67,36 @@ This meaning is a transparent rendering of the term's etymology designating a st
   <q xml:lang="ta">tiṟavāk kaṇṇa cāy cevik kuruḷai / kaṟavāp pāl mulai kavartal nōṉātu / puṉiṟṟu nāy kuraikkum pulleṉ aṭṭil</q>   
   <q xml:lang="en">… in the empty <hi rend="bold">choultry</hi>, where a recently whelped dog barks, unable to endure the grasping of her milky teats not [yet] milked by [her] puppies with unopened eyes and curved ears ….</q> 
 </cit>
+<cit>   <ref target="https://archive.org/details/acc.-no.-37942-paththuppaattu-moolamum-nachinarkiniyaar-uraiyum-1889/page/%E0%AF%A8%E0%AF%AF%E0%AF%A6/mode/1up"><title xml:lang="ta">Paṭṭiṉappālai</title> lines 40–44 (trans. Ferenczi)</ref>   
+  <q xml:lang="ta">pulip poṟip pōrk kataviṉ / tirut tuñcum tiṇ kāppiṉ / pukaḻ nilaiiya moḻi viḷaṅka  / aṟaṉ nilaiiya akaṉ aṭṭil / cōṟu vākkiya koḻum kañci</q>   
+  <q xml:lang="en">the thick rice-water, drained from the cooked rice, [flowing] from a large cookhouse (<foreign xml:lang="ta">aṭṭil</foreign>) where the duty/Virtue (<foreign xml:lang="ta">aṟam</foreign>) was constant, when words/spells (<foreign xml:lang="ta">moḻi</foreign>) became abundant and praises/hymns (<foreign xml:lang="ta">pukaḻ</foreign>) were permanent, [behind] the firm protection [of ramparts] where fortune/Tiru (Śrī) rests, [and behind] the gates covered with the Tiger Mark …</q>
+</cit>
 <note xml:lang="en">
 In a royal or institutional context, the term designates a dedicated facility where meals are prepared and served (cf. <foreign xml:lang="ta">maṭaippaḷḷi</foreign>), functioning as a choultry or refectory for poets, guests, pilgrims, and dependants.
+</note>
+<note xml:lang="en">
+"<hi>Choultry</hi>, s. Peculiar to S. India, and of doubtful etymology; Malayāl. <foreign xml:lang="ta">chāwaṭī</foreign>, Tel. <foreign xml:lang="ta">chāwaḍi, [tsāvaḍi, chau</foreign>, Skt. <foreign xml:lang="ta">chatur</foreign>, 'four,' <foreign xml:lang="ta">vāṭa</foreign>, 'road, a place where four roads meet]. In W. India the form used is <foreign xml:lang="ta">chowry</foreign> or <foreign xml:lang="ta">chowree</foreign> (Dakh. <foreign xml:lang="ta">chāoṛī</foreign>). A hall, a shed, or a simple <foreign xml:lang="ta">loggia</foreign>,  used by travellers as a resting-place, and also intended for the  transaction of public business. [...]" (<ref targt="https://dsal.uchicago.edu/cgi-bin/app/hobsonjobson_query.py?page=212">Hobson-Jobson 1903, p. 212).</ref>
+</note></sense><sense><def xml:lang="en">
+sacrifical hall
+</def>
+<usg xml:lang="en">
+</usg>
+
+<note xml:lang="en">
+In a semantic shift, the same term comes to denote the site of Vedic fire sacrifice (cf. <foreign xml:lang="ta">ōmacālai</foreign>).      
 </note></sense>
       <entry><gramGrp><gram>pronominalised noun</gram><gram>singular</gram></gramGrp><form xml:lang="ta">aṭṭilōḷ</form></entry><cit type="lexicon"><bibl><date>1972 [1779]</date><title xml:lang="en">Tamil and English Dictionary (Fabricius)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/fabricius_query.py?page=12">p. 12</ref></bibl></cit><cit type="lexicon"><bibl><date>1862</date><title xml:lang="en">A comprehensive Tamil and English dictionary (Winslow)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/winslow_query.py?page=16">p. 16</ref></bibl></cit><cit type="lexicon"><bibl><date>1928 [1902]</date><title xml:lang="ta">Tamiḻmoḻiyakarāti (Katiraivēṟ Piḷḷai)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/kadirvelu_query.py?page=45">p. 45</ref><ref target="https://dsal.uchicago.edu/cgi-bin/app/kadirvelu_query.py?page=1608">p. 1608</ref></bibl></cit><cit type="lexicon"><bibl><date>1924–1936</date><title xml:lang="en">Tamil Lexicon (University of Madras)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?page=42">p. 42</ref></bibl></cit><cit type="commentary"><ref target="https://archive.org/details/cilappatikaram/page/347/mode/1up"><persName xml:lang="ta">Aṭiyārkkunallār</persName> ad <expan ref="#Cila"/> 13:  lines 122</ref>
 <q xml:lang="ta">aṭukkaḷai</q>
 <q xml:lang="en">cookhouse</q></cit><cit type="commentary"><ref target="https://archive.org/details/cilappatikaram/page/426/mode/1up"><persName xml:lang="ta">Aṭiyārkkunallār</persName> ad <expan ref="#Cila"/> 16:  line 32 (trans. Ferenczi)</ref>
 <q xml:lang="ta">kariya iṭattēyuṭaiya aṭṭil</q>
-<q xml:lang="en">cookhouse that is charred on the outside … </q></cit></entry>
+<q xml:lang="en">cookhouse that is charred on the outside … </q></cit><cit type="commentary"><ref target="https://archive.org/details/acc.-no.-37942-paththuppaattu-moolamum-nachinarkiniyaar-uraiyum-1889/page/%E0%AF%AE%E0%AF%A9/mode/1up"><expan ref="#Nacc"/> ad <title xml:lang="ta">Ciṟupāṇāṟṟuppaṭai</title> line 132</ref>
+<q xml:lang="ta">aṭukkaḷai</q>
+<q xml:lang="en">cookhouse</q></cit></entry>
       <listBibl>
       <bibl><persName xml:lang="ta">Puṣparataceṭṭiyār, Ū.</persName>, ed. 1885. <title xml:lang="ta">Nālaṭiyār eṉṟu vaḻaṅkum nālaṭi nāṉūṟu mūlamum atarkut teḷiporuḷ viḷakkap patavuraiyum.</title>  <term xml:lang="ta">Ceṉṉapaṭṭaṉam</term> <term xml:lang="ta">Kalāratnānakaram eṉṉum accukkūṭam.</term> <ref target="https://archive.org/details/gc-sh5-0332/">     ark:/13960/s2cw8d42tsb</ref></bibl><bibl><persName xml:lang="ta">Nārāyaṇacaraṇar</persName>, ed. 1899. <title xml:lang="ta">Ācārakkōvai. Maturaiyil caṅkam aruviya cāṉṟōril oruvar ākiya kayattūr peruvāyiṉ muḷḷiyāciriyarāl iyaṟṟiya mūlamum, nacciṉārkkiṉiyārāṟ ceyta poḻippuraiyum.</title>  <term xml:lang="ta">Tañcāvūr</term> <term xml:lang="ta">Śrī kiruṣṇavilāca acciyantiracālai.</term> <ref target="https://archive.org/details/dli.jZY9lup2kZl6TuXGlZQdjZh6lJpy">     ark:/13960/t0xq4g53d</ref></bibl><bibl><persName xml:lang="ta">Cāminātaiyar, U. Vē.</persName>, ed. 1889. <title xml:lang="ta">Pattuppāṭṭu mūlamum maturaiyāciriyar pārattuvāci nacciṉārkkiṉiyar uraiyum.</title> 1st edition. <term xml:lang="ta">Ceṉṉai:</term> <term xml:lang="ta">Tirāviṭaratnākara Accukkūṭam.</term> <ref target="https://archive.org/details/acc.-no.-37942-paththuppaattu-moolamum-nachinarkiniyaar-uraiyum-1889">ark:/13960/s2jdk2wm5hp</ref></bibl><bibl><persName xml:lang="ta">Cāminātaiyar, U. Vē.</persName>, ed. 1955.
 <title xml:lang="ta">Cilappatikāra mūlamum. arumpatavuraiyum. Aṭiyārkkunallāruraiyum.</title>
 <term xml:lang="ta">Ceṉṉai:</term> <term xml:lang="ta">Kapīr Accukkūṭam.</term>
-<ref target="https://archive.org/details/cilappatikaram">ark:/13960/s2x53j5nnx3</ref></bibl></listBibl>
+<ref target="https://archive.org/details/cilappatikaram">ark:/13960/s2x53j5nnx3</ref></bibl><bibl>Yule, Henry, Sir. 1903. <title>Hobson-Jobson: A glossary of colloquial Anglo-Indian words and phrases, and of kindred terms, etymological, historical, geographical and discursive.</title> New ed. edited by William Crooke, B.A. London: J. Murray.</bibl></listBibl>
     </body>
   </text>
 </TEI>
