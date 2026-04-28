@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="./lexicon.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./lexicon.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <script xmlns="http://www.w3.org/1999/xhtml" src="./lib/js/xslt-polyfill.min.js"></script>
   <teiHeader>
     <fileDesc>
@@ -24,19 +26,43 @@
 </usg>
 <cit source="https://uhh-tamilex.github.io/Narrinai/NA300.xml?id=NA300&amp;w=53,62">
     <q xml:lang="ta"><w>piccai</w> <w>cūḻ</w> <w>perum</w> <w>kaḷiṟu</w> <w>pōla</w> <w><c type="glide">v</c>em</w> <w>aṭṭil</w> <w>ōlai</w> <w>toṭṭaṉai</w> <w>niṉmē</w></q>
-    <q xml:lang="en">You … touch the palm-leaf [thatching] our cookhouse, as the big elephant bull going round for alms …, [and] stand [there]! </q>
-    <ref target="https://uhh-tamilex.github.io/Narrinai/NA300.xml?highlight=%5Bid%3DNA300%5D%20.l%3Anth-of-type(12)">NA300, lines 12–13</ref>
+    <q xml:lang="en">You … touch the palm-leaf [thatching] our <hi>cookhouse</hi>, as the big elephant bull going round for alms …, [and] stand [there]! </q>
+    <ref target="https://uhh-tamilex.github.io/Narrinai/NA300.xml?highlight=%5Bid%3DNA300%5D%20.l%3Anth-of-type(12)"><expan ref="#NA"/> 300, lines 12–13</ref>
 </cit>
 <cit source="https://uhh-tamilex.github.io/Cilappatikaram/cila13.xml?id=cila13&amp;w=643,664">
     <q xml:lang="ta"><w>aṭṭil</w> <w>pukai-<c type="glide">y</c>um</w> <w>akal</w> <w>aṅkāṭi</w> <w>muṭṭā<c type="geminated">k</c></w> <w>kūviyar</w> <w>mōtaka<c type="uncertain">m</c><c type="geminated">p</c></w> <w>pukai-<c type="glide">y</c>um</w> <w>maintar-um</w> <w>makaḷ</w> <w>irum</w> <w>māṭatt<c type="elided">u</c></w> <w>eṭutta</w> <w>am</w> <w>tīm</w> <w>pukai-<c type="glide">y</c>um</w> <w>ākuti<c type="geminated">p</c></w> <w>pukai-<c type="glide">y</c>um</w> <w>pal</w> <w>vēṟu</w> <w>pūm</w> <w>pukai</w></q>
-  <q xml:lang="en">the smoke from cookhouses, the smoke [from] dumplings of pancake sellers that don’t dash against [each other [in] the wide bazaar, husbands [and their] women that lifted in their storeyed houses pretty, sweet smoke, and the smoke from sacrificial fires, the many, different flower[-like] smoke</q> 
-    <ref target="https://uhh-tamilex.github.io/Cilappatikaram/cila13.xml?highlight=%5Bid%3Dcila13%5D%20.l%3Anth-of-type(120)">cila13, lines 120–124</ref>
+  <q xml:lang="en">the smoke from <hi>cookhouses</hi>, the smoke [from] dumplings of pancake sellers that don’t dash against [each other [in] the wide bazaar, husbands [and their] women that lifted in their storeyed houses pretty, sweet smoke, and the smoke from sacrificial fires, the many, different flower[-like] smoke</q> 
+    <ref target="https://uhh-tamilex.github.io/Cilappatikaram/cila13.xml?highlight=%5Bid%3Dcila13%5D%20.l%3Anth-of-type(120)"><expan ref="#Cila"/> 13, lines 120–124</ref>
+</cit>
+<cit source="https://uhh-tamilex.github.io/Cilappatikaram/cila16.xml?id=cila16&amp;w=161,170">
+    <q xml:lang="ta"><w>tiru</w> <w>mukam</w> <w>viyarttatu</w> <w>cem</w> <w>kaṇ</w> <w>cēntaṉa</w> <w>kari</w> <w>puṟa</w> <w><c type="glide">v</c>aṭṭil</w> <w>kaṇṭaṉaḷ</w></q>
+  <q xml:lang="en">[Her] brilliant face sweat. [Her already] red eyes [further] reddened. As she who watched the <hi rend="bold">cookhouse that is charred on the outside</hi> ... </q>
+    <ref target="https://uhh-tamilex.github.io/Cilappatikaram/cila16.xml?highlight=%5Bid%3Dcila16%5D%20.l%3Anth-of-type(31)"><expan ref="#Cila"/> 16, lines 31–32</ref>
+</cit>
+<cit>
+  <ref target="https://archive.org/details/gc-sh5-0332/page/n230/mode/1up"><title xml:lang="ta">Nālaṭiyār</title> 363, lines 1–2</ref>
+  <q xml:lang="ta">ciṟukālai / aṭṭil pukātāḷ arum piṇi</q>
+  <q xml:lang="en"> She who does not enter the <hi rend="bold">cookhouse</hi> at dawn is a rare disease [to her husband].</q> 
+</cit>
+<cit>   
+  <ref target="https://archive.org/details/dli.jZY9lup2kZl6TuXGlZQdjZh6lJpy/page/n25/mode/1up"><title xml:lang="ta">Ācārakkōvai</title> 99, lines 1–3</ref>   
+  <q xml:lang="ta">uraṟkaḷattum aṭṭilum peṇṭirkaḷ mēlum / naṭukkaṟṟa kāṭciyār nōkkār eṭutticaiyār / illam pukāar viṭal</q>   
+</cit>
+<note xml:lang="en">
+</note></sense><sense><def xml:lang="en"> choultry, refectory 
+</def>
+<usg xml:lang="en">
+</usg>
+<cit source="https://uhh-tamilex.github.io/Akananuru/AN168.xml?id=AN168&amp;w=25,39">
+    <q xml:lang="ta"><w>koṭai<c type="geminated">k</c></w> <w>kaṭaṉ</w> <w>eṉṟa</w> <w>kōṭā</w> <w>neñciṉ</w> <w>utiyaṉ</w> <w>aṭṭil</w> <w>pōla</w> <w><c type="glide">v</c>oli</w> <w><c type="glide">y</c>eḻunt<c type="elided">u</c></w> <w>aruvi</w> <w><c type="glide">y</c>ārkkum</w> <w>peru</w> <w>varai<c type="geminated">c</c></w> <w>cilampiṉ</w></q>
+    <q xml:lang="en">… on the side of the big mountain, where waterfalls roar,  sounds rising as if from the <hi rend="bold">choultry</hi> of Utiyaṉ whose heart does not shy away from what is said [to be] the duty of giving …</q>
+    <ref target="https://uhh-tamilex.github.io/Akananuru/AN168.xml?highlight=%5Bid%3DAN168%5D%20.l%3Anth-of-type(6)"><expan ref="#AN"/> 168, lines 6–8</ref>
 </cit>
 <note xml:lang="en">
 </note></sense>
       <entry><gramGrp><gram>pronominalised noun</gram><gram>singular</gram></gramGrp><form xml:lang="ta">aṭṭilōḷ</form></entry><cit type="lexicon"><bibl><date>1972 [1779]</date><title xml:lang="en">Tamil and English Dictionary (Fabricius)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/fabricius_query.py?page=12">p. 12</ref></bibl></cit><cit type="lexicon"><bibl><date>1862</date><title xml:lang="en">A comprehensive Tamil and English dictionary (Winslow)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/winslow_query.py?page=16">p. 16</ref></bibl></cit><cit type="lexicon"><bibl><date>1928 [1902]</date><title xml:lang="ta">Tamiḻmoḻiyakarāti (Katiraivēṟ Piḷḷai)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/kadirvelu_query.py?page=45">p. 45</ref><ref target="https://dsal.uchicago.edu/cgi-bin/app/kadirvelu_query.py?page=1608">p. 1608</ref></bibl></cit><cit type="lexicon"><bibl><date>1924–1936</date><title xml:lang="en">Tamil Lexicon (University of Madras)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?page=42">p. 42</ref></bibl></cit></entry>
       <listBibl>
-      </listBibl>
+      <bibl><persName xml:lang="ta">Puṣparataceṭṭiyār, Ū.</persName>, ed. 1885. <title xml:lang="ta">Nālaṭiyār eṉṟu vaḻaṅkum nālaṭi nāṉūṟu mūlamum atarkut teḷiporuḷ viḷakkap patavuraiyum.</title>  <term xml:lang="ta">Ceṉṉapaṭṭaṉam</term> <term xml:lang="ta">Kalāratnānakaram eṉṉum accukkūṭam.</term> <ref target="https://archive.org/details/gc-sh5-0332/">     ark:/13960/s2cw8d42tsb</ref></bibl><bibl><persName xml:lang="ta">Nārāyaṇacaraṇar</persName>, ed. 1899. <title xml:lang="ta">Ācārakkōvai. Maturaiyil caṅkam aruviya cāṉṟōril oruvar ākiya kayattūr peruvāyiṉ muḷḷiyāciriyarāl iyaṟṟiya mūlamum, nacciṉārkkiṉiyārāṟ ceyta poḻippuraiyum.</title>  <term xml:lang="ta">Tañcāvūr</term> <term xml:lang="ta">Śrī kiruṣṇavilāca acciyantiracālai.</term> <ref target="https://archive.org/details/dli.jZY9lup2kZl6TuXGlZQdjZh6lJpy">     ark:/13960/t0xq4g53d</ref></bibl></listBibl>
     </body>
   </text>
 </TEI>
