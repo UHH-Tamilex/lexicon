@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="./lexicon.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <script xmlns="http://www.w3.org/1999/xhtml" src="./lib/js/xslt-polyfill.min.js"></script>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="ta">aṭṭil</title>
+        <editor>
+            <forename>First name</forename> 
+            <surname>Last name</surname>
+        </editor>
+      </titleStmt>
+      <publicationStmt><p>Tamilex project.</p></publicationStmt>
+      <sourceDesc><p/></sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+  <text xml:lang="en">
+    <body>
+      <entry corresp="aṭṭil[DEDR76]">
+        <form xml:lang="ta">aṭṭil</form>
+        <gramGrp><gram>noun</gram></gramGrp>
+        <sense><def xml:lang="en">cookhouse</def>
+<usg xml:lang="en">
+</usg>
+<cit source="https://uhh-tamilex.github.io/Narrinai/NA300.xml?id=NA300&amp;w=53,62">
+    <q xml:lang="ta"><w>piccai</w> <w>cūḻ</w> <w>perum</w> <w>kaḷiṟu</w> <w>pōla</w> <w><c type="glide">v</c>em</w> <w>aṭṭil</w> <w>ōlai</w> <w>toṭṭaṉai</w> <w>niṉmē</w></q>
+    <q xml:lang="en">You … touch the palm-leaf [thatching] our cookhouse, as the big elephant bull going round for alms …, [and] stand [there]! </q>
+    <ref target="https://uhh-tamilex.github.io/Narrinai/NA300.xml?highlight=%5Bid%3DNA300%5D%20.l%3Anth-of-type(12)">NA300, lines 12–13</ref>
+</cit>
+<cit source="https://uhh-tamilex.github.io/Cilappatikaram/cila13.xml?id=cila13&amp;w=643,664">
+    <q xml:lang="ta"><w>aṭṭil</w> <w>pukai-<c type="glide">y</c>um</w> <w>akal</w> <w>aṅkāṭi</w> <w>muṭṭā<c type="geminated">k</c></w> <w>kūviyar</w> <w>mōtaka<c type="uncertain">m</c><c type="geminated">p</c></w> <w>pukai-<c type="glide">y</c>um</w> <w>maintar-um</w> <w>makaḷ</w> <w>irum</w> <w>māṭatt<c type="elided">u</c></w> <w>eṭutta</w> <w>am</w> <w>tīm</w> <w>pukai-<c type="glide">y</c>um</w> <w>ākuti<c type="geminated">p</c></w> <w>pukai-<c type="glide">y</c>um</w> <w>pal</w> <w>vēṟu</w> <w>pūm</w> <w>pukai</w></q>
+  <q xml:lang="en">the smoke from cookhouses, the smoke [from] dumplings of pancake sellers that don’t dash against [each other [in] the wide bazaar, husbands [and their] women that lifted in their storeyed houses pretty, sweet smoke, and the smoke from sacrificial fires, the many, different flower[-like] smoke</q> 
+    <ref target="https://uhh-tamilex.github.io/Cilappatikaram/cila13.xml?highlight=%5Bid%3Dcila13%5D%20.l%3Anth-of-type(120)">cila13, lines 120–124</ref>
+</cit>
+<note xml:lang="en">
+</note></sense>
+      <entry><gramGrp><gram>pronominalised noun</gram><gram>singular</gram></gramGrp><form xml:lang="ta">aṭṭilōḷ</form></entry><cit type="lexicon"><bibl><date>1972 [1779]</date><title xml:lang="en">Tamil and English Dictionary (Fabricius)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/fabricius_query.py?page=12">p. 12</ref></bibl></cit><cit type="lexicon"><bibl><date>1862</date><title xml:lang="en">A comprehensive Tamil and English dictionary (Winslow)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/winslow_query.py?page=16">p. 16</ref></bibl></cit><cit type="lexicon"><bibl><date>1928 [1902]</date><title xml:lang="ta">Tamiḻmoḻiyakarāti (Katiraivēṟ Piḷḷai)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/kadirvelu_query.py?page=45">p. 45</ref><ref target="https://dsal.uchicago.edu/cgi-bin/app/kadirvelu_query.py?page=1608">p. 1608</ref></bibl></cit><cit type="lexicon"><bibl><date>1924–1936</date><title xml:lang="en">Tamil Lexicon (University of Madras)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?page=42">p. 42</ref></bibl></cit></entry>
+      <listBibl>
+      </listBibl>
+    </body>
+  </text>
+</TEI>
