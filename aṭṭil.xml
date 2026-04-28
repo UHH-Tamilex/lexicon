@@ -48,12 +48,23 @@
   <ref target="https://archive.org/details/dli.jZY9lup2kZl6TuXGlZQdjZh6lJpy/page/n25/mode/1up"><title xml:lang="ta">Ācārakkōvai</title> 99, lines 1–3</ref>   
   <q xml:lang="ta">uraṟkaḷattum aṭṭilum peṇṭirkaḷ mēlum / naṭukkaṟṟa kāṭciyār nōkkār eṭutticaiyār / illam pukāar viṭal</q>   
 </cit>
+<cit source="https://uhh-tamilex.github.io/Narrinai/NA120.xml?id=NA120&amp;w=30,54">
+    <q xml:lang="ta"><w>pukai</w> <w><c type="glide">y</c>uṇṭ<c type="elided">u</c></w> <w>amartta</w> <w>kaṇṇaḷ</w> <w>takai</w> <w>peṟa<c type="geminated">p</c></w> <w>piṟai</w> <w>nutal</w> <w>poṟitta</w> <w>ciṟu</w> <w>nuṇ</w> <w>pal</w> <w>viyar</w> <w>am</w> <w>tukil</w> <w>talaiyiṉ</w> <w>tuṭaiyiṉaḷ</w> <w>nam</w> <w>pulant<c type="elided">u</c></w> <w>aṭṭilōḷ-ē</w> <choice type="ambiguous"><seg><w><c type="glide">y</c>a<c type="geminated">m</c></w></seg><seg><w>am</w></seg></choice> <w>mā</w> <w><c type="glide">v</c>arivai</w> <w><c type="glide">y</c>emakk<c type="elided">u</c>-ē</w> <w>varuka-til</w></q>
+    <q xml:lang="en">That dark young woman, she [is] in the <hi>cookhouse</hi>, being vexed with us, she who wiped off with the top of [her] pretty cloth the perspiration in many minute [drops], impressed on her crescent forehead befittingly(?), she with eyes at strife with the touch of smoke ... </q>
+    <ref target="https://uhh-tamilex.github.io/Narrinai/NA120.xml?highlight=%5Bid%3DNA120%5D%20.l%3Anth-of-type(6)"><expan ref="#NA"/> 120, lines 6–10 (trans. Wilden, altered by Ferenczi)</ref>
+</cit>
 <note xml:lang="en">
 <hi rend="bold">Etymology: </hi><foreign xml:lang="ta">aṭu</foreign>(‘to cook’, r.n. obl.) + <foreign xml:lang="ta">il</foreign> (‘house’, n.).<hi rend="bold"/> 
 </note>
 <note xml:lang="en">
 This meaning is a transparent rendering of the term's etymology designating a structure separate from the main dwelling, its detachment motivated primarily by smoke and fire hazard (cf. <title xml:lang="ta">Cilappatikāram</title> 13: 122; 16: 32; also cf. <foreign xml:lang="ta">aṭukkaḷai </foreign>(<foreign xml:lang="ta">Ācārakkōvai</foreign> 39: 2; <foreign xml:lang="ta">Maṇimēkalai </foreign>29: 61).       
-</note></sense><sense><def xml:lang="en"> choultry, refectory 
+</note>
+<note xml:lang="en">
+<title xml:lang="ta">Tivākaram</title> 960: <q xml:lang="ta">aṭṭil aṭukkaḷai maṭaippaḷḷi ākum.</q> — “<foreign xml:lang="ta">aṭṭil </foreign>is a cookhouse and a choultry/refectory.” 
+    </note>
+<note xml:lang="ta">
+<title xml:lang="ta">Piṅkalam</title> 692: <q xml:lang="ta">aṭṭil maṭaippaḷḷi yaṭukkaḷai yākum.</q> — “<foreign xml:lang="ta">aṭṭil </foreign>is a choultry/refectory and a cookhouse.” (Trans. Ferenczi)      
+  </note></sense><sense><def xml:lang="en"> choultry, refectory 
 </def>
 <usg xml:lang="en">
 </usg>
@@ -71,6 +82,13 @@ This meaning is a transparent rendering of the term's etymology designating a st
   <q xml:lang="ta">pulip poṟip pōrk kataviṉ / tirut tuñcum tiṇ kāppiṉ / pukaḻ nilaiiya moḻi viḷaṅka  / aṟaṉ nilaiiya akaṉ aṭṭil / cōṟu vākkiya koḻum kañci</q>   
   <q xml:lang="en">the thick rice-water, drained from the cooked rice, [flowing] from a large cookhouse (<foreign xml:lang="ta">aṭṭil</foreign>) where the duty/Virtue (<foreign xml:lang="ta">aṟam</foreign>) was constant, when words/spells (<foreign xml:lang="ta">moḻi</foreign>) became abundant and praises/hymns (<foreign xml:lang="ta">pukaḻ</foreign>) were permanent, [behind] the firm protection [of ramparts] where fortune/Tiru (Śrī) rests, [and behind] the gates covered with the Tiger Mark …</q>
 </cit>
+<cit>   <ref target="https://archive.org/details/acc.-no.-37942-paththuppaattu-moolamum-nachinarkiniyaar-uraiyum-1889/page/296/mode/1up"><title xml:lang="ta">Paṭṭiṉappālai</title> lines 40–44 (trans. Ferenczi)</ref>   
+<q xml:lang="ta">koṭum kāl māṭattu neṭum kaṭai tuvaṉṟi / virunt’ uṇṭ’ āṉāp perum cōṟṟ’ aṭṭil  / oḷ cuvar nal il uyar tiṇai ...</q>   <q xml:lang="en">… [staying] in the high verandah of the fine house with shining walls [and] a <hi rend="bold">cookhouse</hi> where the Great Rice (<foreign xml:lang="ta">peruñcōṟu</foreign>) is never exhausted, even after being eaten by guests, after [they] gathered at the tall gates of the storied buildings with curved pillars …</q> </cit>
+<cit>
+  <ref target="https://archive.org/details/maimkalai00matu/page/n376/mode/1up"><expan ref="#Mani"/> 20, line 7–8 (trans. Ferenczi)</ref>
+  <q xml:lang="ta">aruḷ puri neñcattu aṟavōr paḷḷiyum / aṭṭil cālaiyum aruntunar cālaiyum</q>
+  <q xml:lang="en">… the monastery (<foreign xml:lang="ta">paḷḷi</foreign>) of virtuous men/of the Virtuous Man with graceful heart, with a <hi rend="bold">hall [serving as] cookhouse</hi> and hall for those who dine …    </q>
+</cit>
 <note xml:lang="en">
 In a royal or institutional context, the term designates a dedicated facility where meals are prepared and served (cf. <foreign xml:lang="ta">maṭaippaḷḷi</foreign>), functioning as a choultry or refectory for poets, guests, pilgrims, and dependants.
 </note>
@@ -81,22 +99,37 @@ sacrifical hall
 </def>
 <usg xml:lang="en">
 </usg>
-
+<cit source="https://uhh-tamilex.github.io/Cilappatikaram/cila10.xml?id=cila10&amp;w=767,797">
+    <q xml:lang="ta"><w>uḻai<c type="geminated">p</c></w> <w>puli<c type="geminated">k</c></w> <w>koṭi<c type="geminated">t</c></w> <w>tēr</w> <w>uravōṉ</w> <w>koṟṟamoṭu</w> <w>maḻai<c type="geminated">k</c></w> <w>karu</w> <w><c type="glide">v</c>uyirkkum</w> <w>aḻal</w> <w>tikaḻ</w> <w>aṭṭil</w> <w>maṟaiyōr</w> <w>ākkiya</w> <w><c type="glide">v</c>āvuti</w> <w>naṟum</w> <w>pukai</w> <w>iṟai</w> <w><c type="glide">y</c>uyar</w> <w>māṭam</w> <w>eṅkaṇ-um</w> <w>pōrttu</w> <w>mañcu</w> <w>cūḻ</w> <w>malaiyiṉ</w> <w>māṇa<c type="geminated">t</c></w> <w>tōṉṟum</w> <w>maṅkalam</w> <w>maṟaiyōr</w> <w>irukkai</w> <w><c type="glide">y</c>aṉṟi-<c type="glide">y</c>um</w></q>
+    <ref target="https://uhh-tamilex.github.io/Cilappatikaram/cila10.xml?highlight=%5Bid%3Dcila10%5D%20.l%3Anth-of-type(142)"><expan ref="#Cila"/> 10, lines 142–147 (trans. Ferenczi)</ref>
+  <q xml:lang="en">... the seat of the ones with the auspicious Vedas, who appeared as glorious as mountains encircled by clouds, having covered the very high storied mansions everywhere with the fragrant smoke of the <foreign xml:lang="ta">āvuti</foreign> created by [those] Vedic people [in] the <hi>Cookhouse</hi> that glitters with fire, that gives life to the offspring of the rain clouds, also to the victory of the strong man with a deerskin [cloak?], tiger [emblem], and a chariot with banners ...</q>
+</cit>
 <note xml:lang="en">
 In a semantic shift, the same term comes to denote the site of Vedic fire sacrifice (cf. <foreign xml:lang="ta">ōmacālai</foreign>).      
 </note></sense>
-      <entry><gramGrp><gram>pronominalised noun</gram><gram>singular</gram></gramGrp><form xml:lang="ta">aṭṭilōḷ</form></entry><cit type="lexicon"><bibl><date>1972 [1779]</date><title xml:lang="en">Tamil and English Dictionary (Fabricius)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/fabricius_query.py?page=12">p. 12</ref></bibl></cit><cit type="lexicon"><bibl><date>1862</date><title xml:lang="en">A comprehensive Tamil and English dictionary (Winslow)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/winslow_query.py?page=16">p. 16</ref></bibl></cit><cit type="lexicon"><bibl><date>1928 [1902]</date><title xml:lang="ta">Tamiḻmoḻiyakarāti (Katiraivēṟ Piḷḷai)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/kadirvelu_query.py?page=45">p. 45</ref><ref target="https://dsal.uchicago.edu/cgi-bin/app/kadirvelu_query.py?page=1608">p. 1608</ref></bibl></cit><cit type="lexicon"><bibl><date>1924–1936</date><title xml:lang="en">Tamil Lexicon (University of Madras)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?page=42">p. 42</ref></bibl></cit><cit type="commentary"><ref target="https://archive.org/details/cilappatikaram/page/347/mode/1up"><persName xml:lang="ta">Aṭiyārkkunallār</persName> ad <expan ref="#Cila"/> 13:  lines 122</ref>
+      <entry><gramGrp><gram>pronominalised noun</gram><gram>singular</gram></gramGrp><form xml:lang="ta">aṭṭilōḷ</form></entry><cit type="lexicon"><bibl><date>1972 [1779]</date><title xml:lang="en">Tamil and English Dictionary (Fabricius)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/fabricius_query.py?page=12">p. 12</ref></bibl></cit><cit type="lexicon"><bibl><date>1862</date><title xml:lang="en">A comprehensive Tamil and English dictionary (Winslow)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/winslow_query.py?page=16">p. 16</ref></bibl></cit><cit type="lexicon"><bibl><date>1928 [1902]</date><title xml:lang="ta">Tamiḻmoḻiyakarāti (Katiraivēṟ Piḷḷai)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/kadirvelu_query.py?page=45">p. 45</ref><ref target="https://dsal.uchicago.edu/cgi-bin/app/kadirvelu_query.py?page=1608">p. 1608</ref></bibl></cit><cit type="lexicon"><bibl><date>1924–1936</date><title xml:lang="en">Tamil Lexicon (University of Madras)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?page=42">p. 42</ref></bibl></cit><cit type="commentary"><ref target="https://archive.org/details/cilappatikaram/page/347/mode/1up"><persName xml:lang="ta">Aṭiyārkkunallār</persName> ad <expan ref="#Cila"/> 13, line 122</ref>
 <q xml:lang="ta">aṭukkaḷai</q>
-<q xml:lang="en">cookhouse</q></cit><cit type="commentary"><ref target="https://archive.org/details/cilappatikaram/page/426/mode/1up"><persName xml:lang="ta">Aṭiyārkkunallār</persName> ad <expan ref="#Cila"/> 16:  line 32 (trans. Ferenczi)</ref>
+<q xml:lang="en">cookhouse</q></cit><cit type="commentary"><ref target="https://archive.org/details/cilappatikaram/page/426/mode/1up"><persName xml:lang="ta">Aṭiyārkkunallār</persName> ad <expan ref="#Cila"/> 16, line 32 (trans. Ferenczi)</ref>
 <q xml:lang="ta">kariya iṭattēyuṭaiya aṭṭil</q>
 <q xml:lang="en">cookhouse that is charred on the outside … </q></cit><cit type="commentary"><ref target="https://archive.org/details/acc.-no.-37942-paththuppaattu-moolamum-nachinarkiniyaar-uraiyum-1889/page/%E0%AF%AE%E0%AF%A9/mode/1up"><expan ref="#Nacc"/> ad <title xml:lang="ta">Ciṟupāṇāṟṟuppaṭai</title> line 132</ref>
 <q xml:lang="ta">aṭukkaḷai</q>
-<q xml:lang="en">cookhouse</q></cit></entry>
+<q xml:lang="en">cookhouse</q></cit><cit type="commentary"><ref target="https://archive.org/details/acc.-no.-37942-paththuppaattu-moolamum-nachinarkiniyaar-uraiyum-1889/page/300/mode/1up"><expan ref="#Nacc"/> ad <title xml:lang="ta">Paṭṭiṉappālai</title> lines 42–43 (trans. Ferenczi)</ref>
+<q xml:lang="ta">immaikkup pukaḻ nilaipeṟṟa col eṅkum paravā niṟka maṟumaikku aṟam nilaipeṟṟa akaṉṟa aṭṭil, irumaiyiṉum peṟum payaṉ uṇṭākac cōṟ’ iṭum cālai eṉṟavāṟu.</q>
+<q xml:lang="en">There is a way to say that the wide <foreign xml:lang="ta">aṭṭil</foreign>, which stands firm in virtue for the next life, while words of praise for this life, being permanent, continue to spread everywhere, [that <foreign xml:lang="ta">aṭṭil</foreign> is] a house/hall (<foreign xml:lang="ta">cālai</foreign>) which yields great benefit for both [lives this and the next], where cooked rice is distributed abundantly.    </q></cit><cit type="commentary"><ref target="https://archive.org/details/acc.-no.-37942-paththuppaattu-moolamum-nachinarkiniyaar-uraiyum-1889/page/300/mode/1up"><expan ref="#Nacc"/> ad <title xml:lang="ta">Paṭṭiṉappālai</title> lines 262–263</ref>
+<q xml:lang="ta">aṭukkaḷai</q>
+<q xml:lang="en">cookhouse</q></cit><cit type="commentary"><ref target="https://archive.org/details/cilappatikaram/page/260/mode/1up"><title xml:lang="ta">Arumpaṭavurai</title> ad <expan ref="#Cila"/> 10,  line 143 (trans. Ferenczi)</ref>
+<q xml:lang="ta">maḻaikkum karuppam āvatu tūmam. aṭṭil – ōmacālai.    </q>
+<q xml:lang="en">The smoke has become the womb for the rain clouds. <foreign xml:lang="ta">aṭṭil</foreign> – sacrificial hall (<foreign xml:lang="ta">ōmacālai</foreign> from Skt. <foreign xml:lang="sa">homaśālā</foreign>)</q></cit><cit type="commentary"><ref target="https://archive.org/details/cilappatikaram/page/277/mode/1up"><persName xml:lang="ta">Aṭiyārkkunallār</persName> ad <expan ref="#Cila"/> 10, line 143 (trans. Ferenczi)</ref>
+<q xml:lang="ta">...  maḻaikkum karuppattait tōṟṟuvikkum aḻalai viḷakkukiṉṟa cālaiyiṉ uṇṭāṉa maṟaiyōrāṉ ākkappaṭṭa tēvaruṇāviṉ āvi ...</q>
+<q xml:lang="en">... the fragrant smoke of the divine food, made by the Vedic people to be eaten [by the fire], in the hall that kindles the fire that brings forth the offspring of the rain clouds … </q></cit></entry>
       <listBibl>
       <bibl><persName xml:lang="ta">Puṣparataceṭṭiyār, Ū.</persName>, ed. 1885. <title xml:lang="ta">Nālaṭiyār eṉṟu vaḻaṅkum nālaṭi nāṉūṟu mūlamum atarkut teḷiporuḷ viḷakkap patavuraiyum.</title>  <term xml:lang="ta">Ceṉṉapaṭṭaṉam</term> <term xml:lang="ta">Kalāratnānakaram eṉṉum accukkūṭam.</term> <ref target="https://archive.org/details/gc-sh5-0332/">     ark:/13960/s2cw8d42tsb</ref></bibl><bibl><persName xml:lang="ta">Nārāyaṇacaraṇar</persName>, ed. 1899. <title xml:lang="ta">Ācārakkōvai. Maturaiyil caṅkam aruviya cāṉṟōril oruvar ākiya kayattūr peruvāyiṉ muḷḷiyāciriyarāl iyaṟṟiya mūlamum, nacciṉārkkiṉiyārāṟ ceyta poḻippuraiyum.</title>  <term xml:lang="ta">Tañcāvūr</term> <term xml:lang="ta">Śrī kiruṣṇavilāca acciyantiracālai.</term> <ref target="https://archive.org/details/dli.jZY9lup2kZl6TuXGlZQdjZh6lJpy">     ark:/13960/t0xq4g53d</ref></bibl><bibl><persName xml:lang="ta">Cāminātaiyar, U. Vē.</persName>, ed. 1889. <title xml:lang="ta">Pattuppāṭṭu mūlamum maturaiyāciriyar pārattuvāci nacciṉārkkiṉiyar uraiyum.</title> 1st edition. <term xml:lang="ta">Ceṉṉai:</term> <term xml:lang="ta">Tirāviṭaratnākara Accukkūṭam.</term> <ref target="https://archive.org/details/acc.-no.-37942-paththuppaattu-moolamum-nachinarkiniyaar-uraiyum-1889">ark:/13960/s2jdk2wm5hp</ref></bibl><bibl><persName xml:lang="ta">Cāminātaiyar, U. Vē.</persName>, ed. 1955.
 <title xml:lang="ta">Cilappatikāra mūlamum. arumpatavuraiyum. Aṭiyārkkunallāruraiyum.</title>
 <term xml:lang="ta">Ceṉṉai:</term> <term xml:lang="ta">Kapīr Accukkūṭam.</term>
-<ref target="https://archive.org/details/cilappatikaram">ark:/13960/s2x53j5nnx3</ref></bibl><bibl>Yule, Henry, Sir. 1903. <title>Hobson-Jobson: A glossary of colloquial Anglo-Indian words and phrases, and of kindred terms, etymological, historical, geographical and discursive.</title> New ed. edited by William Crooke, B.A. London: J. Murray.</bibl></listBibl>
+<ref target="https://archive.org/details/cilappatikaram">ark:/13960/s2x53j5nnx3</ref></bibl><bibl>Yule, Henry, Sir. 1903. <title>Hobson-Jobson: A glossary of colloquial Anglo-Indian words and phrases, and of kindred terms, etymological, historical, geographical and discursive.</title> New ed. edited by William Crooke, B.A. London: J. Murray.</bibl><bibl><persName xml:lang="ta">Cāminātaiyar, U. Vē.</persName>, ed. 1898.
+<title xml:lang="ta">Maṇimēkalai mūlamum, Vē. Cāminātaiyareḻutiya arumpatavuraiyum.</title>
+<term xml:lang="ta">Ceṉṉai:</term> <term xml:lang="ta">Ve. Nā. Jūpili Accukkūṭam.</term>
+<ref target="https://archive.org/details/maimkalai00matu">ark:/13960/s27s9xkc69s</ref></bibl></listBibl>
     </body>
   </text>
 </TEI>
