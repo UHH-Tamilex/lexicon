@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./lexicon.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <script src="./lib/js/xslt-polyfill.min.js" xmlns="http://www.w3.org/1999/xhtml"></script>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="ta">maṭalai</title>
+        <editor>
+            <forename>First name</forename> 
+            <surname>Last name</surname>
+        </editor>
+      </titleStmt>
+      <publicationStmt><p>Tamilex project.</p></publicationStmt>
+      <sourceDesc><p/></sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+  <text xml:lang="en">
+    <body>
+      <entry corresp="maṭalai[PNind.505-c1]">
+        <form xml:lang="ta">maṭalai</form>
+        <gramGrp><gram>noun</gram></gramGrp>
+        <sense><def xml:lang="en"><abbr ref="#io"/>: a kind of tree(?)</def>
+<usg xml:lang="en">
+</usg>
+<cit source="https://uhh-tamilex.github.io/Purananuru/PN339.xml?id=PN339&amp;w=3,10">
+    <q xml:lang="ta"><w>pal</w> <w><c type="geminated">l</c>ā</w> <w>neṭu</w> <w>veṟṟi</w> <w>maṭalai</w> <w>māṇ</w> <w>niḻal</w> <w>acaiviṭa<c type="geminated">k</c></w></q>
+    <q xml:lang="en">while many cows that set out for the wide fields chews the cud in the glorious shade of the tall, triumphant Maṭalai tree</q>
+    <ref target="https://uhh-tamilex.github.io/Purananuru/PN339.xml?highlight=%5Bid%3DPN339%5D%20.l%3Anth-of-type(1)">PN339, lines 1–2</ref>
+</cit>
+<note xml:lang="en">Neither the <abbr ref="#TL"/> nor the <abbr ref="#VAMTIPA"/> report this word, but the Subramoniam index of the <expan ref="#PN"/> has it. <abbr ref="#UVC"/> does not comment, but Tuṟaicāmip Piḷḷai's commentary (1962: 277) brings a gloss: <foreign xml:lang="ta">pūkkaḷaiyuṭaiya maraṅkaḷ</foreign>. 
+</note></sense>
+      </entry>
+      <listBibl>
+      </listBibl>
+    </body>
+  </text>
+</TEI>
