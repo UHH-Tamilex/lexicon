@@ -272,7 +272,7 @@ const addEditButtons = () => {
     bibllist = document.createElement('details');
     bibllist.id = 'list_bibliography';
     bibllist.open = true;
-    bibllist.innerHTML = '<summary style="font-size: 1.5rem;font-style italic" lang="en">Additional Bibliography</summary>';
+    bibllist.innerHTML = '<summary style="font-size: 1.5rem;font-style italic" lang="en">Additional bibliography</summary>';
     document.querySelector('.teitext > div').appendChild(bibllist);
   }
   addPlusButton(bibllist,newBibliography,'bibliography entry','p');
