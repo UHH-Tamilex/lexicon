@@ -700,6 +700,7 @@ const previewField = async (button,xmlsel,htmlsel,cancel) => {
     if(!cancel) newel.classList.add('edited');
     //newel.parentNode.querySelector('button.minibutton').style.display = 'block';
     _state.Transliterator.refreshCache(newel);
+    newel.scrollIntoView({behavior: 'smooth',block: 'start'});
     checkCitations(newel, _state.curDoc);
   }
 };
