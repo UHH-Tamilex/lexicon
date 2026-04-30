@@ -7,8 +7,8 @@
       <titleStmt>
         <title xml:lang="ta">iḻutu</title>
         <editor>
-            <forename>First name</forename> 
-            <surname>Last name</surname>
+            <forename>Eva</forename> 
+            <surname>Wilden</surname>
         </editor>
       </titleStmt>
       <publicationStmt><p>Tamilex project.</p></publicationStmt>
@@ -27,33 +27,36 @@
 <cit source="https://uhh-tamilex.github.io/Purananuru/PN281.xml?id=PN281&amp;w=15,17">
     <q xml:lang="ta"><w>mai</w> <w><c type="glide">y</c>iḻut<c type="elided">u</c></w> <w>iḻuki</w></q>
     <q xml:lang="en">smearing with kajal[-dark]/goat fat</q>
-    <ref target="https://uhh-tamilex.github.io/Purananuru/PN281.xml?highlight=%5Bid%3DPN281%5D%20.l%3Anth-of-type(3)">PN281, line 3</ref>
+    <ref target="https://uhh-tamilex.github.io/Purananuru/PN281.xml?highlight=%5Bid%3DPN281%5D%20.l%3Anth-of-type(3)"><expan ref="#PN"/> 281, line 3</ref>
 </cit>
 <cit source="https://uhh-tamilex.github.io/Purananuru/PN325.xml?id=PN325&amp;w=34,36">
     <q xml:lang="ta"><w>uṭump<c type="elided">u</c></w> <w>iḻut<c type="elided">u</c></w> <w>aṟutta</w></q>
     <q xml:lang="en">who cut of the fat of the iguana</q>
-    <ref target="https://uhh-tamilex.github.io/Purananuru/PN325.xml?highlight=%5Bid%3DPN325%5D%20.l%3Anth-of-type(7)">PN325, line 7</ref>
+            <ref target="https://uhh-tamilex.github.io/Purananuru/PN325.xml?highlight=%5Bid%3DPN325%5D%20.l%3Anth-of-type(7)"><expan ref="#PN"/> 325, line 7</ref>
 </cit>
 <cit>
   <ref target="https://ifpindia.org/digitaldb/site/digital_tevaram/U_TEV/VMS5_041.HTM#p3"><expan ref="#Tev"/> 5.41.3.1 (trans. <abbr ref="#VMS"/>)</ref>
   <q xml:lang="ta">viḻutu cūlattaṉ</q>
   <q xml:lang="en">Civaṉ who has a trident to which fat is sticking</q>
 </cit>
-<note xml:lang="en">Actually the exact distinction between various kinds of animal fat on the one hand and butter or ghee on the other hand is fully dependent on context and often debatable.</note>
+<note xml:lang="en">Actually the exact distinction between various kinds of animal fat on the one hand and butter or ghee on the other hand is fully dependent on context and often debatable. This can be seen from the two only early glosses available (on PN 65.2 and 150.9) which both gloss <foreign xml:lang="ta">iḻutu</foreign> with <foreign xml:lang="ta">ney</foreign>. For the time being I suggest a common sense distinction: ghee is used for cooking, but butter as a comparison for something of white colour.  
+</note>
 <note xml:lang="en"> Note that from the bhakti corpus onward the word <foreign xml:lang="ta">iḻutu</foreign> appears to vanish and to be replaced by <foreign xml:lang="ta">viḻutu</foreign> in the same range of meanings. This is confirmed by <abbr ref="#Cre-A"/> which does not mention <foreign xml:lang="ta">iḻutu</foreign> at all.
-</note></sense><sense><def xml:lang="en">ghee
+</note>
+<note>Strangely, <foreign xml:lang="ta">viḻutu</foreign> is not taken up by the <abbr ref="#VAMTIPA"/>.
+ </note></sense><sense><def xml:lang="en">ghee
 </def>
 <usg xml:lang="en">
 </usg>
 <cit source="https://uhh-tamilex.github.io/Kuruntokai/KT277.xml?id=KT277&amp;w=7,12">
     <q xml:lang="ta"><w>cem</w> <w>nel</w> <w>amalai</w> <w>veṇmai</w> <w>veḷ</w> <w><c type="geminated">ḷ</c>iḻut<c type="elided">u</c></w></q>
     <q xml:lang="en">boiled rice from red paddy [and] very white ghee</q>
-    <ref target="https://uhh-tamilex.github.io/Kuruntokai/KT277.xml?highlight=%5Bid%3DKT277%5D%20.l%3Anth-of-type(2)">KT277, line 2</ref>
+            <ref target="https://uhh-tamilex.github.io/Kuruntokai/KT277.xml?highlight=%5Bid%3DKT277%5D%20.l%3Anth-of-type(2)"><expan ref="#KT"/> 277, line 2</ref>
 </cit>
 <cit source="https://uhh-tamilex.github.io/NalayiratTivviyapPirapantam/MuTA25.xml?id=MuTA25&amp;w=10,12">
     <q xml:lang="ta"><w>āycci</w> <w>viḻut<c type="elided">u</c></w> <w>uṇṭa</w></q>
     <q xml:lang="en">(little Kṛṣṇa) who ate the butter of the cowherdess</q>
-    <ref target="https://uhh-tamilex.github.io/NalayiratTivviyapPirapantam/MuTA25.xml?highlight=%5Bid%3DMuTA25%5D%20.l%3Anth-of-type(2)">MuTA25, line 2</ref>
+            <ref target="https://uhh-tamilex.github.io/NalayiratTivviyapPirapantam/MuTA25.xml?highlight=%5Bid%3DMuTA25%5D%20.l%3Anth-of-type(2)"><title xml:lang="ta">Mūṉṟān Tiruvantāti</title> 25, line 2</ref>
 </cit>
 <note xml:lang="en">
 </note></sense><sense><def xml:lang="en">butter
@@ -67,9 +70,15 @@
 </cit>
 <note xml:lang="en">
 </note></sense>
-      <entry><gramGrp><gram>oblique</gram></gramGrp><form xml:lang="ta">iḻutiṉ</form></entry><entry><gramGrp><gram>noun</gram></gramGrp><form xml:lang="ta">viḻutu</form></entry><cit type="lexicon"><bibl><date>1972 [1779]</date><title xml:lang="en">Tamil and English Dictionary (Fabricius)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/fabricius_query.py?page=90">p. 90</ref><ref target="https://dsal.uchicago.edu/cgi-bin/app/fabricius_query.py?page=888">p. 888</ref></bibl></cit><cit type="lexicon"><bibl><date>1862</date><title xml:lang="en">A comprehensive Tamil and English dictionary (Winslow)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/winslow_query.py?page=110">p. 110</ref><ref target="https://dsal.uchicago.edu/cgi-bin/app/winslow_query.py?page=951">p. 951</ref></bibl></cit><cit type="lexicon"><bibl><date>1928 [1902]</date><title xml:lang="ta">Tamiḻmoḻiyakarāti (Katiraivēṟ Piḷḷai)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/kadirvelu_query.py?page=244">p. 244</ref><ref target="https://dsal.uchicago.edu/cgi-bin/app/kadirvelu_query.py?page=1297">p. 1297</ref><ref target="https://dsal.uchicago.edu/cgi-bin/app/kadirvelu_query.py?page=1655">p. 1655</ref></bibl></cit><cit type="lexicon"><bibl><date>1924–1936</date><title xml:lang="en">Tamil Lexicon (University of Madras)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?page=352">p. 352</ref><ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?page=3722">p. 3722</ref><ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?page=4062">p. S134</ref></bibl></cit><cit type="lexicon"><bibl><date>1992</date><title xml:lang="ta">Kriyāviṉ taṟkālat Tamiḻ akarāti</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/crea_query.py?page=940">p. 940</ref></bibl></cit><cit type="commentary"><ref target="https://archive.org/details/Tamil-Purananuru-U-Ve-Sa-3rd-Edition-1935/page/n407/mode/2up"><expan ref="#pu"/> on <expan ref="#PN"/> 150.9</ref>
-<q xml:lang="ta">ney <c type="geminated">y</c>iḻutu pōṉṟa veḷḷiya niṉattaiyuṭaiya koḻuviya taṭi</q>
-<q xml:lang="en">greasy pieces of white fat that resemble butter</q></cit></entry>
+      <entry><gramGrp><gram>oblique</gram></gramGrp><form xml:lang="ta">iḻutiṉ</form></entry><entry><gramGrp><gram>noun</gram></gramGrp><form xml:lang="ta">viḻutu</form></entry><cit type="lexicon"><bibl><date>1972 [1779]</date><title xml:lang="en">Tamil and English Dictionary (Fabricius)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/fabricius_query.py?page=90">p. 90</ref><ref target="https://dsal.uchicago.edu/cgi-bin/app/fabricius_query.py?page=888">p. 888</ref></bibl></cit><cit type="lexicon"><bibl><date>1862</date><title xml:lang="en">A comprehensive Tamil and English dictionary (Winslow)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/winslow_query.py?page=110">p. 110</ref><ref target="https://dsal.uchicago.edu/cgi-bin/app/winslow_query.py?page=951">p. 951</ref></bibl></cit><cit type="lexicon"><bibl><date>1928 [1902]</date><title xml:lang="ta">Tamiḻmoḻiyakarāti (Katiraivēṟ Piḷḷai)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/kadirvelu_query.py?page=244">p. 244</ref><ref target="https://dsal.uchicago.edu/cgi-bin/app/kadirvelu_query.py?page=1297">p. 1297</ref><ref target="https://dsal.uchicago.edu/cgi-bin/app/kadirvelu_query.py?page=1655">p. 1655</ref></bibl></cit><cit type="lexicon"><bibl><date>1924–1936</date><title xml:lang="en">Tamil Lexicon (University of Madras)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?page=352">p. 352</ref><ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?page=3722">p. 3722</ref><ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?page=4062">p. S134</ref></bibl></cit><cit type="lexicon"><bibl><date>1992</date><title xml:lang="ta">Kriyāviṉ taṟkālat Tamiḻ akarāti</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/crea_query.py?page=940">p. 940</ref></bibl></cit><cit type="commentary"><ref target="https://archive.org/details/Tamil-Purananuru-U-Ve-Sa-3rd-Edition-1935/page/n283/mode/2up"><expan ref="#pu"/> on <expan ref="#PN"/> 65.2</ref>
+<q xml:lang="ta">periya ~iṭattaiyuṭaiya pāṉai pāliṉmaiyiṉ kaviḻntu ney kaṭaittalai ~oḻiya</q>
+
+<ref target="https://archive.org/details/Tamil-Purananuru-U-Ve-Sa-3rd-Edition-1935/page/n407/mode/2up"><expan ref="#pu"/> on <expan ref="#PN"/> 150.9</ref>
+<q xml:lang="ta">ney <w><c type="geminated">y</c>iḻutu</w> pōṉṟa veḷḷiya niṉattaiyuṭaiya koḻuviya taṭi</q>
+<q xml:lang="en">greasy pieces of white fat that resemble butter</q>
+
+<note>Two further old occurrences of <foreign xml:lang="ta">iḻutu</foreign> come with a commentary, namely  <expan ref="#AN"/> 9.5 and Malaipaṭukaṭām 244, but neither the <expan ref="#pu"/> nor <expan ref="#Nacc"/> make any comment, in other words, do not perceive any difficulty.
+ </note></cit></entry>
       <listBibl>
       </listBibl>
     </body>
