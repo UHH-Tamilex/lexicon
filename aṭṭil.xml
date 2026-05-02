@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="./lexicon.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./lexicon.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <script xmlns="http://www.w3.org/1999/xhtml" src="./lib/js/xslt-polyfill.min.js"></script>
   <teiHeader>
     <fileDesc>
@@ -124,7 +126,7 @@ In a semantic shift, the same term comes to denote the site of Vedic fire sacrif
 <q xml:lang="ta">immaikkup pukaḻ nilaipeṟṟa col eṅkum paravā niṟka maṟumaikku aṟam nilaipeṟṟa akaṉṟa aṭṭil, irumaiyiṉum peṟum payaṉ uṇṭākac cōṟ’ iṭum cālai eṉṟavāṟu.</q>
 <q xml:lang="en"> There is a way to understand that the wide ‘cookhouse’, which stands firm in virtue for the next life, while words of praise for this life, being permanent, continue to spread everywhere, [that ‘cookhouse’ is] a house (<foreign xml:lang="ta">cālai</foreign>) which yields great benefit for both [this life and the next], where cooked rice is distributed abundantly.</q></cit><cit type="commentary"><ref target="https://archive.org/details/acc.-no.-37942-paththuppaattu-moolamum-nachinarkiniyaar-uraiyum-1889/page/300/mode/1up"><expan ref="#Nacc"/> ad <title xml:lang="ta">Paṭṭiṉappālai</title> lines 262–263</ref>
 <q xml:lang="ta">aṭukkaḷai</q>
-<q xml:lang="en">cookhouse</q></cit><cit type="commentary"><ref target="https://archive.org/details/cilappatikaram/page/260/mode/1up"><title xml:lang="ta">Arumpaṭavurai</title> ad <expan ref="#Cila"/> 10,  line 143 (trans. Ferenczi)</ref>
+<q xml:lang="en">cookhouse</q></cit><cit type="commentary"><ref target="https://archive.org/details/cilappatikaram/page/260/mode/1up"><title xml:lang="ta">Arumpatavurai</title> ad <expan ref="#Cila"/> 10,  line 143 (trans. Ferenczi)</ref>
 <q xml:lang="ta">maḻaikkum karuppam āvatu tūmam. aṭṭil – ōmacālai.    </q>
 <q xml:lang="en">The smoke has become the womb even for the rain clouds. <foreign xml:lang="ta">aṭṭil</foreign> – sacrificial hall (<foreign xml:lang="ta">ōmacālai</foreign> from Skt. <foreign xml:lang="sa">homaśālā</foreign>)</q></cit><cit type="commentary"><ref target="https://archive.org/details/cilappatikaram/page/277/mode/1up"><persName xml:lang="ta">Aṭiyārkkunallār</persName> ad <expan ref="#Cila"/> 10, line 143 (trans. Ferenczi)</ref>
 <q xml:lang="ta">...  maḻaikkum karuppattait tōṟṟuvikkum aḻalai viḷakkukiṉṟa cālaiyiṉ uṇṭāṉa maṟaiyōrāṉ ākkappaṭṭa tēvaruṇāviṉ āvi ...</q>
