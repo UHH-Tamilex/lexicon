@@ -40,7 +40,7 @@ const go = async () => {
     fulldb.prepare('DROP TABLE IF EXISTS [lemmata]').run();
     fulldb.prepare('DROP INDEX IF EXISTS idx_form').run();
     fulldb.prepare('DROP INDEX IF EXISTS idx_formsort').run();
-    fulldb.prepare('CREATE TABLE [lemmata] (lemma TEXT PRIMARY KEY, recognized INTEGER, form TEXT, formsort TEXT, definition TEXT)').run();
+    fulldb.prepare('CREATE TABLE [lemmata] (lemma TEXT PRIMARY KEY, recognized INTEGER, form TEXT, formsort TEXT)').run();
     fulldb.prepare('CREATE TABLE [citations] ('+
         'form TEXT, '+
         'formsort TEXT, '+
@@ -115,7 +115,7 @@ const go = async () => {
         }
         const lemmata = db.prepare('SELECT * from lemmata').all();
         for(const l of lemmata)
-            fulldb.prepare('INSERT OR IGNORE INTO lemmata VALUES (@lemma, @recognized, @form, @formsort, @definition)').run(l);
+            fulldb.prepare('INSERT OR IGNORE INTO lemmata VALUES (@lemma, @recognized, @form, @formsort)').run(l);
     }
 
     fulldb.prepare('CREATE INDEX idx_form ON citations(form)').run();
