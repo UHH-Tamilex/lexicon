@@ -1,4 +1,4 @@
-import { parse as CSVParse } from './csv-sync.js';
+import { parse as CSVParse } from '../lib/debugging/csv-sync.js';
 import { loadDoc } from '../lib/debugging/fileops.mjs';
 import openDb from '../lib/js/sqlite.mjs';
 import previewDoc from '../lib/debugging/preview.mjs';
