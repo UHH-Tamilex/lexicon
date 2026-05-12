@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./lexicon.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <script src="./lib/js/xslt-polyfill.min.js" xmlns="http://www.w3.org/1999/xhtml"></script>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="ta">alkul</title>
+        <editor>
+            <forename>First name</forename> 
+            <surname>Last name</surname>
+        </editor>
+      </titleStmt>
+      <publicationStmt><p>Tamilex project.</p></publicationStmt>
+      <sourceDesc><p/></sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+  <text xml:lang="en">
+    <body>
+      <entry corresp="alkul[DEDR253]">
+        <form xml:lang="ta">alkul</form>
+        <gramGrp><gram>noun</gram></gramGrp>
+        <sense><def xml:lang="en">hip</def>
+<usg xml:lang="en">
+</usg>
+<cit source="https://uhh-tamilex.github.io/Kuruntokai/KT345.xml?id=KT345&amp;w=17,21">
+    <q xml:lang="ta"><w>taḻai</w> <w>tāḻ</w> <w>alkul</w> <w>ivaḷ</w> <w>pulamp<c type="elided">u</c></w></q>
+    <q xml:lang="en">she with hips from which a leaf [skirt] hangs down</q>
+    <ref target="https://uhh-tamilex.github.io/Kuruntokai/KT345.xml?highlight=%5Bid%3DKT345%5D%20.l%3Anth-of-type(4)">KT345, line 4</ref>
+</cit>
+<cit source="https://uhh-tamilex.github.io/Kuruntokai/KT101.xml?id=KT101&amp;w=22,26">
+    <q xml:lang="ta"><w>māṇ</w> <w>vari</w> <w><c type="glide">y</c>alkul</w> <w>kuṟu</w> <w>makaḷ</w></q>
+    <q xml:lang="en">small woman with hips of glorious outline</q>
+    <ref target="https://uhh-tamilex.github.io/Kuruntokai/KT101.xml?highlight=%5Bid%3DKT101%5D%20.l%3Anth-of-type(5)">KT101, line 5</ref>
+</cit>
+<cit source="https://uhh-tamilex.github.io/Narrinai/NA245.xml?id=NA245&amp;w=22,26">
+    <q xml:lang="ta"><w><c type="glide">y</c>oḻuku</w> <w>nuṇ</w> <w>nucuppiṉ</w> <w>akaṉṟa</w> <w><c type="glide">v</c>alkul</w></q>
+    <q xml:lang="en">with a narrow waist and wide hips</q>
+    <ref target="https://uhh-tamilex.github.io/Narrinai/NA245.xml?highlight=%5Bid%3DNA245%5D%20.l%3Anth-of-type(5)">NA245, line 5</ref>
+</cit>
+
+<note xml:lang="en">
+</note></sense><sense><def xml:lang="en">buttocks
+</def>
+<usg xml:lang="en">
+</usg>
+<cit source="https://uhh-tamilex.github.io/Paripatal/Pari13.xml?id=Pari13&amp;w=288,291">
+    <q xml:lang="ta"><w>mārp<c type="elided">u</c>-um</w> <w>alkul-um</w> <w>maṉattoṭu</w> <w>periyai</w></q>
+    <q xml:lang="en">you (Tirumāl, m.sg.!) are big in chest and buttocks, along with the mind</q>
+    <ref target="https://uhh-tamilex.github.io/Paripatal/Pari13.xml?highlight=%5Bid%3DPari13%5D%20.l%3Anth-of-type(54)">Pari13, line 54</ref>
+</cit>
+<note xml:lang="en">
+</note></sense><sense><def xml:lang="en">vulva
+</def>
+<usg xml:lang="en">
+</usg>
+<cit source="https://uhh-tamilex.github.io/Cilappatikaram/cila12.xml?id=cila12.3&amp;w=27,32">
+    <q xml:lang="ta"><w><c type="glide">v</c>i<c type="geminated">p</c></w> <w>pai</w> <w><c type="glide">y</c>arav<c type="elided">u</c></w> <w>alkul</w> <w>tavam</w> <w>eṉṉai-kollō</w></q>
+    <q xml:lang="en">What, pray, is the penance [done by] this [girl with] a vulva [like] the hooded snake [= cobra]?</q>
+    <ref target="https://uhh-tamilex.github.io/Cilappatikaram/cila12.xml?highlight=%5Bid%3Dcila12.3%5D%20.l%3Anth-of-type(6)">cila12.3, line 6</ref>
+</cit>
+<cit>
+  <ref target="https://ifpindia.org/digitaldb/site/digital_tevaram/U_TEV/VMS2_010.HTM#p2"><expan ref="#Tev"/> 2.10.2.1</ref>
+  <q xml:lang="ta">paṇam koḷ āṭu aravu alkul nallār</q>
+  <q xml:lang="en">good women with vulvas [like]  dancing snakes that have hoods</q>
+</cit>
+<note xml:lang="en">
+</note></sense>
+      <entry><gramGrp><gram>accusative</gram></gramGrp><form xml:lang="ta">alkulai</form></entry><entry><gramGrp><gram>sociative</gram></gramGrp><form xml:lang="ta">alkuloṭu</form></entry><entry><gramGrp><gram>dative</gram></gramGrp><form xml:lang="ta">alkuṟku</form></entry><entry><gramGrp><gram>pronominalised noun</gram><gram>singular</gram><gram>second person</gram></gramGrp><form xml:lang="ta">alkulāy</form></entry><entry><gramGrp><gram>pronominalised noun</gram><gram>feminine singular</gram></gramGrp><form xml:lang="ta">alkulāḷ</form></entry><cit type="lexicon"><bibl><date>1972 [1779]</date><title xml:lang="en">Tamil and English Dictionary (Fabricius)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/fabricius_query.py?page=36">p. 36</ref></bibl></cit><cit type="lexicon"><bibl><date>1862</date><title xml:lang="en">A comprehensive Tamil and English dictionary (Winslow)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/winslow_query.py?page=43">p. 43</ref></bibl></cit><cit type="lexicon"><bibl><date>1928 [1902]</date><title xml:lang="ta">Tamiḻmoḻiyakarāti (Katiraivēṟ Piḷḷai)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/kadirvelu_query.py?page=133">p. 133</ref></bibl></cit><cit type="lexicon"><bibl><date>1924–1936</date><title xml:lang="en">Tamil Lexicon (University of Madras)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?page=140">p. 140</ref></bibl></cit><cit type="lexicon"><bibl><date>1992</date><title xml:lang="ta">Kriyāviṉ taṟkālat Tamiḻ akarāti</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/crea_query.py?page=40">p. 40</ref></bibl></cit></entry>
+      <listBibl>
+      </listBibl>
+    </body>
+  </text>
+</TEI>
