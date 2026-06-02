@@ -124,7 +124,7 @@
                             <xsl:text>. </xsl:text>
                             <span id="latestcommit"></span>
                         </p>
-                        <p><a href="https://doi.org/10.5281/zenodo.15680522"><img src="zenodo.15680522.svg" alt="doi:10.5281/15680522"/></a></p>
+              <p><a href="https://doi.org/10.5281/zenodo.15680522"><img alt="doi:10.5281/15680522"><xsl:attribute name="src"><xsl:value-of select="$thisroot"/>/zenodo.15680522.svg</xsl:attribute></img></a></p>
                         <p style="font-size: 1.2rem" class="bibliography" id="suggested-citation">
                             <xsl:value-of select="//x:titleStmt/x:editor/x:surname"/>
                             <xsl:text>, </xsl:text>
