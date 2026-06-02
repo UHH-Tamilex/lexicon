@@ -18,6 +18,9 @@
   },
   "dependencies": {
     "beautify": "^0.0.8",
+    "brace-expansion": "^5.0.6",
+    "editorconfig": "^3.0.2",
+    "js-beautify": "^1.15.4",
     "sanitize-filename": "^1.6.3",
     "ws": "^8.17.1"
   }

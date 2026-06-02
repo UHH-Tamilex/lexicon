@@ -24,15 +24,15 @@
                 <gram>class 4</gram>
             </gramGrp>
             <def xml:lang="en">to hang down, to be low</def>
-            <cit source="../Kuruntokai/KT214.xml?id=KT214&amp;w=10,14">
+            <cit source="https://uhh-tamilex.github.io/Kuruntokai/KT214.xml?id=KT214&amp;w=10,14">
                 <q xml:lang="ta"><w>puṟam</w> <w>tāḻ</w> <w>am</w> <w>cil</w> <w>ōti</w></q>
                 <q xml:lang="en">pretty, fine hair hanging down [her] back</q>
-                <ref target="../Kuruntokai/KT214.xml?highlight=%5Bid%3D%22KT214%22%5D%20.l%3Anth-of-type(2)"><title xml:lang="ta">Kuṟuntokai</title> 214, lines 2–3</ref>
+                <ref target="https://uhh-tamilex.github.io/Kuruntokai/KT214.xml?highlight=%5Bid%3D%22KT214%22%5D%20.l%3Anth-of-type(2)"><title xml:lang="ta">Kuṟuntokai</title> 214, lines 2–3</ref>
             </cit>
-            <cit source="../Akananuru/AN175.1.xml?id=AN175.1&amp;w=95,99">
+            <cit source="https://uhh-tamilex.github.io/Akananuru/AN175.1.xml?id=AN175.1&amp;w=95,99">
                 <q xml:lang="ta"><w>taṇ</w> <w>peyal</w> <w>eḻili</w> <w>tāḻnta</w> <w>pōḻt<c type="elided">u</c>-ē</w></q>
                 <q xml:lang="en">when the clouds hung low with cool rain</q>
-                <ref target="../Akananuru/AN175.1.xml?highlight=[id%3D%22AN175.1%22]%20.l%3Anth-of-type(18)"><title xml:lang="ta">Akanāṉūṟu</title> 175.1, line 18</ref>
+                <ref target="https://uhh-tamilex.github.io/Akananuru/AN175.1.xml?highlight=[id%3D%22AN175.1%22]%20.l%3Anth-of-type(18)"><title xml:lang="ta">Akanāṉūṟu</title> 175.1, line 18</ref>
             </cit>
         </sense>
         <sense>
@@ -40,10 +40,10 @@
                 <gram>class 4</gram>
             </gramGrp>
             <def xml:lang="en">to hang back</def>
-            <cit source="../TamilneriVilakkam/TNV23ed.xml?id=TNV23poem4&amp;w=17,20">
+            <cit source="https://uhh-tamilex.github.io/TamilneriVilakkam/TNV23ed.xml?id=TNV23poem4&amp;w=17,20">
                 <q xml:lang="ta"><w>piṉ</w> <w>piṉ</w> <w>tāḻntaṉaḷ</w> <w>otuṅka</w></q>
                 <q xml:lang="en">while she hid, hanging back just behind [me]</q>
-                <ref target="../TamilneriVilakkam/TNV23ed.xml?highlight=%5Bid%3D%22TNV23poem4%22%5D%20.l%3Anth-of-type(4)"><title xml:lang="ta">Tamiḻneṟi Viḷakkam</title> 23, poem 4, lines 3–4</ref>
+                <ref target="https://uhh-tamilex.github.io/TamilneriVilakkam/TNV23ed.xml?highlight=%5Bid%3D%22TNV23poem4%22%5D%20.l%3Anth-of-type(4)"><title xml:lang="ta">Tamiḻneṟi Viḷakkam</title> 23, poem 4, lines 3–4</ref>
             </cit>
         </sense>
         <sense>
@@ -52,12 +52,12 @@
             </gramGrp>
             <def xml:lang="en">to lower, to delay, to bow or prostrate</def>
             <def xml:lang="ta"></def>
-            <cit source="../NalayiratTivviyapPirapantam/NMT11.xml?id=NMT11&amp;w=6,8">
+            <cit source="https://uhh-tamilex.github.io/NalayiratTivviyapPirapantam/NMT11.xml?id=NMT11&amp;w=6,8">
                 <q xml:lang="ta"><w>makuṭam</w> <w>tāḻttu</w> <w>vaṇaṅkumiṉkaḷ</w></q>
                 <q xml:lang="en">do bow down, lowering the crown [of your heads]</q>
-                <ref target="../NalayiratTivviyapPirapantam/NMT11.xml?highlight=[id%3D%22NMT11%22]%20.l%3Anth-of-type(2)"><title xml:lang="ta">Nāṉmukaṉ Tiruvantāti</title> 11, lines 1–2</ref>
+                <ref target="https://uhh-tamilex.github.io/NalayiratTivviyapPirapantam/NMT11.xml?highlight=[id%3D%22NMT11%22]%20.l%3Anth-of-type(2)"><title xml:lang="ta">Nāṉmukaṉ Tiruvantāti</title> 11, lines 1–2</ref>
             </cit>
-            <note xml:lang="en">These strong forms appear significantly later in the corpus than the weak forms. In earlier poems, it is possible that these meanings are conveyed by the weak forms or ambiguous forms, such as the verbal root (for example, see <title xml:lang="ta">Puṟanāṉūṟu</title> 360, <ref target="../Purananuru/PN360.xml?highlight=%5Bid%3D%22PN360%22%5D%20.l%3Anth-of-type(6)">line 6</ref>).</note>
+            <note xml:lang="en">These strong forms appear significantly later in the corpus than the weak forms. In earlier poems, it is possible that these meanings are conveyed by the weak forms or ambiguous forms, such as the verbal root (for example, see <title xml:lang="ta">Puṟanāṉūṟu</title> 360, <ref target="https://uhh-tamilex.github.io/Purananuru/PN360.xml?highlight=%5Bid%3D%22PN360%22%5D%20.l%3Anth-of-type(6)">line 6</ref>).</note>
         </sense>
         <sense>
             <gramGrp>
@@ -70,10 +70,10 @@
                 <q xml:lang="en">the stronghold… [its] door bars with locking bolts</q>
                 <ref target="https://archive.org/details/196OldCommentaryNotesByRajagopalarya/page/57/mode/1up"><title xml:lang="ta">Akanāṉūṟu</title> 35, lines 3–4 (ed. <persName xml:lang="ta">Rājakōpālāryaṉ</persName> 1926, 57)<note place="foot">ed. Wilden 2018, 224. This is <q>strand 2</q> in the Wilden edition, which reads <foreign xml:lang="ta">tāḻ</foreign> in place of <foreign xml:lang="ta">tāḷ</foreign>.</note></ref>
             </cit>
-            <cit source="../Tirukkural/TK1251.xml?id=TK1251&amp;w=6,8">
+            <cit source="https://uhh-tamilex.github.io/Tirukkural/TK1251.xml?id=TK1251&amp;w=6,8">
                 <q xml:lang="ta"><w>tāḻ</w> <w>vīḻtta</w> <w>katavu</w></q>
                 <q xml:lang="en">the door whose locking pin has been lowered [into place]</q>
-                <ref target="../Tirukkural/TK1251.xml?highlight=%5Bid%3D%22TK1251%22%5D%20.l%3Anth-of-type(2)"><title xml:lang="ta">Tirukkuṟaḷ</title> 1251, line 2</ref>
+                <ref target="https://uhh-tamilex.github.io/Tirukkural/TK1251.xml?highlight=%5Bid%3D%22TK1251%22%5D%20.l%3Anth-of-type(2)"><title xml:lang="ta">Tirukkuṟaḷ</title> 1251, line 2</ref>
             </cit>
             <note xml:lang="en">
 Although the <title>Dravidian Etymological Dictionary</title> places the verb <foreign xml:lang="ta">tāḻ</foreign> and the noun <foreign xml:lang="ta">tāḻ</foreign> in two separate entries, it rather seems that the noun is derived from the verbal root. As seen in the <title xml:lang="ta">Tirukkuṟaḷ</title>, the noun refers to a pin or bolt in that is lowered (<foreign xml:lang="ta">vīḻttal</foreign>) into a hole in a door bar in order to lock it in place. The commentator on the <title xml:lang="ta">Akanāṉūṟu</title> glosses it as a pin (<foreign xml:lang="ta">kaṭaiyāṇi</foreign>) that is used to secure a joint (<foreign xml:lang="ta">mūṭṭuvāy</foreign>); perhaps the commentator is imagining a system in which two intersecting bars are used to block a gate, with a locking pin going through both in order to secure them in place ― see, for example, the Lion Gate at Mycenae (Connolly 1977, 49). Simpler mechanisms, with a single bar and a hole for a locking pin, can be also be found in other cultures (Ghirshman 1966, 75). The semantic association of the locking pin as something that is <q>lowered</q> into place can also be found in other languages (Scurlock 1988, 424–428; see also Gundert on Malayalam <foreign xml:lang="ml-Latn-t-ml-Mlym">tāḻ</foreign>, below).</note>
@@ -86,20 +86,20 @@ Although the <title>Dravidian Etymological Dictionary</title> places the verb <f
                 <gram>metonym</gram>
             </gramGrp>
             <def xml:lang="en">a lock, a <unclear>clasp</unclear></def>
-            <cit source="../Narrinai/NA120.xml?id=NA120&amp;w=18,23">
+            <cit source="https://uhh-tamilex.github.io/Narrinai/NA120.xml?id=NA120&amp;w=18,23">
                 <q xml:lang="ta"><w>pēḻai</w> <w>ciṟu</w> <w>tāḻ</w> <w>ceṟitta</w> <w>mel</w> <w>viral</w></q>
                 <q xml:lang="en">[her] soft fingers, that had fastened the small lock on the box</q>
-                <ref target="../Narrinai/NA120.xml?highlight=[id%3D%22NA120%22]%20.l%3Anth-of-type(4)"><title xml:lang="ta">Naṟṟiṇai</title> 120, lines 3–4</ref>
+                <ref target="https://uhh-tamilex.github.io/Narrinai/NA120.xml?highlight=[id%3D%22NA120%22]%20.l%3Anth-of-type(4)"><title xml:lang="ta">Naṟṟiṇai</title> 120, lines 3–4</ref>
             </cit>
-            <cit source="../Kalittokai/Kali048.xml?id=Kali48&amp;w=65,69">
+            <cit source="https://uhh-tamilex.github.io/Kalittokai/Kali048.xml?id=Kali48&amp;w=65,69">
                 <q xml:lang="ta"><w>tāḻ</w> <w>ceṟi</w> <w>kaṭum</w> <w>kāppiṉ</w> <w>tāy</w></q>
                 <q xml:lang="en">[her] mother, whose protectiveness is [as] strict [as] the fastening of a lock</q>
-                <ref target="../Kalittokai/Kali048.xml?highlight=%5Bid%3D%22Kali48%22%5D%20.l%3Anth-of-type(10)"><title xml:lang="ta">Kalittokai</title> 48, line 10</ref>
+                <ref target="https://uhh-tamilex.github.io/Kalittokai/Kali048.xml?highlight=%5Bid%3D%22Kali48%22%5D%20.l%3Anth-of-type(10)"><title xml:lang="ta">Kalittokai</title> 48, line 10</ref>
             </cit>
-            <cit source="../Kalittokai/Kali043.xml?id=Kali43&amp;w=38,45">
+            <cit source="https://uhh-tamilex.github.io/Kalittokai/Kali043.xml?id=Kali43&amp;w=38,45">
                 <q xml:lang="ta"><w>kai<c type="geminated">c</c></w> <w>ceṟitta</w> <w>tāḷ</w> <w>pōla<c type="geminated">k</c></w> <w>kāntaḷ</w> <w>mukaiyiṉ</w> <w>mēl</w> <w>tumpi</w></q>
                 <q xml:lang="en">a bee on the bud of a Malabar lily, like a <unclear>clasp</unclear> fastened around the hand</q>
-                <ref target="../Kalittokai/Kali043.xml?highlight=%5Bid%3DKali43%5D%20.l%3Anth-of-type(8)"><title xml:lang="ta">Kalittokai</title> 43, lines 8–9</ref>
+                <ref target="https://uhh-tamilex.github.io/Kalittokai/Kali043.xml?highlight=%5Bid%3DKali43%5D%20.l%3Anth-of-type(8)"><title xml:lang="ta">Kalittokai</title> 43, lines 8–9</ref>
             </cit>
             <note xml:lang="en">
 Especially when employed with the verb <foreign xml:lang="ta">ceṟittal</foreign>, the noun <foreign xml:lang="ta">tāḻ</foreign>, originally a <q>locking pin</q>, seems to be used as a metonym referring to the entire locking mechanism. Fabricius defines <foreign xml:lang="ta">tāḻceṟitta</foreign> as <q>to bolt or bar a door</q> (1972, <ref target="https://dsal.uchicago.edu/cgi-bin/app/fabricius_query.py?page=512">512</ref>; not present in the <ref target="https://archive.org/details/bim_eighteenth-century_a-dictionary-malabar-an_1779/page/n98/mode/1up">1779 first edition</ref> or the <ref target="https://archive.org/details/malabarenglishdi00fabr/page/n106/mode/1up">1809 second edition</ref>). The idiom appears as <foreign xml:lang="ta">tāḻiṭṭu</foreign> in <title xml:lang="ta">Tēvāram</title> <ref target="https://www.ifpindia.org/digitaldb/site/digital_tevaram/U_TEV/DM4_111.HTM#p6">4-111 (6)</ref> and in <persName xml:lang="ta">Nacciṉārkkiṉiyār</persName> on <title xml:lang="ta">Kalittokai</title> 48 (see below). This usage can also be found in its cognates in other languages ― Telugu <foreign xml:lang="te-Latn-t-te-Telu">tāḷamu</foreign> means <q>a lock</q> (Brown 1903, <ref target="https://dsal.uchicago.edu/cgi-bin/app/brown_query.py?page=526">526</ref>), likewise with Malayalam <foreign xml:lang="ml-Latn-t-ml-Mlym">tāḻ</foreign> (Gundert 1872, <ref target="https://dsal.uchicago.edu/cgi-bin/app/gundert_query.py?page=448">448</ref>); the Sanskrit <foreign xml:lang="sa-Latn-t-sa-Deva">tālaka</foreign>, in the <title xml:lang="sa">Mahāvyutpatti</title>, is glossed as <foreign xml:lang="bo-Latn-t-bo-Tibt">sgo lcags</foreign>, <q>lock</q>, and <foreign xml:lang="sa-Latn-t-sa-Deva">pratitālaka</foreign> as <foreign xml:lang="bo-Latn-t-bo-Tibt">lde mig</foreign>, <q>key</q> (ed. Sakaki 1916, <ref target="https://archive.org/details/kanwashiyakutaik01mahauoft/page/383/mode/1up">383</ref>).
