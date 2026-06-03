@@ -9,8 +9,9 @@ import startEditMode from './new/editmode.mjs';
 import {formatCitations, checkCitations} from './citations.mjs';
 import { makeNikantuGraphs } from './new/nikantus.mjs';
 
+const dbRoot = document.querySelector('script[data-dbroot]')?.dataset.dbroot || './';
 const _state = {
-    dburl: './wordindex.db'
+    dburl: `${dbRoot}wordindex.db`
 };
 
 const init = (dburl,xmlsrc,edit=false) => {

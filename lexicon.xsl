@@ -81,6 +81,7 @@
         <xsl:element name="script">
             <xsl:attribute name="type">module</xsl:attribute>
             <xsl:attribute name="src"><xsl:value-of select="$thisroot"/>lexicon.mjs</xsl:attribute>
+            <xsl:attribute name="data-dbroot"><xsl:value-of select="$thisroot"/></xsl:attribute>
         </xsl:element>
     </xsl:element>
 </xsl:template>
