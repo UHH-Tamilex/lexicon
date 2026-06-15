@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./lexicon.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <script xmlns="http://www.w3.org/1999/xhtml" src="../lib/js/xslt-polyfill.min.js"></script>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="ta">entiram</title>
+        <editor>
+            <forename>First name</forename> 
+            <surname>Last name</surname>
+        </editor>
+      </titleStmt>
+      <publicationStmt><p>Tamilex project.</p></publicationStmt>
+      <sourceDesc><p/></sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+  <text xml:lang="en">
+    <body>
+      <entry corresp="entiram[TL]">
+        <form xml:lang="ta">entiram</form>
+        <gramGrp><gram>noun</gram></gramGrp>
+        <sense><def xml:lang="en">machine</def>
+<usg xml:lang="en">
+</usg>
+<cit source="https://uhh-tamilex.github.io/Purananuru/PN322.xml?id=PN322&amp;w=35,38">
+    <q xml:lang="ta"><w>karumpiṉ</w> <w>entiram</w> <w>cilaippiṉ</w> <w>ayalat<c type="elided">u</c></w></q>
+    <q xml:lang="en">in the neighbourhood when <hi>the machine</hi> for sugarcane resounds</q>
+    <ref target="https://uhh-tamilex.github.io/Purananuru/PN322.xml?highlight=%5Bid%3DPN322%5D%20.l%3Anth-of-type(7)">Puṟanāṉūṟu 322, line 7</ref>
+</cit>
+<cit>
+  <ref target="https://archive.org/details/Tamil-Purananuru-U-Ve-Sa-3rd-Edition-1935/page/n463/mode/1up">Puṟanāṉūṟu 177, line 5</ref>
+ <q xml:lang="ta"> tiṅkaḷum nuḻaiyā entirap paṭu puḻai</q>
+  <q xml:lang="en"> entrance equipped with <hi>machines</hi> where not even the moon can enter
+</q>
+</cit>
+<cit source="https://uhh-tamilex.github.io/Ainkurunuru/Aink55.xml?id=Aink55&amp;w=0,8">
+    <q xml:lang="ta"><w>karumpiṉ</w> <w>entiram</w> <w>kaḷiṟṟ<c type="elided">u</c></w> <w>etir</w> <w>piḷiṟṟum</w> <w>tēr</w> <w>vaḷ</w> <w>kōmāṉ</w> <w>tēṉūr</w></q>
+    <q xml:lang="en">Tēṉūr of the king rich in chariots, where <hi>the machine</hi> for sugarcane out-trumpets the elephant bulls –</q>
+    <ref target="https://uhh-tamilex.github.io/Ainkurunuru/Aink55.xml?highlight=%5Bid%3DAink55%5D%20.l%3Anth-of-type(1)">Aiṅkuṟunūṟu 55, lines 1–2</ref>
+</cit>
+<cit>
+  <ref target="https://archive.org/details/dli.jZY9lup2kZl6TuXGlZQdjZQ2k0Iy/page/n31/mode/1up">Patiṟṟuppattu 19, line 23</ref>
+<q xml:lang="ta">tīm piḻi <c type="glide">y</c>entiram pattal varunta</q>
+  <q xml:lang="en"> while the buckets for the nectar squeezing <hi>machines</hi> suffered [from emptiness]
+</q>
+</cit>
+<cit>
+  <ref target="https://archive.org/details/dli.jZY9lup2kZl6TuXGlZQdjZQ2k0Iy/page/n97/mode/1up">Patiṟṟuppattu 53, line 7</ref>
+<q xml:lang="ta">entira<c type="geminated">t</c> takaippiṉ amp<c type="elided">u</c> uṭai vāyil</q>
+  <q xml:lang="en">gates which possessed arrows [in] a row of <hi>machines</hi></q>
+</cit>
+<cit>
+  <ref target="https://archive.org/details/acc.-no.-37942-paththuppaattu-moolamum-nachinarkiniyaar-uraiyum-1889/page/102/mode/1up">Perumpāṇāṟṟuppaṭai, line 260–262</ref>
+  <q xml:lang="ta"> entiram cilaikkum tuñcāk kampalai / vicayam aṭūum pukai cūḻ ālaitoṟum
+/ karumpiṉ tīm cāṟu virumpiṉir micaimiṉ</q>
+  <q xml:lang="en"> You, who desired, enjoy the sweet juice of the sugarcane in all the halls surrounded by smoke, where the jaggery is being boiled, where the clamour does not cease, and where <hi>the machines</hi> resound!</q>
+</cit>
+<note xml:lang="en">A borrowing from Sanskrit <foreign xml:lang="sa">yantra</foreign> (MW 1899, p. 845). Throughout the first millennium, authors consistently use it in the sense of machine or mechanism. 
+ 
+  Its earliest meaning refers to a device associated with sugarcane pressing and the production of cane sugar, in connection with which <title xml:lang="ta-Taml">Patirruppattu</title> 19:23 clarifies that this likely refers to a sugarcane press. It is telling that the early sugarcane mills are designated by <foreign xml:lang="ta-Taml">ālai</foreign> (from Skt. <foreign xml:lang="sa">śālā</foreign>), while the press is referred to by <foreign xml:lang="ta-Taml">entiram</foreign> (from Skt. <foreign xml:lang="sa">yantra</foreign>), which may reflect an Indo-Aryan linguistic connection underlying the technology. According to the old commentary on <title xml:lang="ta-Taml">Patirruppattu</title>, the machine is equated with the place where it is used (<foreign xml:lang="ta-Taml">entiram eṉṟatu ālaiyai</foreign>), most likely referring to the sugarcane press, or, by extension, the mill itself.
+  
+  Elsewhere it refers to the mechanisms of fortress gates, where authors use it to denote fortification devices.
+  
+  Later, under the influence of Sanskrit literature, mechanised structures of palaces appear in the <title xml:lang="ta-Taml">Maṇimēkalai</title>: a mechanical well (<foreign xml:lang="ta-Taml">entirakkiṇaṟu</foreign>, 19: 102) and a mechanised pond (<foreign xml:lang="ta-Taml">entiravāvi</foreign>, 28: 7).
+</note></sense>
+      <cit type="lexicon"><bibl><date>1972 [1779]</date><title xml:lang="en">Tamil and English Dictionary (Fabricius)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/fabricius_query.py?page=141">p. 141</ref></bibl></cit><cit type="lexicon"><bibl><date>1924–1936</date><title xml:lang="en">Tamil Lexicon (University of Madras)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?page=526">p. 526</ref></bibl></cit><cit type="lexicon"><bibl><date>1992</date><title xml:lang="ta">Kriyāviṉ taṟkālat Tamiḻ akarāti</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/crea_query.py?page=170">p. 170</ref></bibl></cit></entry>
+      <listBibl>
+      <bibl><persName xml:lang="ta">Cāminātaiyar, U. Vē.</persName>, ed. 1935.
+<title xml:lang="ta">Puṟanāṉūṟu mūlamum uraiyum.</title>
+<term xml:lang="ta">Ceṉṉai</term>: <term xml:lang="ta">Lā Jarṉal Accukkūṭam.</term>
+<ref target="https://archive.org/details/Tamil-Purananuru-U-Ve-Sa-3rd-Edition-1935">ark:/13960/t5dc0n26b</ref>
+
+</bibl><bibl><persName xml:lang="ta">Cāminātaiyar, U. Vē.</persName>, ed. 1889.
+<title xml:lang="ta">Pattuppāṭṭu mūlamum maturaiyāciriyar pārattuvāci nacciṉārkkiṉiyar uraiyum.</title>
+1st edition.
+<term xml:lang="ta">Ceṉṉai:</term> <term xml:lang="ta">Tirāviṭaratnākara Accukkūṭam.</term>
+<ref target="https://archive.org/details/acc.-no.-37942-paththuppaattu-moolamum-nachinarkiniyaar-uraiyum-1889">ark:/13960/s2jdk2wm5hp</ref></bibl><bibl><persName xml:lang="ta">Cāminātaiyar, U. Vē.</persName> ed. 1903.
+<title xml:lang="ta">Eṭṭuttokaiyuḷ nāṉkāvatākiya patiṟṟuppattu mūlamum paḻaiyavuraiyum.</title>
+<term xml:lang="ta">Ceṉṉapaṭṭaṇam</term>: <term xml:lang="ta">Vaijayanti Accukkūṭam.</term>
+<ref target="https://archive.org/details/196OldCommentaryNotesByRajagopalarya">ark:/13960/t4gn5p19r</ref></bibl></listBibl>
+    </body>
+  </text>
+</TEI>
