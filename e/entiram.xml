@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="./lexicon.xsl" ?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="./lexicon.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <script xmlns="http://www.w3.org/1999/xhtml" src="../lib/js/xslt-polyfill.min.js"></script>
   <teiHeader>
     <fileDesc>
@@ -71,7 +69,22 @@
   <q xml:lang="en">gates which possessed arrows in a row of <hi>machines</hi></q>
 </cit>
 <note xml:lang="en">
-  Elsewhere it refers to the mechanisms of fortress gates, where authors use it to denote fortification devices; possibly already reflecting Sanskrit influence (cf. <title xml:lang="sa">Mahābhārata</title> III. 268. 29; <title xml:lang="sa">Rāmāyaṇa</title> 6. 3. 15). Later, more clearly under the influence of Sanskrit literature, mechanised structures of palaces appear in the <title xml:lang="ta-Taml">Maṇimēkalai</title>: a mechanical well (<foreign xml:lang="ta-Taml">entirakkiṇaṟu</foreign>, 19: 102) and a mechanised pond (<foreign xml:lang="ta-Taml">entiravāvi</foreign>, 28: 7). These fall in the category of 'water-devices' (<foreign xml:lang="sa">vāriyantrāṇi</foreign>), discussed extensively in the 31st chapter (<title xml:lang="sa">yantravidhāna</title>) of the treatise called <ref target="https://archive.org/details/in.ernet.dli.2015.345259/page/%E0%A5%A7%E0%A5%AC%E0%A5%AF/mode/2up"><title xml:lang="sa">Samarāṅgaṇasūtradhāra</title></ref>, verses 107–172.
+  Elsewhere it refers to the mechanisms of fortress gates, where authors use it to denote fortification devices; possibly already reflecting Sanskrit influence (cf. <title xml:lang="sa">Mahābhārata</title> III. 268. 29; <title xml:lang="sa">Rāmāyaṇa</title> 6. 3. 15). The  framework for these devices may be traced back to <title xml:lang="sa">Arthaśāstra</title> 2.18.5–6, which distinguishes between two categories of defensive machines employed in the protection or siege of fortifications: <foreign xml:lang="sa">sthitayantrāṇi</foreign> (stationary machines) and <foreign xml:lang="sa">calayantrāṇi</foreign> (mobile/moving machines).
+</note></sense><sense><def xml:lang="en">water-device (for entertainment)
+</def>
+<usg xml:lang="en">
+</usg>
+<cit>
+  <ref target="link here"><title xml:lang="ta">Maṇimēkalai</title>, chapter 19, line 102</ref>
+  <q xml:lang="ta">entirakkiṇaṟu</q>
+  <q xml:lang="en">mechanised well</q>
+</cit>
+<cit>
+  <ref target="link here"><title xml:lang="ta">Maṇimēkalai</title>, chapter 28, line 7</ref>
+  <q xml:lang="ta">entiravāvi</q>
+  <q xml:lang="en">mechanised pond</q>
+</cit>
+<note xml:lang="en">Later, under the influence of Sanskrit literature, mechanised structures of palaces appear in the <title xml:lang="ta-Taml">Maṇimēkalai</title>: a mechanical well (<foreign xml:lang="ta-Taml">entirakkiṇaṟu</foreign>, 19: 102) and a mechanised pond (<foreign xml:lang="ta-Taml">entiravāvi</foreign>, 28: 7). These fall in the category of 'water-devices' (<foreign xml:lang="sa">vāriyantrāṇi</foreign>), discussed extensively in the 31st chapter (<title xml:lang="sa">yantravidhāna</title>) of the treatise called <ref target="https://archive.org/details/in.ernet.dli.2015.345259/page/%E0%A5%A7%E0%A5%AC%E0%A5%AF/mode/2up"><title xml:lang="sa">Samarāṅgaṇasūtradhāra</title></ref>, verses 107–172.
 </note></sense>
       <cit type="lexicon"><bibl><date>1972 [1779]</date><title xml:lang="en">Tamil and English Dictionary (Fabricius)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/fabricius_query.py?page=141">p. 141</ref></bibl></cit><cit type="lexicon"><bibl><date>1924–1936</date><title xml:lang="en">Tamil Lexicon (University of Madras)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?page=526">p. 526</ref></bibl></cit><cit type="lexicon"><bibl><date>1992</date><title xml:lang="ta">Kriyāviṉ taṟkālat Tamiḻ akarāti</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/crea_query.py?page=170">p. 170</ref></bibl></cit></entry>
       <listBibl>
@@ -87,7 +100,10 @@
 <ref target="https://archive.org/details/acc.-no.-37942-paththuppaattu-moolamum-nachinarkiniyaar-uraiyum-1889">ark:/13960/s2jdk2wm5hp</ref></bibl><bibl><persName xml:lang="ta">Cāminātaiyar, U. Vē.</persName> ed. 1903.
 <title xml:lang="ta">Eṭṭuttokaiyuḷ nāṉkāvatākiya patiṟṟuppattu mūlamum paḻaiyavuraiyum.</title>
 <term xml:lang="ta">Ceṉṉapaṭṭaṇam</term>: <term xml:lang="ta">Vaijayanti Accukkūṭam.</term>
-<ref target="https://archive.org/details/196OldCommentaryNotesByRajagopalarya">ark:/13960/t4gn5p19r</ref></bibl></listBibl>
+<ref target="https://archive.org/details/196OldCommentaryNotesByRajagopalarya">ark:/13960/t4gn5p19r</ref></bibl><bibl><persName xml:lang="ta">Cāminātaiyar, U. Vē.</persName>, ed. 1898.
+<title xml:lang="ta">Maṇimēkalai mūlamum, Vē. Cāminātaiyareḻutiya arumpatavuraiyum.</title>
+<term xml:lang="ta">Ceṉṉai:</term> <term xml:lang="ta">Ve. Nā. Jūpili Accukkūṭam.</term>
+<ref target="https://archive.org/details/maimkalai00matu">ark:/13960/s27s9xkc69s</ref></bibl></listBibl>
     </body>
   </text>
 </TEI>
