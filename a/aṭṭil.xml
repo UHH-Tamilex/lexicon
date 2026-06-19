@@ -21,7 +21,7 @@
       <entry corresp="aṭṭil[DEDR76]">
         <form xml:lang="ta">aṭṭil</form>
         <gramGrp><gram>noun</gram></gramGrp>
-        <sense><def xml:lang="en">cookhouse, outdoor kitchen</def>
+        <sense><def xml:lang="en">kitchen (household), cookhouse</def>
 <usg xml:lang="en">
 </usg>
 <cit source="https://uhh-tamilex.github.io/Narrinai/NA300.xml?id=NA300&amp;w=53,62">
@@ -66,7 +66,7 @@
 <note xml:lang="en"><hi rend="bold">Etymology: </hi><foreign xml:lang="ta">aṭu</foreign> (‘to cook’, r.n. obl.) + <foreign xml:lang="ta">il</foreign> (‘house’, n.).<hi rend="bold"/> 
 </note>
 <note xml:lang="en">
-This meaning is a transparent rendering of the term's etymology, designating a structure used for cooking that is typically separated or structurally distinct from the main living quarters, its detachment motivated primarily by the hazards of smoke and fire (cf. <title xml:lang="ta">Cilappatikāram</title> 13: 122; 16: 32; also cf. <foreign xml:lang="ta">aṭukkaḷai </foreign> in <foreign xml:lang="ta">Ācārakkōvai</foreign> 39: 2; <foreign xml:lang="ta">Maṇimēkalai </foreign>29: 61).       
+The meaning as 'cookhouse' is a transparent rendering of the term's etymology, designating a structure used for cooking that is typically separated or structurally distinct from the main living quarters, its detachment motivated primarily by the hazards of smoke and fire (cf. <title xml:lang="ta">Cilappatikāram</title> 13: 122; 16: 32; also cf. <foreign xml:lang="ta">aṭukkaḷai </foreign> in <foreign xml:lang="ta">Ācārakkōvai</foreign> 39: 2; <foreign xml:lang="ta">Maṇimēkalai </foreign>29: 61).       
 </note>
 <note xml:lang="en">
   Although <expan ref="#Mani"/> 20. 7–8 describes a 'choultry' or 'refectory' as a whole, this attestation is assigned to the present meaning because the author distinguishes between the 'refectory kitchen' and the 'dining hall' within the same location; the term here thus designates the former rather than the latter.
@@ -76,7 +76,7 @@ This meaning is a transparent rendering of the term's etymology, designating a s
     </note>
 <note xml:lang="ta">
 <title xml:lang="ta">Piṅkalam</title> 692: <q xml:lang="ta">aṭṭil maṭaippaḷḷi aṭukkaḷai ākum.</q> — “<foreign xml:lang="ta">aṭṭil </foreign>is a choultry/refectory and a cookhouse.” (Trans. Ferenczi)      
-  </note></sense><sense><def xml:lang="en"> choultry, alms-house, refectory 
+  </note></sense><sense><def xml:lang="en"> kitchen (communal)
 </def>
 <usg xml:lang="en">
 </usg>
@@ -97,7 +97,7 @@ In a royal or institutional context, the term designates a dedicated facility wh
 <note xml:lang="en">
 "<hi>Choultry</hi>, s. Peculiar to S. India, and of doubtful etymology; Malayāl. <foreign xml:lang="ta">chāwaṭī</foreign>, Tel. <foreign xml:lang="ta">chāwaḍi, [tsāvaḍi, chau</foreign>, Skt. <foreign xml:lang="ta">chatur</foreign>, 'four,' <foreign xml:lang="ta">vāṭa</foreign>, 'road, a place where four roads meet]. In W. India the form used is <foreign xml:lang="ta">chowry</foreign> or <foreign xml:lang="ta">chowree</foreign> (Dakh. <foreign xml:lang="ta">chāoṛī</foreign>). A hall, a shed, or a simple <foreign xml:lang="ta">loggia</foreign>,  used by travellers as a resting-place, and also intended for the  transaction of public business. [...]" (<ref targt="https://dsal.uchicago.edu/cgi-bin/app/hobsonjobson_query.py?page=212">Hobson-Jobson 1903, p. 212).</ref>
 </note></sense><sense><def xml:lang="en">
-sacrificial hall
+kitchen (sacrificial)
 </def>
 <usg xml:lang="en">
 </usg>
