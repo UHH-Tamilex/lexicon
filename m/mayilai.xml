@@ -27,7 +27,7 @@
 <cit source="https://uhh-tamilex.github.io/Purananuru/PN342.xml?id=PN342&amp;w=5,10">
     <q xml:lang="ta"><w>mayilai<c type="geminated">k</c></w> <w>kaṇṇi<c type="geminated">p</c></w> <w>perum</w> <w>tōḷ</w> <w>kuṟu</w> <w>makaḷ</w></q>
     <q xml:lang="en">the young woman with large shoulders [and] a jasmine chaplet</q>
-    <ref target="https://uhh-tamilex.github.io/Purananuru/PN342.xml?highlight=%5Bid%3DPN342%5D%20.l%3Anth-of-type(2)">PN342, line 2</ref>
+            <ref target="https://uhh-tamilex.github.io/Purananuru/PN342.xml?highlight=%5Bid%3DPN342%5D%20.l%3Anth-of-type(2)"><expan ref="#PN"/> 342, line 2</ref>
 </cit>
 <cit source="https://uhh-tamilex.github.io/Cilappatikaram/cila5.xml?id=cila5&amp;w=1008,1022">
     <q xml:lang="ta"><w>il</w> <w>vaḷar</w> <w>mullai</w> <w>mallikai</w> <w>mayilai</w> <w>tāḻi<c type="geminated">k</c></w> <w>kuvaḷai</w> <w>cūḻ</w> <w>cem</w> <w>kaḻunīr</w> <w>payil</w> <w>pūm</w> <w>kōtai<c type="geminated">p</c></w> <w>piṇaiyaliṉ</w> <w>polintu</w></q>
@@ -35,7 +35,7 @@
 	of Mullai, Mallikai [and] Mayilai jasmine growing in the house,
 	[and] of potted blue waterlily [and] surrounding red waterlily
 </q>
-    <ref target="https://uhh-tamilex.github.io/Cilappatikaram/cila5.xml?highlight=%5Bid%3Dcila5%5D%20.l%3Anth-of-type(191)">cila5, lines 191–193</ref>
+            <ref target="https://uhh-tamilex.github.io/Cilappatikaram/cila5.xml?highlight=%5Bid%3Dcila5%5D%20.l%3Anth-of-type(191)"><expan ref="#Cila"/> 5, lines 191–193</ref>
 </cit>
 <cit source="https://uhh-tamilex.github.io/Cilappatikaram/cila13.xml?id=cila13&amp;w=830,838">
     <q xml:lang="ta"><w>piṭavam-um</w> <w>mayilai-<c type="glide">y</c>um</w> <w>piṇaṅkariṉ</w> <w>maṇanta</w> <w>koṭum</w> <w>karai</w> <w>mēkalai<c type="geminated">k</c></w> <w>kōvai</w> <w><c type="glide">y</c>āṅkaṇum</w></q>
@@ -43,17 +43,17 @@
 	which united in an interlaced binding of Piṭavam and jasmine …</q>
     <ref target="https://uhh-tamilex.github.io/Cilappatikaram/cila13.xml?highlight=%5Bid%3Dcila13%5D%20.l%3Anth-of-type(156)">cila13, lines 158–159</ref>
 </cit>
-<note xml:lang="en">   Both <expan ref="#Cila"/> commentaries on the first passage seem to regard <foreign xml:lang="ta">mayilai</foreign> as a perfectly normal word not in need of glossing, since they both enumerate the garlands made of flowers as “beginning with <foreign xml:lang="ta">mullai</foreign>” and “ending with <foreign xml:lang="ta">kaḻunīr</foreign> (<foreign xml:lang="ta">mullai mutal kaḻunīr īṟāy</foreign>). For the second passage, an even longer enumeration of flowers (lines 155-158) that are arranged into a string (<foreign xml:lang="ta">kōvai</foreign>), the commentary agrees with (or follows?) the <foreign xml:lang="ta">Nikaṇṭu</foreign>-s that <foreign xml:lang="ta">mayilai</foreign> is a kind of jasmine (<foreign xml:lang="ta">iruvāṭci</foreign>). This makes perfect sense in the attested contexts (a flower decoration used both by humans and for households). The TL gives four possible meanings (Tuscan jasmine, scarlet ixora, tall chaste tree, peacock’s foot tree), but for non of the other three a passage from the current corpus is cited. What is attested in the Vaiṣṇava corpus, though is <foreign xml:lang="ta">mayilai</foreign> as the proper name of a city (cf. for example PTM 2.3.2).       
-</note></sense><sense><def xml:lang="en">p.n. of a city (~ Mayilāpūr in today's Ceṉṉai)
+<note xml:lang="en">Both <expan ref="#Cila"/> commentaries on the first passage seem to regard <foreign xml:lang="ta">mayilai</foreign> as a perfectly normal word not in need of glossing, since they both enumerate the garlands made of flowers as “beginning with <foreign xml:lang="ta">mullai</foreign>” and “ending with <foreign xml:lang="ta">kaḻunīr</foreign> (<foreign xml:lang="ta">mullai mutal kaḻunīr īṟāy</foreign>). For the second passage, an even longer enumeration of flowers (lines 155-158) that are arranged into a string (<foreign xml:lang="ta">kōvai</foreign>), the commentary agrees with (or follows?) the <foreign xml:lang="ta">Nikaṇṭu</foreign>-s that <foreign xml:lang="ta">mayilai</foreign> is a kind of jasmine (<foreign xml:lang="ta">iruvāṭci</foreign>). This makes perfect sense in the attested contexts (a flower decoration used both by humans and for households). The TL gives four possible meanings (Tuscan jasmine, scarlet ixora, tall chaste tree, peacock’s foot tree), but for non of the other three a passage from the current corpus is cited.
+</note></sense><sense><def xml:lang="en">proper name of a city (~ Mayilāpūr in today's Ceṉṉai)
 </def>
 <usg xml:lang="en">
 </usg>
 <cit source="https://uhh-tamilex.github.io/NalayiratTivviyapPirapantam/PTM2.3.2.xml?id=PTM2.3.2&amp;w=22,26">
     <q xml:lang="ta"><w>mātarkaḷ</w> <w>vāḻum</w> <w>māṭam</w> <w>mā</w> <w>mayilai<c type="geminated">t</c></w></q>
     <q xml:lang="en">in great Māyilai, with mansions where matchless maids dwell</q>
-    <ref target="https://uhh-tamilex.github.io/NalayiratTivviyapPirapantam/PTM2.3.2.xml?highlight=%5Bid%3DPTM2.3.2%5D%20.l%3Anth-of-type(7)">PTM2.3.2, line 7</ref>
+            <ref target="https://uhh-tamilex.github.io/NalayiratTivviyapPirapantam/PTM2.3.2.xml?highlight=%5Bid%3DPTM2.3.2%5D%20.l%3Anth-of-type(7)"><expan ref="#PTM"/> 2.3.2, line 7</ref>
 </cit>
-<note xml:lang="en">   Attested in the Vaiṣṇava corpus is <foreign xml:lang="ta">mayilai</foreign> as the proper name of a city.       
+          <note xml:lang="en">Attested in the Vaiṣṇava corpus is <foreign xml:lang="ta">mayilai</foreign> as the proper name of a city.
 </note></sense><sense><def xml:lang="en"><unclear>fish</unclear>
 </def>
 <usg xml:lang="en">
@@ -68,11 +68,87 @@
 	malar iruvāṭci-<c type="glide">y</c>um mayilai <c type="glide">y</c>ākum
 </q>
 </cit>
-<note xml:lang="en">   Both the <expan ref="#Tiv"/> and the <expan ref="#Pink"/> have an additional <foreign xml:lang="ta">sūtra</foreign> in their respective animal chapters with <foreign xml:lang="ta">mayilai</foreign> as a common word for 'fish' (<foreign xml:lang="ta">mīṉ</foreign>), namely <expan ref="#Tiv"/>  3.191 and <expan ref="#Pink"/> 8.4.317; the <expan ref="#Pink"/> even adds <foreign xml:lang="ta">mayilai </foreign>to the polisemic words with two meanings, 'jasmine' and 'fish' (<expan ref="#Pink"/> 10.902). For the time being no actual quotation for the meaning 'fish' has been found.     
+<note xml:lang="en">   Both the <expan ref="#Tiv"/> and the <expan ref="#Pink"/> have an additional <foreign xml:lang="ta">sūtra</foreign> in their respective animal chapters with <foreign xml:lang="ta">mayilai</foreign> as a common word for fish (<foreign xml:lang="ta">mīṉ</foreign>), namely <expan ref="#Tiv"/>  3.191 and <expan ref="#Pink"/> 8.317; the <expan ref="#Pink"/> even adds <foreign xml:lang="ta">mayilai </foreign>to the polisemic words with two meaning, <q>jasmine</q> and <q>fish</q> (<expan ref="#Pink"/> 10.902). For the time being no actual quotation for the meaning <q>fish</q> has been found.     
 </note></sense>
       <cit type="lexicon"><bibl><date>1972 [1779]</date><title xml:lang="en">Tamil and English Dictionary (Fabricius)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/fabricius_query.py?page=776">p. 776</ref></bibl></cit><cit type="lexicon"><bibl><date>1862</date><title xml:lang="en">A comprehensive Tamil and English dictionary (Winslow)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/winslow_query.py?page=847">p. 847</ref></bibl></cit><cit type="lexicon"><bibl><date>1928 [1902]</date><title xml:lang="ta">Tamiḻmoḻiyakarāti (Katiraivēṟ Piḷḷai)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/kadirvelu_query.py?page=1122">p. 1122</ref><ref target="https://dsal.uchicago.edu/cgi-bin/app/kadirvelu_query.py?page=1627">p. 1627</ref></bibl></cit><cit type="lexicon"><bibl><date>1924–1936</date><title xml:lang="en">Tamil Lexicon (University of Madras)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?page=3078">p. 3078</ref><ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?page=3079">p. 3079</ref></bibl></cit><cit type="lexicon"><bibl><date>1992</date><title xml:lang="ta">Kriyāviṉ taṟkālat Tamiḻ akarāti</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/crea_query.py?page=800">p. 800</ref></bibl></cit><cit type="commentary"><ref target="https://archive.org/details/cilappatikaram/page/349/mode/1up"><expan ref="#Atiyar"/> on <expan ref="#Cila"/> 13.158f.</ref>
 <q xml:lang="ta">kuṭṭi<c type="geminated">p</c> piṭavamum iruvāṭciyum ākiya palamalarum virintu pūṅkoṭikaḷ niraipaṭa neruṅki … miṭaintu cūḻnta kōvaiyākiya mēkalai</q>
-</cit></entry>
+        </cit>
+        <cit type="nikantu-meanings" xml:lang="ta">
+            <sense>
+            <form>mayilai</form>
+                <cit>
+                    <ref target="#Tiv3.191"><title>Tivākaram</title>  <num>3.191</num></ref>
+                    <def>mīṉ</def>
+                </cit>
+                <cit>
+                    <ref target="#Tiv4.170"><title>Tivākaram</title>  <num>4.170</num></ref>
+                    <def>iruvāṭci</def>
+                </cit>
+                <cit>
+                    <ref target="#Pink8.317"><title>Piṅkalam</title>  <num>8.317</num></ref>
+                    <def>mīṉ</def>
+                </cit>
+                <cit>
+                    <ref target="#Pink9.297"><title>Piṅkalam</title>  <num>9.297</num></ref>
+                    <def>iruvāṭci</def>
+                </cit>
+                <cit>
+                    <ref target="#Pink10.902"><title>Piṅkalam</title>  <num>10.902</num></ref>
+                    <def>mīṉ</def>
+                </cit>
+                <cit>
+                    <ref target="#Pink10.902"><title>Piṅkalam</title>  <num>10.902</num></ref>
+                    <def>mīṉa</def>
+                </cit>
+                <cit>
+                    <ref target="#Pink10.902"><title>Piṅkalam</title>  <num>10.902</num></ref>
+                    <def>iruvāṭci</def>
+                </cit>
+            </sense>
+        </cit>
+        <cit type="nikantu" xml:id="Tiv3.191">
+            <ref target="https://archive.org/details/20240820_20240820_1903/page/188/mode/2up"><title xml:lang="ta">Tivākaram</title> 3.191 <term xml:lang="ta">mīṉ potuppeyar</term></ref>
+            <q rend="block" xml:lang="ta">
+                <lg>
+                    <l>mīṉamum, maccamum, mayilaiyum, mīṉ peyar.</l>
+                </lg>
+            </q>
+        </cit>
+        <cit type="nikantu" xml:id="Tiv4.170">
+          <ref target="https://archive.org/details/20240820_20240820_1903/page/244/mode/1up"><title xml:lang="ta">Tivākaram</title> 4.170 <term xml:lang="ta">iruvāṭciyiṉ peyar</term></ref>
+            <q rend="block" xml:lang="ta">
+                <lg>
+                  <l>mayilai yiruvāṭci yāku meṉpa.</l>
+                </lg>
+            </q>
+        </cit>
+        <cit type="nikantu" xml:id="Pink8.317">
+          <ref target="https://archive.org/details/dli.jZY9lup2kZl6TuXGlZQdjZp7kZUy.TVA_BOK_0002448/page/264/mode/1up"><title xml:lang="ta">Piṅkalam</title> 8.317 <term xml:lang="ta">mīṉ potup peyar</term></ref>
+            <q rend="block" xml:lang="ta">
+                <lg>
+              <l>mayilaiyum, māṉum, maccamum, mīṉamum,</l>
+              <l>puḻalum, mīṉiṉ potup peyar (ākum).</l>
+                </lg>
+            </q>
+        </cit>
+        <cit type="nikantu" xml:id="Pink9.297">
+          <ref target="https://archive.org/details/dli.jZY9lup2kZl6TuXGlZQdjZp7kZUy.TVA_BOK_0002448/page/276/mode/1up"><title xml:lang="ta">Piṅkalam</title> 9.297 <term xml:lang="ta">iruvāṭci</term></ref>
+            <q rend="block" xml:lang="ta">
+                <lg>
+              <l>mayilai, aṉaṅkam, iruvāṭci.</l>
+                </lg>
+            </q>
+        </cit>
+        <cit type="nikantu" xml:id="Pink10.902">
+          <ref target="https://archive.org/details/dli.jZY9lup2kZl6TuXGlZQdjZp7kZUy.TVA_BOK_0002448/page/320/mode/1up"><title xml:lang="ta">Piṅkalam</title> 10.902 <term xml:lang="ta">mayilai</term></ref>
+            <q rend="block" xml:lang="ta">
+                <lg>
+              <l>mīṉiṉ potuvum, mīṉa irāciyum,</l>
+              <l>(malar) iruvāṭciyum, mayilai (ākum).</l>
+                </lg>
+            </q>
+        </cit>
+      </entry>
       <listBibl>
       </listBibl>
     </body>

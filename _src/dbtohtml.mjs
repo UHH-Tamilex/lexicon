@@ -44,7 +44,7 @@ const go = () => {
                    .map(g => `<div class="dict-group"><div>${g[1].join('')}</div><h2 class="dict-letter" lang="ta">${g[0]}</h2></div>`)
                    .join('\n');
 
-    Fs.writeFileSync('../index.html',template.replace('<!-- insert list here -->',out));
+    Fs.writeFileSync('../articles.html',template.replace('<!-- insert list here -->',out));
 };
 
 go();
