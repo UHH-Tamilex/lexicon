@@ -31,7 +31,7 @@
 </cit>
 <cit source="https://uhh-tamilex.github.io/Ainkurunuru/Aink55.xml?id=Aink55&amp;w=0,8">
     <q xml:lang="ta"><w>karumpiṉ</w> <w>entiram</w> <w>kaḷiṟṟ<c type="elided">u</c></w> <w>etir</w> <w>piḷiṟṟum</w> <w>tēr</w> <w>vaḷ</w> <w>kōmāṉ</w> <w>tēṉūr</w></q>
-    <q xml:lang="en">Tēṉūr of the king rich in chariots, where <hi>the machine</hi> for sugarcane out-roars the elephant bulls –</q>
+    <q xml:lang="en">Tēṉūr of the king rich in chariots, where <hi>the machine</hi> for sugarcane out-roars the elephant bulls</q>
     <ref target="https://uhh-tamilex.github.io/Ainkurunuru/Aink55.xml?highlight=%5Bid%3DAink55%5D%20.l%3Anth-of-type(1)">Aiṅkuṟunūṟu 55, lines 1–2</ref>
 </cit>
 <cit>
@@ -93,22 +93,36 @@
 </note></sense>
       <cit type="lexicon"><bibl><date>1972 [1779]</date><title xml:lang="en">Tamil and English Dictionary (Fabricius)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/fabricius_query.py?page=141">p. 141</ref></bibl></cit><cit type="lexicon"><bibl><date>1924–1936</date><title xml:lang="en">Tamil Lexicon (University of Madras)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?page=526">p. 526</ref></bibl></cit><cit type="lexicon"><bibl><date>1992</date><title xml:lang="ta">Kriyāviṉ taṟkālat Tamiḻ akarāti</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/crea_query.py?page=170">p. 170</ref></bibl></cit></entry>
       <listBibl>
-      <bibl><persName xml:lang="ta">Cāminātaiyar, U. Vē.</persName>, ed. 1935.
-<title xml:lang="ta">Puṟanāṉūṟu mūlamum uraiyum.</title>
-<term xml:lang="ta">Ceṉṉai</term>: <term xml:lang="ta">Lā Jarṉal Accukkūṭam.</term>
-<ref target="https://archive.org/details/Tamil-Purananuru-U-Ve-Sa-3rd-Edition-1935">ark:/13960/t5dc0n26b</ref>
-
-</bibl><bibl><persName xml:lang="ta">Cāminātaiyar, U. Vē.</persName>, ed. 1889.
-<title xml:lang="ta">Pattuppāṭṭu mūlamum maturaiyāciriyar pārattuvāci nacciṉārkkiṉiyar uraiyum.</title>
-1st edition.
-<term xml:lang="ta">Ceṉṉai:</term> <term xml:lang="ta">Tirāviṭaratnākara Accukkūṭam.</term>
-<ref target="https://archive.org/details/acc.-no.-37942-paththuppaattu-moolamum-nachinarkiniyaar-uraiyum-1889">ark:/13960/s2jdk2wm5hp</ref></bibl><bibl><persName xml:lang="ta">Cāminātaiyar, U. Vē.</persName> ed. 1903.
-<title xml:lang="ta">Eṭṭuttokaiyuḷ nāṉkāvatākiya patiṟṟuppattu mūlamum paḻaiyavuraiyum.</title>
-<term xml:lang="ta">Ceṉṉapaṭṭaṇam</term>: <term xml:lang="ta">Vaijayanti Accukkūṭam.</term>
-<ref target="https://archive.org/details/196OldCommentaryNotesByRajagopalarya">ark:/13960/t4gn5p19r</ref></bibl><bibl><persName xml:lang="ta">Cāminātaiyar, U. Vē.</persName>, ed. 1898.
-<title xml:lang="ta">Maṇimēkalai mūlamum, Vē. Cāminātaiyareḻutiya arumpatavuraiyum.</title>
-<term xml:lang="ta">Ceṉṉai:</term> <term xml:lang="ta">Ve. Nā. Jūpili Accukkūṭam.</term>
-<ref target="https://archive.org/details/maimkalai00matu">ark:/13960/s27s9xkc69s</ref></bibl><bibl>Vaidya, Paraśurāma Lakṣmaṇa, ed. 1958. <title>Avadāna-śataka.</title> Darbhanga: The Mithila Institute of Post-Graduate Studies and Research in Sanskrit Learning. (Buddhist Sanskrit Texts 19.)</bibl><bibl>Hoernle, August Friedrich Rudolf. 1914. <title>The Bower Manuscript: Facsimile Leaves, Nagari Transcript, Romanised Transliteration and English Translation with Notes.</title> Calcutta: Archaeological Survey of India. (Archaeological Survey of India, New Imperial Series 22.)</bibl><bibl>Ganapati Śāstrī, T., ed. 1924. <title>Samarāṅgaṇasūtradhāra.</title> Vol. 1. Baroda: Central Library. (Gaekwad's Oriental Series 25.)</bibl><bibl>Müller, Edward, ed. 1897. <title>The Atthasālinī.</title> London: Pali Text Society.</bibl></listBibl>
+        <bibl><persName xml:lang="ta">Cāminātaiyar, U. Vē.</persName>, ed. 1889.
+        <title xml:lang="ta">Pattuppāṭṭu mūlamum maturaiyāciriyar pārattuvāci nacciṉārkkiṉiyar uraiyum.</title>
+        1st edition.
+        <term xml:lang="ta">Ceṉṉai:</term> <term xml:lang="ta">Tirāviṭaratnākara Accukkūṭam.</term>
+        <ref target="https://archive.org/details/acc.-no.-37942-paththuppaattu-moolamum-nachinarkiniyaar-uraiyum-1889">ark:/13960/s2jdk2wm5hp</ref></bibl>
+        
+        <bibl><persName xml:lang="ta">Cāminātaiyar, U. Vē.</persName>, ed. 1898.
+        <title xml:lang="ta">Maṇimēkalai mūlamum, Vē. Cāminātaiyareḻutiya arumpatavuraiyum.</title>
+        <term xml:lang="ta">Ceṉṉai:</term> <term xml:lang="ta">Ve. Nā. Jūpili Accukkūṭam.</term>
+        <ref target="https://archive.org/details/maimkalai00matu">ark:/13960/s27s9xkc69s</ref></bibl>
+        
+        <bibl><persName xml:lang="ta">Cāminātaiyar, U. Vē.</persName> ed. 1903.
+        <title xml:lang="ta">Eṭṭuttokaiyuḷ nāṉkāvatākiya patiṟṟuppattu mūlamum paḻaiyavuraiyum.</title>
+        <term xml:lang="ta">Ceṉṉapaṭṭaṇam</term>: <term xml:lang="ta">Vaijayanti Accukkūṭam.</term>
+        <ref target="https://archive.org/details/196OldCommentaryNotesByRajagopalarya">ark:/13960/t4gn5p19r</ref></bibl>
+        
+        <bibl><persName xml:lang="ta">Cāminātaiyar, U. Vē.</persName>, ed. 1935.
+        <title xml:lang="ta">Puṟanāṉūṟu mūlamum uraiyum.</title>
+        <term xml:lang="ta">Ceṉṉai</term>: <term xml:lang="ta">Lā Jarṉal Accukkūṭam.</term>
+        <ref target="https://archive.org/details/Tamil-Purananuru-U-Ve-Sa-3rd-Edition-1935">ark:/13960/t5dc0n26b</ref>
+        </bibl>
+        
+        <bibl>Ganapati Śāstrī, T., ed. 1924. <title>Samarāṅgaṇasūtradhāra.</title> Vol. 1. Baroda: Central Library. (Gaekwad's Oriental Series 25.)</bibl>
+        
+        <bibl>Hoernle, August Friedrich Rudolf. 1914. <title>The Bower Manuscript: Facsimile Leaves, Nagari Transcript, Romanised Transliteration and English Translation with Notes.</title> Calcutta: Archaeological Survey of India. (Archaeological Survey of India, New Imperial Series 22.)</bibl>
+        
+        <bibl>Müller, Edward, ed. 1897. <title>The Atthasālinī.</title> London: Pali Text Society.</bibl>
+        
+        <bibl>Vaidya, Paraśurāma Lakṣmaṇa, ed. 1958. <title>Avadāna-śataka.</title> Darbhanga: The Mithila Institute of Post-Graduate Studies and Research in Sanskrit Learning. (Buddhist Sanskrit Texts 19.)</bibl>
+        </listBibl>
     </body>
   </text>
 </TEI>
