@@ -21,7 +21,7 @@
       <entry corresp="mayilai[TL]">
         <form xml:lang="ta">mayilai</form>
         <gramGrp><gram>noun</gram></gramGrp>
-        <sense><def xml:lang="en">Tuscan jasmine (Jasminum sambac)</def>
+        <sense><def xml:lang="en">A type of jasmine (Jasminum sambac)</def>
 <usg xml:lang="en">
 </usg>
 <cit source="https://uhh-tamilex.github.io/Purananuru/PN342.xml?id=PN342&amp;w=5,10">
@@ -43,7 +43,7 @@
 	which united in an interlaced binding of Piṭavam and jasmine …</q>
             <ref target="https://uhh-tamilex.github.io/Cilappatikaram/cila13.xml?highlight=%5Bid%3Dcila13%5D%20.l%3Anth-of-type(156)"><expan ref="#Cila"/> 13, lines 158–159</ref>
 </cit>
-<note xml:lang="en">Both <expan ref="#Cila"/> commentaries on the first passage seem to regard <foreign xml:lang="ta">mayilai</foreign> as a perfectly normal word not in need of glossing, since they both enumerate the garlands made of flowers as “beginning with <foreign xml:lang="ta">mullai</foreign>” and “ending with <foreign xml:lang="ta">kaḻunīr</foreign> (<foreign xml:lang="ta">mullai mutal kaḻunīr īṟāy</foreign>). For the second passage, an even longer enumeration of flowers (lines 155-158) that are arranged into a string (<foreign xml:lang="ta">kōvai</foreign>), the commentary agrees with (or follows?) the <foreign xml:lang="ta">Nikaṇṭu</foreign>-s that <foreign xml:lang="ta">mayilai</foreign> is a kind of jasmine (<foreign xml:lang="ta">iruvāṭci</foreign>). This makes perfect sense in the attested contexts (a flower decoration used both by humans and for households). The TL gives four possible meanings (Tuscan jasmine, scarlet ixora, tall chaste tree, peacock’s foot tree), but for non of the other three a passage from the current corpus is cited.
+<note xml:lang="en">Both <expan ref="#Cila"/> commentaries on the first passage seem to regard <foreign xml:lang="ta">mayilai</foreign> as a perfectly normal word not in need of glossing, since they both enumerate the garlands made of flowers as “beginning with <foreign xml:lang="ta">mullai</foreign>” and “ending with <foreign xml:lang="ta">kaḻunīr</foreign> (<foreign xml:lang="ta">mullai mutal kaḻunīr īṟāy</foreign>). For the second passage, an even longer enumeration of flowers (lines 155-158) that are arranged into a string (<foreign xml:lang="ta">kōvai</foreign>), the commentary agrees with (or follows?) the <foreign xml:lang="ta">Nikaṇṭu</foreign>-s that <foreign xml:lang="ta">mayilai</foreign> is a kind of jasmine (<foreign xml:lang="ta">iruvāṭci</foreign>). This makes perfect sense in the attested contexts (a flower decoration used both by humans and for households). The TL gives four possible meanings (Tuscan jasmine, scarlet ixora, tall chaste tree, peacock’s foot tree), but for none of the other three is a passage cited from the current corpus.
 </note></sense><sense><def xml:lang="en">proper name of a city (~ Mayilāpūr in today's Ceṉṉai)
 </def>
 <usg xml:lang="en">
@@ -64,11 +64,11 @@
 </cit>
 <cit>
   <ref target="https://archive.org/details/dli.jZY9lup2kZl6TuXGlZQdjZp7kZUy.TVA_BOK_0002448/page/320/mode/1up"><expan ref="#Pink"/> 10.902</ref>
-  <q xml:lang="ta">mīṉiṉ potuv<c type="elided">u</c>-um mīṉ avir āci-<c type="glide">y</c>um  /
+            <q xml:lang="ta">mīṉiṉ potuv<c type="elided">u</c>-um mīṉa <c type="glide">v</c>irāci-<c type="glide">y</c>um  /
 	malar iruvāṭci-<c type="glide">y</c>um mayilai <c type="glide">y</c>ākum
 </q>
 </cit>
-<note xml:lang="en">   Both the <expan ref="#Tiv"/> and the <expan ref="#Pink"/> have an additional <foreign xml:lang="ta">sūtra</foreign> in their respective animal chapters with <foreign xml:lang="ta">mayilai</foreign> as a common word for fish (<foreign xml:lang="ta">mīṉ</foreign>), namely <expan ref="#Tiv"/>  3.191 and <expan ref="#Pink"/> 8.317; the <expan ref="#Pink"/> even adds <foreign xml:lang="ta">mayilai </foreign>to the polysemic words with two meaning, <q>jasmine</q> and <q>fish</q> (<expan ref="#Pink"/> 10.902). For the time being no actual quotation for the meaning <q>fish</q> has been found.     
+<note xml:lang="en">   Both the <expan ref="#Tiv"/> and the <expan ref="#Pink"/> have an additional <foreign xml:lang="ta">sūtra</foreign> in their respective animal chapters with <foreign xml:lang="ta">mayilai</foreign> as a common word for fish (<foreign xml:lang="ta">mīṉ</foreign>), namely <expan ref="#Tiv"/>  3.191 and <expan ref="#Pink"/> 8.317; the <expan ref="#Pink"/> even adds <foreign xml:lang="ta">mayilai </foreign>to the list of polysemic words with two meaning, <q>jasmine</q> and <q>fish</q> (<expan ref="#Pink"/> 10.902). For the time being no actual quotation for the meaning <q>fish</q> has been found.     
 </note></sense>
       <cit type="lexicon"><bibl><date>1972 [1779]</date><title xml:lang="en">Tamil and English Dictionary (Fabricius)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/fabricius_query.py?page=776">p. 776</ref></bibl></cit><cit type="lexicon"><bibl><date>1862</date><title xml:lang="en">A comprehensive Tamil and English dictionary (Winslow)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/winslow_query.py?page=847">p. 847</ref></bibl></cit><cit type="lexicon"><bibl><date>1928 [1902]</date><title xml:lang="ta">Tamiḻmoḻiyakarāti (Katiraivēṟ Piḷḷai)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/kadirvelu_query.py?page=1122">p. 1122</ref><ref target="https://dsal.uchicago.edu/cgi-bin/app/kadirvelu_query.py?page=1627">p. 1627</ref></bibl></cit><cit type="lexicon"><bibl><date>1924–1936</date><title xml:lang="en">Tamil Lexicon (University of Madras)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?page=3078">p. 3078</ref><ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?page=3079">p. 3079</ref></bibl></cit><cit type="lexicon"><bibl><date>1992</date><title xml:lang="ta">Kriyāviṉ taṟkālat Tamiḻ akarāti</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/crea_query.py?page=800">p. 800</ref></bibl></cit><cit type="commentary"><ref target="https://archive.org/details/cilappatikaram/page/349/mode/1up"><expan ref="#Atiyar"/> on <expan ref="#Cila"/> 13.158f.</ref>
 <q xml:lang="ta">kuṭṭi<c type="geminated">p</c> piṭavamum iruvāṭciyum ākiya palamalarum virintu pūṅkoṭikaḷ niraipaṭa neruṅki … miṭaintu cūḻnta kōvaiyākiya mēkalai</q>
