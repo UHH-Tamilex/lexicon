@@ -12,6 +12,7 @@
   },
   "scripts": {
     "todb": "node todb.mjs",
+    "articles": "node articleindex.mjs",
     "dbtohtml": "node dbtohtml.mjs",
     "dbtoxmlindex": "node dbtoxmlindex.mjs",
     "dbtoxml": "node dbtoxml.mjs"

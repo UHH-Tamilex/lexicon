@@ -29,10 +29,11 @@ jobs:
           yarn install
           ./getdbs.sh
           yarn todb
+          yarn articles
           cd ../
 
       - uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: automatic wordindex update
-          file_pattern: wordindex.db webindex.db lookupindex.db
+          file_pattern: wordindex.db webindex.db lookupindex.db index.html articles.html
           commit_user_name: Tamilex Bot
