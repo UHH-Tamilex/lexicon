@@ -20,6 +20,13 @@ const init = async () => {
     document.getElementById('lemmainput').addEventListener('keyup',findWord);
     document.getElementById('foundwords').addEventListener('click',startNew);
     document.getElementById('foundwords').addEventListener('mouseover',selectWord);
+
+    const searchparams = new URLSearchParams(window.location.search);
+    const startlemma = searchparams.get('lemma');
+    if(startlemma) {
+      const row = _state.csv.find(e => e[0] && e[2] === startlemma);
+      startGo(row[2],row[0],row[4] || '');
+    }
 };
 
 const selectWord = e => {
@@ -83,10 +90,18 @@ const findWord = e => {
     }).join('');
 };
 
-const startNew = async e => {
+const startNew = e => {
     const item = e.target.closest('.searchitem');
     if(!item) return;
     
+    const lemma = item.dataset.id;
+    const form = item.querySelector('.lemma').textContent;
+    const def = item.querySelector('.def').textContent;
+    
+    startGo(lemma, form, def);
+};
+
+const startGo = async (lemma, form, def) => {
     const blurout = [
         {filter: 'blur(0)'},
         {filter: 'blur(20px)'},
@@ -103,9 +118,6 @@ const startNew = async e => {
     
     document.getElementById('updateSpan1').textContent = 'Checking Tamilex database...';
 
-    const lemma = item.dataset.id;
-    const form = item.querySelector('.lemma').textContent;
-    const def = item.querySelector('.def').textContent;
     const citations = _state.csv.filter(e => e[1] && e[2] === lemma);
     const citforms = citations.map(e => e[1]);
 
