@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./lexicon.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <script src="../lib/js/xslt-polyfill.min.js" xmlns="http://www.w3.org/1999/xhtml"></script>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="ta">paṉṉu</title>
+        <editor>
+            <forename>First name</forename> 
+            <surname>Last name</surname>
+        </editor>
+      </titleStmt>
+      <publicationStmt><p>Tamilex project.</p></publicationStmt>
+      <sourceDesc><p/></sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+  <text xml:lang="en">
+    <body>
+      <entry corresp="paṉṉu[DEDR3887/4207]">
+        <form xml:lang="ta">paṉṉu</form>
+        <gramGrp/>
+        <sense><def xml:lang="en">to card cotton</def>
+<usg xml:lang="en">
+</usg>
+<cit source="https://uhh-tamilex.github.io/Purananuru/PN345.xml?id=PN345&amp;w=89,94">
+    <q xml:lang="ta"><w>paṉṉal</w> <w>vēli</w> <w><c type="glide">y</c>i<c type="geminated">p</c></w> <w>paṇai<c type="geminated"/></w> <w>nal</w> <w><c type="geminated">l</c>ūr-ē</w></q>
+    <q xml:lang="en">this good village of fields with cotton hedges</q>
+    <ref target="https://uhh-tamilex.github.io/Purananuru/PN345.xml?highlight=%5Bid%3DPN345%5D%20.l%3Anth-of-type(20)">PN345, line 20</ref>
+</cit>
+<cit>
+  <ref target="https://archive.org/details/kmm-0708-seevaga-sinthamani-1922/page/656/mode/1up"><expan ref="#Cint"/> 2274.1 (trans. Ryan &amp; Vijayavenugopal 2018)</ref>
+  <q xml:lang="ta">paṉṉalam pañci<c type="geminated">k</c> kuṉṟam paṭar eri mukantat' oppa</q>
+  <q xml:lang="en">so as to resemble a spreading flame engulfing a mountain of cotton for hand-tousing</q>
+</cit>
+<note xml:lang="en"> This word is an isolated occurrence in the old corpus but the interpretation of “cotton” is backed up by three things. Firstly, in the formulaic system connected with <foreign xml:lang="ta">vēli</foreign> (“fence” or “hedge”) <foreign xml:lang="ta">paṉṉal</foreign> can be replaced with <foreign xml:lang="ta">parutti</foreign> (as in PN 299.1, 324.7). Secondly, the <foreign xml:lang="ta">Nikaṇṭu</foreign>-s enumerates <foreign xml:lang="ta">paṉṉal</foreign> as one of the words for <foreign xml:lang="ta">parutti</foreign> (see below). Thirdly, etymologically it is tempting to explain <foreign xml:lang="ta">paṉṉal</foreign> as a verbal noun belonging to a verb <foreign xml:lang="ta">paṉṉutal</foreign>, to weave (DEDR 4207). The TL even lists as the first meaning of that verb “to touse with the fingers, as cotton”.    
+</note>
+<note xml:lang="en">   At least one further passage suggests that the noun does not refer simply to the cotton plant but cotton in some processed form, unclear which exactly as long as the verb <foreign xml:lang="ta">paṉṉutal</foreign> (separated by the DEDR in two entries, namely 4207 and 3887) is not understood more precisely as to its technical implications (tousing?, spinning?, weaving?). This is confirmed by the cognate <foreign xml:lang="ta">paṉuval</foreign>, another type of verbal noun, presumably of the same verb but with a single <foreign xml:lang="ta">ṉ</foreign>, which may refer to a product made of cotton (compared in NA 353.1-3 to the clouds gathering on a mountain).      
+  </note>
+<note xml:lang="en">   Note that the verb <foreign xml:lang="ta">paṉṉutal</foreign> is not at all attested in the early classical corpus including the epics except for this one isolated occurrence in NA 136.5 where it is the attribute of <foreign xml:lang="ta">varai</foreign> (the suggestion of “close-set mountain” is mere guess work).      
+  </note></sense>
+      <entry><gramGrp><gram>perfective aspect</gram><gram>peyareccam</gram></gramGrp><form xml:lang="ta">paṉṉiya</form></entry><entry><gramGrp><gram>verbal noun</gram></gramGrp><form xml:lang="ta">paṉuval</form></entry><entry><gramGrp><gram>verbal noun</gram></gramGrp><form xml:lang="ta">paṉṉal</form></entry><entry><gramGrp><gram>adjective</gram></gramGrp><form xml:lang="ta">paṉṉalam</form></entry><cit type="lexicon"><bibl><date>1972 [1779]</date><title xml:lang="en">Tamil and English Dictionary (Fabricius)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/fabricius_query.py?page=680">p. 680</ref><ref target="https://dsal.uchicago.edu/cgi-bin/app/fabricius_query.py?page=681">p. 681</ref></bibl></cit><cit type="lexicon"><bibl><date>1862</date><title xml:lang="en">A comprehensive Tamil and English dictionary (Winslow)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/winslow_query.py?page=749">p. 749</ref><ref target="https://dsal.uchicago.edu/cgi-bin/app/winslow_query.py?page=750">p. 750</ref></bibl></cit><cit type="lexicon"><bibl><date>1928 [1902]</date><title xml:lang="ta">Tamiḻmoḻiyakarāti (Katiraivēṟ Piḷḷai)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/kadirvelu_query.py?page=975">p. 975</ref><ref target="https://dsal.uchicago.edu/cgi-bin/app/kadirvelu_query.py?page=976">p. 976</ref><ref target="https://dsal.uchicago.edu/cgi-bin/app/kadirvelu_query.py?page=1669">p. 1669</ref></bibl></cit><cit type="lexicon"><bibl><date>1924–1936</date><title xml:lang="en">Tamil Lexicon (University of Madras)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?page=2567">p. 2567</ref><ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?page=2569">p. 2569</ref><ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?page=2574">p. 2574</ref></bibl></cit><cit type="lexicon"><bibl><date>1992</date><title xml:lang="ta">Kriyāviṉ taṟkālat Tamiḻ akarāti</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/crea_query.py?page=700">p. 700</ref></bibl></cit><cit type="commentary"><ref target="https://archive.org/details/kmm-0708-seevaga-sinthamani-1922/page/656/mode/1up"><expan ref="#Nacc"/> on <expan ref="#Cint"/> 2274.1</ref>
+  <q xml:lang="ta">eḵku talaiyaṭaiya pañciyākiya malaiyai eri mukanta taṉmai <c type="glide">y</c>oppa</q>
+  <q xml:lang="en">so as to resemble in quality when taken up by flames the moutain that is cotton which has been reached by the tip of the blade</q></cit></entry>
+      <listBibl>
+      </listBibl>
+    </body>
+  </text>
+</TEI>
