@@ -7,8 +7,8 @@
       <titleStmt>
         <title xml:lang="ta">paṉṉu</title>
         <editor>
-            <forename>First name</forename> 
-            <surname>Last name</surname>
+            <forename>Eva</forename> 
+            <surname>Wilden</surname>
         </editor>
       </titleStmt>
       <publicationStmt><p>Tamilex project.</p></publicationStmt>
@@ -21,9 +21,8 @@
       <entry corresp="paṉṉu[DEDR3887/4207]">
         <form xml:lang="ta">paṉṉu</form>
         <gramGrp/>
-        <sense><def xml:lang="en">to card cotton</def>
-<usg xml:lang="en">
-</usg>
+        <sense><def xml:lang="en">carded cotton</def>
+<usg xml:lang="en"/>
 <cit source="https://uhh-tamilex.github.io/Purananuru/PN345.xml?id=PN345&amp;w=89,94">
     <q xml:lang="ta"><w>paṉṉal</w> <w>vēli</w> <w><c type="glide">y</c>i<c type="geminated">p</c></w> <w>paṇai<c type="geminated"/></w> <w>nal</w> <w><c type="geminated">l</c>ūr-ē</w></q>
     <q xml:lang="en">this good village of fields with cotton hedges</q>
