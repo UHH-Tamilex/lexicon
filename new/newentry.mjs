@@ -297,7 +297,7 @@ const getOtherCitations = async (forms,doc) => {
         const transed = Sanscript.t(form,'iast','tamil');
         updatebox.textContent = `${transed}...`;    
         const doc = await loadDoc(`https://dsal.uchicago.edu/cgi-bin/app/tamil_query.py?qs=${transed}&searchhws=yes&matchtype=exact`,'default','html');
-        for(const result of doc.querySelectorAll('.hw_result')) {
+        for(const result of doc.querySelectorAll('.px-3 .page .p-3 .mb-3')) {
             const as = result.querySelectorAll('a');
             const key = as[1].getAttribute('href').split('/')[2];
             const deets = dicts.has(key);
