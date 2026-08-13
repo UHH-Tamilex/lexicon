@@ -199,7 +199,7 @@
             <xsl:apply-templates select="x:cit[@type='lexicon']"/>
         </ul>
     </details>
-    <details>
+    <details open="true">
         <xsl:attribute name="id"><xsl:value-of select="@corresp"/></xsl:attribute>
         <summary style="font-size: 1.5rem; font-style: italic">Tamilex citations</summary>
         <details class="dict" style="margin-top: 1rem">
