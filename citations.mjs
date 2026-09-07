@@ -48,7 +48,7 @@ const checkCitations = async (doc = document, thisdoc = null) => {
 };
 
 const formatCitations = citations => {
-    const noedit = document.getElementById('topbar').classList.contains('hidebuttons');
+    const noedit = !document.getElementById('topbar').classList.contains('editmode');
     const editquery = noedit ? '' : '&amp;edit&amp;wordsplit';
     const newwin = noedit ? '' : ' target="_blank" rel="noopener noreferrer"';
 

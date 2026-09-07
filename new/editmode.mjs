@@ -192,6 +192,7 @@ li:has(.plusbutton) {
 const revealButtons = () => {
     const topbar = document.getElementById('topbar');
     topbar.classList.remove('hidebuttons');
+    topbar.classList.add('editmode');
 };
 
 const addEditButton = par => {

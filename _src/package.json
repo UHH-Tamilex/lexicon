@@ -12,13 +12,17 @@
   },
   "scripts": {
     "todb": "node todb.mjs",
+    "articles": "node articleindex.mjs",
     "dbtohtml": "node dbtohtml.mjs",
     "dbtoxmlindex": "node dbtoxmlindex.mjs",
     "dbtoxml": "node dbtoxml.mjs"
   },
   "dependencies": {
     "beautify": "^0.0.8",
+    "brace-expansion": "^5.0.6",
+    "editorconfig": "^3.0.2",
+    "js-beautify": "^1.15.4",
     "sanitize-filename": "^1.6.3",
-    "ws": "^8.17.1"
+    "ws": "^8.21.0"
   }
 }

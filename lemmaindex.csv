@@ -1,6 +1,6 @@
 Column1,Column2,Column3,Column4,Column5
 a-,,a-[DEDR1],dem.pron.|proc.,that- ()
-,aḵt’,a-[DEDR1],san.,
+,aḵtu,a-[DEDR1],san.,
 ,atu,a-[DEDR1],,
 ,atū,a-[DEDR1],san.,
 ,ataṉ,a-[DEDR1],obl.,
@@ -974,8 +974,8 @@ alai,,alai[DEDR236],r.n.,oppression
 ,alaiyā,alai[DEDR236],abs.|neg.,
 ,alaiyā,alai[DEDR236],neg.|pey.,
 ,alaippaṭṭa,alai[DEDR236],p.a.|pey.,
-alavāy,,alavāy[TL],p.n.,"(not , not AN index)  of a place"
-,alaivāy,alavāy[TL],p.n.,
+alavāy,,alavāy,p.n.,"(not TL, not AN index) name of a place"
+,alaivāy,alavāy,p.n.,
 avarai,,avarai[DEDR264],n.,field bean (Dolichos lablab)
 aval,,aval[DEDR2391],n.,pestled rice
 aval,,aval[TL],n.,(not DEDR):  depression
@@ -1653,6 +1653,7 @@ aṉantar,,aṉantar[DEDR326],n.,"drowsiness, stupour (PN 316.3, Poru 94)"
 ,āli,ālu[DEDR386],abs.,
 ,āliṉa,ālu[DEDR386],n.pl.|p.a.,
 ,ālum,ālu[DEDR386],pey.,
+ālai,,ālai[TL],n.,room
 āvaṇam,,āvaṇam,n.,< Skt. āpaṇa-  market
 ,āvaṇattu,āvaṇam,obl.,
 āvi,,āvi[TL],p.n.,of a chieftain
@@ -3892,6 +3893,8 @@ etirkoḷ,,etirkoḷ[TL],v.2.,to receive
 ,etirkoḷa,etirkoḷ[TL],inf.,
 etirppaṭu,,etirppaṭu[TL],v.6.,to encounter
 ,etirppaṭṭa,etirppaṭu[TL],p.a.|pey.,
+entiram,,entiram[TL],n.,machine
+,entira,,n.,
 entai,,entai[DEDR3067],n.,my father
 em,,em[DEDR5154],pers.pron.|obl.|pl.|1.,(exclusive)
 ,emmiṉ,em[DEDR5154],obl.,
@@ -4996,7 +4999,6 @@ kaṇ,,kaṇ[DEDR1161],n.,"area, spot"
 ,kaṇaḵtu,kaṇ[DEDR1161],pron.n.|n.sg.,
 ,kaṇṇa,kaṇ[DEDR1161],pron.n.|n.pl.,
 kaṇ,,kaṇ[DEDR1159],n.,(+ DEDR 1443):  eye
-,kaṇ,kaṇ[DEDR1159],n.,
 ,kaṇ,kaṇ[DEDR1159],n.,
 ,kaṇṇiṉ,kaṇ[DEDR1159],obl.,
 ,kaṭku,kaṇ[DEDR1159],dat.,
@@ -11619,8 +11621,11 @@ paṟai,,paṟai[DEDR4033],v.4.|v.r.,"to be worn-out, to be impaired –"
 ,paṟaiya,paṟai[DEDR4033],inf.,
 paṉṟi,,paṉṟi[DEDR4039],n.,pig
 ,paṉṟiyiṉ,paṉṟi[DEDR4039],obl.,
-paṉṉu,,paṉṉu[TL],v.5.,(i.o.; DEDR 4207: to weave):  to be close
-,paṉṉiya,paṉṉu[TL],p.a.|pey.,
+paṉṉu,,paṉṉu[DEDR3887/4207],v.5.,to weave; to speak
+,paṉṉiya,paṉṉu[DEDR3887/4207],p.a.|pey.,
+,paṉuval,paṉṉu[DEDR3887/4207],v.n.,(not DEDR):  toused cotton; musical composition
+,paṉṉal,paṉṉu[DEDR3887/4207],v.n.,toused cotton
+,paṉṉalam,paṉṉu[DEDR3887/4207],adj.,
 paṉam,,paṉam[DEDR4037],n.,?:  palmyra leaf
 paṉi,,paṉi[DEDR4035],r.n.,dew; chill; fever
 ,paṉiyiṉ,paṉi[DEDR4035],obl.,
@@ -11631,7 +11636,6 @@ paṉi,,paṉi[DEDR4035],r.n.,dew; chill; fever
 ,paṉippa,paṉi[DEDR4035],inf.,
 ,paṉippōḷ,paṉi[DEDR4035],f.sg.|i.a.,
 ,paṉippu,paṉi[DEDR4035],n.,
-paṉuval,,paṉuval[TL],n.,(not DEDR):  toused cotton; musical composition
 paṉai,,paṉai[DEDR4037],n.,palmyra palm (Borassus flabelifer)
 pā,,pā[DEDR4088],n.,expanse
 pāar,,pāar[DEDR3949],n.,rock
@@ -13453,7 +13457,9 @@ mayir,,mayir[DEDR4707],n.,"fur, body hair"
 ,mayirōṭ’,mayir[DEDR4707],san.|soc.,
 mayil,,mayil[DEDR4642],n.,peacock
 ,mayiliṉ,mayil[DEDR4642],obl.,
+,mayilai,mayil[DEDR4642],acc.,
 ,mayilaḷ,mayil[DEDR4642],pron.n.|f.sg.,
+mayilai,,mayilai[TL],n.,Tuscan jasmine (Jasminum sambac)
 mara,,mara[TL],v.11.,(not DEDR):  to be stiffened
 ,marantu,mara[TL],abs.,
 marati,,marati[TL],p.n.,"(not AN index, not ):  of a woman"

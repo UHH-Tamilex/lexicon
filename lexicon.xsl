@@ -81,6 +81,7 @@
         <xsl:element name="script">
             <xsl:attribute name="type">module</xsl:attribute>
             <xsl:attribute name="src"><xsl:value-of select="$thisroot"/>lexicon.mjs</xsl:attribute>
+            <xsl:attribute name="data-dbroot"><xsl:value-of select="$thisroot"/></xsl:attribute>
         </xsl:element>
     </xsl:element>
 </xsl:template>
@@ -124,7 +125,7 @@
                             <xsl:text>. </xsl:text>
                             <span id="latestcommit"></span>
                         </p>
-                        <p><a href="https://doi.org/10.5281/zenodo.15680522"><img src="zenodo.15680522.svg" alt="doi:10.5281/15680522"/></a></p>
+              <p><a href="https://doi.org/10.5281/zenodo.15680522"><img alt="doi:10.5281/15680522"><xsl:attribute name="src"><xsl:value-of select="$thisroot"/>/zenodo.15680522.svg</xsl:attribute></img></a></p>
                         <p style="font-size: 1.2rem" class="bibliography" id="suggested-citation">
                             <xsl:value-of select="//x:titleStmt/x:editor/x:surname"/>
                             <xsl:text>, </xsl:text>
@@ -198,7 +199,7 @@
             <xsl:apply-templates select="x:cit[@type='lexicon']"/>
         </ul>
     </details>
-    <details>
+    <details open="true">
         <xsl:attribute name="id"><xsl:value-of select="@corresp"/></xsl:attribute>
         <summary style="font-size: 1.5rem; font-style: italic">Tamilex citations</summary>
         <details class="dict" style="margin-top: 1rem">
