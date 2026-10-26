@@ -19,10 +19,38 @@
       <entry corresp="ālai[TL]">
         <form xml:lang="ta">ālai</form>
         <gramGrp><gram>noun</gram></gramGrp>
-        <sense>
-            <def xml:lang="en">room</def>
-            <!-- add citations here -->
-        </sense>
+        <sense><def xml:lang="en">hall, shed, outbuilding</def>
+<usg xml:lang="en">
+</usg>
+<cit source="https://uhh-tamilex.github.io/Purananuru/PN220.xml?id=PN220&amp;w=13,19">
+    <q xml:lang="ta"><w>alkiya</w> <w><c type="glide">v</c>aḻuṅkal</w> <w>ālai</w> <w>veḷil</w> <w>pāḻ</w> <w>ākka</w> <w>kaṇṭu</w></q>
+    <q xml:lang="en">seeing that the post has been ruined in the noisy <hi>shed</hi> [for elephant bulls]...</q>
+    <ref target="https://uhh-tamilex.github.io/Purananuru/PN220.xml?highlight=%5Bid%3DPN220%5D%20.l%3Anth-of-type(3)"><title xml:lang="ta">Puṟanāṉūṟu</title> <num>220</num>, lines 3–4</ref>
+</cit>
+<cit>
+  <ref target="https://archive.org/details/acc.-no.-37942-paththuppaattu-moolamum-nachinarkiniyaar-uraiyum-1889/page/102/mode/1up"><title xml:lang="ta">Perumpāṇāṟṟuppaṭai</title>, lines 260–262</ref>
+  <q xml:lang="ta">entiram cilaikkum tuñcāk kampalai / vicayam aṭūum pukai cūḻ ālaitoṟum
+/ karumpiṉ tīm cāṟu virumpiṉir micaimiṉ</q>
+  <q xml:lang="en"> You, who desired [it], enjoy the sweet juice of the sugarcane of all <hi>the halls</hi> surrounded by smoke, where the jaggery is being boiled, where the clamour does not cease, and where the machines resound!</q>
+</cit>
+<cit><ref target="https://archive.org/details/acc.-no.-37942-paththuppaattu-moolamum-nachinarkiniyaar-uraiyum-1889/page/289/mode/1up"><title xml:lang="ta">Paṭṭiṉappālai</title> lines 9–10</ref>   
+  <q xml:lang="ta">kārk karumpiṉ kamaḻ ālait / tī ...</q>   
+  <q xml:lang="en">the fire at <hi>the sheds</hi> fragrant from dark sugarcanes</q>
+</cit>
+<cit><ref target="https://archive.org/details/acc.-no.-37942-paththuppaattu-moolamum-nachinarkiniyaar-uraiyum-1889/page/320/mode/1up"><title xml:lang="ta">Malaipaṭukaṭām</title> line 119</ref>   
+  <q xml:lang="ta">aṟai uṟṟ' / ālaikk' alamarum tīm kaḻaik karumpē</q>   
+  <q xml:lang="en">the sugarcane with sweet stalks, which whirl in the sheds [for pressing] after being cut/being beaten (<foreign xml:lang="ta">aṟai uṟṟu</foreign>)</q>
+</cit>
+<cit><ref target="https://archive.org/details/acc.-no.-37942-paththuppaattu-moolamum-nachinarkiniyaar-uraiyum-1889/page/326/mode/1up"><title xml:lang="ta">Malaipaṭukaṭām</title> line 340–341</ref>   
+  <q xml:lang="en">the sounds of sugarcane that is rapidly crushed at [its] stalks in all the sheds that looked like rain clouds</q>
+<note xml:lang="en"><hi>The shed</hi> is possibly compared to a rain cloud because it is dark (with smoke from the boiling), it roars (with the noise of crushing), and it is full of liquid (the sweet juice, like rain).</note>
+</cit>
+<note xml:lang="en">
+  <p>A borrowing from Sanskrit <foreign xml:lang="sa">śālā</foreign> 'hall, house, shed' (<ref target="https://nws.uzi.uni-halle.de/search?utf8=%E2%9C%93&amp;q=%C5%9B%C4%81l%C4%81&amp;lang=en">NWS</ref>), denoting a shed or hall attached to a household. Its specific function is not lexically fixed but determined by context. In Classical Tamil texts it most commonly refers to a sugarcane mill, i.e. the shed in which cane was crushed and its juice boiled down into sugar, the press itself being called <foreign xml:lang="ta">entiram</foreign> (from Skt. <foreign xml:lang="sa">yantra</foreign>). Elsewhere it denotes a stable.</p>
+  <p>The sugarcane context is well attested, cf. <title xml:lang="ta">Perumpāṇāṟṟuppaṭai</title> 260–262: <foreign xml:lang="ta">entiram cilaikkum tuñcāk kampalai vicayam aṭūum pukai cūḻ <hi>ālai</hi>toṟum karumpiṉ tīm cāṟu</foreign>; <title xml:lang="ta">Paṭṭiṉappālai</title> 9–10: <foreign xml:lang="ta">kārk karumpiṉ kamaḻ <hi>ālai</hi>t tī</foreign> 'the fire at the sheds fragrant from dark sugarcanes'; <title xml:lang="ta">Cilappatikāram</title> line 151: <foreign xml:lang="ta">poṅk' aḻi <hi>ālai</hi>p pukaiyoṭum</foreign> 'together with the smoke from the sheds of boiling and crushing'. This usage closely parallels Sanskrit and Pali terms for sugarcane-processing sheds, such as <foreign xml:lang="sa">īkṣuśālā</foreign> and <foreign xml:lang="sa">yantraśālā</foreign> in the <title xml:lang="sa">Avadānaśataka</title> (tale 41) and <foreign xml:lang="pi">ucchusālā</foreign> in Buddhaghosa's <title xml:lang="pi">Atthasālinī</title>.</p>
+  <p>The mediaeval commentaries on <expan ref="#Pati"/> 19: 23, <expan ref="#Peru"/> 260–262 and <title xml:lang="ta">Maturaikkāñci</title> 258 gloss <foreign xml:lang="ta">ālai</foreign> as 'press'. This probably reflects a later shift from the building to the device it housed.</p>
+<p>The word is also attested in an eleventh-century inscription on the walls of the <foreign xml:lang="ta">Vīrattāṉēśvara</foreign> shrine at Kīḻūr, near Tirukkōyilūr (<ref target="https://archive.org/details/in.ernet.dli.2015.536345/page/n442/mode/1up"><title>South Indian Inscriptions</title>, vol. 7, no. 863; p. 434</ref> = A.R. No. 236 of 1902; digital edition: <ref target="https://dharmalekha.info/texts/INSSIIv07p0i0863">DHARMA, SII 7.863</ref>). Describing the surroundings, the text reads: <foreign xml:lang="ta">veḷ pūm karump' iṭai tuṇittaratt' āṭṭ' oli <hi>ālai</hi> ayalatu</foreign> 'in the vicinity of the shed [with] the grinding noise (<foreign xml:lang="ta">āṭṭ' oli</foreign>) [caused] by those who cut the white-flowered sugarcane in the middle' (transl. Ferenczi). Here, too, <foreign xml:lang="ta">ālai</foreign> denotes the building in which sugarcane was crushed, and the verb <foreign xml:lang="ta">āṭṭu-</foreign> 'to grind, crush' describes the process.</p>
+</note></sense>
       <cit type="lexicon"><bibl><date>1972 [1779]</date><title xml:lang="en">Tamil and English Dictionary (Fabricius)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/fabricius_query.py?page=60">p. 60</ref></bibl></cit><cit type="lexicon"><bibl><date>1862</date><title xml:lang="en">A comprehensive Tamil and English dictionary (Winslow)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/winslow_query.py?page=73">p. 73</ref></bibl></cit><cit type="lexicon"><bibl><date>1928 [1902]</date><title xml:lang="ta">Tamiḻmoḻiyakarāti (Katiraivēṟ Piḷḷai)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/kadirvelu_query.py?page=195">p. 195</ref><ref target="https://dsal.uchicago.edu/cgi-bin/app/kadirvelu_query.py?page=1367">p. 1367</ref><ref target="https://dsal.uchicago.edu/cgi-bin/app/kadirvelu_query.py?page=1696">p. 1696</ref></bibl></cit><cit type="lexicon"><bibl><date>1924–1936</date><title xml:lang="en">Tamil Lexicon (University of Madras)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?page=248">p. 248</ref><ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?page=4038">p. S110</ref></bibl></cit><cit type="lexicon"><bibl><date>1992</date><title xml:lang="ta">Kriyāviṉ taṟkālat Tamiḻ akarāti</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/crea_query.py?page=80">p. 80</ref></bibl></cit></entry>
       <listBibl>
       </listBibl>
