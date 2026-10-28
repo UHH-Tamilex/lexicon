@@ -116,6 +116,11 @@ The South Indian <title xml:lang="sa">Kāmikāgama</title> (46.7–9; ca. 12th c
           <term xml:lang="en">Cambridge, MA:</term> <term xml:lang="en">Harvard University Press.</term>
           </bibl>
 
+          <bibl><title xml:lang="en">DHARMA: Digital Sources for the History of South and Southeast Asia</title>
+            <term xml:lang="en">Paris:</term> <term xml:lang="en">CEIAS.</term>
+            <ref target="https://dharmalekha.info">dharmalekha.info</ref>
+            </bibl>
+
         <bibl><persName xml:lang="sa">Gaṇapati Śāstrī, T.</persName>, ed. 1910.
           <title xml:lang="sa">The Mātaṅgalīlā of Nīlakaṇṭha.</title> Trivandrum Sanskrit Series 10.
           <term xml:lang="en">Trivandrum:</term> <term xml:lang="en">Travancore Government Press.</term>
@@ -130,17 +135,30 @@ The South Indian <title xml:lang="sa">Kāmikāgama</title> (46.7–9; ca. 12th c
 
         <bibl>Gopal, Lallanji. 1964. <title>Sugar-Making in Ancient India.</title> In: <title>Journal of the Economic and Social History of the Orient</title> 7(1): 57–72.</bibl>
 
+        <bibl><persName xml:lang="en">Krishna Sastri, H.</persName>, ed. 1923.
+          <title xml:lang="en">South-Indian Inscriptions (Texts). Volume IV: Miscellaneous Inscriptions from the Tamil, Telugu and Kannada Countries and Ceylon.</title> South Indian Inscriptions 4.
+          <term xml:lang="en">Madras:</term> <term xml:lang="en">Government Press.</term>
+          </bibl>
+        
         <bibl><persName xml:lang="en">Monier-Williams, Monier</persName>. 1899.
           <title xml:lang="en">A Sanskrit-English Dictionary.</title>
           <term xml:lang="en">Oxford:</term> <term xml:lang="en">Clarendon Press.</term>
           <ref target="https://www.sanskrit-lexicon.uni-koeln.de/scans/csl-apidev/servepdf.php?dict=MW&amp;page=1067">Cologne Digital Sanskrit Dictionaries</ref>
           </bibl>
+
+          <bibl><persName xml:lang="ta">Puṣparataceṭṭiyār, Ū.</persName>, ed. 1885. <title xml:lang="ta">Nālaṭiyār eṉṟu vaḻaṅkum nālaṭi nāṉūṟu mūlamum atarkut teḷiporuḷ viḷakkap patavuraiyum.</title>  <term xml:lang="ta">Ceṉṉapaṭṭaṉam</term> <term xml:lang="ta">Kalāratnānakaram eṉṉum accukkūṭam.</term> <ref target="https://archive.org/details/gc-sh5-0332/">     ark:/13960/s2cw8d42tsb</ref></bibl>
           
           <bibl><persName xml:lang="en">Ranade, H. G.</persName>, trans. 1978.
           <title xml:lang="en">Kātyāyana Śrauta Sūtra: Rules for the Vedic Sacrifices.</title>
           <term xml:lang="en">Pune:</term> <term xml:lang="en">H. G. Ranade.</term>
           <ref target="https://archive.org/details/eOgf_katyayana-srauta-sutra-by-h.-g.-ranade-1978-pune-h.-g.-ranade">ark:/13960/s2g0g0352b2</ref>
           </bibl>
+
+          <bibl><persName xml:lang="en">Subrahmanya Aiyer, K. V.</persName>, ed. 1932.
+            <title xml:lang="en">South-Indian Inscriptions (Texts). Volume VII: Miscellaneous Inscriptions from the Tamil, Malayalam, Telugu and Kannada Countries.</title> South Indian Inscriptions 7.
+            <term xml:lang="en">Calcutta:</term> <term xml:lang="en">Government of India, Central Publication Branch.</term>
+            <ref target="https://archive.org/details/in.ernet.dli.2015.536345">[ark]</ref>
+            </bibl>
         </listBibl>
     </body>
   </text>
