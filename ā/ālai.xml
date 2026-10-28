@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="./lexicon.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./lexicon.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <script xmlns="http://www.w3.org/1999/xhtml" src="../lib/js/xslt-polyfill.min.js"></script>
   <teiHeader>
     <fileDesc>
@@ -19,18 +21,20 @@
       <entry corresp="ālai[TL]">
         <form xml:lang="ta">ālai</form>
         <gramGrp><gram>noun</gram></gramGrp>
-        <sense><def xml:lang="en">shed (used as a stable)</def>
+        <sense><def xml:lang="en">stable (for elephants)</def>
 <usg xml:lang="en">
 </usg>
 <cit source="https://uhh-tamilex.github.io/Purananuru/PN220.xml?id=PN220&amp;w=13,19">
     <q xml:lang="ta"><w>alkiya</w> <w><c type="glide">v</c>aḻuṅkal</w> <w>ālai</w> <w>veḷil</w> <w>pāḻ</w> <w>ākka</w> <w>kaṇṭu</w></q>
-    <q xml:lang="en">seeing that the post has been ruined in the noisy <hi>shed</hi> [for elephant bulls]...</q>
+    <q xml:lang="en">seeing that the post in the noisy<hi>[elephant] stable</hi> has been ruined...</q>
     <ref target="https://uhh-tamilex.github.io/Purananuru/PN220.xml?highlight=%5Bid%3DPN220%5D%20.l%3Anth-of-type(3)"><title xml:lang="ta">Puṟanāṉūṟu</title> <num>220</num>, lines 3–4</ref>
 </cit>
-<note xml:lang="en">
-  <p>A borrowing from Sanskrit <foreign xml:lang="sa">śālā</foreign> 'hall, house, shed' (<ref target="https://nws.uzi.uni-halle.de/search?utf8=%E2%9C%93&amp;q=%C5%9B%C4%81l%C4%81&amp;lang=en">NWS</ref>), denoting a shed or hall attached to a household. This is probably its earliest attestation, and the only one in first-millennium texts in which it denotes a stable. In all other occurrences it refers to a sugarcane press-house, i.e. the shed in which cane was crushed and its juice boiled down into sugar, the press itself being called <foreign xml:lang="ta">entiram</foreign> (from Skt. <foreign xml:lang="sa">yantra</foreign>).
- Given the isolated nature of this attestation, it is also possible that the outbuilding called <foreign xml:lang="ta">ālai</foreign> in question was in fact a 'press-house', but one large enough for an elephant to spend the night there, tied to a hitching post, during the cold season.</p>
-</note></sense><sense><def xml:lang="en">press-house (for sugarcane)
+<note xml:lang="en">   <p>A borrowing from Sanskrit <foreign xml:lang="sa">śālā</foreign> 'hall, house, shed' (<ref target="https://www.sanskrit-lexicon.uni-koeln.de/scans/csl-apidev/servepdf.php?dict=MW&amp;page=1067">Monier-Williams 1899, p. 1067</ref>), denoting a shed or hall attached to a household. This is probably its earliest Tamil attestation, and the only one in first-millennium texts in which it means a stable.This may reflect a concept borrowed from the north: the <foreign xml:lang="sa">śālāstambha</foreign> 'house-post' (<ref target="https://www.sanskrit-lexicon.uni-koeln.de/scans/csl-apidev/servepdf.php?dict=MW&amp;page=1067">MW</ref>), the equivalent of what we read in <title xml:lang="ta">Puṟanāṉūṟu</title> 220.3–4, where <foreign xml:lang="ta">ālai veḷil</foreign> may refer to the same structural element of the building. </p><p>The term <foreign xml:lang="sa">śālāstambha</foreign> already appears in Vedic manuals such as the <ref target="https://archive.org/details/eOgf_katyayana-srauta-sutra-by-h.-g.-ranade-1978-pune-h.-g.-ranade/page/216/mode/2up"><title xml:lang="sa">Kātyāyana Śrautasūtra</title></ref> 7.1.30 (Ranade 1978, p. 216) as a 'pillar-post' in the eastern part of the sacrificial hall, but later more specifically in the context of stables.</p>
+<p>An early example is found in Kālidāsa's <title xml:lang="sa">Raghuvaṃśa</title> (5th century CE) 16.41, which mentions elephants 'standing at the posts in the stables' (<foreign xml:lang="sa">śālāgṛhastambhagataiś ca nāgaiḥ</foreign>; <title xml:lang="en">The Lineage of the Raghus</title>, p. 397). Here <foreign xml:lang="sa">śālā</foreign> clearly denotes the stable and <foreign xml:lang="sa">stambha</foreign> the hitching post. It is worth noting that the commentator Aruṇagirinātha<note place="foot" xml:lang="en">I am grateful to Csaba Dezső for drawing my attention to Aruṇagirinātha’s commentary.</note> regards <foreign xml:lang="sa">gṛha</foreign> as redundant (<foreign xml:lang="sa">śālāgṛham iti śiṃśapāvṛkṣavat</foreign>), and thus interprets it as <foreign xml:lang="sa">śālāstambha</foreign> (<title xml:lang="sa">Prakāśikā</title> on 16.41; Achyuta Poduval and Raman Nambiar 1959, p. 337).</p>
+<p>
+The South Indian <title xml:lang="sa">Kāmikāgama</title> (46.7–9; ca. 12th century CE) also describes the <foreign xml:lang="sa">śālāstambhāḥ</foreign> (in the plural) as 'stable-posts' for the elephant stable (<foreign xml:lang="sa">śālāstambhā gajasya</foreign>), while in the fifteenth-century treatise on elephantology, the <ref target="https://archive.org/details/TSS010MatangalilaOfNilakanthaTGSastri1910_201809/page/29/mode/1up"><title xml:lang="sa">Mātaṅgalīlā</title></ref> of Nīlakaṇṭha (11.8; Gaṇapati Śāstrī 1910, p. 29), <foreign xml:lang="sa">śālāstambhapraveśa</foreign>, 'entering between the stable-posts', is listed among the daily routines of elephants. Here, the term <foreign xml:lang="sa">praveśa</foreign> may refer both to going to the posts and to being hitched to them.</p>   
+  <p>Since the association of the <foreign xml:lang="sa">śālāstambha</foreign> with elephant stables is already attested in Kālidāsa, who is close in time to the <title xml:lang="ta">Puṟanāṉūṟu</title>, although somewhat later, it is quite possible that the term was already current as an architectural element of elephant stables at the time of the <title xml:lang="ta">Puṟanāṉūṟu</title>. In poem 220, because of the line break, I read <foreign xml:lang="ta">ālai veḷil</foreign> not as a compound but as the 'post' (<foreign xml:lang="ta">veḷil</foreign>) of the 'stable' (<foreign xml:lang="ta">ālai</foreign>): the post that broke noisily when the mahout's bull elephant unexpectedly left.</p>
+<p>If such beliefs already existed at the time, one may even wonder whether the mahout's sadness was not also due to the fact that, when his elephant broke loose and shattered the post of the shed, he "recalled" the relevant warning of the Vāstuśāstra: <foreign xml:lang="sa">śālāstambhasya vā nāśe bhāryā tasya vinaśyati</foreign> '...or if the house-post is destroyed, his [i.e. the owner's] wife will perish' (<ref target="https://archive.org/details/in.ernet.dli.2015.345259/page/233/mode/1up"><title xml:lang="sa">Samarāṅgaṇasūtradhāra</title></ref>, chapter 43, verse 40).</p> </note></sense><sense><def xml:lang="en">press-house (for sugarcane)
 </def>
 <usg xml:lang="en">
 </usg>
@@ -85,21 +89,58 @@
 </note></sense>
       <cit type="lexicon"><bibl><date>1972 [1779]</date><title xml:lang="en">Tamil and English Dictionary (Fabricius)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/fabricius_query.py?page=60">p. 60</ref></bibl></cit><cit type="lexicon"><bibl><date>1862</date><title xml:lang="en">A comprehensive Tamil and English dictionary (Winslow)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/winslow_query.py?page=73">p. 73</ref></bibl></cit><cit type="lexicon"><bibl><date>1928 [1902]</date><title xml:lang="ta">Tamiḻmoḻiyakarāti (Katiraivēṟ Piḷḷai)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/kadirvelu_query.py?page=195">p. 195</ref><ref target="https://dsal.uchicago.edu/cgi-bin/app/kadirvelu_query.py?page=1367">p. 1367</ref><ref target="https://dsal.uchicago.edu/cgi-bin/app/kadirvelu_query.py?page=1696">p. 1696</ref></bibl></cit><cit type="lexicon"><bibl><date>1924–1936</date><title xml:lang="en">Tamil Lexicon (University of Madras)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?page=248">p. 248</ref><ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?page=4038">p. S110</ref></bibl></cit><cit type="lexicon"><bibl><date>1992</date><title xml:lang="ta">Kriyāviṉ taṟkālat Tamiḻ akarāti</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/crea_query.py?page=80">p. 80</ref></bibl></cit></entry>
       <listBibl>
+        <bibl><persName xml:lang="sa">Achyuta Poduval, K.</persName>, ed., with <persName xml:lang="sa">C. K. Raman Nambiar</persName>. 1959.
+          <title xml:lang="sa">Raghuvaṃśaḥ mahākaviśrīkālidāsapraṇītaḥ, śrīmadaruṇagirināthaviracitayā Prakāśikayā śrīnārāyaṇapaṇḍitakṛtayā Padārthadīpikayā ca samanvitaḥ. Sargāḥ 13–19.</title> Śrīravivarmasaṃskṛtagranthāvalī 3.
+          <term xml:lang="sa">Tripunithura:</term> <term xml:lang="sa">Pūrṇatrayīpurastha Saṃskṛta Kalāśālā Nirvāhaka Samiti.</term>
+          </bibl>
+
         <bibl><persName xml:lang="ta">Cāminātaiyar, U. Vē.</persName>, ed. 1889.
         <title xml:lang="ta">Pattuppāṭṭu mūlamum maturaiyāciriyar pārattuvāci nacciṉārkkiṉiyar uraiyum.</title>
                 1st edition.
         <term xml:lang="ta">Ceṉṉai:</term> <term xml:lang="ta">Tirāviṭaratnākara Accukkūṭam.</term>
         <ref target="https://archive.org/details/acc.-no.-37942-paththuppaattu-moolamum-nachinarkiniyaar-uraiyum-1889">ark:/13960/s2jdk2wm5hp</ref></bibl>
+
         <bibl><persName xml:lang="ta">Cāminātaiyar, U. Vē.</persName>, ed. 1955.
           <title xml:lang="ta">Cilappatikāra mūlamum. arumpatavuraiyum. Aṭiyārkkunallāruraiyum.</title>
           <term xml:lang="ta">Ceṉṉai:</term> <term xml:lang="ta">Kapīr Accukkūṭam.</term>
           <ref target="https://archive.org/details/cilappatikaram">ark:/13960/s2x53j5nnx3</ref></bibl>
+
         <bibl><persName xml:lang="ta">Cāminātaiyar, U. Vē.</persName>, ed. 1935.
         <title xml:lang="ta">Puṟanāṉūṟu mūlamum uraiyum.</title>
         <term xml:lang="ta">Ceṉṉai</term>: <term xml:lang="ta">Lā Jarṉal Accukkūṭam.</term>
         <ref target="https://archive.org/details/Tamil-Purananuru-U-Ve-Sa-3rd-Edition-1935">ark:/13960/t5dc0n26b</ref>
         </bibl>
+
+        <bibl><persName xml:lang="en">Dezső, Csaba</persName>, <persName xml:lang="en">Dominic Goodall</persName> and <persName xml:lang="en">Harunaga Isaacson</persName>, eds. and trans. [YEAR].
+          <title xml:lang="en">Kalidasa: The Lineage of the Raghus.</title> Murty Classical Library of India 38.
+          <term xml:lang="en">Cambridge, MA:</term> <term xml:lang="en">Harvard University Press.</term>
+          </bibl>
+
+        <bibl><persName xml:lang="sa">Gaṇapati Śāstrī, T.</persName>, ed. 1910.
+          <title xml:lang="sa">The Mātaṅgalīlā of Nīlakaṇṭha.</title> Trivandrum Sanskrit Series 10.
+          <term xml:lang="en">Trivandrum:</term> <term xml:lang="en">Travancore Government Press.</term>
+          <ref target="https://archive.org/details/TSS010MatangalilaOfNilakanthaTGSastri1910_201809">ark:/13960/t42s10z3t</ref>
+          </bibl>
+          
+          <bibl><persName xml:lang="sa">Gaṇapati Śāstrī, T.</persName>, ed. 1924.
+          <title xml:lang="sa">Samarāṅgaṇasūtradhāra of King Bhojadeva.</title> Vol. 1. Gaekwad's Oriental Series 25.
+          <term xml:lang="en">Baroda:</term> <term xml:lang="en">Central Library.</term>
+          <ref target="https://archive.org/details/in.ernet.dli.2015.345259">ark:/13960/t1ng9wj7h</ref>
+          </bibl>
+
         <bibl>Gopal, Lallanji. 1964. <title>Sugar-Making in Ancient India.</title> In: <title>Journal of the Economic and Social History of the Orient</title> 7(1): 57–72.</bibl>
+
+        <bibl><persName xml:lang="en">Monier-Williams, Monier</persName>. 1899.
+          <title xml:lang="en">A Sanskrit-English Dictionary.</title>
+          <term xml:lang="en">Oxford:</term> <term xml:lang="en">Clarendon Press.</term>
+          <ref target="https://www.sanskrit-lexicon.uni-koeln.de/scans/csl-apidev/servepdf.php?dict=MW&amp;page=1067">Cologne Digital Sanskrit Dictionaries</ref>
+          </bibl>
+          
+          <bibl><persName xml:lang="en">Ranade, H. G.</persName>, trans. 1978.
+          <title xml:lang="en">Kātyāyana Śrauta Sūtra: Rules for the Vedic Sacrifices.</title>
+          <term xml:lang="en">Pune:</term> <term xml:lang="en">H. G. Ranade.</term>
+          <ref target="https://archive.org/details/eOgf_katyayana-srauta-sutra-by-h.-g.-ranade-1978-pune-h.-g.-ranade">ark:/13960/s2g0g0352b2</ref>
+          </bibl>
         </listBibl>
     </body>
   </text>

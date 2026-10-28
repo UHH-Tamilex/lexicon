@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="./lexicon.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./lexicon.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <script xmlns="http://www.w3.org/1999/xhtml" src="../lib/js/xslt-polyfill.min.js"></script>
   <teiHeader>
     <fileDesc>
@@ -92,7 +94,7 @@
   <q xml:lang="ta">entiravāvi</q>
   <q xml:lang="en">mechanised pond</q>
 </cit>
-<note xml:lang="en">Later, under the influence of Sanskrit literature, mechanised structures of palaces appear in the <expan ref="#Mani"/>: a mechanical well (<foreign xml:lang="ta">entirakkiṇaṟu</foreign>, 19: 102) and a mechanised pond (<foreign xml:lang="ta">entiravāvi</foreign>, 28: 7). These fall in the category of 'water-devices' (<foreign xml:lang="sa">vāriyantrāṇi</foreign>), discussed extensively in the 31st chapter (<title xml:lang="sa">yantravidhāna</title>) of the treatise called <ref target="https://archive.org/details/in.ernet.dli.2015.345259/page/%E0%A5%A7%E0%A5%AC%E0%A5%AF/mode/2up"><title xml:lang="sa">Samarāṅgaṇasūtradhāra</title></ref>, verses 107–172.
+<note xml:lang="en">Later, under the influence of Sanskrit literature, mechanised structures of palaces appear in the <expan ref="#Mani"/>: a mechanical well (<foreign xml:lang="ta">entirakkiṇaṟu</foreign>, 19: 102) and a mechanised pond (<foreign xml:lang="ta">entiravāvi</foreign>, 28: 7). These fall in the category of 'water-devices' (<foreign xml:lang="sa">vāriyantrāṇi</foreign>), discussed extensively in the 31st chapter (<title xml:lang="sa">yantravidhāna</title>) of the treatise called <ref target="https://archive.org/details/in.ernet.dli.2015.345259/page/%E0%A5%A7%E0%A5%AC%E0%A5%AF/mode/2up"><title xml:lang="sa">Samarāṅgaṇasūtradhāra</title></ref> chapter 31, verses 107–172.
 </note></sense>
         <cit type="lexicon"><bibl><date>1972 [1779]</date><title xml:lang="en">Tamil and English Dictionary (Fabricius)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/fabricius_query.py?page=141">p. 141</ref></bibl></cit><cit type="lexicon"><bibl><date>1924–1936</date><title xml:lang="en">Tamil Lexicon (University of Madras)</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?page=526">p. 526</ref></bibl></cit><cit type="lexicon"><bibl><date>1992</date><title xml:lang="ta">Kriyāviṉ taṟkālat Tamiḻ akarāti</title><ref target="https://dsal.uchicago.edu/cgi-bin/app/crea_query.py?page=170">p. 170</ref></bibl></cit><cit type="commentary"><ref target="link here">Anonymous mediaeval commentator on <expan ref="#Pati"/> 19, line 23 (ed. <persName xml:lang="ta">Cāminātaiyar</persName> 1903)</ref>
 <q xml:lang="ta">entiram eṉṟatu ālaiyai.</q>
