@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="./lexicon.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./lexicon.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <script xmlns="http://www.w3.org/1999/xhtml" src="../lib/js/xslt-polyfill.min.js"></script>
   <teiHeader>
     <fileDesc>
@@ -179,9 +181,9 @@ The South Indian <title xml:lang="sa">Kāmikāgama</title> (46.7–9; ca. 12th c
 <q xml:lang="ta">[...] ālaitoṟum — [...] koṭṭilkaṭōṟum.</q>
 <q xml:lang="en"> <foreign xml:lang="ta">ālaitoṟum</foreign> — every shed.</q></cit><cit type="commentary"><ref target="link here"><foreign xml:lang="ta">Nacciṉārkkiṉiyār</foreign> on <foreign xml:lang="ta">Paṭṭiṉappālai</foreign>, line 10 (ed. <persName xml:lang="ta">Cāminātaiyar</persName> 1889)</ref>
 <q xml:lang="ta">kār karumpiṉ kamaḻ ālai [...] — paciya karumpiṉ kamaḻum pākai aṭukiṉṟa koṭṭil [...]</q>
-<q xml:lang="en"><foreign xml:lang="ta">kār karumpiṉ kamaḻ ālai</foreign> — the shed fragrant with the fresh sugarcane, where jaggery (<foreign xml:lang="ta">pāku</foreign>) was being boiled.</q></cit><cit type="commentary"><ref target="https://archive.org/details/cilappatikaram/page/277/mode/1up"><persName xml:lang="ta">Aṭiyārkkunallār</persName> ad <expan ref="#Cila"/> 10, line 151</ref>
+<q xml:lang="en"><foreign xml:lang="ta">kār karumpiṉ kamaḻ ālai</foreign> — the shed fragrant with the fresh sugarcane, where molasses (<foreign xml:lang="ta">pāku</foreign>) was being boiled.</q></cit><cit type="commentary"><ref target="https://archive.org/details/cilappatikaram/page/277/mode/1up"><persName xml:lang="ta">Aṭiyārkkunallār</persName> ad <expan ref="#Cila"/> 10, line 151</ref>
 <q xml:lang="ta">... ālaiyiṟ pāku kāykiṉṟa pukaiyāṟ parakkappaṭṭu iruṭciyaiyuṭaiya mukil tavaḻnta malaipōlat tōṉṟum paḻaviṟalūrkaḷum eṉka.</q>
-<q xml:lang="en">Let [it] be said [that there are] also ancient, victorious towns which appear like mountains over which dark clouds have crept, being covered by the smoke in which jaggery (<foreign xml:lang="ta">pāku</foreign>) is boiled in the sheds (<foreign xml:lang="ta">ālai</foreign>) ... . </q></cit></entry>
+<q xml:lang="en">Let [it] be said [that there are] also ancient, victorious towns which appear like mountains over which dark clouds have crept, being covered by the smoke in which molasses (<foreign xml:lang="ta">pāku</foreign>) is boiled in the sheds (<foreign xml:lang="ta">ālai</foreign>) ... . </q></cit></entry>
       <listBibl>
         <bibl><persName xml:lang="sa">Achyuta Poduval, K.</persName>, ed., with <persName xml:lang="sa">C. K. Raman Nambiar</persName>. 1959.
           <title xml:lang="sa">Raghuvaṃśaḥ mahākaviśrīkālidāsapraṇītaḥ, śrīmadaruṇagirināthaviracitayā Prakāśikayā śrīnārāyaṇapaṇḍitakṛtayā Padārthadīpikayā ca samanvitaḥ. Sargāḥ 13–19.</title> Śrīravivarmasaṃskṛtagranthāvalī 3.
