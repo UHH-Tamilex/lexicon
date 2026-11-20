@@ -22,7 +22,7 @@
         <form xml:lang="ta">ālai</form>
         <gramGrp><gram>noun</gram></gramGrp>
         <sense><def xml:lang="en">
-  <abbr>i.o.</abbr>
+          <abbr ref="#io"/>
  stable (for elephants)</def>
 <usg xml:lang="en">
 </usg>
